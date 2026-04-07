@@ -1,0 +1,79 @@
+📌 TAREFA: [PBIRS] Bug Paniel de Gestão PBIRS
+📊 STATUS: BACKLOG
+👤 CRIADA POR: José Hugo Figueiredo Gomes
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (8)
+============================================================
+
+[05/03/2026 16:02] José Hugo Figueiredo Gomes comentou:
+  image.png
+
+[05/03/2026 16:04] José Hugo Figueiredo Gomes comentou:
+  select * from users where userName like 'hugo.fgomes'
+
+[05/03/2026 16:04] José Hugo Figueiredo Gomes comentou:
+  select * from catalog where ModifiedByID = '4242257A-262C-43C2-890B-3A3D53D5D13B' and FORMAT(ModifiedDate, 'yyyMMdd') = 20260305;
+
+[05/03/2026 16:04] José Hugo Figueiredo Gomes comentou:
+  SELECT L.LogEntryId as id_log, 
+L.ReportID as id_relatorio, 
+C.ItemID AS id_item, 
+C.Path AS caminho, 
+C.Name AS nome_item,
+SUBSTRING(C.Path, CHARINDEX('/', C.Path)+1, IIF(CHARINDEX('/', C.Path,2) > 0 ,CHARINDEX('/', C.Path,2) - 2, LEN(C.Path))) AS item_raiz,
+c.ParentID AS id_item_pai, 
+C.Type AS tipo_item, 
+C.PolicyID AS id_politica,
+S.UserID AS id_usuario,
+L.username login_usuario_log, 
+S.UserName as login_usuario, 
+FORMAT(L.TimeStart, 'yyyMMdd') as data_log, 
+convert(char(8), L.TimeStart, 108) as hora_log,
+ReportAction as cod_acao 
+FROM ExecutionLogStorage L 
+FULL JOIN Catalog C ON L.ReportID = C.ItemID
+FULL JOIN Users S ON SUBSTRING(S.username, CHARINDEX('\', S.username)+1, LEN(S.username)) = SUBSTRING(L.username, CHARINDEX('\', L.username)+1, LEN(L.username))
+
+where S.UserName like '%hugo.fgomes%'
+and (
+	C.Name like '%DELINTER%'
+	or
+	C.Path like '%/Painéis Corporativos/Painel de Gestão PBIRS%'
+)
+and FORMAT(L.TimeStart, 'yyyMMdd') = 20260305
+
+ORDER BY L.TimeStart DESC;
+
+[05/03/2026 16:04] José Hugo Figueiredo Gomes comentou:
+  image.png
+ETL no Power Query
+
+[05/03/2026 16:05] José Hugo Figueiredo Gomes comentou:
+  busca pelo id do usuário
+image.png
+
+[05/03/2026 16:07] José Hugo Figueiredo Gomes comentou:
+  Alterações feitas em Paineis (13) e pastas (1)
+image.png
+
+[05/03/2026 16:09] José Hugo Figueiredo Gomes comentou:
+  Log de navegação. (query do bigdata que alimenta o painel)
+
+Em pesquisa em fóruns ChatGPT e Google foram encontradas as mesmas informações.
+
+15 inicio da renderização
+13 carregamento de strem (imagens e recursos embutidos)
+14 rederização do restante do conteúdo (pode ser particionada e executada em paralelo criando vários logs 14 simultâneos)
+
+Códigos no chat: 
+
+image.png

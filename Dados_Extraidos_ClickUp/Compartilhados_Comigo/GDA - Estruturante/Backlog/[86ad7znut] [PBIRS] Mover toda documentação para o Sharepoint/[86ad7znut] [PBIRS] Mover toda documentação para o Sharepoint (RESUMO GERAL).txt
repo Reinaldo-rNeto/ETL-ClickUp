@@ -1,0 +1,18 @@
+📌 TAREFA: [PBIRS] Mover toda documentação para o Sharepoint
+📊 STATUS: BACKLOG
+👤 CRIADA POR: José Hugo Figueiredo Gomes
+👥 RESPONSÁVEIS: José Hugo Figueiredo Gomes
+🌳 DEPENDENTES (Subtarefas atreladas): 5
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Atribuição do Cargo
+ - Descrição: Mover documentos internos que estão fragmentados em diversas ferramentas para que fiquem centralizados no sharepoint
+
+============================================================
+/
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

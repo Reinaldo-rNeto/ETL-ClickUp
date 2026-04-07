@@ -1,0 +1,18 @@
+📌 TAREFA: {PBIRS] Estudo de viabilidade de implementar acesso às pastas do PBI via Grupo por órgão
+📊 STATUS: BACKLOG
+👤 CRIADA POR: José Hugo Figueiredo Gomes
+👥 RESPONSÁVEIS: José Hugo Figueiredo Gomes
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Atribuição do Cargo
+ - Descrição: Estudar a viabilidade de implementação de acesso às pastas do PBI via Grupo do AD por órgão
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

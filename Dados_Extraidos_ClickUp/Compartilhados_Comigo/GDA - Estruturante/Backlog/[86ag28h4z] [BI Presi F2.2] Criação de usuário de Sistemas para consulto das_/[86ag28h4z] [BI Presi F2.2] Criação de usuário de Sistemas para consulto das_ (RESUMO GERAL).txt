@@ -1,0 +1,25 @@
+📌 TAREFA: [BI Presi F2.2] Criação de usuário de Sistemas para consulto das bases no BigDataPE
+📊 STATUS: BACKLOG
+👤 CRIADA POR: Dayane Martins Moura
+👥 RESPONSÁVEIS: José Hugo Figueiredo Gomes
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Atribuição do Cargo
+ - Envolvidos: Dayane Martins Moura
+ - Situação: Repriorizado
+
+============================================================
+Com o objetivo de evitar a vinculação do acesso as bases do BigDataPE do projeto BI Presi a um usuário individual, recomenda-se, como boa prática de governança e segurança, a criação de um usuário de sistema dedicado.
+Esse usuário será utilizado exclusivamente para autenticação e execução das rotinas e consultas do projeto, garantindo maior controle de acesso, rastreabilidade e continuidade operacional, independentemente de alterações na equipe ou nos usuários envolvidos.
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[11/03/2026 11:33] Dayane Martins Moura comentou:
+  Após o @José Hugo Figueiredo Gomes  alinhar com Ero a estratégia para criação de usuário, sistema e órgão.
+Como prática comum nos projetos, esses registros normalmente são criados apenas nas etapas finais, para evitar ocupação desnecessária de espaço no Big Data caso sejam gerados e povoados antecipadamente.
+Dessa forma, a ideia é deixar parametrizado inicialmente com o meu usuário para execução e validação, e ao final do projeto realizar a atualização para o usuário/sistema definitivo, seguindo o padrão adotado pela equipe e garantindo que a transição seja feita apenas quando a carga estiver pronta para uso definitivo.
+Por essa razão, a task será movida para backlog.

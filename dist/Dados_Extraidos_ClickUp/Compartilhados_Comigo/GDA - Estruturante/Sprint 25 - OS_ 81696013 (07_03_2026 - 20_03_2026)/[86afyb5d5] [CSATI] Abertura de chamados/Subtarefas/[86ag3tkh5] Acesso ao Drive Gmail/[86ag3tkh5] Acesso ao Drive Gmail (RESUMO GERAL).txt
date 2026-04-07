@@ -1,0 +1,22 @@
+📌 TAREFA: Acesso ao Drive Gmail
+📊 STATUS: FEITO
+👤 CRIADA POR: Antônio Luciano Ferreira Neto
+👥 RESPONSÁVEIS: Antônio Luciano Ferreira Neto
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Atribuição do Cargo
+ - Descrição: Acesso ao drive do Gmail para novo usuário
+
+============================================================
+Solicitação ao usuário criar um email para acesso ao drive
+
+
+
+após envio do email, o usuário foi adicionado no Drive:
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

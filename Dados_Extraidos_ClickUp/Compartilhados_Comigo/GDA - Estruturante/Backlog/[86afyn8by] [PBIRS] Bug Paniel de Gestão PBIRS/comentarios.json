@@ -1,0 +1,728 @@
+[
+    {
+        "id": "90130233328724",
+        "comment": [
+            {
+                "text": "Log de navegação. (query do bigdata que alimenta o painel)",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-5169577c-bf10-4302-9ef3-6a9861d78a57"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-57720b44-4c25-4d80-accb-9209b3524684"
+                }
+            },
+            {
+                "text": "Em pesquisa em fóruns ChatGPT e Google foram encontradas as mesmas informações.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-e9853a03-eeeb-49ef-b785-3a14935a297b"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-0b342d4c-19f5-45b5-b07a-df658a37e261"
+                }
+            },
+            {
+                "text": "15 inicio da renderização",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-76e8f59c-71ea-45b7-9541-40088f84cb99"
+                }
+            },
+            {
+                "text": "13 carregamento de strem (imagens e recursos embutidos)",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-ea209953-c80f-4d88-bf05-56ef40bf922c"
+                }
+            },
+            {
+                "text": "14 rederização do restante do conteúdo (pode ser particionada e executada em paralelo criando vários logs 14 simultâneos)",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-b0438bc5-c568-4e6d-8dbd-ff16a2b2e560"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-1962e9a3-3f85-4567-89fb-6af750979082"
+                }
+            },
+            {
+                "text": "Códigos no chat: ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-e20532c9-ba07-4c62-8c55-ec73e82fa232"
+                }
+            },
+            {
+                "text": "",
+                "type": "link_mention",
+                "link_mention": {
+                    "url": "https://chatgpt.com/share/69a9d35a-5058-8003-a195-2c13453a1f80"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-ac3f00e1-fa32-49a6-a827-3ff14328d2d3"
+                }
+            },
+            {
+                "text": "image.png",
+                "type": "image",
+                "image": {
+                    "id": "978bf48a-7840-486e-8f63-90d7bdbed530.png",
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/978bf48a-7840-486e-8f63-90d7bdbed530/image.png",
+                    "name": "image.png",
+                    "type": "png",
+                    "title": "image.png",
+                    "uploaded": true,
+                    "extension": "image/png",
+                    "thumbnail_large": "https://t9013340838.p.clickup-attachments.com/t9013340838/978bf48a-7840-486e-8f63-90d7bdbed530/image.png",
+                    "thumbnail_small": "https://t9013340838.p.clickup-attachments.com/t9013340838/978bf48a-7840-486e-8f63-90d7bdbed530/image.png",
+                    "thumbnail_medium": "https://t9013340838.p.clickup-attachments.com/t9013340838/978bf48a-7840-486e-8f63-90d7bdbed530/image.png"
+                },
+                "attributes": {
+                    "width": "300",
+                    "data-id": "978bf48a-7840-486e-8f63-90d7bdbed530.png",
+                    "data-attachment": "{\"id\":\"978bf48a-7840-486e-8f63-90d7bdbed530.png\",\"version\":\"0\",\"date\":1772737739053,\"name\":\"image.png\",\"title\":\"image.png\",\"extension\":\"png\",\"source\":1,\"thumbnail_small\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/978bf48a-7840-486e-8f63-90d7bdbed530_small.png\",\"thumbnail_medium\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/978bf48a-7840-486e-8f63-90d7bdbed530_medium.png\",\"thumbnail_large\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/978bf48a-7840-486e-8f63-90d7bdbed530/image.png\",\"url\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/978bf48a-7840-486e-8f63-90d7bdbed530/image.png\",\"url_w_query\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/978bf48a-7840-486e-8f63-90d7bdbed530/image.png?view=open\",\"url_w_host\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/978bf48a-7840-486e-8f63-90d7bdbed530/image.png\"}",
+                    "data-natural-width": "1200",
+                    "data-natural-height": "831"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-9e4d5043-cfb7-4277-9b35-ebb3c8ca68a9"
+                }
+            }
+        ],
+        "comment_text": "Log de navegação. (query do bigdata que alimenta o painel)\n\nEm pesquisa em fóruns ChatGPT e Google foram encontradas as mesmas informações.\n\n15 inicio da renderização\n13 carregamento de strem (imagens e recursos embutidos)\n14 rederização do restante do conteúdo (pode ser particionada e executada em paralelo criando vários logs 14 simultâneos)\n\nCódigos no chat: \n\nimage.png\n",
+        "user": {
+            "id": 106126567,
+            "username": "José Hugo Figueiredo Gomes",
+            "email": "hugo.fgomes.ati@gmail.com",
+            "color": "#1b5e20",
+            "initials": "JG",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/106126567_YeL.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772737741595",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233327986",
+        "comment": [
+            {
+                "text": "Alterações feitas em Paineis (13) e pastas (1)",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-98997553-2695-4f25-969a-f8932d42cb2a"
+                }
+            },
+            {
+                "type": "image",
+                "text": "image.png",
+                "image": {
+                    "id": "7a35a6bb-87f9-4d1a-94e5-86b751c4bf70.png",
+                    "name": "image.png",
+                    "title": "image.png",
+                    "type": "png",
+                    "extension": "image/png",
+                    "thumbnail_large": "https://t9013340838.p.clickup-attachments.com/t9013340838/7a35a6bb-87f9-4d1a-94e5-86b751c4bf70/image.png",
+                    "thumbnail_medium": "https://t9013340838.p.clickup-attachments.com/t9013340838/7a35a6bb-87f9-4d1a-94e5-86b751c4bf70/image.png",
+                    "thumbnail_small": "https://t9013340838.p.clickup-attachments.com/t9013340838/7a35a6bb-87f9-4d1a-94e5-86b751c4bf70/image.png",
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/7a35a6bb-87f9-4d1a-94e5-86b751c4bf70/image.png",
+                    "uploaded": true
+                },
+                "attributes": {
+                    "width": "300",
+                    "data-id": "7a35a6bb-87f9-4d1a-94e5-86b751c4bf70.png",
+                    "data-attachment": "{\"id\":\"7a35a6bb-87f9-4d1a-94e5-86b751c4bf70.png\",\"version\":\"0\",\"date\":1772737638900,\"name\":\"image.png\",\"title\":\"image.png\",\"extension\":\"png\",\"source\":1,\"thumbnail_small\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/7a35a6bb-87f9-4d1a-94e5-86b751c4bf70_small.png\",\"thumbnail_medium\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/7a35a6bb-87f9-4d1a-94e5-86b751c4bf70_medium.png\",\"thumbnail_large\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/7a35a6bb-87f9-4d1a-94e5-86b751c4bf70/image.png\",\"url\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/7a35a6bb-87f9-4d1a-94e5-86b751c4bf70/image.png\",\"url_w_query\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/7a35a6bb-87f9-4d1a-94e5-86b751c4bf70/image.png?view=open\",\"url_w_host\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/7a35a6bb-87f9-4d1a-94e5-86b751c4bf70/image.png\"}",
+                    "data-natural-width": "1289",
+                    "data-natural-height": "216"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-dbec521a-723a-490c-8580-d5dc42f40a42"
+                }
+            }
+        ],
+        "comment_text": "Alterações feitas em Paineis (13) e pastas (1)\nimage.png\n",
+        "user": {
+            "id": 106126567,
+            "username": "José Hugo Figueiredo Gomes",
+            "email": "hugo.fgomes.ati@gmail.com",
+            "color": "#1b5e20",
+            "initials": "JG",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/106126567_YeL.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772737651651",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233326557",
+        "comment": [
+            {
+                "text": "busca pelo id do usuário",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-0c58c6a9-c09b-4dbc-ba96-39d1a88e5cf4"
+                }
+            },
+            {
+                "text": "image.png",
+                "type": "image",
+                "image": {
+                    "id": "72c9db22-ccc8-4e66-9349-577ce7c8a0df.png",
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/72c9db22-ccc8-4e66-9349-577ce7c8a0df/image.png",
+                    "name": "image.png",
+                    "type": "png",
+                    "title": "image.png",
+                    "uploaded": true,
+                    "extension": "image/png",
+                    "thumbnail_large": "https://t9013340838.p.clickup-attachments.com/t9013340838/72c9db22-ccc8-4e66-9349-577ce7c8a0df/image.png",
+                    "thumbnail_small": "https://t9013340838.p.clickup-attachments.com/t9013340838/72c9db22-ccc8-4e66-9349-577ce7c8a0df/image.png",
+                    "thumbnail_medium": "https://t9013340838.p.clickup-attachments.com/t9013340838/72c9db22-ccc8-4e66-9349-577ce7c8a0df/image.png"
+                },
+                "attributes": {
+                    "width": "300",
+                    "data-id": "72c9db22-ccc8-4e66-9349-577ce7c8a0df.png",
+                    "data-attachment": "{\"id\":\"72c9db22-ccc8-4e66-9349-577ce7c8a0df.png\",\"version\":\"0\",\"date\":1772737515056,\"name\":\"image.png\",\"title\":\"image.png\",\"extension\":\"png\",\"source\":1,\"thumbnail_small\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/72c9db22-ccc8-4e66-9349-577ce7c8a0df_small.png\",\"thumbnail_medium\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/72c9db22-ccc8-4e66-9349-577ce7c8a0df_medium.png\",\"thumbnail_large\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/72c9db22-ccc8-4e66-9349-577ce7c8a0df/image.png\",\"url\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/72c9db22-ccc8-4e66-9349-577ce7c8a0df/image.png\",\"url_w_query\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/72c9db22-ccc8-4e66-9349-577ce7c8a0df/image.png?view=open\",\"url_w_host\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/72c9db22-ccc8-4e66-9349-577ce7c8a0df/image.png\"}",
+                    "data-natural-width": "1061",
+                    "data-natural-height": "137"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-790541cd-9573-488f-886a-cdbbdaae54f2"
+                }
+            }
+        ],
+        "comment_text": "busca pelo id do usuário\nimage.png\n",
+        "user": {
+            "id": 106126567,
+            "username": "José Hugo Figueiredo Gomes",
+            "email": "hugo.fgomes.ati@gmail.com",
+            "color": "#1b5e20",
+            "initials": "JG",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/106126567_YeL.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772737515836",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233326335",
+        "comment": [
+            {
+                "type": "image",
+                "text": "image.png",
+                "image": {
+                    "id": "51a72a74-b989-48cf-b1da-ca3a6684e56d.png",
+                    "name": "image.png",
+                    "title": "image.png",
+                    "type": "png",
+                    "extension": "image/png",
+                    "thumbnail_large": "https://t9013340838.p.clickup-attachments.com/t9013340838/51a72a74-b989-48cf-b1da-ca3a6684e56d/image.png",
+                    "thumbnail_medium": "https://t9013340838.p.clickup-attachments.com/t9013340838/51a72a74-b989-48cf-b1da-ca3a6684e56d/image.png",
+                    "thumbnail_small": "https://t9013340838.p.clickup-attachments.com/t9013340838/51a72a74-b989-48cf-b1da-ca3a6684e56d/image.png",
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/51a72a74-b989-48cf-b1da-ca3a6684e56d/image.png",
+                    "uploaded": true
+                },
+                "attributes": {
+                    "width": "300",
+                    "data-id": "51a72a74-b989-48cf-b1da-ca3a6684e56d.png",
+                    "data-attachment": "{\"id\":\"51a72a74-b989-48cf-b1da-ca3a6684e56d.png\",\"version\":\"0\",\"date\":1772737479699,\"name\":\"image.png\",\"title\":\"image.png\",\"extension\":\"png\",\"source\":1,\"thumbnail_small\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/51a72a74-b989-48cf-b1da-ca3a6684e56d_small.png\",\"thumbnail_medium\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/51a72a74-b989-48cf-b1da-ca3a6684e56d_medium.png\",\"thumbnail_large\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/51a72a74-b989-48cf-b1da-ca3a6684e56d_large.png\",\"url\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/51a72a74-b989-48cf-b1da-ca3a6684e56d/image.png\",\"url_w_query\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/51a72a74-b989-48cf-b1da-ca3a6684e56d/image.png?view=open\",\"url_w_host\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/51a72a74-b989-48cf-b1da-ca3a6684e56d/image.png\"}",
+                    "data-natural-width": "1920",
+                    "data-natural-height": "1077"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-57bc3ff7-427e-4b77-af0d-03e0bf4073c6"
+                }
+            },
+            {
+                "text": "ETL no Power Query",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-abb25cfe-a6b4-4d32-9065-b17bbf532a04"
+                }
+            }
+        ],
+        "comment_text": "image.png\nETL no Power Query\n",
+        "user": {
+            "id": 106126567,
+            "username": "José Hugo Figueiredo Gomes",
+            "email": "hugo.fgomes.ati@gmail.com",
+            "color": "#1b5e20",
+            "initials": "JG",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/106126567_YeL.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772737490393",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233326045",
+        "comment": [
+            {
+                "text": "SELECT L.LogEntryId as id_log, ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-dd9031d0-834d-4fad-9ed4-f66f2eadd188"
+                }
+            },
+            {
+                "text": "L.ReportID as id_relatorio, ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-b0fd1738-ff50-4a52-a3e8-d6d7e9dbd6e5"
+                }
+            },
+            {
+                "text": "C.ItemID AS id_item, ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-15cdddde-098a-4f12-9f57-d032c46765ec"
+                }
+            },
+            {
+                "text": "C.Path AS caminho, ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-5d08c420-3985-419d-a3b6-9164a3e0bc64"
+                }
+            },
+            {
+                "text": "C.Name",
+                "attributes": {
+                    "link": "http://C.Name"
+                }
+            },
+            {
+                "text": " AS nome_item,",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-75092d2d-80d6-42aa-bcf8-8839589eec35"
+                }
+            },
+            {
+                "text": "SUBSTRING(C.Path, CHARINDEX('/', C.Path)+1, IIF(CHARINDEX('/', C.Path,2) > 0 ,CHARINDEX('/', C.Path,2) - 2, LEN(C.Path))) AS item_raiz,",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-c4fd11d8-434f-43d8-8426-774952b8d06d"
+                }
+            },
+            {
+                "text": "c.ParentID AS id_item_pai, ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-adc1e0f4-0deb-40a8-b93b-d9c1131a1f5e"
+                }
+            },
+            {
+                "text": "C.Type AS tipo_item, ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-6d33f4ae-cc88-4d3b-9400-432afe11b420"
+                }
+            },
+            {
+                "text": "C.PolicyID AS id_politica,",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-aa941892-fc25-43ba-9b29-948d1fbfb64b"
+                }
+            },
+            {
+                "text": "S.UserID AS id_usuario,",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-45a7aa16-c2b0-480d-bc4b-9c02df875d27"
+                }
+            },
+            {
+                "text": "L.username login_usuario_log, ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-03c19562-0dd7-485e-9ad9-f9aebc536ad8"
+                }
+            },
+            {
+                "text": "S.UserName as login_usuario, ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-2bd0db11-4c2a-4071-8085-d2a51b6dcce9"
+                }
+            },
+            {
+                "text": "FORMAT(L.TimeStart, 'yyyMMdd') as data_log, ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-8c82cfcb-3857-4227-92c8-3f563908b9d0"
+                }
+            },
+            {
+                "text": "convert(char(8), L.TimeStart, 108) as hora_log,",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-5777bd64-4785-42c1-a5ef-677ff66dd92a"
+                }
+            },
+            {
+                "text": "ReportAction as cod_acao ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-74da41e5-bdf8-4371-af20-b9729f097f48"
+                }
+            },
+            {
+                "text": "FROM ExecutionLogStorage L ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-615f9422-747f-4eb5-be18-eb50b704289e"
+                }
+            },
+            {
+                "text": "FULL JOIN Catalog C ON L.ReportID = C.ItemID",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-7f74731c-4e92-4bf2-85dd-5d469f4a8e4c"
+                }
+            },
+            {
+                "text": "FULL JOIN Users S ON SUBSTRING(S.username, CHARINDEX('\\', S.username)+1, LEN(S.username)) = SUBSTRING(L.username, CHARINDEX('\\', L.username)+1, LEN(L.username))",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-6b1afe76-4d3d-47ee-b83d-582a83954b59"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-d4df986f-0487-41c8-9b92-683366fbc382"
+                }
+            },
+            {
+                "text": "where S.UserName like '%hugo.fgomes%'",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-6e4da35d-2616-47e3-a381-87febe2d38cf"
+                }
+            },
+            {
+                "text": "and (",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-1630efcd-b101-4591-91e8-74ae23ca93f7"
+                }
+            },
+            {
+                "text": "\t",
+                "attributes": {}
+            },
+            {
+                "text": "C.Name",
+                "attributes": {
+                    "link": "http://C.Name"
+                }
+            },
+            {
+                "text": " like '%DELINTER%'",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-834f20c7-03ca-4cd4-bd72-c48240bdefca"
+                }
+            },
+            {
+                "text": "\tor",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-f1c62829-562f-4867-a18e-76aca0915eec"
+                }
+            },
+            {
+                "text": "\tC.Path like '%/Painéis Corporativos/Painel de Gestão PBIRS%'",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-4976d97d-a2a6-4cf6-b080-93befd88eeaf"
+                }
+            },
+            {
+                "text": ")",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-d1f7972d-5702-4f77-9961-34a7565aec63"
+                }
+            },
+            {
+                "text": "and FORMAT(L.TimeStart, 'yyyMMdd') = 20260305",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-de77f70c-6296-4639-9d82-cfb8701d0633"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-ce92ffd4-4e77-4512-a60d-2c15e7952539"
+                }
+            },
+            {
+                "text": "ORDER BY L.TimeStart DESC;",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-01b07d96-dbc2-4c49-ac1b-ffaa765b9c39"
+                }
+            }
+        ],
+        "comment_text": "SELECT L.LogEntryId as id_log, \nL.ReportID as id_relatorio, \nC.ItemID AS id_item, \nC.Path AS caminho, \nC.Name AS nome_item,\nSUBSTRING(C.Path, CHARINDEX('/', C.Path)+1, IIF(CHARINDEX('/', C.Path,2) > 0 ,CHARINDEX('/', C.Path,2) - 2, LEN(C.Path))) AS item_raiz,\nc.ParentID AS id_item_pai, \nC.Type AS tipo_item, \nC.PolicyID AS id_politica,\nS.UserID AS id_usuario,\nL.username login_usuario_log, \nS.UserName as login_usuario, \nFORMAT(L.TimeStart, 'yyyMMdd') as data_log, \nconvert(char(8), L.TimeStart, 108) as hora_log,\nReportAction as cod_acao \nFROM ExecutionLogStorage L \nFULL JOIN Catalog C ON L.ReportID = C.ItemID\nFULL JOIN Users S ON SUBSTRING(S.username, CHARINDEX('\\', S.username)+1, LEN(S.username)) = SUBSTRING(L.username, CHARINDEX('\\', L.username)+1, LEN(L.username))\n\nwhere S.UserName like '%hugo.fgomes%'\nand (\n\tC.Name like '%DELINTER%'\n\tor\n\tC.Path like '%/Painéis Corporativos/Painel de Gestão PBIRS%'\n)\nand FORMAT(L.TimeStart, 'yyyMMdd') = 20260305\n\nORDER BY L.TimeStart DESC;\n",
+        "user": {
+            "id": 106126567,
+            "username": "José Hugo Figueiredo Gomes",
+            "email": "hugo.fgomes.ati@gmail.com",
+            "color": "#1b5e20",
+            "initials": "JG",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/106126567_YeL.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772737456474",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233325952",
+        "comment": [
+            {
+                "text": "select * from catalog where ModifiedByID = '4242257A-262C-43C2-890B-3A3D53D5D13B' and FORMAT(ModifiedDate, 'yyyMMdd') = 20260305;",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-549b2cb2-316c-40e7-ad97-8436ef6f10ae"
+                }
+            }
+        ],
+        "comment_text": "select * from catalog where ModifiedByID = '4242257A-262C-43C2-890B-3A3D53D5D13B' and FORMAT(ModifiedDate, 'yyyMMdd') = 20260305;\n",
+        "user": {
+            "id": 106126567,
+            "username": "José Hugo Figueiredo Gomes",
+            "email": "hugo.fgomes.ati@gmail.com",
+            "color": "#1b5e20",
+            "initials": "JG",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/106126567_YeL.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772737448956",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233325869",
+        "comment": [
+            {
+                "text": "select * from users where userName like 'hugo.fgomes'",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-577d5b5c-de73-4105-98eb-046b6954e13c"
+                }
+            }
+        ],
+        "comment_text": "select * from users where userName like 'hugo.fgomes'\n",
+        "user": {
+            "id": 106126567,
+            "username": "José Hugo Figueiredo Gomes",
+            "email": "hugo.fgomes.ati@gmail.com",
+            "color": "#1b5e20",
+            "initials": "JG",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/106126567_YeL.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772737442333",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233325040",
+        "comment": [
+            {
+                "type": "image",
+                "text": "image.png",
+                "image": {
+                    "id": "6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3.png",
+                    "name": "image.png",
+                    "title": "image.png",
+                    "type": "png",
+                    "extension": "image/png",
+                    "thumbnail_large": "https://t9013340838.p.clickup-attachments.com/t9013340838/6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3/image.png",
+                    "thumbnail_medium": "https://t9013340838.p.clickup-attachments.com/t9013340838/6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3/image.png",
+                    "thumbnail_small": "https://t9013340838.p.clickup-attachments.com/t9013340838/6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3/image.png",
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3/image.png",
+                    "uploaded": true
+                },
+                "attributes": {
+                    "width": "300",
+                    "data-id": "6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3.png",
+                    "data-attachment": "{\"id\":\"6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3.png\",\"version\":\"0\",\"date\":1772737356852,\"name\":\"image.png\",\"title\":\"image.png\",\"extension\":\"png\",\"source\":1,\"thumbnail_small\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3_small.png\",\"thumbnail_medium\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3_medium.png\",\"thumbnail_large\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3/image.png\",\"url\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3/image.png\",\"url_w_query\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3/image.png?view=open\",\"url_w_host\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/6cb8cc54-9c4b-45ef-b2b8-8c847fce33a3/image.png\"}",
+                    "data-natural-width": "1348",
+                    "data-natural-height": "989"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-708c88b9-b37c-4c25-9cd1-8b20c9939958"
+                }
+            }
+        ],
+        "comment_text": "image.png\n",
+        "user": {
+            "id": 106126567,
+            "username": "José Hugo Figueiredo Gomes",
+            "email": "hugo.fgomes.ati@gmail.com",
+            "color": "#1b5e20",
+            "initials": "JG",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/106126567_YeL.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772737357866",
+        "reply_count": 0
+    }
+]

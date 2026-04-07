@@ -1,0 +1,21 @@
+📌 TAREFA: [BI Presi F3.1] Criação do Layout Figma para PBIRS.
+📊 STATUS: FEITO
+👤 CRIADA POR: francisco dourado
+👥 RESPONSÁVEIS: Artur Vinícius Limeira da Silva
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Construir/alterar Dashboard utilizando ferramentas visualização - [Análise e exploração de dados]
+ - Descrição: Criação do Layout Figma para PBIRS.
+ - Entregável: true
+ - StoryPoint Planejado: 5
+ - StoryPoint Realizado: 5
+
+============================================================
+Desenvolvimento do layout visual no Figma para o PBRS, definindo a identidade visual, organização dos componentes, ícones e padronização da interface dos dashboards:
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

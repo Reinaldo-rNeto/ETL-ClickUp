@@ -1,0 +1,140 @@
+[
+    {
+        "id": "90130233087997",
+        "comment": [
+            {
+                "type": "attachment",
+                "text": "sdmbibck.sql",
+                "attachment": {
+                    "id": "2e590cac-1cdf-44ee-8408-f51ee04be2e3.sql",
+                    "date": "1772715264321",
+                    "title": "sdmbibck.sql",
+                    "type": 1,
+                    "source": 1,
+                    "version": 0,
+                    "extension": "sql",
+                    "thumbnail_small": null,
+                    "thumbnail_medium": null,
+                    "thumbnail_large": null,
+                    "is_folder": null,
+                    "mimetype": "application/octet-stream",
+                    "hidden": false,
+                    "parent_id": "86afy6hq6",
+                    "size": 494482,
+                    "total_comments": 0,
+                    "resolved_comments": 0,
+                    "user": {
+                        "id": 99986625,
+                        "username": "Luciene Santos",
+                        "email": "luciene.santos@qintess.com",
+                        "initials": "LS",
+                        "color": "#afb42b",
+                        "profilePicture": "https://attachments.clickup.com/profilePictures/99986625_cMd.jpg"
+                    },
+                    "deleted": false,
+                    "orientation": null,
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/2e590cac-1cdf-44ee-8408-f51ee04be2e3/sdmbibck.sql",
+                    "parent_comment_type": null,
+                    "parent_comment_parent": null,
+                    "email_data": null,
+                    "workspace_id": 9013340838,
+                    "url_w_query": "https://t9013340838.p.clickup-attachments.com/t9013340838/2e590cac-1cdf-44ee-8408-f51ee04be2e3/sdmbibck.sql?view=open",
+                    "url_w_host": "https://t9013340838.p.clickup-attachments.com/t9013340838/2e590cac-1cdf-44ee-8408-f51ee04be2e3/sdmbibck.sql"
+                }
+            },
+            {
+                "text": "backup do banco com as tabelas populadas",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-bed28698-c393-46b2-889c-3e4ed654e906"
+                }
+            }
+        ],
+        "comment_text": "sdmbibck.sqlbackup do banco com as tabelas populadas\n",
+        "user": {
+            "id": 99986625,
+            "username": "Luciene Santos",
+            "email": "luciene.santos@qintess.com",
+            "color": "#afb42b",
+            "initials": "LS",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/99986625_cMd.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772655852662",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233087995",
+        "comment": [
+            {
+                "type": "attachment",
+                "text": "sdmbibck.sql",
+                "attachment": {
+                    "id": "37b3548f-3811-44d4-9eaa-a0a3c707dcb2.sql",
+                    "date": "1772715264321",
+                    "title": "sdmbibck.sql",
+                    "type": 1,
+                    "source": 1,
+                    "version": 0,
+                    "extension": "sql",
+                    "thumbnail_small": null,
+                    "thumbnail_medium": null,
+                    "thumbnail_large": null,
+                    "is_folder": null,
+                    "mimetype": "application/octet-stream",
+                    "hidden": false,
+                    "parent_id": "86afy6hq6",
+                    "size": 433383,
+                    "total_comments": 0,
+                    "resolved_comments": 0,
+                    "user": {
+                        "id": 99986625,
+                        "username": "Luciene Santos",
+                        "email": "luciene.santos@qintess.com",
+                        "initials": "LS",
+                        "color": "#afb42b",
+                        "profilePicture": "https://attachments.clickup.com/profilePictures/99986625_cMd.jpg"
+                    },
+                    "deleted": false,
+                    "orientation": null,
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/37b3548f-3811-44d4-9eaa-a0a3c707dcb2/sdmbibck.sql",
+                    "parent_comment_type": null,
+                    "parent_comment_parent": null,
+                    "email_data": null,
+                    "workspace_id": 9013340838,
+                    "url_w_query": "https://t9013340838.p.clickup-attachments.com/t9013340838/37b3548f-3811-44d4-9eaa-a0a3c707dcb2/sdmbibck.sql?view=open",
+                    "url_w_host": "https://t9013340838.p.clickup-attachments.com/t9013340838/37b3548f-3811-44d4-9eaa-a0a3c707dcb2/sdmbibck.sql"
+                }
+            },
+            {
+                "text": "bACKUP BANCO POSTGRESQL DO sdm",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-a8b32cec-2224-4737-8aa9-cc035c134ab5"
+                }
+            }
+        ],
+        "comment_text": "sdmbibck.sqlbACKUP BANCO POSTGRESQL DO sdm\n",
+        "user": {
+            "id": 99986625,
+            "username": "Luciene Santos",
+            "email": "luciene.santos@qintess.com",
+            "color": "#afb42b",
+            "initials": "LS",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/99986625_cMd.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772548688203",
+        "reply_count": 0
+    }
+]

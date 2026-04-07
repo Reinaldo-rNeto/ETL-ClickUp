@@ -1,0 +1,6 @@
+@echo off
+echo Iniciando Ambiente Virtual do Extrator PRO V8.28...
+call .venv\Scripts\activate.bat
+echo Iniciando Interface Grafica...
+python gui.py
+pause

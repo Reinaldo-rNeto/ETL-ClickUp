@@ -1,0 +1,17 @@
+📌 TAREFA: [GOVERNANÇA DE DADOS] Aprovação Formal de Papéis em Governança de Dados
+📊 STATUS: BACKLOG
+👤 CRIADA POR: Antônio Luciano Ferreira Neto
+👥 RESPONSÁVEIS: Antônio Luciano Ferreira Neto
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição: Consolidar e enviar para obter aprovação do: Comitê Estratégico.
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

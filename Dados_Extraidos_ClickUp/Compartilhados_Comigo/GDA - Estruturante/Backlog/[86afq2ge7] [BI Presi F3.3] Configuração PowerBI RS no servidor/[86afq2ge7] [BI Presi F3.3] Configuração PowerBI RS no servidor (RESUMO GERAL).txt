@@ -1,0 +1,23 @@
+📌 TAREFA: [BI Presi F3.3] Configuração PowerBI RS no servidor
+📊 STATUS: FEITO
+👤 CRIADA POR: francisco dourado
+👥 RESPONSÁVEIS: Dayane Martins Moura
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Situação: 
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (2)
+============================================================
+
+[05/03/2026 09:29] Dayane Martins Moura comentou:
+  Aguardando liberação do meu acesso ao ambiente Power BI RS onde o painél ficará hospedado.
+
+[05/03/2026 11:50] Dayane Martins Moura comentou:
+  image.png
+Ambiente configurado.

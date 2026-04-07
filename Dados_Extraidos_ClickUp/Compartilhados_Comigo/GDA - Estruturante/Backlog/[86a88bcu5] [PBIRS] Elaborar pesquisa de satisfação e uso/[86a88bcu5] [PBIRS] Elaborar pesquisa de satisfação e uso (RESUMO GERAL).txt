@@ -1,0 +1,16 @@
+📌 TAREFA: [PBIRS] Elaborar pesquisa de satisfação e uso
+📊 STATUS: BACKLOG
+👤 CRIADA POR: Cassiane Bueno
+👥 RESPONSÁVEIS: Cassiane Bueno
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+
+============================================================
+Consultar os gestores setoriais sobre quais indicadores eles sentem falta, que não estão nos painéis de gestão e de agendamento.
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

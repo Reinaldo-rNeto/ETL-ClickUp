@@ -1,0 +1,42 @@
+[
+    {
+        "id": "90130186285272",
+        "comment": [
+            {
+                "type": "tag",
+                "user": {
+                    "id": 88017241,
+                    "username": "Artur Vinícius Limeira da Silva",
+                    "email": "artur.silva@qintess.com",
+                    "initials": "AS",
+                    "profilePicture": "https://attachments.clickup.com/profilePictures/88017241_PXK.jpg"
+                },
+                "text": "@Artur Vinícius Limeira da Silva"
+            },
+            {
+                "text": " vamos rever essa demanda, e dependendo da situação alinhamos com SEPLAG para saber da viabilidade. ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-b764e8bf-3ff5-4fc4-bf3b-769aa622f364"
+                }
+            }
+        ],
+        "comment_text": "@Artur Vinícius Limeira da Silva vamos rever essa demanda, e dependendo da situação alinhamos com SEPLAG para saber da viabilidade. \n",
+        "user": {
+            "id": 106177220,
+            "username": "francisco dourado",
+            "email": "francisco.dourado@qintess.com",
+            "color": "#f57c01",
+            "initials": "FD",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1762179100697",
+        "reply_count": 0
+    }
+]

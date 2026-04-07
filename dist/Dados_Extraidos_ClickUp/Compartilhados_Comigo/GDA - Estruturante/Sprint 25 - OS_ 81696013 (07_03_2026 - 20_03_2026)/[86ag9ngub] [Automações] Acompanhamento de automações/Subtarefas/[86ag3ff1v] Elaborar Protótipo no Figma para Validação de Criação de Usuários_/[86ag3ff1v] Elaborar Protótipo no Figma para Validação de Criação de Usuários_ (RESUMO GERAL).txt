@@ -1,0 +1,28 @@
+📌 TAREFA: Elaborar Protótipo no Figma para Validação de Criação de Usuários via Sistema
+📊 STATUS: FEITO
+👤 CRIADA POR: José Hugo Figueiredo Gomes
+👥 RESPONSÁVEIS: José Hugo Figueiredo Gomes
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Atribuição do Cargo
+ - Envolvidos: reinaldo rodrigues
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (3)
+============================================================
+
+[11/03/2026 14:33] reinaldo rodrigues comentou:
+  Captura%20de%20Tela%20(27).png
+Captura%20de%20Tela%20(28).png
+Evidencias do progresso de protótipo do figma
+
+[11/03/2026 14:34] reinaldo rodrigues comentou:
+  link para acesso: www.figma.com/make/Ey3AbEaiUTt5mGRrZnbBes/Transformar-fluxo-grama-para-Figma?fullscreen=1&t=Msgofrx0dSe4eXIz-1
+
+[11/03/2026 14:35] reinaldo rodrigues comentou:
+  link para acesso: www.figma.com/make/Ey3AbEaiUTt5mGRrZnbBes/Prot%C3%B3tipo-para-Valida%C3%A7%C3%A3o-de-Cria%C3%A7%C3%A3o-de-Usu%C3%A1rios-via-Sistema?fullscreen=1&t=Msgofrx0dSe4eXIz-1

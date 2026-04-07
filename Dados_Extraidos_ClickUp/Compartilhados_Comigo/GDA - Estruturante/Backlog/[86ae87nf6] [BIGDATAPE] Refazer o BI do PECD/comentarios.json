@@ -1,0 +1,31 @@
+[
+    {
+        "id": "90130207007613",
+        "comment": [
+            {
+                "text": "Por solicitação de Eronita, o item foi suspenso e  duplicado para o backlog, para tratamento em momento oportuno.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-e0e4cb95-4277-4038-aa77-d1abb72f9beb"
+                }
+            }
+        ],
+        "comment_text": "Por solicitação de Eronita, o item foi suspenso e  duplicado para o backlog, para tratamento em momento oportuno.\n",
+        "user": {
+            "id": 106177220,
+            "username": "francisco dourado",
+            "email": "francisco.dourado@qintess.com",
+            "color": "#f57c01",
+            "initials": "FD",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1767619376338",
+        "reply_count": 0
+    }
+]

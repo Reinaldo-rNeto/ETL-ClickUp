@@ -1,0 +1,20 @@
+📌 TAREFA: [BI Presi F1.1] Início aos acessos das credenciais
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: francisco dourado
+👥 RESPONSÁVEIS: Eronita Van Leijden
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+
+============================================================
+Disponibilização das credenciais de acesso e configuração realizada no FortiClient para conexão na VPN da Vectra:
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[26/02/2026 08:14] Dayane Martins Moura comentou:
+  Acesso a VPN concedido:
+
+image.png

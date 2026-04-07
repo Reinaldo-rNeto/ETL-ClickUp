@@ -1,0 +1,20 @@
+📌 TAREFA: [GreenPlum] Verificar volume das bases e usuários conectados)
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: francisco dourado
+👥 RESPONSÁVEIS: Dayane Martins Moura
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+
+============================================================
+Conexões ativas: são as aplicações ou atividades em execução que consomem recursos.
+Atualizado com um documento em anexo.]
+Dependencias: solicitar acesso a pasta logs no greemplum
+Extrair os logs de acesso aos bancos do Greemplum, Sepe, Sepe_Seme e Seplag,
+Já com acesso aos log´s.
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

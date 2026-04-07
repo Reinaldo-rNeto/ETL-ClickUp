@@ -1,0 +1,16 @@
+📌 TAREFA: [PBIRS] Melhorar a gestão das permissões de acesso aos dashboards (Automação)
+📊 STATUS: BACKLOG
+👤 CRIADA POR: Cassiane Bueno
+👥 RESPONSÁVEIS: Cassiane Bueno, francisco dourado
+🌳 DEPENDENTES (Subtarefas atreladas): 2
+
+📋 CAMPOS PERSONALIZADOS:
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

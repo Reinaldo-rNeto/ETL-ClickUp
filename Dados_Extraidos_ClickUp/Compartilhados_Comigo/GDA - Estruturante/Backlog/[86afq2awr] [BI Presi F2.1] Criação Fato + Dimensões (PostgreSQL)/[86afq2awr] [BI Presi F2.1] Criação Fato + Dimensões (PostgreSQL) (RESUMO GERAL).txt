@@ -1,0 +1,26 @@
+📌 TAREFA: [BI Presi F2.1] Criação Fato + Dimensões (PostgreSQL)
+📊 STATUS: FEITO
+👤 CRIADA POR: francisco dourado
+👥 RESPONSÁVEIS: Luciene Santos
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+
+============================================================
+Objetivo: <...>
+Levantamento/regras: <...>
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (3)
+============================================================
+
+[27/02/2026 09:05] francisco dourado comentou:
+  A Fato foi criado por Luciene, porém existe uma dependência de entendimento ou alinhamento com a Vectra.
+
+[02/03/2026 08:32] Luciene Santos comentou:
+  image.png
+
+[02/03/2026 08:36] Luciene Santos comentou:
+  00 - TERMO DE REFERÊNCIA - PE-CONECTADO II - MATRIZ - 14-09 completo Assinado.pdftermo de referencia fornecido
+  📎 [ANEXO ENVIADO NESTE COMENTÁRIO]: Arquivo_Sem_Nome (Enviado para a pasta /Anexos da tarefa)

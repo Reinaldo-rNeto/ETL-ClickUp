@@ -1,0 +1,16 @@
+📌 TAREFA: [GOVERNANÇA] PPT - Políticas, normas e procedimentos em conformidade com o DAMA DMBOK
+📊 STATUS: BACKLOG
+👤 CRIADA POR: Antônio Luciano Ferreira Neto
+👥 RESPONSÁVEIS: Antônio Luciano Ferreira Neto
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

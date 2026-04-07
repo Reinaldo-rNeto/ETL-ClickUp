@@ -1,0 +1,26 @@
+📌 TAREFA: Backup banco postgresql SDM para BIGDATAPE ler
+📊 STATUS: FEITO
+👤 CRIADA POR: Luciene Santos
+👥 RESPONSÁVEIS: Luciene Santos
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Atribuição do Cargo
+ - Descrição: Backup banco postgresql SDM para BIGDATAPE LER
+ - Envolvidos: 
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (2)
+============================================================
+
+[03/03/2026 11:38] Luciene Santos comentou:
+  sdmbibck.sqlbACKUP BANCO POSTGRESQL DO sdm
+  📎 [ANEXO ENVIADO NESTE COMENTÁRIO]: Arquivo_Sem_Nome (Enviado para a pasta /Anexos da tarefa)
+
+[04/03/2026 17:24] Luciene Santos comentou:
+  sdmbibck.sqlbackup do banco com as tabelas populadas
+  📎 [ANEXO ENVIADO NESTE COMENTÁRIO]: Arquivo_Sem_Nome (Enviado para a pasta /Anexos da tarefa)

@@ -1,0 +1,54 @@
+📌 TAREFA: [BI Presi F2.3] Transformações para Power BI
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: francisco dourado
+👥 RESPONSÁVEIS: Luciene Santos
+🌳 DEPENDENTES (Subtarefas atreladas): 2
+
+📋 CAMPOS PERSONALIZADOS:
+ - Situação: Débito Técnico Externo
+
+============================================================
+Objetivo: ETL para padronização da base, para ser utilizada na ferramenta de visualização
+Dependências da Vectra:
+Retornar com a informação de ano/mês para referência dos dados;
+Verificar e validar o acesso ao BigDataPE via API;
+Informar as chaves primárias do SDM e do PE Conecta;
+Incluir o campo “órgão” na API, conforme alinhamento técnico.
+Tabela do gestor de Telemática 
+Não foi informado a data de devolutiva
+
+Risco de impacto no progresso do projeto e das atividades:
+ A dependência de recursos e/ou informações fornecidas pela Vectra pode comprometer o andamento do projeto, em função de possíveis desalinhamentos ou indisponibilidade por parte da empresa.
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (4)
+============================================================
+
+[02/03/2026 08:36] Luciene Santos comentou:
+  00 - TERMO DE REFERÊNCIA - PE-CONECTADO II - MATRIZ - 14-09 completo Assinado.pdftermo de referencia fornecido por Joseilson para os calculos de SLA
+  📎 [ANEXO ENVIADO NESTE COMENTÁRIO]: Arquivo_Sem_Nome (Enviado para a pasta /Anexos da tarefa)
+
+[04/03/2026 09:03] francisco dourado comentou:
+  Após sucessivas postergações de reuniões previamente agendadas com a Vectra, foi possível realizar o encontro no dia 03/03, com a participação da equipe da GDA (Luciente, Artur, Dayane e Eronita).
+Entretanto, a postergação das agendas e a dependência de esclarecimentos por parte da Vectra impactaram diretamente o cronograma da atividade, inviabilizando a entrega dentro do prazo previsto.
+Trata-se, portanto, de uma dependência externa que afetou o cumprimento da entrega.
+As dúvidas levantadas e os registros das solicitações de reunião seguem anexados para evidência.
+
+[05/03/2026 09:44] Luciene Santos comentou:
+  solução para o ID do solicitante do orgao dada pela vectra em reuniao no dia 03/03/2026 enviei email e a resposta foi esta :
+
+@Luciene, bom dia!
+
+A informação referente aos usuários do sistema PE Conecta é armazenada em uma base de dados distinta, pertencente ao nosso Portal de Cadastros e Autenticação de Usuários.
+Dessa forma, será necessária a replicação dessa base para que possam realizar as consultas necessárias.
+Foi realizada a abertura de uma solicitação interna junto à equipe responsável pela administração da base de dados. Assim que o processo de replicação for concluído, encaminharei as informações necessárias referentes à base mencionada anteriormente.
+Qualquer dúvida, estamos à disposição.
+
+Atenciosamente,
+ 
+Paulo Barreto Neto
+
+[05/03/2026 09:51] Luciene Santos comentou:
+  retornovectra_TAbelaGestorTelematica.pdfretorno da vectra sobre a tabela gestor de telematica para atender ao solicitante do orgao
+  📎 [ANEXO ENVIADO NESTE COMENTÁRIO]: Arquivo_Sem_Nome (Enviado para a pasta /Anexos da tarefa)

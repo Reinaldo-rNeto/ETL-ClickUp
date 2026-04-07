@@ -1,0 +1,17 @@
+📌 TAREFA: [GOVERNANÇA DE DADOS] Execução do piloto e formalização do comitê tático
+📊 STATUS: BACKLOG
+👤 CRIADA POR: Antônio Luciano Ferreira Neto
+👥 RESPONSÁVEIS: Antônio Luciano Ferreira Neto
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição: Executar piloto em painéis críticos, ajustar e formalizar
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

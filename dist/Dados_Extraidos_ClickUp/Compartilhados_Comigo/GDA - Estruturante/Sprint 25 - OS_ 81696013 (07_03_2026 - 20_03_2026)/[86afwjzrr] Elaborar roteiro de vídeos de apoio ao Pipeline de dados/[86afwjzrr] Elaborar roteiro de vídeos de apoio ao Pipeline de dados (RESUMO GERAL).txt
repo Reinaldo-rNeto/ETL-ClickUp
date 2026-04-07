@@ -1,0 +1,17 @@
+📌 TAREFA: Elaborar roteiro de vídeos de apoio ao Pipeline de dados
+📊 STATUS: BACKLOG
+👤 CRIADA POR: Igor Gomes
+👥 RESPONSÁVEIS: Igor Gomes
+🌳 DEPENDENTES (Subtarefas atreladas): 9
+
+📋 CAMPOS PERSONALIZADOS:
+ - Envolvidos: reinaldo rodrigues, Matheus Batista, Tácito Tinôco Pirmo Filho
+
+============================================================
+O Roteiro desses vídeos  são para serem elaborados e incluindo em um canal (Youtube) ATI como passos de boas práticas do uso da plataforma, para que o usuário tenha autonomia na utilização facilitada pelos vídeos curtos
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

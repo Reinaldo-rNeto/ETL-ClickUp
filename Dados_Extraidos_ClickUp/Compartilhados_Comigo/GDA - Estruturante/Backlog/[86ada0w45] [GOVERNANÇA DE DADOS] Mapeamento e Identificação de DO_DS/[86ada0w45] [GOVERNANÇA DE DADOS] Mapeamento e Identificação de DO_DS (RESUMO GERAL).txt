@@ -1,0 +1,26 @@
+📌 TAREFA: [GOVERNANÇA DE DADOS] Mapeamento e Identificação de DO/DS
+📊 STATUS: BACKLOG
+👤 CRIADA POR: Antônio Luciano Ferreira Neto
+👥 RESPONSÁVEIS: Antônio Luciano Ferreira Neto
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição: Mapear estrutura de negócio e identificar Data Owners e Data Stewards
+
+============================================================
+•Ações:
+ Mapear órgão → setor → painel de BI → conjuntos de dados
+ Identificar candidatos a DO e DS por dataset com base em responsabilidade de negócio e curadoria técnica.
+ Validar nomes com gestores dos setores e POs dos painéis.
+ Submeter a lista consolidada ao Comitê Estratégico para aprovação formal.
+ 
+•Entregáveis:
+ Mapa de Stakeholders por órgão/setor/conjunto de dados.
+ Registro de DO/DS aprovados por conjunto de dados.
+ Ata de aprovação do Comitê Estratégico (homologação dos nomes).
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

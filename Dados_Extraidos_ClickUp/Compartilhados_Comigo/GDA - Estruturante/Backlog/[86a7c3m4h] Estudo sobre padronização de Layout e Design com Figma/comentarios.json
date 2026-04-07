@@ -1,0 +1,89 @@
+[
+    {
+        "id": "90130187672054",
+        "comment": [
+            {
+                "text": "Não foi necessária a continuidade dessa atividade, pois o SETD já havia elaborado a padronização e disponibilizado as diretrizes de layout:",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-5cfe730d-6d06-47bf-bff0-ec1a2247877a"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-b7522955-2747-49b4-8dc7-32ebafc74c8d"
+                }
+            },
+            {
+                "text": "https://drive.google.com/file/d/1XI4A7BnxTmoXac-qUw__DL_PYs5hU0p4/view",
+                "attributes": {
+                    "link": "https://drive.google.com/file/d/1XI4A7BnxTmoXac-qUw__DL_PYs5hU0p4/view"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-36410f55-8e13-45c9-85fd-0dd1e36940c2"
+                }
+            }
+        ],
+        "comment_text": "Não foi necessária a continuidade dessa atividade, pois o SETD já havia elaborado a padronização e disponibilizado as diretrizes de layout:\n\nhttps://drive.google.com/file/d/1XI4A7BnxTmoXac-qUw__DL_PYs5hU0p4/view\n",
+        "user": {
+            "id": 88017241,
+            "username": "Artur Vinícius Limeira da Silva",
+            "email": "artur.silva@qintess.com",
+            "color": "#6e56cf",
+            "initials": "AS",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/88017241_PXK.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1762438935942",
+        "reply_count": 0
+    },
+    {
+        "id": "90130186241808",
+        "comment": [
+            {
+                "type": "tag",
+                "user": {
+                    "id": 88017241,
+                    "username": "Artur Vinícius Limeira da Silva",
+                    "email": "artur.silva@qintess.com",
+                    "initials": "AS",
+                    "profilePicture": "https://attachments.clickup.com/profilePictures/88017241_PXK.jpg"
+                },
+                "text": "@Artur Vinícius Limeira da Silva"
+            },
+            {
+                "text": " Registra o motivo do cancelamento dessa atividade. Lembra?",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-f0e50cfd-1f80-408b-a8b4-de2f4e4a6fd7"
+                }
+            }
+        ],
+        "comment_text": "@Artur Vinícius Limeira da Silva Registra o motivo do cancelamento dessa atividade. Lembra?\n",
+        "user": {
+            "id": 106177220,
+            "username": "francisco dourado",
+            "email": "francisco.dourado@qintess.com",
+            "color": "#f57c01",
+            "initials": "FD",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1762175237534",
+        "reply_count": 0
+    }
+]

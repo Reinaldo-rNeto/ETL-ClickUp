@@ -1,0 +1,42 @@
+[
+    {
+        "id": "90130186247124",
+        "comment": [
+            {
+                "type": "tag",
+                "user": {
+                    "id": 111900371,
+                    "username": "Antônio Luciano Ferreira Neto",
+                    "email": "antonio.ferreira@qintess.com",
+                    "initials": "AN",
+                    "profilePicture": "https://attachments.clickup.com/profilePictures/111900371_tMP.jpg"
+                },
+                "text": "@Antônio Luciano Ferreira Neto"
+            },
+            {
+                "text": " será apoio referente a essa demandas. ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-a9c7cf7b-3b22-4541-b957-59b21b1a9910"
+                }
+            }
+        ],
+        "comment_text": "@Antônio Luciano Ferreira Neto será apoio referente a essa demandas. \n",
+        "user": {
+            "id": 106177220,
+            "username": "francisco dourado",
+            "email": "francisco.dourado@qintess.com",
+            "color": "#f57c01",
+            "initials": "FD",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1762175790338",
+        "reply_count": 0
+    }
+]

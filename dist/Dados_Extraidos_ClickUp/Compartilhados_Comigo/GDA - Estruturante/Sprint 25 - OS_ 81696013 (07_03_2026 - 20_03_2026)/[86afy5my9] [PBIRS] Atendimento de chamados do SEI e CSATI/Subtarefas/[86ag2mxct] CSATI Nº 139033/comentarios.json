@@ -1,0 +1,50 @@
+[
+    {
+        "id": "90130235167628",
+        "comment": [
+            {
+                "type": "image",
+                "text": "image.png",
+                "image": {
+                    "id": "0c53b897-f5d9-40bc-ae77-aa517c89a9bd.png",
+                    "name": "image.png",
+                    "title": "image.png",
+                    "type": "png",
+                    "extension": "image/png",
+                    "thumbnail_large": "https://t9013340838.p.clickup-attachments.com/t9013340838/0c53b897-f5d9-40bc-ae77-aa517c89a9bd/image.png",
+                    "thumbnail_medium": "https://t9013340838.p.clickup-attachments.com/t9013340838/0c53b897-f5d9-40bc-ae77-aa517c89a9bd/image.png",
+                    "thumbnail_small": "https://t9013340838.p.clickup-attachments.com/t9013340838/0c53b897-f5d9-40bc-ae77-aa517c89a9bd/image.png",
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/0c53b897-f5d9-40bc-ae77-aa517c89a9bd/image.png",
+                    "uploaded": true
+                },
+                "attributes": {
+                    "width": "300",
+                    "data-id": "0c53b897-f5d9-40bc-ae77-aa517c89a9bd.png",
+                    "data-attachment": "{\"id\":\"0c53b897-f5d9-40bc-ae77-aa517c89a9bd.png\",\"version\":\"0\",\"date\":1773166598199,\"name\":\"image.png\",\"title\":\"image.png\",\"extension\":\"png\",\"source\":1,\"thumbnail_small\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/0c53b897-f5d9-40bc-ae77-aa517c89a9bd_small.png\",\"thumbnail_medium\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/0c53b897-f5d9-40bc-ae77-aa517c89a9bd_medium.png\",\"thumbnail_large\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/0c53b897-f5d9-40bc-ae77-aa517c89a9bd/image.png\",\"url\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/0c53b897-f5d9-40bc-ae77-aa517c89a9bd/image.png\",\"url_w_query\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/0c53b897-f5d9-40bc-ae77-aa517c89a9bd/image.png?view=open\",\"url_w_host\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/0c53b897-f5d9-40bc-ae77-aa517c89a9bd/image.png\"}",
+                    "data-natural-width": "1472",
+                    "data-natural-height": "295"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-cs4s4aO8i9"
+                }
+            }
+        ],
+        "comment_text": "image.png\n",
+        "user": {
+            "id": 106126567,
+            "username": "José Hugo Figueiredo Gomes",
+            "email": "hugo.fgomes.ati@gmail.com",
+            "color": "#1b5e20",
+            "initials": "JG",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/106126567_YeL.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1773166599461",
+        "reply_count": 0
+    }
+]

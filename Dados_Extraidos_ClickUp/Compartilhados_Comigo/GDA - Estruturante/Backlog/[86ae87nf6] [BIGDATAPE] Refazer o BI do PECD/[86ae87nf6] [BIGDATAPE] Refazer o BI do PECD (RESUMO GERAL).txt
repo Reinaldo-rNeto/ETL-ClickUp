@@ -1,0 +1,27 @@
+📌 TAREFA: [BIGDATAPE] Refazer o BI do PECD
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: francisco dourado
+👥 RESPONSÁVEIS: Luciene Santos
+🌳 DEPENDENTES (Subtarefas atreladas): 1
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Atribuição do Cargo
+ - Descrição: Desenvolvimento do novo BIPECD
+ - Situação: Suspenso
+
+============================================================
+Conjunto com vários responsáveis
+Controlador técnico
+Token Sistema
+Consumo espaço em disco
+Alertas de Carga
+ 
+=> Automatizar carga
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[05/01/2026 10:22] francisco dourado comentou:
+  Por solicitação de Eronita, o item foi suspenso e  duplicado para o backlog, para tratamento em momento oportuno.

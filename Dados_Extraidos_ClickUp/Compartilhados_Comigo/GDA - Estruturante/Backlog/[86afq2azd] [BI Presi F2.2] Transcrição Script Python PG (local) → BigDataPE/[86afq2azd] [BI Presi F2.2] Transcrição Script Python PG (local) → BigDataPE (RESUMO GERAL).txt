@@ -1,0 +1,20 @@
+📌 TAREFA: [BI Presi F2.2] Transcrição Script Python PG (local) → BigDataPE
+📊 STATUS: FEITO
+👤 CRIADA POR: francisco dourado
+👥 RESPONSÁVEIS: Dayane Martins Moura
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Situação: Débito Técnico
+
+============================================================
+Migrar os scripts de criação e carga de dimensões atualmente implementados em SQL para notebooks Python padronizados, com ingestão estruturada para o BigData PE.
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[09/03/2026 09:16] francisco dourado comentou:
+  Dayane criou os conjuntos de dados no BigDataPE, porém não possuía permissão para realizar a carga (popular) dos dados. Diante disso, solicitou ao Hugo a atualização das permissões necessárias.
+A demanda vai para sprint 25 e segue aguardando retorno dos ajustes de acesso.

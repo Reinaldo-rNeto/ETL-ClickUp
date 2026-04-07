@@ -1,0 +1,17 @@
+📌 TAREFA: Acompanhar atualizações de Windows no ambiente
+📊 STATUS: FEITO
+👤 CRIADA POR: José Hugo Figueiredo Gomes
+👥 RESPONSÁVEIS: José Hugo Figueiredo Gomes
+🌳 DEPENDENTES (Subtarefas atreladas): 4
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Atribuição do Cargo
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

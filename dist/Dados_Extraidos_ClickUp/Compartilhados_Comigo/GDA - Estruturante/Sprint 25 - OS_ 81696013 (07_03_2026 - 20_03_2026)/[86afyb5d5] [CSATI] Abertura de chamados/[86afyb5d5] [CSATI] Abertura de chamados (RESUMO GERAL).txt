@@ -1,0 +1,25 @@
+📌 TAREFA: [CSATI] Abertura de chamados
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Antônio Luciano Ferreira Neto
+👥 RESPONSÁVEIS: Antônio Luciano Ferreira Neto
+🌳 DEPENDENTES (Subtarefas atreladas): 19
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Atribuição do Cargo
+ - Descrição: Abertura de chamados para onboarding e chamados diversos.
+ - Situação: Recorrente
+
+============================================================
+Essa demandas terá sub-task indicando a abertura de chamado, quando necessário.
+Modelo título:
+CSATI Nº 0000
+Na descrição: 
+Nome do solicitante: nome
+Objetivo: 
+Anexar print do chamado
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

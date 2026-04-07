@@ -1,0 +1,137 @@
+[
+    {
+        "id": "90130187672890",
+        "comment": [
+            {
+                "text": "Atividade que teve sua execução repriorizada em função de novas demandas e prioridades definidas.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-365b4b71-730d-472f-9572-40cf76e284f8"
+                }
+            }
+        ],
+        "comment_text": "Atividade que teve sua execução repriorizada em função de novas demandas e prioridades definidas.\n",
+        "user": {
+            "id": 88017241,
+            "username": "Artur Vinícius Limeira da Silva",
+            "email": "artur.silva@qintess.com",
+            "color": "#6e56cf",
+            "initials": "AS",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/88017241_PXK.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1762439035399",
+        "reply_count": 0
+    },
+    {
+        "id": "90130155699213",
+        "comment": [
+            {
+                "text": "Descrição do Procedimento para cadastro de novos usuários no AD:",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-973a4480-339f-4c66-9cc3-a55d188db3bc"
+                }
+            },
+            {
+                "type": "image",
+                "text": "image.png",
+                "image": {
+                    "id": "b65b319a-d2cc-436a-a7ca-21cce19074b0.png",
+                    "name": "image.png",
+                    "title": "image.png",
+                    "type": "png",
+                    "extension": "image/png",
+                    "thumbnail_large": "https://t9013340838.p.clickup-attachments.com/t9013340838/b65b319a-d2cc-436a-a7ca-21cce19074b0/image.png",
+                    "thumbnail_medium": "https://t9013340838.p.clickup-attachments.com/t9013340838/b65b319a-d2cc-436a-a7ca-21cce19074b0/image.png",
+                    "thumbnail_small": "https://t9013340838.p.clickup-attachments.com/t9013340838/b65b319a-d2cc-436a-a7ca-21cce19074b0/image.png",
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/b65b319a-d2cc-436a-a7ca-21cce19074b0/image.png",
+                    "uploaded": true
+                },
+                "attributes": {
+                    "width": "300",
+                    "data-id": "b65b319a-d2cc-436a-a7ca-21cce19074b0.png",
+                    "data-attachment": "{\"id\":\"b65b319a-d2cc-436a-a7ca-21cce19074b0.png\",\"version\":\"0\",\"date\":1754501509614,\"name\":\"image.png\",\"title\":\"image.png\",\"extension\":\"png\",\"source\":1,\"thumbnail_small\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/b65b319a-d2cc-436a-a7ca-21cce19074b0_small.png\",\"thumbnail_medium\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/b65b319a-d2cc-436a-a7ca-21cce19074b0_medium.png\",\"thumbnail_large\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/b65b319a-d2cc-436a-a7ca-21cce19074b0/image.png\",\"url\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/b65b319a-d2cc-436a-a7ca-21cce19074b0/image.png\",\"url_w_query\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/b65b319a-d2cc-436a-a7ca-21cce19074b0/image.png?view=open\",\"url_w_host\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/b65b319a-d2cc-436a-a7ca-21cce19074b0/image.png\"}",
+                    "data-natural-width": "971",
+                    "data-natural-height": "767"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-a7797762-f972-42ff-abab-df1627e86501"
+                }
+            }
+        ],
+        "comment_text": "Descrição do Procedimento para cadastro de novos usuários no AD:\nimage.png\n",
+        "user": {
+            "id": 88017241,
+            "username": "Artur Vinícius Limeira da Silva",
+            "email": "artur.silva@qintess.com",
+            "color": "#6e56cf",
+            "initials": "AS",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/88017241_PXK.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1754501558919",
+        "reply_count": 0
+    },
+    {
+        "id": "90130155696643",
+        "comment": [
+            {
+                "type": "image",
+                "text": "image.png",
+                "image": {
+                    "id": "06a862a2-5577-40d5-b3bc-8dca774f1f7b.png",
+                    "name": "image.png",
+                    "title": "image.png",
+                    "type": "png",
+                    "extension": "image/png",
+                    "thumbnail_large": "https://t9013340838.p.clickup-attachments.com/t9013340838/06a862a2-5577-40d5-b3bc-8dca774f1f7b/image.png",
+                    "thumbnail_medium": "https://t9013340838.p.clickup-attachments.com/t9013340838/06a862a2-5577-40d5-b3bc-8dca774f1f7b/image.png",
+                    "thumbnail_small": "https://t9013340838.p.clickup-attachments.com/t9013340838/06a862a2-5577-40d5-b3bc-8dca774f1f7b/image.png",
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/06a862a2-5577-40d5-b3bc-8dca774f1f7b/image.png",
+                    "uploaded": true
+                },
+                "attributes": {
+                    "width": "300",
+                    "data-id": "06a862a2-5577-40d5-b3bc-8dca774f1f7b.png",
+                    "data-attachment": "{\"id\":\"06a862a2-5577-40d5-b3bc-8dca774f1f7b.png\",\"version\":\"0\",\"date\":1754501249863,\"name\":\"image.png\",\"title\":\"image.png\",\"extension\":\"png\",\"source\":1,\"thumbnail_small\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/06a862a2-5577-40d5-b3bc-8dca774f1f7b_small.png\",\"thumbnail_medium\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/06a862a2-5577-40d5-b3bc-8dca774f1f7b_medium.png\",\"thumbnail_large\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/06a862a2-5577-40d5-b3bc-8dca774f1f7b/image.png\",\"url\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/06a862a2-5577-40d5-b3bc-8dca774f1f7b/image.png\",\"url_w_query\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/06a862a2-5577-40d5-b3bc-8dca774f1f7b/image.png?view=open\",\"url_w_host\":\"https://t9013340838.p.clickup-attachments.com/t9013340838/06a862a2-5577-40d5-b3bc-8dca774f1f7b/image.png\"}",
+                    "data-natural-width": "461",
+                    "data-natural-height": "309"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-187d5f92-5c39-42b7-a01a-4770e80adde7"
+                }
+            }
+        ],
+        "comment_text": "image.png\n",
+        "user": {
+            "id": 88017241,
+            "username": "Artur Vinícius Limeira da Silva",
+            "email": "artur.silva@qintess.com",
+            "color": "#6e56cf",
+            "initials": "AS",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/88017241_PXK.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1754501251960",
+        "reply_count": 0
+    }
+]

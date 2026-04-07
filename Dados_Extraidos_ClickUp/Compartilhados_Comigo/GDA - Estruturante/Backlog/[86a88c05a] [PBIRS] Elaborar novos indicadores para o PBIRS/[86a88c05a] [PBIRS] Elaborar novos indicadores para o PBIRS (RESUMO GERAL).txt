@@ -1,0 +1,19 @@
+📌 TAREFA: [PBIRS] Elaborar novos indicadores para o PBIRS
+📊 STATUS: BACKLOG
+👤 CRIADA POR: Cassiane Bueno
+👥 RESPONSÁVEIS: Cassiane Bueno
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+
+============================================================
+Avaliar a necessidade de criação de dashboards novos ou inclusão nos painéis já existentes de indicadores. Sugestões iniciais de Flávia:
+quais órgãos fazem mais uso do PBIRS.
+quantos usuários ficam pendurados num dashboard por órgão.
+quanto tempo os usuários ficam num dashboard.
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

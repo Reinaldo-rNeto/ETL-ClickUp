@@ -1,0 +1,332 @@
+[
+    {
+        "id": "90130233088010",
+        "comment": [
+            {
+                "type": "attachment",
+                "text": "retornovectra_TAbelaGestorTelematica.pdf",
+                "attachment": {
+                    "id": "639c0c17-6ed6-4733-89b1-321d3c802e0b.pdf",
+                    "date": "1772715263929",
+                    "title": "retornovectra_TAbelaGestorTelematica.pdf",
+                    "type": 1,
+                    "source": 1,
+                    "version": 0,
+                    "extension": "pdf",
+                    "thumbnail_small": null,
+                    "thumbnail_medium": null,
+                    "thumbnail_large": null,
+                    "is_folder": null,
+                    "mimetype": "application/pdf",
+                    "hidden": false,
+                    "parent_id": "86afy6hpu",
+                    "size": 783971,
+                    "total_comments": 0,
+                    "resolved_comments": 0,
+                    "user": {
+                        "id": 99986625,
+                        "username": "Luciene Santos",
+                        "email": "luciene.santos@qintess.com",
+                        "initials": "LS",
+                        "color": "#afb42b",
+                        "profilePicture": "https://attachments.clickup.com/profilePictures/99986625_cMd.jpg"
+                    },
+                    "deleted": false,
+                    "orientation": null,
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/639c0c17-6ed6-4733-89b1-321d3c802e0b/retornovectra_TAbelaGestorTelematica.pdf",
+                    "parent_comment_type": null,
+                    "parent_comment_parent": null,
+                    "email_data": null,
+                    "workspace_id": 9013340838,
+                    "url_w_query": "https://t9013340838.p.clickup-attachments.com/t9013340838/639c0c17-6ed6-4733-89b1-321d3c802e0b/retornovectra_TAbelaGestorTelematica.pdf?view=open",
+                    "url_w_host": "https://t9013340838.p.clickup-attachments.com/t9013340838/639c0c17-6ed6-4733-89b1-321d3c802e0b/retornovectra_TAbelaGestorTelematica.pdf?host=prod&ngsw-bypass=true"
+                }
+            },
+            {
+                "text": "retorno da vectra sobre a tabela gestor de telematica para atender ao solicitante do orgao",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-b5a0e90b-e338-4df4-99fe-ca9f16cbf891"
+                }
+            }
+        ],
+        "comment_text": "retornovectra_TAbelaGestorTelematica.pdfretorno da vectra sobre a tabela gestor de telematica para atender ao solicitante do orgao\n",
+        "user": {
+            "id": 99986625,
+            "username": "Luciene Santos",
+            "email": "luciene.santos@qintess.com",
+            "color": "#afb42b",
+            "initials": "LS",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/99986625_cMd.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772715109583",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233088009",
+        "comment": [
+            {
+                "text": "solução para o ID do solicitante do orgao dada pela vectra em reuniao no dia 03/03/2026 enviei email e a resposta foi esta :",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-d7fca486-cd80-41e8-87ea-6a052f5b204f"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-c2e752d2-3eb2-4854-baed-3bbb62ea8316"
+                }
+            },
+            {
+                "text": "@Luciene",
+                "attributes": {
+                    "link": "mailto:luciene.msantos@ati.pe.gov.br"
+                }
+            },
+            {
+                "text": ", bom dia!",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-301b3f61-df04-4943-b95f-24e431ce4057"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-35eb61ff-6210-4faa-a7ba-500607836675"
+                }
+            },
+            {
+                "text": "A informação referente aos usuários do sistema PE Conecta é armazenada em uma base de dados distinta, pertencente ao nosso Portal de Cadastros e Autenticação de Usuários.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-4230a70d-9cd4-4a55-8c99-06592a1b2cc9"
+                }
+            },
+            {
+                "text": "Dessa forma, será necessária a replicação dessa base para que possam realizar as consultas necessárias.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-944cc246-5ff2-4437-a620-890226ed4d1a"
+                }
+            },
+            {
+                "text": "Foi realizada a abertura de uma solicitação interna junto à equipe responsável pela administração da base de dados. Assim que o processo de replicação for concluído, encaminharei as informações necessárias referentes à base mencionada anteriormente.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-5229335b-3bd2-4f1c-9948-7bc29f614e39"
+                }
+            },
+            {
+                "text": "Qualquer dúvida, estamos à disposição.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-2cb1fc44-ec25-4bb3-9519-08bb395bbeb9"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-482e546e-bfa1-48e1-aeba-69ab31b037ef"
+                }
+            },
+            {
+                "text": "Atenciosamente,",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-1394a01b-5494-4bdd-8653-dee470e36c99"
+                }
+            },
+            {
+                "text": " ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-7465e82b-3156-472b-95ff-19779f38ec77"
+                }
+            },
+            {
+                "text": "Paulo Barreto Neto",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-0203a0ac-29e3-4735-8b00-1605e6e5799e"
+                }
+            }
+        ],
+        "comment_text": "solução para o ID do solicitante do orgao dada pela vectra em reuniao no dia 03/03/2026 enviei email e a resposta foi esta :\n\n@Luciene, bom dia!\n\nA informação referente aos usuários do sistema PE Conecta é armazenada em uma base de dados distinta, pertencente ao nosso Portal de Cadastros e Autenticação de Usuários.\nDessa forma, será necessária a replicação dessa base para que possam realizar as consultas necessárias.\nFoi realizada a abertura de uma solicitação interna junto à equipe responsável pela administração da base de dados. Assim que o processo de replicação for concluído, encaminharei as informações necessárias referentes à base mencionada anteriormente.\nQualquer dúvida, estamos à disposição.\n\nAtenciosamente,\n \nPaulo Barreto Neto\n",
+        "user": {
+            "id": 99986625,
+            "username": "Luciene Santos",
+            "email": "luciene.santos@qintess.com",
+            "color": "#afb42b",
+            "initials": "LS",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/99986625_cMd.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772714683806",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233088007",
+        "comment": [
+            {
+                "text": "Após sucessivas postergações de reuniões previamente agendadas com a Vectra, foi possível realizar o encontro no dia 03/03, com a participação da equipe da GDA (Luciente, Artur, Dayane e Eronita).",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-f29966f9-c6ff-4661-a8c6-af3e37860584"
+                }
+            },
+            {
+                "text": "Entretanto, a postergação das agendas e a dependência de esclarecimentos por parte da Vectra impactaram diretamente o cronograma da atividade, inviabilizando a entrega dentro do prazo previsto.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-2539782b-c7bd-4d07-8238-3d1a7e03af89"
+                }
+            },
+            {
+                "text": "Trata-se, portanto, de uma dependência externa que afetou o cumprimento da entrega.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-88a1e574-4489-4eee-8554-3c90523b052f"
+                }
+            },
+            {
+                "text": "As dúvidas levantadas e os registros das solicitações de reunião seguem anexados para evidência.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-f5a5c4fe-aba8-461a-b02f-fa4aa033dbad"
+                }
+            }
+        ],
+        "comment_text": "Após sucessivas postergações de reuniões previamente agendadas com a Vectra, foi possível realizar o encontro no dia 03/03, com a participação da equipe da GDA (Luciente, Artur, Dayane e Eronita).\nEntretanto, a postergação das agendas e a dependência de esclarecimentos por parte da Vectra impactaram diretamente o cronograma da atividade, inviabilizando a entrega dentro do prazo previsto.\nTrata-se, portanto, de uma dependência externa que afetou o cumprimento da entrega.\nAs dúvidas levantadas e os registros das solicitações de reunião seguem anexados para evidência.\n",
+        "user": {
+            "id": 106177220,
+            "username": "francisco dourado",
+            "email": "francisco.dourado@qintess.com",
+            "color": "#f57c01",
+            "initials": "FD",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772625816408",
+        "reply_count": 0
+    },
+    {
+        "id": "90130233088006",
+        "comment": [
+            {
+                "type": "attachment",
+                "text": "00 - TERMO DE REFERÊNCIA - PE-CONECTADO II - MATRIZ - 14-09 completo Assinado.pdf",
+                "attachment": {
+                    "id": "1fda984b-fbc5-4bd0-af23-52487a888205.pdf",
+                    "date": "1772715263929",
+                    "title": "00 - TERMO DE REFERÊNCIA - PE-CONECTADO II - MATRIZ - 14-09 completo Assinado.pdf",
+                    "type": 1,
+                    "source": 1,
+                    "version": 0,
+                    "extension": "pdf",
+                    "thumbnail_small": null,
+                    "thumbnail_medium": null,
+                    "thumbnail_large": null,
+                    "is_folder": null,
+                    "mimetype": "application/pdf",
+                    "hidden": false,
+                    "parent_id": "86afy6hpu",
+                    "size": 3511320,
+                    "total_comments": 0,
+                    "resolved_comments": 0,
+                    "user": {
+                        "id": 99986625,
+                        "username": "Luciene Santos",
+                        "email": "luciene.santos@qintess.com",
+                        "initials": "LS",
+                        "color": "#afb42b",
+                        "profilePicture": "https://attachments.clickup.com/profilePictures/99986625_cMd.jpg"
+                    },
+                    "deleted": false,
+                    "orientation": null,
+                    "url": "https://t9013340838.p.clickup-attachments.com/t9013340838/1fda984b-fbc5-4bd0-af23-52487a888205/00%20-%20TERMO%20DE%20REFERE%CC%82NCIA%20-%20PE-CONECTADO%20II%20-%20MATRIZ%20-%2014-09%20completo%20Assinado.pdf",
+                    "parent_comment_type": null,
+                    "parent_comment_parent": null,
+                    "email_data": null,
+                    "workspace_id": 9013340838,
+                    "url_w_query": "https://t9013340838.p.clickup-attachments.com/t9013340838/1fda984b-fbc5-4bd0-af23-52487a888205/00%20-%20TERMO%20DE%20REFERE%CC%82NCIA%20-%20PE-CONECTADO%20II%20-%20MATRIZ%20-%2014-09%20completo%20Assinado.pdf?view=open",
+                    "url_w_host": "https://t9013340838.p.clickup-attachments.com/t9013340838/1fda984b-fbc5-4bd0-af23-52487a888205/00%20-%20TERMO%20DE%20REFERE%CC%82NCIA%20-%20PE-CONECTADO%20II%20-%20MATRIZ%20-%2014-09%20completo%20Assinado.pdf?host=prod&ngsw-bypass=true"
+                }
+            },
+            {
+                "text": "termo de referencia fornecido por Joseilson para os calculos de SLA",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-a62db523-e20d-48f5-956f-f79755b9e774"
+                }
+            }
+        ],
+        "comment_text": "00 - TERMO DE REFERÊNCIA - PE-CONECTADO II - MATRIZ - 14-09 completo Assinado.pdftermo de referencia fornecido por Joseilson para os calculos de SLA\n",
+        "user": {
+            "id": 99986625,
+            "username": "Luciene Santos",
+            "email": "luciene.santos@qintess.com",
+            "color": "#afb42b",
+            "initials": "LS",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/99986625_cMd.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1772451403745",
+        "reply_count": 0
+    }
+]

@@ -1,0 +1,18 @@
+📌 TAREFA: CSATI N° 139355
+📊 STATUS: FEITO
+👤 CRIADA POR: Antônio Luciano Ferreira Neto
+👥 RESPONSÁVEIS: Antônio Luciano Ferreira Neto
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo Contrato: Atribuição do Cargo
+ - Descrição: credenciais para acesso as VMS Linux: LNXHUBBIDEVQUERY - 10.238.117.207 8080/TCP (Pentaho Carte /kettle) LNXHUBBIDEVBD - 10.238.117.208 27017/TCP (MongoDB) LNXHUBBIDEVAPP - IP: 10.238.117.206 Para o usuário lotado na DIC GDA: Nome: Diego Saggioro Brito Lins .
+
+============================================================
+credenciais para acesso as VMS Linux: LNXHUBBIDEVQUERY - 10.238.117.207 8080/TCP (Pentaho Carte /kettle) LNXHUBBIDEVBD - 10.238.117.208 27017/TCP (MongoDB) LNXHUBBIDEVAPP - IP: 10.238.117.206 Para o usuário lotado na DIC GDA: Nome: Diego Saggioro Brito Lins .
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.
