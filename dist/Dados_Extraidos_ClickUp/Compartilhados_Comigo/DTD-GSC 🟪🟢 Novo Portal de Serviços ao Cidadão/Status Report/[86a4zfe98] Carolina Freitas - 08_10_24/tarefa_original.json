@@ -1,0 +1,303 @@
+{
+    "id": "86a4zfe98",
+    "custom_id": null,
+    "custom_item_id": 1003,
+    "name": "Carolina Freitas - 08/10/24",
+    "text_content": "",
+    "description": "",
+    "status": {
+        "status": "a iniciar",
+        "id": "sc901305370439_a837FnhW",
+        "color": "#b0e7ff",
+        "type": "open",
+        "orderindex": 0
+    },
+    "orderindex": "120313351.00000000000000000000000000000000",
+    "date_created": "1726746461595",
+    "date_updated": "1728504445368",
+    "date_closed": null,
+    "date_done": null,
+    "archived": false,
+    "creator": {
+        "id": 96788365,
+        "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+        "color": "",
+        "email": "clickup.adm@ati.pe.gov.br",
+        "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+    },
+    "assignees": [],
+    "group_assignees": [],
+    "watchers": [
+        {
+            "id": 96788365,
+            "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+            "color": "",
+            "initials": "AP",
+            "email": "clickup.adm@ati.pe.gov.br",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+        }
+    ],
+    "checklists": [],
+    "tags": [],
+    "parent": null,
+    "top_level_parent": null,
+    "priority": null,
+    "due_date": null,
+    "start_date": null,
+    "points": null,
+    "time_estimate": null,
+    "custom_fields": [
+        {
+            "id": "56dfb29a-94f3-453a-8590-6fe33120da8c",
+            "name": "Entrega Relacionada",
+            "type": "drop_down",
+            "type_config": {
+                "options": [
+                    {
+                        "id": "8674e4be-cfd7-4acc-b63a-d66381a66cc5",
+                        "name": "1. Novo portal implantado versão 1",
+                        "color": null,
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "43dafc01-735c-4feb-8962-503f9b459f7f",
+                        "name": "2. Gestão de E-mails do cidadão SDS",
+                        "color": null,
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "004b782c-3614-4415-9042-9602bdbfd1f5",
+                        "name": "3. Novo portal implantado versão 2",
+                        "color": null,
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "2f382db1-2111-46b7-a719-a2927b13fec6",
+                        "name": "4. Novo portal implantado versão 3",
+                        "color": null,
+                        "orderindex": 3
+                    }
+                ]
+            },
+            "date_created": "1726152811315",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "5c49d80e-2967-4e0f-bb50-b5d31f4585da",
+            "name": "Inicio Real",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1727365167772",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "c4c3f20b-7a0d-464c-912b-6de2a10a4dbd",
+            "name": "Meta",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1742238608862",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "1fbbda1c-33f1-42f2-a8ed-c7c6ddc8f72c",
+            "name": "Observações",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1725630511725",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "9b77ed58-c27d-4471-b696-330878c0af6b",
+            "name": "Progresso",
+            "type": "automatic_progress",
+            "type_config": {
+                "tracking": {
+                    "subtasks": true
+                },
+                "complete_on": 3,
+                "subtask_rollup": false
+            },
+            "date_created": "1725657938328",
+            "hide_from_guests": false,
+            "value": {
+                "percent_complete": 0
+            },
+            "required": false
+        },
+        {
+            "id": "6a4e4072-5e6f-4e9e-b298-b665b6e84206",
+            "name": "Project Lead",
+            "type": "users",
+            "type_config": {
+                "single_user": true,
+                "include_groups": null,
+                "include_guests": false,
+                "include_team_members": false
+            },
+            "date_created": "1725630104093",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "1c4da0d6-408f-4b8b-918a-0767b48ab324",
+            "name": "Project Rating",
+            "type": "emoji",
+            "type_config": {
+                "count": 5,
+                "code_point": "1f44f"
+            },
+            "date_created": "1725630104093",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "ce370cac-3242-4175-8bc9-08db99c68f5d",
+            "name": "Status Contratacao",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "791f092f-c398-4538-bc15-48c02f04f682",
+                        "name": "ETP",
+                        "color": "#81B1FF",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "0dff6e1b-14c7-4005-9710-750e23e091ba",
+                        "name": "TR",
+                        "color": "#81B1FF",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "6143bfc7-29ac-42a9-b2ae-44b6c41a2488",
+                        "name": "Análise SAD",
+                        "color": "#efe890",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "abe3be3f-bd92-4632-9358-6e4e6cc1985a",
+                        "name": "Análise PGE",
+                        "color": "#9df1a3",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "1e55116f-43c2-4fb1-b278-b6281065d0b5",
+                        "name": "Pregão/Análise SAD",
+                        "color": "#f18383",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "165fd5a0-c49c-4e1b-a80d-ddf348c5b8c9",
+                        "name": "Pregão/Nova Análise SAD",
+                        "color": "#f18383",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "41e829af-c849-4b8b-81c7-7f4a56633a2f",
+                        "name": "Pregão/Análise PGE",
+                        "color": "#f18383",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "b84beeae-8492-4294-bca8-aaa30ac691c6",
+                        "name": "Pregão/Republicação do Edital",
+                        "color": "#f18383",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "1fbee5f8-e67d-425c-94ed-f632f0f0be77",
+                        "name": "Pregão/Ajuste do TR envio SAD",
+                        "color": "#f18383",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "35e02dce-7a58-4f9c-b4b5-7625d447a102",
+                        "name": "Adjudicação/Homologação",
+                        "color": "#f39f54",
+                        "orderindex": 9
+                    },
+                    {
+                        "id": "b6ae8b33-a81d-4f31-9462-94174be63d9c",
+                        "name": "ARP Publicada",
+                        "color": "#FF7FAB",
+                        "orderindex": 10
+                    }
+                ]
+            },
+            "date_created": "1740057668454",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "64e59009-6c55-4e6f-844b-6403d03524f5",
+            "name": "Termino Real",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1726506075914",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "94f0516d-ff1c-47e5-b1ef-3aa6fa7a22be",
+            "name": "🗓️ Data do Registro",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1725630492345",
+            "hide_from_guests": false,
+            "value": "1728370800000",
+            "value_richtext": null,
+            "required": false
+        }
+    ],
+    "dependencies": [],
+    "linked_tasks": [],
+    "locations": [],
+    "team_id": "9013340838",
+    "url": "https://app.clickup.com/t/86a4zfe98",
+    "sharing": {
+        "public": false,
+        "public_share_expires_on": null,
+        "public_fields": [
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+        ],
+        "token": null,
+        "seo_optimized": false
+    },
+    "permission_level": "comment",
+    "list": {
+        "id": "901305370439",
+        "name": "Status Report",
+        "access": true
+    },
+    "project": {
+        "id": "90132878682",
+        "name": "DTD-GSC 🟪🟢 Novo Portal de Serviços ao Cidadão",
+        "hidden": false,
+        "access": true
+    },
+    "folder": {
+        "id": "90132878682",
+        "name": "DTD-GSC 🟪🟢 Novo Portal de Serviços ao Cidadão",
+        "hidden": false,
+        "access": true
+    },
+    "space": {
+        "id": "90131678068"
+    },
+    "_local_subtasks_count": 0
+}

@@ -1,0 +1,30 @@
+📌 TAREFA: Form Submission - #2026-05-06T11:14:19-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Mozart Almeida
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 06/05/2026
+ - E-mail : anderson.santana@jointecnologia.com.br
+ - Gerência Formulários : GSC
+ - Justificativa: Usuário já possui acesso e deseja acesso ao seguinte espaço:
+ https://app.clickup.com/t/86ah96z8u
+
+ - Nome: Anderson Medeiros de Santana
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+anderson.santana@jointecnologia.com.br
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[08/05/2026 09:40] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para liberação dos acessos.

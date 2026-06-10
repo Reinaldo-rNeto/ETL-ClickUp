@@ -1,0 +1,25 @@
+📌 TAREFA: Form Submission - #2025-08-25T15:10:17-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: José Henrique Lins
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 25/08/2025
+ - Diretoria - Análise da SMP: DGD
+ - Gerente de Projetos: José Henrique Lins
+ - Justificativa: Solicito substituição da atividade "Portal Único - Carta de Serviços / App / Dashboard para monitoramento do portal" por "Ativar monitoramento da plataforma (coleta e analise de dados de telemetria)" iniciada em 20/06 e concluída em 13/08
+
+ - Novo Portal de Serviços ao Cidadão: DTD/GSC - Novo Portal de Serviços ao Cidadão
+ - Solicitante: José Henrique Lins
+ - Tipo de Mudança: Entrega - Atividades
+
+============================================================
+Data da submissão :
+2025-04-28T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

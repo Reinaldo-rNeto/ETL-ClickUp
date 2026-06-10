@@ -1,0 +1,26 @@
+📌 TAREFA: Form Submission - #2025-05-23T14:16:44-03:00
+📊 STATUS: REPROVADA
+👤 CRIADA POR: ClickBot
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 23/05/2025
+ - Diretoria - Análise da SMP: DGD
+ - Gerente de Projetos: Matifa Pricila Nunes de Sousa
+ - Justificativa: Alteração de escopo do projeto, indicando novas entregas a serem acompanhadas no mesmo modelo.
+ - Solicitante: José Henrique Lins
+ - Solicitação de Serviço Público (SolicitaPE): DTD-GSC - Solicitação de Serviço Público (SolicitaPE)
+ - Tipo de Mudança: Entrega - Atividades
+
+============================================================
+Data da submissão :
+2025-04-28T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[23/05/2025 16:36] Matheus Aguiar comentou:
+  Conforme contato realizado com Matifa, é necessário alinhamento para aplicar a GMUD, visto que é necessário verificar a ordem, prazos e substituições das atividades.

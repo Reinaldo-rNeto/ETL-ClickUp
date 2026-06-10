@@ -1,0 +1,24 @@
+📌 TAREFA: Form Submission - #2025-10-22T10:57:32-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 22/10/2025
+ - Diretoria - Análise da SMP: DGD
+ - Gerente de Projetos: Bruno Queiroga
+ - Justificativa: No dia 10/10 foi realizada reunião de alinhamento com ATAS-GAS (Bruno e Gustavo) e GPD (Monica e Beatriz) para conclusão do projeto de Login único e Barramento dos Serviços e 03 (três) novos projetos desmembrados do mesmo. Sendo esse projeto concluído parcialmente.
+
+ - Solicitante: Beatriz Couto
+ - Tipo de Mudança: Status
+
+============================================================
+Data da submissão :
+2025-10-22T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

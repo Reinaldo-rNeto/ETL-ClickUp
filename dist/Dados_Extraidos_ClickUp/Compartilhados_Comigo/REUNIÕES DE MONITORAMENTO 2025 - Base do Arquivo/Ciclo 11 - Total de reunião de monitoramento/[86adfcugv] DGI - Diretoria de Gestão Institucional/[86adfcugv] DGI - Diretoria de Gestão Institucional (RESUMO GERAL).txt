@@ -1,0 +1,23 @@
+📌 TAREFA: DGI - Diretoria de Gestão Institucional
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 28/11/2025
+ - Diretoria: DGI
+ - Event Type: PROJETO
+ - Instância de Monitoramento: Diretorias
+ - Mês/Ano: Ciclo 11
+ - Qtd Encontros: ENCONTROSQTD_DASH
+ - Qtd de Encontros Diretorias:  DGI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,19 @@
+📌 TAREFA: A avaliação de serviços possibilitará que os cidadãos expressem suas opiniões sobre os serviços públicos oferecidos, com o objetivo de identificar pontos fortes e áreas de melhoria. Através da avaliação de serviço será possível realizar ajustes melhorando a satisfação do cidadão. Os requisitos deste projeto estão em construção junto à SETD e  parte deles estão pendentes, para envio a fábrica. A SETD considera que a entrega de levantamento de requisitos refere-se a uma primeira versão apenas, e que a atividade está concluída. No PO-LIGA a informação de status da entrega ficou como "concluida" em 30.09.
+📊 STATUS: COMPLETE
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progresso: {'percent_complete': 100}
+ - Status Report _ Oficial: 📝 Informação Geral do Projeto
+ - 🗓️ Data do Registro: 08/10/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

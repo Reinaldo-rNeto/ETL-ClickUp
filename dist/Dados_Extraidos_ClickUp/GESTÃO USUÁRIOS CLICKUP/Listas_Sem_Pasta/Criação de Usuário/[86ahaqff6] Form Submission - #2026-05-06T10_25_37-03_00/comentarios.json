@@ -1,0 +1,31 @@
+[
+    {
+        "id": "90130263651449",
+        "comment": [
+            {
+                "text": "Solicitação em duplicidade.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-PNqeNlGiES"
+                }
+            }
+        ],
+        "comment_text": "Solicitação em duplicidade.\n",
+        "user": {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "color": "#000",
+            "initials": "MA",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1778244024607",
+        "reply_count": 0
+    }
+]

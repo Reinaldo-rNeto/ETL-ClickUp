@@ -1,0 +1,27 @@
+📌 TAREFA: Atingir em 40% o índice de capacitação nas competências do governo digital
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição do Objetivo: Promover a mudança cultural e desenvolver as competências e capacidades para o Governo Digital
+ - Diretoria: DGI, DPG
+ - Fórmula: (Número de funcionários capacitados na quantidade mínima de horas em capacitação nas competências do governo digital /  número total de funcionários) x 100
+ - Indicador: Índice de capacitação dos empregados e servidores na trilha de competências do Governo Digital
+ - KR: OKR 6.3
+ - Meta: 40%
+ - OKR Type: KEY RESULT
+ - Objetivo: Objective 6
+ - Perspectiva: 04. Pessoas e Recursos
+ - Status OKR: Não iniciado
+ - Descrição: Índice de capacitação dos empregados e servidores na trilha de competências do Governo Digital
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

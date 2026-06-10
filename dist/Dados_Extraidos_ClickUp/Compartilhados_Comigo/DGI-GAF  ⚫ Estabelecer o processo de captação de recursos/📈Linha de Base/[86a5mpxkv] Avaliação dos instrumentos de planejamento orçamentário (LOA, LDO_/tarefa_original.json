@@ -1,0 +1,318 @@
+{
+    "id": "86a5mpxkv",
+    "custom_id": null,
+    "custom_item_id": 0,
+    "name": "Avaliação dos instrumentos de planejamento orçamentário (LOA, LDO e PPA) vigentes",
+    "text_content": "",
+    "description": "",
+    "status": {
+        "status": "a iniciar",
+        "id": "sc901305888060_cM0ZRThv",
+        "color": "#4466ff",
+        "type": "open",
+        "orderindex": 0
+    },
+    "orderindex": "120326092.00000000000000000000000000000000",
+    "date_created": "1732015723797",
+    "date_updated": "1732021198687",
+    "date_closed": null,
+    "date_done": null,
+    "archived": false,
+    "creator": {
+        "id": 96788365,
+        "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+        "color": "",
+        "email": "clickup.adm@ati.pe.gov.br",
+        "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+    },
+    "assignees": [],
+    "group_assignees": [],
+    "watchers": [
+        {
+            "id": 96788365,
+            "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+            "color": "",
+            "initials": "AP",
+            "email": "clickup.adm@ati.pe.gov.br",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+        }
+    ],
+    "checklists": [],
+    "tags": [],
+    "parent": null,
+    "top_level_parent": null,
+    "priority": null,
+    "due_date": "1735628400000",
+    "start_date": "1727766000000",
+    "points": null,
+    "time_estimate": null,
+    "custom_fields": [
+        {
+            "id": "c4c3f20b-7a0d-464c-912b-6de2a10a4dbd",
+            "name": "Meta",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1742238608862",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "ce370cac-3242-4175-8bc9-08db99c68f5d",
+            "name": "Status Contratacao",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "791f092f-c398-4538-bc15-48c02f04f682",
+                        "name": "ETP",
+                        "color": "#81B1FF",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "0dff6e1b-14c7-4005-9710-750e23e091ba",
+                        "name": "TR",
+                        "color": "#81B1FF",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "6143bfc7-29ac-42a9-b2ae-44b6c41a2488",
+                        "name": "Análise SAD",
+                        "color": "#efe890",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "abe3be3f-bd92-4632-9358-6e4e6cc1985a",
+                        "name": "Análise PGE",
+                        "color": "#9df1a3",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "1e55116f-43c2-4fb1-b278-b6281065d0b5",
+                        "name": "Pregão/Análise SAD",
+                        "color": "#f18383",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "165fd5a0-c49c-4e1b-a80d-ddf348c5b8c9",
+                        "name": "Pregão/Nova Análise SAD",
+                        "color": "#f18383",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "41e829af-c849-4b8b-81c7-7f4a56633a2f",
+                        "name": "Pregão/Análise PGE",
+                        "color": "#f18383",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "b84beeae-8492-4294-bca8-aaa30ac691c6",
+                        "name": "Pregão/Republicação do Edital",
+                        "color": "#f18383",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "1fbee5f8-e67d-425c-94ed-f632f0f0be77",
+                        "name": "Pregão/Ajuste do TR envio SAD",
+                        "color": "#f18383",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "35e02dce-7a58-4f9c-b4b5-7625d447a102",
+                        "name": "Adjudicação/Homologação",
+                        "color": "#f39f54",
+                        "orderindex": 9
+                    },
+                    {
+                        "id": "b6ae8b33-a81d-4f31-9462-94174be63d9c",
+                        "name": "ARP Publicada",
+                        "color": "#FF7FAB",
+                        "orderindex": 10
+                    }
+                ]
+            },
+            "date_created": "1740057668454",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "e46806d4-cd90-4088-9d4e-f5388809bd9c",
+            "name": "📈 Baseline",
+            "type": "drop_down",
+            "type_config": {
+                "default": 0,
+                "sorting": "manual",
+                "placeholder": null,
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "3968bae5-5c75-4a56-9014-6f349ede9752",
+                        "name": "🪧LINHA DE BASE 1",
+                        "color": "#0231E8",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "e25a0c0a-3b6f-4260-b134-f4799a2d7c06",
+                        "name": "🪧LINHA DE BASE 2",
+                        "color": "#0231E8",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "e8860683-4bdb-4647-8846-7042134b578b",
+                        "name": "🪧LINHA DE BASE 3",
+                        "color": "#0231E8",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "9e1dfefc-a5d5-4f64-b7a5-a9891ba47d3e",
+                        "name": "🪧LINHA DE BASE 4",
+                        "color": "#0231E8",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "ccc133ec-c429-467a-8dc5-8a1dbd40605c",
+                        "name": "🪧LINHA DE BASE 5",
+                        "color": "#0231E8",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "c5eae480-2cd6-417e-95a4-2a86c129f88e",
+                        "name": "🪧LINHA DE BASE 6",
+                        "color": "#0231E8",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "1c3404cf-caa2-4735-ad9d-ae7a4819e2a0",
+                        "name": "🪧LINHA DE BASE 7",
+                        "color": "#0231E8",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "ad58c492-3dde-41a7-9a20-59ce6071bf49",
+                        "name": "🪧LINHA DE BASE 8",
+                        "color": "#0231E8",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "0cbf7d97-c97c-4558-8023-9286e4b00343",
+                        "name": "🪧LINHA DE BASE 9",
+                        "color": "#0231E8",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "4e2f9329-2efe-4e5c-b0bd-08c4ed40c4e7",
+                        "name": "🪧LINHA DE BASE 10",
+                        "color": "#0231E8",
+                        "orderindex": 9
+                    }
+                ]
+            },
+            "date_created": "1729770648768",
+            "hide_from_guests": false,
+            "value": 0,
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "2cff4cfd-4cdf-496e-9dc4-8638fc4bf656",
+            "name": "🖊️ Item",
+            "type": "drop_down",
+            "type_config": {
+                "default": 0,
+                "sorting": "manual",
+                "placeholder": null,
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "485a49f6-c2e5-46ba-a30e-2542d754b672",
+                        "name": "Informação Geral do Projeto",
+                        "color": "#9b59b6",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "2acbd93e-a72e-4e64-af33-b34f5a8910fd",
+                        "name": "Impedimentos",
+                        "color": "#e50000",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "fa18a48d-0c21-42bd-9f71-e6880f2b9846",
+                        "name": "Encaminhamentos",
+                        "color": "#ffae42",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "ae920143-ef75-4062-829e-b59482b0cd7d",
+                        "name": "Responsáveis ",
+                        "color": "#667684",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "996a5b4e-b8e8-4e13-a114-80227f16fa5f",
+                        "name": "Observações",
+                        "color": "#AF7E2E",
+                        "orderindex": 4
+                    }
+                ]
+            },
+            "date_created": "1729770648768",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "94f0516d-ff1c-47e5-b1ef-3aa6fa7a22be",
+            "name": "🗓️ Data do Registro",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1725630492345",
+            "hide_from_guests": false,
+            "required": false
+        }
+    ],
+    "dependencies": [],
+    "linked_tasks": [],
+    "locations": [],
+    "team_id": "9013340838",
+    "url": "https://app.clickup.com/t/86a5mpxkv",
+    "sharing": {
+        "public": false,
+        "public_share_expires_on": null,
+        "public_fields": [
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+        ],
+        "token": null,
+        "seo_optimized": false
+    },
+    "permission_level": "comment",
+    "list": {
+        "id": "901305888060",
+        "name": "📈Linha de Base",
+        "access": true
+    },
+    "project": {
+        "id": "90132886871",
+        "name": "DGI-GAF  ⚫ Estabelecer o processo de captação de recursos",
+        "hidden": false,
+        "access": true
+    },
+    "folder": {
+        "id": "90132886871",
+        "name": "DGI-GAF  ⚫ Estabelecer o processo de captação de recursos",
+        "hidden": false,
+        "access": true
+    },
+    "space": {
+        "id": "90131678068"
+    },
+    "_local_subtasks_count": 0
+}

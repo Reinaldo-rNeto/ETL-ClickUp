@@ -1,0 +1,1137 @@
+{
+    "id": "86ad1a3yp",
+    "custom_id": null,
+    "custom_item_id": 0,
+    "name": "Form Submission - #2025-11-04T16:07:28-03:00",
+    "text_content": "Tipo de usuário:\nConvidado\n\nE-mail do novo usuário::\npriscilamoraes.ses@gmail.com",
+    "description": "Tipo de usuário:\nConvidado\n\nE-mail do novo usuário::\npriscilamoraes.ses@gmail.com",
+    "status": {
+        "status": "aprovada",
+        "id": "sc901317494219_nRypS5EA",
+        "color": "#008844",
+        "type": "closed",
+        "orderindex": 4
+    },
+    "orderindex": "120559523.00018890000000000000000000000000",
+    "date_created": "1762283248675",
+    "date_updated": "1762368863208",
+    "date_closed": "1762368863208",
+    "date_done": "1762368863208",
+    "archived": false,
+    "creator": {
+        "id": 82153009,
+        "username": "Maria Eduarda Silva Lima",
+        "color": "#8ac34a",
+        "email": "mariaed.lima@ati.pe.gov.br",
+        "profilePicture": null
+    },
+    "assignees": [
+        {
+            "id": 96788365,
+            "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+            "color": "",
+            "initials": "AP",
+            "email": "clickup.adm@ati.pe.gov.br",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+        }
+    ],
+    "group_assignees": [],
+    "watchers": [
+        {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "color": "#000",
+            "initials": "MA",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "profilePicture": null
+        },
+        {
+            "id": 82153009,
+            "username": "Maria Eduarda Silva Lima",
+            "color": "#8ac34a",
+            "initials": "ML",
+            "email": "mariaed.lima@ati.pe.gov.br",
+            "profilePicture": null
+        },
+        {
+            "id": 96788365,
+            "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+            "color": "",
+            "initials": "AP",
+            "email": "clickup.adm@ati.pe.gov.br",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+        }
+    ],
+    "checklists": [],
+    "tags": [],
+    "parent": null,
+    "top_level_parent": null,
+    "priority": null,
+    "due_date": null,
+    "start_date": null,
+    "points": null,
+    "time_estimate": null,
+    "custom_fields": [
+        {
+            "id": "42a142d4-7915-49c2-96a5-4ef2f620eed6",
+            "name": "Acompanhar Concurso ATI 2024 - AGTIC",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "54ebabc4-a61e-406e-8547-837432080c71",
+                        "name": "DGI/GGP - Acompanhar Concurso ATI 2024 - AGTIC",
+                        "color": "#AF7E2E",
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1739973129549",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "06d01518-eb74-4258-bf0f-989ef445b6e3",
+            "name": "Análise GPD",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1730833080445",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "31d2f5a2-9b6d-424f-8ad1-30676416bb44",
+            "name": "Aprovador",
+            "type": "signature",
+            "type_config": {},
+            "date_created": "1730827943037",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "88ef7b8a-e13f-40e3-8fe0-df1a235bfb8f",
+            "name": "Atualização de Documentos",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "a7fedd08-6481-4887-b2c1-efc171955416",
+            "name": "Budget Impact",
+            "type": "text",
+            "type_config": {},
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "4175a978-73a3-4a5a-9cec-52f179f87902",
+            "name": "Communications Impact",
+            "type": "text",
+            "type_config": {},
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "363bdeb4-1339-46cc-a75c-57b3d6d3cf31",
+            "name": "Contractor",
+            "type": "users",
+            "type_config": {
+                "single_user": true,
+                "include_groups": null,
+                "include_guests": false,
+                "include_team_members": false
+            },
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "c885b0ea-71c7-4e13-9fe4-d058471be9fc",
+            "name": "Custo",
+            "type": "currency",
+            "type_config": {
+                "default": null,
+                "precision": 2,
+                "currency_type": "BRL"
+            },
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "925f60ce-fb3b-4e7f-8f74-204d8bed37a8",
+            "name": "Data Inicial Repactuada",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1730816012264",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "ee53c972-e12b-4995-820a-1693e3b400d8",
+            "name": "Data da submissão ",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1738085916685",
+            "hide_from_guests": false,
+            "value": "1762283250789",
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "10ae76c0-1e54-40cc-8fe6-1370dcf0bdeb",
+            "name": "Data de Vencimento Repactuada",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1730816078920",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "24ed049e-d7c4-40a4-b3d2-497b02af7080",
+            "name": "E-mail ",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1754316999517",
+            "hide_from_guests": false,
+            "value": "priscilamoraes.ses@gmail.com",
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "9b09d319-cada-469e-93d0-0b23c6795cb5",
+            "name": "Engineer",
+            "type": "users",
+            "type_config": {
+                "single_user": false,
+                "include_groups": null,
+                "include_guests": false,
+                "include_team_members": false
+            },
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "b93dd9b8-f7c6-4eec-ad42-5ea97032c760",
+            "name": "Entregas",
+            "type": "tasks",
+            "type_config": {
+                "fields": []
+            },
+            "date_created": "1730815264224",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "f8995007-39e7-4a3a-9fc8-a008e27ffddb",
+            "name": "GerARPC",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "f5711ed6-01fb-4abc-9805-b6f0a4843552",
+                        "name": "GTD",
+                        "color": "#FF4081",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "79c5e085-f464-4a9c-8f91-38d75d6cce88",
+                        "name": "GSC",
+                        "color": "#0231E8",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "16ed475b-e6f9-42e0-97a5-9bd6a0e3f043",
+                        "name": "ATAS",
+                        "color": "#e50000",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "c5915c52-d8fc-4be5-850c-3167f5b72c1f",
+                        "name": "ARPC",
+                        "color": "#2ecd6f",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "f85a5b1e-d5ea-430c-a4ff-abc841a5bcbe",
+                        "name": "GSI",
+                        "color": "#e50000",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "ac4e5bdf-1bae-4691-a7b5-e6d0866a5aed",
+                        "name": "GDA",
+                        "color": "#FF4081",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "07777426-fd8d-44a1-afd1-84628e010245",
+                        "name": "SCI",
+                        "color": "#e50000",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "d5f2d7bd-bc94-496c-9dd8-e51b547096fe",
+                        "name": "GRC",
+                        "color": "#ff7171",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "32ae3189-d120-440a-a767-0f974e76cb90",
+                        "name": "GIS",
+                        "color": "#f900ea",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "2ad6b3ac-0733-4545-a2c4-43466ab61f57",
+                        "name": "GIN",
+                        "color": null,
+                        "orderindex": 9
+                    }
+                ]
+            },
+            "date_created": "1731695723691",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "da727945-4da6-4234-b6d4-0584419a8290",
+            "name": "Gerência",
+            "type": "labels",
+            "type_config": {
+                "options": [
+                    {
+                        "id": "05a49e69-e179-472d-86d8-d7c2f87e6351",
+                        "label": "DCI",
+                        "color": "#ff7800",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "df2ef618-0129-4ce7-a206-2b67a4495015",
+                        "label": "DTD",
+                        "color": "#834848",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "f8e67963-490b-4292-aba7-c7164a97c75b",
+                        "label": "GRGD",
+                        "color": "#9b59b6",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "3ee9dac6-7d0e-45ad-9a10-792327cd8e10",
+                        "label": "GPD",
+                        "color": "#FF4081",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "6628d162-0be5-4ff9-a260-a263a697eb29",
+                        "label": "ASCOM",
+                        "color": "#FF7FAB",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "e4219cb5-acd5-4a03-9cf5-bb4f8d1be9b0",
+                        "label": "GCC",
+                        "color": "#7C4DFF",
+                        "orderindex": 5
+                    }
+                ]
+            },
+            "date_created": "1736447974366",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "e940250f-517a-479c-aa0f-7094f4f084d5",
+            "name": "Gerência Formulários ",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "d85bc377-1ceb-459f-89a6-d3509f9acd8f",
+                        "name": "GPD",
+                        "color": "#f39f71",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "4b606f05-0020-44b4-b000-f07edbe86bc8",
+                        "name": "GGT",
+                        "color": "#fb9c9c",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "2d061cca-318a-44cc-b327-0ee3b2a13714",
+                        "name": "GCC",
+                        "color": "#3082B7",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "1a458f42-c569-4ac1-867b-285392d112e0",
+                        "name": "GRGD",
+                        "color": "#0231E8",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "fc602f18-656d-4c91-8087-f29262205519",
+                        "name": "GDA",
+                        "color": "#ff7171",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "877b6fbc-5fb8-4d21-afd0-ba5fb9573d22",
+                        "name": "GSI",
+                        "color": "#f53030",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "4a6753d2-3004-4bb4-917b-fb04c5786f7a",
+                        "name": "ATAS",
+                        "color": "#f53030",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "75f1db44-b995-4547-9438-0add7d5218f0",
+                        "name": "GTD",
+                        "color": "#ff7171",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "a011351b-6349-4281-ad2d-06fd83425b87",
+                        "name": "GSC",
+                        "color": "#0231E8",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "3e68277e-3bfc-4730-b371-1df15cf397ec",
+                        "name": "SCI",
+                        "color": "#f53030",
+                        "orderindex": 9
+                    },
+                    {
+                        "id": "94bcfec7-9383-4a9e-b88a-302c7bc6e21f",
+                        "name": "GRC",
+                        "color": "#ff7171",
+                        "orderindex": 10
+                    },
+                    {
+                        "id": "575f443d-0ecf-47d5-b7af-fe6e1e191fba",
+                        "name": "GIS",
+                        "color": "#0231E8",
+                        "orderindex": 11
+                    },
+                    {
+                        "id": "4f721f60-7ed6-4e43-9787-f151909b8834",
+                        "name": "GAF",
+                        "color": "#f53030",
+                        "orderindex": 12
+                    },
+                    {
+                        "id": "964329ab-74db-4c08-9ae5-86c4318a17e2",
+                        "name": "GDQ",
+                        "color": "#ff7171",
+                        "orderindex": 13
+                    },
+                    {
+                        "id": "f2f78197-5109-44ab-971f-9f10e3e24515",
+                        "name": "GPL",
+                        "color": "#0231E8",
+                        "orderindex": 14
+                    },
+                    {
+                        "id": "86d98ee5-bdd0-4046-b200-eb785b7a3b1f",
+                        "name": "GGP",
+                        "color": "#3082b7",
+                        "orderindex": 15
+                    },
+                    {
+                        "id": "e63b4d0c-cb02-4ba5-a87c-732d68ee2c6b",
+                        "name": "GIN",
+                        "color": "#FF4081",
+                        "orderindex": 16
+                    }
+                ]
+            },
+            "date_created": "1754936862318",
+            "hide_from_guests": false,
+            "value": 1,
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "1b14bd5c-eda2-4625-9af6-a5a9cb9a1f09",
+            "name": "Gerëncia",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "e2c27e80-ea97-45f7-ac97-ecefa938ca15",
+                        "name": "GPD",
+                        "color": "#f39f71",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "b79ce764-8e59-43e5-a394-701c1aebfe39",
+                        "name": "GGT",
+                        "color": "#fb9c9c",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "2a07ba6c-fc4e-4e17-b7ec-9b03a17335d3",
+                        "name": "GCC",
+                        "color": "#3082B7",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "efebe7f6-a0d8-4353-92ec-6f689783b8d9",
+                        "name": "GRGD",
+                        "color": "#0231E8",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "88a1ce66-471d-4e2a-b308-3cfd5c5c095d",
+                        "name": "GDA",
+                        "color": "#ff7171",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "80e8a4a8-84fc-4864-a0a0-201e4d3dd6d0",
+                        "name": "GSI",
+                        "color": "#f53030",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "7f98f7fd-57eb-4560-980f-69f7f486c905",
+                        "name": "ATAS",
+                        "color": "#f53030",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "8cd8ec5b-5958-43a2-a849-f92b033cf301",
+                        "name": "GTD",
+                        "color": "#ff7171",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "45659a35-c86e-4864-a952-31d46229c54a",
+                        "name": "GSC",
+                        "color": "#0231E8",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "e0ca865b-0be9-4fc6-b642-0e154be836b7",
+                        "name": "SCI",
+                        "color": "#f53030",
+                        "orderindex": 9
+                    },
+                    {
+                        "id": "a6fe8329-e359-49b9-bf59-68cb216b0df6",
+                        "name": "GRC",
+                        "color": "#ff7171",
+                        "orderindex": 10
+                    },
+                    {
+                        "id": "6dcfb6e3-c55b-42e2-817c-e6bec06bfe4b",
+                        "name": "GIS",
+                        "color": "#0231E8",
+                        "orderindex": 11
+                    },
+                    {
+                        "id": "987eea2f-043c-47cf-a223-0326b2749945",
+                        "name": "GAF",
+                        "color": "#f53030",
+                        "orderindex": 12
+                    },
+                    {
+                        "id": "91364475-de75-4d57-a5c0-641135200ebc",
+                        "name": "GDQ",
+                        "color": "#ff7171",
+                        "orderindex": 13
+                    },
+                    {
+                        "id": "340b029e-3f63-4814-a881-a95c13912073",
+                        "name": "GPL",
+                        "color": "#0231E8",
+                        "orderindex": 14
+                    },
+                    {
+                        "id": "0f334ab1-c3f1-4e2d-abb7-900a140e533d",
+                        "name": "GGP",
+                        "color": "#3082b7",
+                        "orderindex": 15
+                    },
+                    {
+                        "id": "d1828ede-9bd8-4d02-a375-8f5e6a5459a8",
+                        "name": "DPG",
+                        "color": "#bf55ec",
+                        "orderindex": 16
+                    },
+                    {
+                        "id": "e6e83bc5-162d-4cee-b8f2-ae97c3e398ec",
+                        "name": "GIN",
+                        "color": "#FF4081",
+                        "orderindex": 17
+                    },
+                    {
+                        "id": "322d9a1d-972e-45d9-8044-db37efc27d5d",
+                        "name": "GSE",
+                        "color": "#3BAA00",
+                        "orderindex": 18
+                    },
+                    {
+                        "id": "839c3b6b-2b3f-49cd-bec1-18590d4465a1",
+                        "name": "GAS",
+                        "color": "#5D16F2",
+                        "orderindex": 19
+                    },
+                    {
+                        "id": "37c104b1-2c03-4b8d-b62f-2c35af18536f",
+                        "name": "SSD",
+                        "color": "#BF9528",
+                        "orderindex": 20
+                    },
+                    {
+                        "id": "3cefecc8-1796-4e15-b1b6-b5a6718bd93b",
+                        "name": "GSA",
+                        "color": "#C93265",
+                        "orderindex": 21
+                    },
+                    {
+                        "id": "0ec4b879-8098-49a9-a6c2-7d2037257d68",
+                        "name": "DCI",
+                        "color": "#b6b6ff",
+                        "orderindex": 22
+                    },
+                    {
+                        "id": "dc83adde-2a4f-46bf-892f-2f5e40038b71",
+                        "name": "GSGD",
+                        "color": "#aec0f5",
+                        "orderindex": 23
+                    }
+                ]
+            },
+            "date_created": "1726062894800",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "b49463c6-68d0-4c87-b21f-c42df18cf097",
+            "name": "Justificativa",
+            "type": "text",
+            "type_config": {},
+            "date_created": "1730815743677",
+            "hide_from_guests": false,
+            "value": "DPG/GGT - Projeto Mães de Pernambuco\n\n",
+            "value_richtext": "{\"ops\":[{\"insert\":\"DPG/GGT - Projeto Mães de Pernambuco\"},{\"attributes\":{\"block-id\":\"block-e0a3a360-a99c-4396-999f-dd76cd1e6b72\"},\"insert\":\"\\n\"},{\"attributes\":{\"block-id\":\"block-4134ee31-9636-4450-a890-47a037b177a9\"},\"insert\":\"\\n\"}]}",
+            "required": false
+        },
+        {
+            "id": "b0aa8c4e-8161-4f77-98cc-f9d70cab3f02",
+            "name": "Location",
+            "type": "location",
+            "type_config": {},
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "c4c3f20b-7a0d-464c-912b-6de2a10a4dbd",
+            "name": "Meta",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1742238608862",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "381602e2-03a1-49a7-b85d-c166e5eff7fd",
+            "name": "Nome",
+            "type": "short_text",
+            "type_config": {
+                "ai": {
+                    "prompt": "tipos de complexidade do campo\n",
+                    "source": "custom"
+                }
+            },
+            "date_created": "1754317771870",
+            "hide_from_guests": false,
+            "value": "Miriam Priscila de Moraes Melo",
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "c27b39e5-e4c7-43d0-ae4d-7a696b4444d1",
+            "name": "Nome do Projeto - Oficial",
+            "type": "tasks",
+            "type_config": {
+                "fields": []
+            },
+            "date_created": "1730817462780",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "ae9e3883-b905-48e5-89bf-0911414f54ff",
+            "name": "Nomo do Projeto Oficial",
+            "type": "tasks",
+            "type_config": {
+                "fields": []
+            },
+            "date_created": "1730817415564",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "55b9c499-921a-4075-9589-e4abb7d5df3b",
+            "name": "Novo Orçamento",
+            "type": "currency",
+            "type_config": {
+                "precision": 2,
+                "currency_type": "BRL"
+            },
+            "date_created": "1730815140137",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "73e729c6-cbb4-4346-ba96-d0837d0ae887",
+            "name": "Orçamento Original",
+            "type": "currency",
+            "type_config": {
+                "precision": 2,
+                "currency_type": "BRL"
+            },
+            "date_created": "1730816947398",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "f34fd2e8-4952-4717-b929-073fbf5c9bf6",
+            "name": "Other Impacts",
+            "type": "text",
+            "type_config": {},
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "42c7f9b9-103b-4431-9cde-82197310c5a5",
+            "name": "Qtd de Encontros Gerências",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "0e0e6a7b-a89a-464b-8a6e-0aba7db14a93",
+                        "name": "GDA",
+                        "color": "#02BCD4",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "f8782f36-64e0-4599-9571-0a187093e9db",
+                        "name": "GSI",
+                        "color": "#02BCD4",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "9d8c0c92-4fa6-48c1-b1c4-45ffcb692e99",
+                        "name": "DIC",
+                        "color": "#02BCD4",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "98cceb33-9894-4ba7-bf0a-b26aee3c679c",
+                        "name": "DPG",
+                        "color": "#02BCD4",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "07f26fdf-c283-4b99-bb19-cb9da8cd1f99",
+                        "name": "DTD",
+                        "color": "#02BCD4",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "e7b7ec73-80cf-4987-b5b5-c932a02b82b1",
+                        "name": "DGI",
+                        "color": "#02BCD4",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "06a88998-4d92-46d3-ba48-93cf43f7d9dd",
+                        "name": "DCI",
+                        "color": "#02BCD4",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "12a83e3a-3702-456c-89d7-7041630d4062",
+                        "name": "GGT",
+                        "color": "#02BCD4",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "858d1d70-f86c-43cc-9571-f2b225f523c7",
+                        "name": "GCC",
+                        "color": "#02BCD4",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "c1c37197-b9e4-417e-b1b0-1bbdb050a647",
+                        "name": "GIN",
+                        "color": "#02BCD4",
+                        "orderindex": 9
+                    },
+                    {
+                        "id": "13d99e13-9bf4-4c14-9b37-23a6a72eca04",
+                        "name": "GRC",
+                        "color": "#02BCD4",
+                        "orderindex": 10
+                    },
+                    {
+                        "id": "5fa6fad4-0f6f-4289-8e98-9ac40774a74b",
+                        "name": "GTD",
+                        "color": "#02BCD4",
+                        "orderindex": 11
+                    },
+                    {
+                        "id": "cf57876d-4d21-4d39-8b93-78d2e497f74a",
+                        "name": "GAF",
+                        "color": "#02BCD4",
+                        "orderindex": 12
+                    },
+                    {
+                        "id": "6346169e-49e7-4b4b-9af5-e5e75d46c246",
+                        "name": "GPD",
+                        "color": "#02BCD4",
+                        "orderindex": 13
+                    },
+                    {
+                        "id": "dde4829d-3078-4c52-ab80-a73b329a0fc5",
+                        "name": "GRGD",
+                        "color": "#02BCD4",
+                        "orderindex": 14
+                    },
+                    {
+                        "id": "8d3150e4-5434-46a3-b388-a4097f14a0b4",
+                        "name": "GIS",
+                        "color": "#02BCD4",
+                        "orderindex": 15
+                    },
+                    {
+                        "id": "d40a575b-957d-412a-a9c5-1b505c2c5ead",
+                        "name": "SCI",
+                        "color": "#02BCD4",
+                        "orderindex": 16
+                    },
+                    {
+                        "id": "43ee9536-bcb1-43df-b86f-1a12b5d5bbab",
+                        "name": "GDQ",
+                        "color": "#02BCD4",
+                        "orderindex": 17
+                    },
+                    {
+                        "id": "053ff0e5-1e0c-4958-b9c9-7f9f9fba1a56",
+                        "name": "GPL",
+                        "color": "#02BCD4",
+                        "orderindex": 18
+                    },
+                    {
+                        "id": "cfdcfb49-0e22-4784-9cd1-c2dd0543d7ed",
+                        "name": "GGP",
+                        "color": "#02BCD4",
+                        "orderindex": 19
+                    },
+                    {
+                        "id": "047c233a-c064-4c99-a55c-79c18d3c77fa",
+                        "name": "GSC",
+                        "color": "#02BCD4",
+                        "orderindex": 20
+                    },
+                    {
+                        "id": "cbea2690-339f-4372-a447-dcd67dfca5d7",
+                        "name": "ATAS",
+                        "color": "#02BCD4",
+                        "orderindex": 21
+                    },
+                    {
+                        "id": "bb4da8dc-9960-4485-8cd4-943babbdb3e0",
+                        "name": "PRESI",
+                        "color": "#02BCD4",
+                        "orderindex": 22
+                    },
+                    {
+                        "id": "45ac60e7-133f-4d36-85d1-30816e7ef522",
+                        "name": "GSE",
+                        "color": "#02BCD4",
+                        "orderindex": 23
+                    },
+                    {
+                        "id": "d2b1ea06-cfdc-44a1-9ece-c089dfcfcc0a",
+                        "name": "SSD",
+                        "color": "#02BCD4",
+                        "orderindex": 24
+                    },
+                    {
+                        "id": "8db3daac-91c8-45da-be42-3140ccc94790",
+                        "name": "GAS",
+                        "color": "#0091ff",
+                        "orderindex": 25
+                    },
+                    {
+                        "id": "64b27a6f-b82a-4b3c-a6ca-16afce2f12d2",
+                        "name": "GSM",
+                        "color": "#3e63dd",
+                        "orderindex": 26
+                    },
+                    {
+                        "id": "f00f949b-61f0-4dd4-a8c1-7ccd681bd909",
+                        "name": "GOF",
+                        "color": "#0091ff",
+                        "orderindex": 27
+                    },
+                    {
+                        "id": "45334d93-642b-40cb-b504-1f5a2b3459df",
+                        "name": "GSA",
+                        "color": "#0091ff",
+                        "orderindex": 28
+                    }
+                ]
+            },
+            "date_created": "1738936764290",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "ab102ae8-64a5-4632-bd91-08300620b0fb",
+            "name": "Resource Impact",
+            "type": "text",
+            "type_config": {},
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "d2fe5aba-3300-4765-8e31-0b4a0e640c52",
+            "name": "Revisão",
+            "type": "users",
+            "type_config": {
+                "single_user": false,
+                "include_groups": true,
+                "include_guests": true,
+                "include_team_members": true
+            },
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "d3ccb77f-3356-41a8-9961-633a1ed08219",
+            "name": "Scope Impact",
+            "type": "text",
+            "type_config": {},
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "60d2cdcc-4d5d-46d4-b98a-159db6d4af41",
+            "name": "Solicitante",
+            "type": "users",
+            "type_config": {
+                "single_user": true,
+                "include_groups": false,
+                "include_guests": false,
+                "include_team_members": true
+            },
+            "date_created": "1737723354334",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "1b774617-acb3-4ccc-a8be-d2407c2eb733",
+            "name": "Timeline Impact",
+            "type": "text",
+            "type_config": {},
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "20f211e7-47bc-41c2-b0f0-cfeaa020ce8a",
+            "name": "Tipo de Mudança",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "f1369bad-1d92-4a50-ac7c-b779ec99a07e",
+                        "name": "Entregas/Prazo",
+                        "color": "#2ecd6f",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "1ee3150b-27cb-4fc8-aeec-dd89dae488f0",
+                        "name": "Orçamento",
+                        "color": "#E65100",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "fc260151-bef9-4b62-a504-d3ee841bfe11",
+                        "name": "Gerente de Projetos",
+                        "color": "#0231E8",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "4d7712b3-a78a-49c9-8d56-f503ddaf2e97",
+                        "name": "Status",
+                        "color": "#1bbc9c",
+                        "orderindex": 3
+                    }
+                ]
+            },
+            "date_created": "1730731035698",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "852028ae-515d-43c0-95d9-a9f1e18016a9",
+            "name": "Tipo de Mudança",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "9b948174-fe5f-40eb-9cf7-51b8d1daf9fd",
+                        "name": "Entrega - Atividades",
+                        "color": null,
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "546301b9-6331-4582-ba25-a78c4599e08a",
+                        "name": "Prazo",
+                        "color": null,
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "aed9de7e-2960-43bb-8c7c-1b291129a0d6",
+                        "name": "Gerente",
+                        "color": null,
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "1561091e-92ba-45e7-b5aa-7d659939a54b",
+                        "name": "Orçamento",
+                        "color": null,
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "d71cd020-9c11-443e-b224-2e1f9fd00218",
+                        "name": "Status",
+                        "color": null,
+                        "orderindex": 4
+                    }
+                ]
+            },
+            "date_created": "1738090371671",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "bd369bcf-549f-4b5e-9e2d-be04e4c698d8",
+            "name": "Tipo de usuário",
+            "type": "labels",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "47ae6e6f-e174-4645-a842-09bedd275c66",
+                        "label": "Membro",
+                        "color": "#bf55ec",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "625178d0-8ea1-498d-af7f-923b19fc57a1",
+                        "label": "Convidado",
+                        "color": "#04A9F4",
+                        "orderindex": 1
+                    }
+                ]
+            },
+            "date_created": "1754317819849",
+            "hide_from_guests": false,
+            "value": [
+                "625178d0-8ea1-498d-af7f-923b19fc57a1"
+            ],
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "aacf5f9a-edcd-40c0-ad91-b40654c1c578",
+            "name": "projeto oficiallll",
+            "type": "tasks",
+            "type_config": {
+                "fields": []
+            },
+            "date_created": "1730817513809",
+            "hide_from_guests": false,
+            "required": false
+        }
+    ],
+    "dependencies": [],
+    "linked_tasks": [],
+    "locations": [],
+    "team_id": "9013340838",
+    "url": "https://app.clickup.com/t/86ad1a3yp",
+    "sharing": {
+        "public": false,
+        "public_share_expires_on": null,
+        "public_fields": [
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+        ],
+        "token": null,
+        "seo_optimized": false
+    },
+    "permission_level": "comment",
+    "list": {
+        "id": "901317494219",
+        "name": "Criação de Usuário",
+        "access": true
+    },
+    "project": {
+        "id": "901311244893",
+        "name": "hidden",
+        "hidden": true,
+        "access": true
+    },
+    "folder": {
+        "id": "901311244893",
+        "name": "hidden",
+        "hidden": true,
+        "access": true
+    },
+    "space": {
+        "id": "90139017551"
+    },
+    "_local_subtasks_count": 0
+}

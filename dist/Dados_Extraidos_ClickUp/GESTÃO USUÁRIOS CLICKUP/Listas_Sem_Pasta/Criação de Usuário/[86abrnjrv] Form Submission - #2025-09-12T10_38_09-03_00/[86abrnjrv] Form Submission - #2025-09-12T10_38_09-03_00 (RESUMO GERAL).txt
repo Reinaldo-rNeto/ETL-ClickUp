@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2025-09-12T10:38:09-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Joao Mendes Cunha Junior
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 12/09/2025
+ - E-mail : jose.rodolfo@qintess.com
+ - Gerência Formulários : GSC
+ - Justificativa: Qintess - Projeto Cidadão Amigo (SAS)
+
+ - Nome: Jose Rodolfo Lima da Silva
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+jose.rodolfo@qintess.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[15/09/2025 12:10] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para disponibilizar acesso ao diretório DIC/GSC Qintess - Projeto Cidadão Amigo (SAS)

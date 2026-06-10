@@ -1,0 +1,21 @@
+📌 TAREFA: Reunião SAD
+📊 STATUS: -
+👤 CRIADA POR: Bia Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Event Type: PROJETO
+ - Instância de Monitoramento: SAD
+ - Mês/Ano: 2025
+ - Qtd Encontros: ENCONTROSQTD_DASH
+ - Qtd de Encontros SAD: SAD
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

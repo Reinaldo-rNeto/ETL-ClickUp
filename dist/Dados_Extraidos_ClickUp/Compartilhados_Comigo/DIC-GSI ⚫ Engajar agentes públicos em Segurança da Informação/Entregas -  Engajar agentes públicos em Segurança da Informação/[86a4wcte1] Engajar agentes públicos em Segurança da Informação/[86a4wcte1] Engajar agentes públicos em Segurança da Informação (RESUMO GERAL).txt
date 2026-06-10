@@ -1,0 +1,28 @@
+📌 TAREFA: Engajar agentes públicos em Segurança da Informação
+📊 STATUS: CANCELADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 4
+
+📋 CAMPOS PERSONALIZADOS:
+ - Categoria do Projeto: Estratégico
+ - DashARPC: DIC
+ - Diretoria: DIC
+ - Diretoria ARP: DIC
+ - GerARPC: GSI
+ - Gerente do Projeto: Liliane Medeiros
+ - Gerëncia: GSI
+ - Iniciativas Estratégicas: 3.1.1 Desenvolver competências e cultura organizacional de aprendizado, colaboração e inovação
+ - Objetivo Estratégico: 3.1 Promover a mudança cultural e desenvolver as competências e capacidades para o Governo Digital
+ - Progresso: {'percent_complete': 50}
+ - Projeto: Engajar agentes públicos em Segurança da Informação
+ - Projeto: Solução HubBI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

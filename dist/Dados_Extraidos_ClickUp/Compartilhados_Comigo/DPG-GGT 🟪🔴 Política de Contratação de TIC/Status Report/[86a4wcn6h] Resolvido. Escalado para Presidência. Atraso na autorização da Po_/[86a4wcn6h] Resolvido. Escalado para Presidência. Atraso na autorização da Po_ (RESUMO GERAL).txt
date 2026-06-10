@@ -1,0 +1,22 @@
+📌 TAREFA: Resolvido. Escalado para Presidência. Atraso na autorização da Portaria transitória da  PGE. Esta na PGE há mais de 1 mês.
+📊 STATUS: COMPLETE
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Diretoria: DPG
+ - Gerëncia: GGT
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Política de Contratação de TIC
+ - Status Report _ Oficial: 🚨Impedimentos
+ - 🗓️ Data do Registro: 18/09/2024
+
+============================================================
+Atraso na autorização da portaria transitória da PGE
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

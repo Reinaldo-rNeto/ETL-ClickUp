@@ -1,0 +1,31 @@
+📌 TAREFA: Plataforma Unificada RAG e IA
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 10
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.3.2 (Meta 2025) - Alcançar no mínimo 99,0% de disponibilidade do SEI
+ - Categoria do Projeto: Prioritário
+ - DashARPC: DIC
+ - Diretoria: DIC
+ - Diretoria ARP: DIC
+ - GerARPC: GIN
+ - Gerente do Projeto: Carol Melo
+ - Gerëncia: GIN
+ - Iniciativas Estratégicas: 1.3.3 Prover e aprimorar tecnologias para o desenvolvimento de soluções digitais
+ - Inicio Real: 02/05/2025
+ - Objetivo Estratégico: 1.3 Aprimorar e ampliar os serviços corporativos digitais
+ - Progresso: {'percent_complete': 70}
+ - Projeto: Plataforma Unificada RAG e IA
+ - Projeto: Plataforma Unificada RAG e IA
+ - Status OKR: Não apurado
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

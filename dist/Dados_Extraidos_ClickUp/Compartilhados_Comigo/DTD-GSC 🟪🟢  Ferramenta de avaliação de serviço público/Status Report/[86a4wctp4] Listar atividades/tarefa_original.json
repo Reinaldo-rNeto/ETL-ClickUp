@@ -1,0 +1,333 @@
+{
+    "id": "86a4wctp4",
+    "custom_id": null,
+    "custom_item_id": 0,
+    "name": "Listar atividades",
+    "text_content": null,
+    "description": null,
+    "status": {
+        "status": "in progress",
+        "id": "sc901305370365_CilY9Mmf",
+        "color": "#4466ff",
+        "type": "custom",
+        "orderindex": 1
+    },
+    "orderindex": "120312026.00000000000000000000000000000000",
+    "date_created": "1726067309425",
+    "date_updated": "1726067309425",
+    "date_closed": null,
+    "date_done": null,
+    "archived": false,
+    "creator": {
+        "id": 96788365,
+        "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+        "color": "",
+        "email": "clickup.adm@ati.pe.gov.br",
+        "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+    },
+    "assignees": [],
+    "group_assignees": [],
+    "watchers": [
+        {
+            "id": 96788365,
+            "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+            "color": "",
+            "initials": "AP",
+            "email": "clickup.adm@ati.pe.gov.br",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+        }
+    ],
+    "checklists": [],
+    "tags": [],
+    "parent": null,
+    "top_level_parent": null,
+    "priority": {
+        "color": "#f8ae00",
+        "id": "2",
+        "orderindex": "2",
+        "priority": "high"
+    },
+    "due_date": "1725433200000",
+    "start_date": "1725260400000",
+    "points": null,
+    "time_estimate": null,
+    "custom_fields": [
+        {
+            "id": "b66c241e-48f6-4a46-8522-d01dda0dcc36",
+            "name": "Entrega Relacionada",
+            "type": "drop_down",
+            "type_config": {
+                "options": [
+                    {
+                        "id": "6009af4b-ae7b-4684-81ab-62c7b509df74",
+                        "name": "1. Levantamento dos requisitos",
+                        "color": null,
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "a22fb8d3-af4d-4226-8148-809184ad672f",
+                        "name": "2. Desenvolvimento da solução",
+                        "color": null,
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "e7e70e81-f143-4cea-8f03-5ccff934151e",
+                        "name": "3. Implantação da solução em homologação",
+                        "color": null,
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "40d09861-6ac8-49ad-9f2a-808526eef171",
+                        "name": "4. Implantação da solução em produção",
+                        "color": null,
+                        "orderindex": 3
+                    }
+                ]
+            },
+            "date_created": "1726151104957",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "c4c3f20b-7a0d-464c-912b-6de2a10a4dbd",
+            "name": "Meta",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1742238608862",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "1fbbda1c-33f1-42f2-a8ed-c7c6ddc8f72c",
+            "name": "Observações",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1725630511725",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "9b77ed58-c27d-4471-b696-330878c0af6b",
+            "name": "Progresso",
+            "type": "automatic_progress",
+            "type_config": {
+                "tracking": {
+                    "subtasks": true
+                },
+                "complete_on": 3,
+                "subtask_rollup": false
+            },
+            "date_created": "1725657938328",
+            "hide_from_guests": false,
+            "value": {
+                "percent_complete": 0
+            },
+            "required": false
+        },
+        {
+            "id": "6a4e4072-5e6f-4e9e-b298-b665b6e84206",
+            "name": "Project Lead",
+            "type": "users",
+            "type_config": {
+                "single_user": true,
+                "include_groups": null,
+                "include_guests": false,
+                "include_team_members": false
+            },
+            "date_created": "1725630104093",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "1c4da0d6-408f-4b8b-918a-0767b48ab324",
+            "name": "Project Rating",
+            "type": "emoji",
+            "type_config": {
+                "count": 5,
+                "code_point": "1f44f"
+            },
+            "date_created": "1725630104093",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "ce370cac-3242-4175-8bc9-08db99c68f5d",
+            "name": "Status Contratacao",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "791f092f-c398-4538-bc15-48c02f04f682",
+                        "name": "ETP",
+                        "color": "#81B1FF",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "0dff6e1b-14c7-4005-9710-750e23e091ba",
+                        "name": "TR",
+                        "color": "#81B1FF",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "6143bfc7-29ac-42a9-b2ae-44b6c41a2488",
+                        "name": "Análise SAD",
+                        "color": "#efe890",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "abe3be3f-bd92-4632-9358-6e4e6cc1985a",
+                        "name": "Análise PGE",
+                        "color": "#9df1a3",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "1e55116f-43c2-4fb1-b278-b6281065d0b5",
+                        "name": "Pregão/Análise SAD",
+                        "color": "#f18383",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "165fd5a0-c49c-4e1b-a80d-ddf348c5b8c9",
+                        "name": "Pregão/Nova Análise SAD",
+                        "color": "#f18383",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "41e829af-c849-4b8b-81c7-7f4a56633a2f",
+                        "name": "Pregão/Análise PGE",
+                        "color": "#f18383",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "b84beeae-8492-4294-bca8-aaa30ac691c6",
+                        "name": "Pregão/Republicação do Edital",
+                        "color": "#f18383",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "1fbee5f8-e67d-425c-94ed-f632f0f0be77",
+                        "name": "Pregão/Ajuste do TR envio SAD",
+                        "color": "#f18383",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "35e02dce-7a58-4f9c-b4b5-7625d447a102",
+                        "name": "Adjudicação/Homologação",
+                        "color": "#f39f54",
+                        "orderindex": 9
+                    },
+                    {
+                        "id": "b6ae8b33-a81d-4f31-9462-94174be63d9c",
+                        "name": "ARP Publicada",
+                        "color": "#FF7FAB",
+                        "orderindex": 10
+                    }
+                ]
+            },
+            "date_created": "1740057668454",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "ec70b0c7-3fa9-40c9-8925-39b9bd6b0aeb",
+            "name": "Status Report _ Oficial",
+            "type": "drop_down",
+            "type_config": {
+                "default": 0,
+                "sorting": "manual",
+                "placeholder": null,
+                "options": [
+                    {
+                        "id": "a8ddeb77-19d9-4c72-a89d-81a4c884d86e",
+                        "name": "📝 Informação Geral do Projeto",
+                        "color": "#bf55ec",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "a8f32b28-b731-4ea1-bf5a-176a24e052c5",
+                        "name": "🚨Impedimentos",
+                        "color": "#e50000",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "78b4a335-471d-4c73-b671-b9ae39664b3b",
+                        "name": "🏃‍♀️ Encaminhamentos",
+                        "color": "#ff7800",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "02ee0172-57a1-4f1b-bd2e-a7174a510f0f",
+                        "name": "🧑‍💻 Responsável pelas Informações do Status Report",
+                        "color": "#667684",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "fa454d7f-01c0-455d-a2bb-146150c40437",
+                        "name": "🔍 Observações",
+                        "color": "#AF7E2E",
+                        "orderindex": 4
+                    }
+                ]
+            },
+            "date_created": "1725644261607",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "94f0516d-ff1c-47e5-b1ef-3aa6fa7a22be",
+            "name": "🗓️ Data do Registro",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1725630492345",
+            "hide_from_guests": false,
+            "required": false
+        }
+    ],
+    "dependencies": [],
+    "linked_tasks": [],
+    "locations": [],
+    "team_id": "9013340838",
+    "url": "https://app.clickup.com/t/86a4wctp4",
+    "sharing": {
+        "public": false,
+        "public_share_expires_on": null,
+        "public_fields": [
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+        ],
+        "token": null,
+        "seo_optimized": false
+    },
+    "permission_level": "comment",
+    "list": {
+        "id": "901305370365",
+        "name": "Status Report",
+        "access": true
+    },
+    "project": {
+        "id": "90132878627",
+        "name": "DTD-GSC 🟪🟢  Ferramenta de avaliação de serviço público",
+        "hidden": false,
+        "access": true
+    },
+    "folder": {
+        "id": "90132878627",
+        "name": "DTD-GSC 🟪🟢  Ferramenta de avaliação de serviço público",
+        "hidden": false,
+        "access": true
+    },
+    "space": {
+        "id": "90131678068"
+    },
+    "_local_subtasks_count": 0
+}

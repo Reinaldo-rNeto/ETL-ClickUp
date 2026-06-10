@@ -1,0 +1,22 @@
+📌 TAREFA: 2. Aplicação do Workshop das funcionalidades da Versão 3
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Início: 15/01/2024
+ - Descrição da Entrega: O whokshop de funcionalidades abrage a funcionalidade do software
+ - Inicio Real: 22/05/2024
+ - Projeto: Evolução do BigDataPE e do HubBI
+ - Termino Real: 22/05/2024
+ - 📈 Baseline: 🪧LINHA DE BASE 1
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

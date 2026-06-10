@@ -1,0 +1,18 @@
+📌 TAREFA: Disponibilizar Portal do Barramento (Catálogo de APIs)
+📊 STATUS: CANCELADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Bruno Queiroga
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Gerentes (Entregas): Bruno Queiroga
+ - Progresso: {'percent_complete': 0}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

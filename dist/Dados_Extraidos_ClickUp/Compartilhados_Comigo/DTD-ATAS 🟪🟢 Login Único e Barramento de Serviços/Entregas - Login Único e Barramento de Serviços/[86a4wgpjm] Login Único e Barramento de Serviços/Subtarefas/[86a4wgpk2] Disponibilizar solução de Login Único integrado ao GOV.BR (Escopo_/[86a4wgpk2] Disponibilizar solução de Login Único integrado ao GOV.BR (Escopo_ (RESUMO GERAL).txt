@@ -1,0 +1,21 @@
+📌 TAREFA: Disponibilizar solução de Login Único integrado ao GOV.BR (Escopo: Integração com Cadastro de Servidores e novas formas de autenticação (google,etc).
+📊 STATUS: CANCELADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Bruno Queiroga
+🌳 DEPENDENTES (Subtarefas atreladas): 2
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Início: 15/01/2024
+ - Gerentes (Entregas): Bruno Queiroga
+ - Observações: Entrega PO Liga
+ - Progresso: {'percent_complete': 0}
+ - Projeto: Evolução do BigDataPE e do HubBI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

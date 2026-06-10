@@ -1,0 +1,18 @@
+📌 TAREFA: Plano de Ação
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Matheus Aguiar
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 2
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Elaboração do  benchmarking das prods
+ - Progresso: {'percent_complete': 0}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

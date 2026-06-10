@@ -1,0 +1,20 @@
+📌 TAREFA: Implementação de novos fluxos de submissão e análise de documentos
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 29/11/2025
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Municipalização e Melhorias do Sistema SEI
+ - Termino Real: 20/03/2026
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

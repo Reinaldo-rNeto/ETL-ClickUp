@@ -1,0 +1,19 @@
+📌 TAREFA: Release 5: Aprimorar o questionário da FTTI, com integração com SGP
+📊 STATUS: CANCELADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Implantar novo questionário da força de trabalho de TIC, mantendo a lista de pessoas do NSI e preenchendo automaticamente a distribuição dos dados para envio à ATI. Considerando a integração com outros sistemas estaduais que possuam dados sobre a força de trabalho de TIC.
+ - Observações: Em reunião no dia 25/03, GTD informou que a entrega foi cancelada devido a dificuldade de integração, não vai ser possível fazer a integração com a SGP. Além disso, a equipe que trabalha no projeto vai ser desalocada a partir de junho/26 pra outro projeto. 
+ - Progresso: {'percent_complete': 0}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

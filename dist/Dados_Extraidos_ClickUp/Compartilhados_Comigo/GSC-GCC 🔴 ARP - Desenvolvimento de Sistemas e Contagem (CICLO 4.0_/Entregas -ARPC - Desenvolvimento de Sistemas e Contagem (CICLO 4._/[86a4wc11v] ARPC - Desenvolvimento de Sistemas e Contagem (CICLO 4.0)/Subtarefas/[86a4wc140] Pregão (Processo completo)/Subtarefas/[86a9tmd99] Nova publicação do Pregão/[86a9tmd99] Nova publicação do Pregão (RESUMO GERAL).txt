@@ -1,0 +1,19 @@
+📌 TAREFA: Nova publicação do Pregão
+📊 STATUS: CANCELADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 22/08/2025
+ - Progresso: {'percent_complete': 0}
+ - TesteReport: https://app.clickup.com/9013340838/v/dc/8cktan6-29433/8cktan6-31433
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

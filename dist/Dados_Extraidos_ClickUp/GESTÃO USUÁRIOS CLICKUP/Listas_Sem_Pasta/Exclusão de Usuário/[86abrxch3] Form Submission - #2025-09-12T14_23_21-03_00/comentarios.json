@@ -1,0 +1,70 @@
+[
+    {
+        "id": "90130169441380",
+        "comment": [
+            {
+                "text": "O usuário ",
+                "attributes": {}
+            },
+            {
+                "text": "paulo.jr@ati.pe.gov.br",
+                "attributes": {
+                    "link": "mailto:paulo.jr@ati.pe.gov.br"
+                }
+            },
+            {
+                "text": " foi reabilitado, uma vez que houve apenas a mudança de diretória, o usuário permanece usando a ferramenta com acesso ao diretório DGI/NDC.  ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-7e694978-4cdd-4acf-b1b0-cf1a4460982f"
+                }
+            }
+        ],
+        "comment_text": "O usuário paulo.jr@ati.pe.gov.br foi reabilitado, uma vez que houve apenas a mudança de diretória, o usuário permanece usando a ferramenta com acesso ao diretório DGI/NDC.  \n",
+        "user": {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "color": "#000",
+            "initials": "MA",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1758115397549",
+        "reply_count": 0
+    },
+    {
+        "id": "90130169202597",
+        "comment": [
+            {
+                "text": "Paulo Correia não faz mais parte de ATI-PE CLICKUP",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-58718796-cf76-41ce-a683-67df47a9dde7"
+                }
+            }
+        ],
+        "comment_text": "Paulo Correia não faz mais parte de ATI-PE CLICKUP\n",
+        "user": {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "color": "#000",
+            "initials": "MA",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1758052273602",
+        "reply_count": 0
+    }
+]

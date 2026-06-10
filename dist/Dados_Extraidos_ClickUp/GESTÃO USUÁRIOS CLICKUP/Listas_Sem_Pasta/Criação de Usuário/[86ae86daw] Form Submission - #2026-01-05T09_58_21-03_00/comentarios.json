@@ -1,0 +1,31 @@
+[
+    {
+        "id": "90130207735067",
+        "comment": [
+            {
+                "text": "Convite disponibilizado para a usuária, aguardando aceite para disponibilizar acesso ao diretório  DTD/GSC.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-d66fca07-8e8f-4b6c-9a1e-7d755ce5b0e6"
+                }
+            }
+        ],
+        "comment_text": "Convite disponibilizado para a usuária, aguardando aceite para disponibilizar acesso ao diretório  DTD/GSC.\n",
+        "user": {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "color": "#000",
+            "initials": "MA",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1767723340417",
+        "reply_count": 0
+    }
+]

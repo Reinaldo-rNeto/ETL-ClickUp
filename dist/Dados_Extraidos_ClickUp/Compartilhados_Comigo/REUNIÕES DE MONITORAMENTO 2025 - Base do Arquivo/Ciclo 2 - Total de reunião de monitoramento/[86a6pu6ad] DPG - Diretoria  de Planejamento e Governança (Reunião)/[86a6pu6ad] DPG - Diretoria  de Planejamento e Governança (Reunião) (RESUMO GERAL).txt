@@ -1,0 +1,24 @@
+📌 TAREFA: DPG - Diretoria  de Planejamento e Governança (Reunião)
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 19/02/2025
+ - Data do Agendamento: 19/02/2025
+ - Diretoria: DPG
+ - Event Type: OKR
+ - Instância de Monitoramento: Diretorias
+ - Mês/Ano: Ciclo 02
+ - Qtd Encontros: ENCONTROSQTD_DASH
+ - Qtd de Encontros Diretorias:  DPG
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

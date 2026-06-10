@@ -1,0 +1,17 @@
+📌 TAREFA: 7. Melhorias de uso e interface ( UX e UI) no BI e SEI.
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - 📈 Baseline: 🪧LINHA DE BASE 1
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,21 @@
+📌 TAREFA: Avaliação dos instrumentos de planejamento orçamentário (LOA, LDO e PPA) vigentes
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 3
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Início: 15/01/2024
+ - Inicio Real: 11/11/2024
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Plataforma de transformação Digital - Governança de Contratações
+ - Termino Real: 31/01/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

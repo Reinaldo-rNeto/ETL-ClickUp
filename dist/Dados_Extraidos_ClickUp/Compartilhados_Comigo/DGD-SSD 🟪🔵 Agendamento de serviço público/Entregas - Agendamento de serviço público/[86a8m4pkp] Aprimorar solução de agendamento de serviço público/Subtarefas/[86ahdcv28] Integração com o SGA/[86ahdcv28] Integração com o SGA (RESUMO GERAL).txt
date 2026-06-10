@@ -1,0 +1,18 @@
+📌 TAREFA: Integração com o SGA
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: José Henrique Lins
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 17/04/2026
+ - Progresso: {'percent_complete': 0}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

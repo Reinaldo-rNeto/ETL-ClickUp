@@ -1,0 +1,19 @@
+📌 TAREFA: 1. Implementação da estrutura base do Hub e da CAL
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 5
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 02/01/2023
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 30/07/2023
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

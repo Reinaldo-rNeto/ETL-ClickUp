@@ -1,0 +1,29 @@
+📌 TAREFA: ARPC - Desenvolvimento e manutenção de BIs
+📊 STATUS: SUSPENSO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 8
+
+📋 CAMPOS PERSONALIZADOS:
+ - ARP: GDA
+ - Acompanhado pela LIGA: LIGA
+ - Categoria do Projeto: Estratégico
+ - DashARPC: ARPC
+ - Diretoria: DPG
+ - Diretoria ARP: DIC
+ - GerARPC: ARPC
+ - Gerente do Projeto: Liliane Medeiros
+ - Gerëncia: GCC
+ - Iniciativas Estratégicas: 1.2.2 Promover a economicidade e sustentabilidade das contratações de TIC
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Progresso: {'percent_complete': 0}
+ - Projeto: ARPC - Desenvolvimento e manutenção de BIs
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,19 @@
+📌 TAREFA: Cadastro Completo de Fornecedores Pessoa Jurídica
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 19/02/2025
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 21/03/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

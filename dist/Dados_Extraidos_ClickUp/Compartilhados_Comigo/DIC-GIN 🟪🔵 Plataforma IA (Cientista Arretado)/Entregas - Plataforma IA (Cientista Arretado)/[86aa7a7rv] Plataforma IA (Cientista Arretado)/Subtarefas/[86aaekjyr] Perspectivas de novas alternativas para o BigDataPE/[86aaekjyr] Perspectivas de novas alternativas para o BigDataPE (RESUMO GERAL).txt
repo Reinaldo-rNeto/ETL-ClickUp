@@ -1,0 +1,19 @@
+📌 TAREFA: Perspectivas de novas alternativas para o BigDataPE
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: documento descrevendo as perspectivas do BigDataPE e novas alternativas considerando coexistência
+ - Progresso: {'percent_complete': 0}
+ - Projeto: Municipalização e Melhorias do Sistema SEI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

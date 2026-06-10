@@ -1,0 +1,20 @@
+📌 TAREFA: Processos de tratamento de dados da área administrativa inventariados
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Inventariar através de entrevistas, esclarecimentos e orientações especializadas 39 processos de negócio sob responsabilidade de 7 pontos focais da área administrativa. Pontos focais são as pessoas que respondem pelo tratamento de dados pessoais dos processos de negócio.
+ - Inicio Real: 01/07/2024
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 24/04/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

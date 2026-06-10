@@ -1,0 +1,18 @@
+📌 TAREFA: Release 1 - Gestão de Filas e Auditoria
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Escopo solicitado pelo Cliente: 			Auditoria 			Fila de Espera 			Gestão de agendas 			Gestão de APIs 			Gestão de configurações
+ - 📈 Baseline: 🪧LINHA DE BASE 4
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

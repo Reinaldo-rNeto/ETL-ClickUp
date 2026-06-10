@@ -1,0 +1,24 @@
+📌 TAREFA: DGI - Diretoria de Gestão Institucional (Reunião)
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 30/05/2025
+ - Data do Agendamento: 30/05/2025
+ - Diretoria: DGI
+ - Event Type: OKR
+ - Instância de Monitoramento: Diretorias
+ - Mês/Ano: Ciclo 05
+ - Qtd Encontros: ENCONTROSQTD_DASH
+ - Qtd de Encontros Diretorias:  DGI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

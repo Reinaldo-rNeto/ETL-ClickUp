@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2025-09-29T09:01:04-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Bruno Queiroga
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 29/09/2025
+ - E-mail : gustavo.santos@ati.pe.gov.br
+ - Gerência Formulários : ATAS
+ - Justificativa: Todos.
+
+ - Nome: Gustavo Oliveira dos Santos
+ - Tipo de usuário: Membro
+
+============================================================
+Tipo de usuário:
+Membro
+
+E-mail do novo usuário::
+gustavo.santos@ati.pe.gov.br
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[29/09/2025 16:42] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para disponibilizar acesso ao diretório DTD/ATAS

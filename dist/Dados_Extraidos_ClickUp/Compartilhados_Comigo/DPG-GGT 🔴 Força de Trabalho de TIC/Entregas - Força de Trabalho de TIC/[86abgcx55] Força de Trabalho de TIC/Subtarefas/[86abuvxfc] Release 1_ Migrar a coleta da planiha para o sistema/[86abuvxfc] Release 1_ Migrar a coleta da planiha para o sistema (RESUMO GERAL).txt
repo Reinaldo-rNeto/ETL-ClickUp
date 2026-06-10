@@ -1,0 +1,20 @@
+📌 TAREFA: Release 1: Migrar a coleta da planiha para o sistema
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Disponibilizar a coleta periódica da força de trabalho de TIC, substituindo a planilha atual, com envio de links de preenchimento, com painel de status, questionário online, validação de dados pelo administrador;
+ - Inicio Real: 09/07/2025
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 09/10/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

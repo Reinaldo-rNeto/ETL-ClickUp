@@ -1,0 +1,34 @@
+📌 TAREFA: Form Submission - #2025-03-18T11:01:07-03:00
+📊 STATUS: REPROVADA
+👤 CRIADA POR: ClickBot
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Catálogo de Serviços ATI: GPD/GRGD - Catálogo de Serviços ATI
+ - Data da submissão : 18/03/2025
+ - Diretoria - Análise da SMP: DPG
+ - Gerente de Projetos: José C. Pacheco Jr.
+ - Justificativa: Novas Datas para as atividades do projeto confome abaixo:
+
+17 a 28/04: Consolidação do conteúdo;
+31/03 a 04/04: Confecção da versão inicial;
+07 a 11/04: Validação e ajustes no catálogo;
+15/04: Exibição do catálogo e da apresentação institucional aos colaboradores da ATI.
+ - Solicitante: Clarissa Cesar Borba
+ - Tipo de Mudança: Prazo
+
+============================================================
+Data da submissão :
+2025-03-18T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (2)
+============================================================
+
+[20/03/2025 10:45] Helio Rocha comentou:
+  Liink do Status Report onde houve a repactuação
+
+[20/03/2025 11:03] Helio Rocha comentou:
+  Recusada, pois, confirmamos com Clarisse que as datas estão todas para o mês 04, quando a primeira linha deveria estar deveriam estar para o mês 03

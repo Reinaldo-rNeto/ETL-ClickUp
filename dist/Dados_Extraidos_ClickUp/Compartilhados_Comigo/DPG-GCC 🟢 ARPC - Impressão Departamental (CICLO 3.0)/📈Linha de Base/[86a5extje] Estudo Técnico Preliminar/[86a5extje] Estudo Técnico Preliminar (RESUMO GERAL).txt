@@ -1,0 +1,20 @@
+📌 TAREFA: Estudo Técnico Preliminar
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: integra a elaboração do DFD.
+ - Inicio Real: 23/10/2024
+ - Observações: DFD iniciou dia 23/10 e foi concluído dia 30/10. ETP iniciado dia 29/10.
+ - 📈 Baseline: 🪧LINHA DE BASE 1
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

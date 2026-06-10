@@ -1,0 +1,18 @@
+📌 TAREFA: 5. Documentação do BI do SEI Versão 1.0
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 2
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 17/03/2025
+ - 📈 Baseline: 🪧LINHA DE BASE 1
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

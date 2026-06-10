@@ -1,0 +1,17 @@
+📌 TAREFA: Processamento das fontes
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Ana Baihe
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progresso: {'percent_complete': 100}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

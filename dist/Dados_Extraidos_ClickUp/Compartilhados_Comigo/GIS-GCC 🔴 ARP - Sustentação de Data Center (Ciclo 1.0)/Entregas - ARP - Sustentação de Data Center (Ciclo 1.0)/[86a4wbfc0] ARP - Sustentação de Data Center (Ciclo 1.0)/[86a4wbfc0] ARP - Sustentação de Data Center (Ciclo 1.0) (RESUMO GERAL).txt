@@ -1,0 +1,33 @@
+📌 TAREFA: ARP - Sustentação de Data Center (Ciclo 1.0)
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 12
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.2.1. (Meta 2025) - Elaborar e realizar a pesquisa de satisfação de produtos e serviços (Baseline)
+ - ARP: GIS
+ - Acompanhado pela LIGA: LIGA
+ - Categoria do Projeto: Estratégico
+ - DashARPC: ARPC
+ - Diretoria: DPG
+ - Diretoria ARP: DCI
+ - GerARPC: ARPC
+ - Gerente do Projeto: Liliane Medeiros
+ - Gerëncia: GCC
+ - Iniciativas Estratégicas: 1.2.2 Promover a economicidade e sustentabilidade das contratações de TIC
+ - Inicio Real: 15/08/2024
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Progresso: {'percent_complete': 66.66666666666666}
+ - Projeto: ARP - Sustentação de Data Center (Ciclo 1.0)
+ - Status Contratacao: Análise SAD
+ - Status OKR: Não apurado
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

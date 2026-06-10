@@ -1,0 +1,31 @@
+[
+    {
+        "id": "90130174690988",
+        "comment": [
+            {
+                "text": "Convite disponibilizado para o usuário, sendo disponibilizado acesso aos diretórios DIC/GDA",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-6c120aa2-3975-4f35-aa7a-d26fa639ee6b"
+                }
+            }
+        ],
+        "comment_text": "Convite disponibilizado para o usuário, sendo disponibilizado acesso aos diretórios DIC/GDA\n",
+        "user": {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "color": "#000",
+            "initials": "MA",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1759343047574",
+        "reply_count": 0
+    }
+]

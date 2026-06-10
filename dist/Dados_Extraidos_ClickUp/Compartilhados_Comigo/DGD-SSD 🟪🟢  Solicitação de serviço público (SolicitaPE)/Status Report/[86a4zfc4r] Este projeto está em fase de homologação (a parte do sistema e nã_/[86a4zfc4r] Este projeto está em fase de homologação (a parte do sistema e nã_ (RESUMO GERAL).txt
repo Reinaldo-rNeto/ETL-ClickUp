@@ -1,0 +1,19 @@
+📌 TAREFA: Este projeto está em fase de homologação (a parte do sistema e não a do serviço) com previsão da versão 1, prevista para  lançamento junto com o Novo Portal.
+📊 STATUS: COMPLETE
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progresso: {'percent_complete': 100}
+ - Status Report _ Oficial: 📝 Informação Geral do Projeto
+ - 🗓️ Data do Registro: 08/10/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

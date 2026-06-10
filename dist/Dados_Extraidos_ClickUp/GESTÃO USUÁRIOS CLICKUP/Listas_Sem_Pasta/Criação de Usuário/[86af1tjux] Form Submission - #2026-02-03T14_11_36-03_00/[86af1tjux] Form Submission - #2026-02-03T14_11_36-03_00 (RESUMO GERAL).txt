@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2026-02-03T14:11:36-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Maria Calheiros
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 03/02/2026
+ - E-mail : gomesamantha2303@gmail.com
+ - Gerência Formulários : GGT
+ - Justificativa: GDA-GGT
+
+ - Nome: Samantha Kellen Alves Gomes
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+gomesamantha2303@gmail.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[06/02/2026 14:47] Matheus Aguiar comentou:
+  Convite disponibilizado para a usuária, Aguardando o aceite para fornecer os acesso as pastas do diretório DPG/GGT.

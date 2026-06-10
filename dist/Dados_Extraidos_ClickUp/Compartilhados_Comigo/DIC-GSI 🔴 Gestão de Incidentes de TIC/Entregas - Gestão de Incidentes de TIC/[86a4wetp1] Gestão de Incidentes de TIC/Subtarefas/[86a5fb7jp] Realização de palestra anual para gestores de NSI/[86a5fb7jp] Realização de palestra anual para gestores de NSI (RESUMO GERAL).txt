@@ -1,0 +1,17 @@
+📌 TAREFA: Realização de palestra anual para gestores de NSI.
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Matifa Pricila Nunes de Sousa
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progresso: {'percent_complete': 0}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,21 @@
+📌 TAREFA: 2. BigDataPE Entrega 01.2024
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 4
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Início: 15/01/2024
+ - Inicio Real: 08/04/2024
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Evolução do BigDataPE e do HubBI
+ - Termino Real: 24/05/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

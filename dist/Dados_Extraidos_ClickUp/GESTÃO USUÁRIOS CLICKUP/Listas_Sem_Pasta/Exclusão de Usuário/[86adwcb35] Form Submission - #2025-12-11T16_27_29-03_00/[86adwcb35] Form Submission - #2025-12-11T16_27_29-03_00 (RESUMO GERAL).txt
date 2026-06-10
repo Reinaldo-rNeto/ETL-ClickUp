@@ -1,0 +1,24 @@
+📌 TAREFA: Form Submission - #2025-12-11T16:27:29-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Daniele de Oliveira Feliciano
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 11/12/2025
+ - E-mail : david.ocarvalhoati@gmail.com
+ - Justificativa: Colaborador não faz mais parte do quadro da DIC
+
+ - Nome: David Oliveira Carvalho
+
+============================================================
+E-mail do usuário::
+david.ocarvalhoati@gmail.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[06/02/2026 15:27] Matheus Aguiar comentou:
+  Solicitação executada com êxito.

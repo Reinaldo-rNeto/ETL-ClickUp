@@ -1,0 +1,20 @@
+📌 TAREFA: Pesquisa de nível de conscientização em SI da ATI
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Início: 15/01/2024
+ - Macro Atividade: Implementação da estrutura para processamento de logs
+ - Progresso: {'percent_complete': 100}
+ - Projeto:  Engajar agentes públicos em Segurança da Informação
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,24 @@
+📌 TAREFA: Form Submission - #2025-04-03T14:30:15-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: ClickBot
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 03/04/2025
+ - Diretoria - Análise da SMP: DIC
+ - Gerente de Projetos: Aurelio Gabriele Neto
+ - Gestão da Proteção de Dados Pessoais: DIC/GSI - Gestão da Proteção de Dados Pessoais
+ - Justificativa: Para melhor entendimento dos marcos do projeto para o nível estratégico.
+ - Solicitante: Germano Guimarães
+ - Tipo de Mudança: Prazo
+
+============================================================
+Data da submissão :
+2025-04-03T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

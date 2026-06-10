@@ -1,0 +1,33 @@
+[
+    {
+        "id": "90130069202302",
+        "comment": [
+            {
+                "text": "Insert project comments here.",
+                "attributes": {
+                    "background-class": "yellow"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-2b9889f6-5e45-47fa-a10b-85e3cb430fd2"
+                }
+            }
+        ],
+        "comment_text": "Insert project comments here.\n",
+        "user": {
+            "id": 43784690,
+            "username": "Christian Rommel Gracias",
+            "email": "christian@virtualchampions.ph",
+            "color": "#7b68ee",
+            "initials": "CG",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/43784690_sIy.jpg"
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1664887536315",
+        "reply_count": 0
+    }
+]

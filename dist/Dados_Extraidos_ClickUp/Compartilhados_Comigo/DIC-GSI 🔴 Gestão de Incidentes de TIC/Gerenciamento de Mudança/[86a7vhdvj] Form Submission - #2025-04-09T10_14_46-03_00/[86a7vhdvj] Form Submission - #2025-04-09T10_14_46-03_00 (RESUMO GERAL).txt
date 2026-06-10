@@ -1,0 +1,26 @@
+📌 TAREFA: Form Submission - #2025-04-09T10:14:46-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: ClickBot
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 09/04/2025
+ - Diretoria - Análise da SMP: DIC
+ - Gerente de Projetos: Cristina Beltrão
+ - Justificativa: Incluir atividades relacionadas à implantação do MISP, plataforma de Inteligência e Compartilhamento de Ameças Cibernéticas. Uma iniciativa do Governo Federal e ABEP-TIC.
+ - Plataforma Unificada RAG e IA: DIC/GIN - Plataforma Unificada RAG e IA
+ - Solicitante: Germano Guimarães
+ - Tipo de Mudança: Prazo
+
+============================================================
+Data da submissão :
+2025-04-09T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[25/04/2025 09:22] Helio Rocha comentou:
+  Durante a avaliação da planilha enviada junto com a GMUD, surgiu a dúvida se as 4 atividades que constavam na planilha seriam acrescentadas ao projeto atual ou se substituiriam tarefas. Em contato direto com Germano, o mesmo confirmou que deveríamos acrescentar as 4 atividades às 16 já existentes no projeto.

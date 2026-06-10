@@ -1,0 +1,26 @@
+📌 TAREFA: Novo Portal de Serviços ao Cidadão
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 28/07/2025
+ - Data do Agendamento: 28/07/2025
+ - Diretoria: DTD
+ - Event Type: DTD
+ - Gerëncia: GSC
+ - Instância de Monitoramento: Gerências
+ - Mês/Ano: Ciclo 07
+ - Participantes Convidados: 
+ - Qtd de Projetos: PROJETOS_QTD
+ - ReuniaoDash: PRESIDI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

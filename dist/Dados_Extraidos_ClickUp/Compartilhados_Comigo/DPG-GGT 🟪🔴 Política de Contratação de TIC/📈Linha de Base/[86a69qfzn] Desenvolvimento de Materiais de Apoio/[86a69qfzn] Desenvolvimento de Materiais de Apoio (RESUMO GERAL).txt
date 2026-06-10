@@ -1,0 +1,17 @@
+📌 TAREFA: Desenvolvimento de Materiais de Apoio
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 1
+
+📋 CAMPOS PERSONALIZADOS:
+ - 📈 Baseline: 🪧LINHA DE BASE 2
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

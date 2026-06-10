@@ -1,0 +1,24 @@
+📌 TAREFA: Form Submission - #2025-04-01T12:06:15-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: ClickBot
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Agendamento de Serviço Público : DTD/GSC - Agendamento de Serviço Público 
+ - Data da submissão : 01/04/2025
+ - Diretoria - Análise da SMP: DGD
+ - Gerente de Projetos: Matifa Pricila Nunes de Sousa
+ - Justificativa: Devido ao avanço na maturidade da visão do projeto, um novo escopo fez-se necessário. Uma nova estimativa de esforço foi feita e já aprovada com a diretoria. O documento em anexo representa essas alterações.
+ - Solicitante: José Henrique Lins
+ - Tipo de Mudança: Prazo
+
+============================================================
+Data da submissão :
+2025-04-01T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

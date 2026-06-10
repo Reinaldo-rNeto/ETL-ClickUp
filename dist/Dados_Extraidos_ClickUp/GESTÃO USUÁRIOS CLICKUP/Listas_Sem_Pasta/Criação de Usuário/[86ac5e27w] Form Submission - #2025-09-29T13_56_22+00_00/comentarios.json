@@ -1,0 +1,31 @@
+[
+    {
+        "id": "90130174255905",
+        "comment": [
+            {
+                "text": "Em verificação com área para analisar a necessidade de disponibilização de licença membro para o usuário. Aguardando retorno. ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-f0ec97a1-5d4a-4181-9b97-2bff1a208c7b"
+                }
+            }
+        ],
+        "comment_text": "Em verificação com área para analisar a necessidade de disponibilização de licença membro para o usuário. Aguardando retorno. \n",
+        "user": {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "color": "#000",
+            "initials": "MA",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1759258987791",
+        "reply_count": 0
+    }
+]

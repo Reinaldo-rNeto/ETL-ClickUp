@@ -1,0 +1,17 @@
+📌 TAREFA: Análise SAD
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 2
+
+📋 CAMPOS PERSONALIZADOS:
+ - 📈 Baseline: 🪧LINHA DE BASE 1
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

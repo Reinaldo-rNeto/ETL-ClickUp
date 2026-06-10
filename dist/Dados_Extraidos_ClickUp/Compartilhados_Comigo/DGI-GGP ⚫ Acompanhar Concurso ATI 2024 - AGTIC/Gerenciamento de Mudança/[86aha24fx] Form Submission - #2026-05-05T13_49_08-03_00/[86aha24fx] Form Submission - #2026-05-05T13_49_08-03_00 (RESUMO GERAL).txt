@@ -1,0 +1,25 @@
+📌 TAREFA: Form Submission - #2026-05-05T13:49:08-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: Viviane Cabral Gomes
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Acompanhar Concurso ATI 2024 - AGTIC: DGI/GGP - Acompanhar Concurso ATI 2024 - AGTIC
+ - Data da submissão : 05/05/2026
+ - Diretoria - Análise da SMP: DGI
+ - Gerente de Projetos: Antonio da Paz Gomes da Costa Filho
+ - Justificativa: Projeto cancelado em virtude de ter sido realizado o concurso unificado do Estado de Pernambuco, conduzido pela SAD. Dessa forma, o ingresso dos novos servidores ATI deve acontecer em meados do 1º semestre, a DGI irá acompanhar novo Projeto Estratégico de Onboarding.
+
+ - Solicitante: Sandeson George da Silva
+ - Tipo de Mudança: Status
+
+============================================================
+Data da submissão :
+2026-05-05T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

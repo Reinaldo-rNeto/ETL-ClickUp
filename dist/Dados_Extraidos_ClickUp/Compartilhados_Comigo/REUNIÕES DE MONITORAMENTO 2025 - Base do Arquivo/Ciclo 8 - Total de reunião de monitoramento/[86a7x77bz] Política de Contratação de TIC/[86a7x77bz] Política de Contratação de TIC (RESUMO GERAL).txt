@@ -1,0 +1,27 @@
+📌 TAREFA: Política de Contratação de TIC
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Márcia Bion
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 26/08/2025
+ - Diretoria: DPG
+ - Event Type: DPG
+ - Gerëncia: GGT
+ - Instância de Monitoramento: Gerências
+ - Location: {'location': {'lat': -8.064996899999999, 'lng': -34.880349}, 'place_id': 'ChIJaXZt0bsYqwcRaKP5bgqoa9s', 'formatted_address': 'Santo Antônio, Recife - PE, 50030-230'}
+ - Mês/Ano: Ciclo 08
+ - Participantes Convidados: 
+ - Qtd de Projetos: PROJETOS_QTD
+ - ReuniaoDash: PRESIDI
+ - Team: Ana Baihe, Bárbara Ferraz, Márcia Bion, Monica Maria Costa Leal, Sylvia Victor, Geymison Salvador de Lima
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

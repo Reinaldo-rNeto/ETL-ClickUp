@@ -1,0 +1,20 @@
+📌 TAREFA: 9.2 Melhorias na recuperação dos dados do BigDataPE para o Greenplum do BI do SEI
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Matheus Aguiar
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Avaliação e melhoria de performance no passo: BigDataPE para GreenPlum Avaliação da estrutura de recuperação de dados até o armazenamento no GreenPlum.
+ - Inicio Real: 15/04/2025
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 14/08/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

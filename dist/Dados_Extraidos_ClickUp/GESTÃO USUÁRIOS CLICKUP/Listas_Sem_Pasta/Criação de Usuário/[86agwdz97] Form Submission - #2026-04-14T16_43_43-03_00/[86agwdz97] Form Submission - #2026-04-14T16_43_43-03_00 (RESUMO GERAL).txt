@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2026-04-14T16:43:43-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Viviane Cabral Gomes
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 14/04/2026
+ - E-mail : srssilva1964@gmail.com
+ - Gerência Formulários : GGP
+ - Justificativa: DGI/GGP
+
+ - Nome: Sandra Regina Santana da Silva
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+srssilva1964@gmail.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[20/04/2026 15:23] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para liberação dos acessos.

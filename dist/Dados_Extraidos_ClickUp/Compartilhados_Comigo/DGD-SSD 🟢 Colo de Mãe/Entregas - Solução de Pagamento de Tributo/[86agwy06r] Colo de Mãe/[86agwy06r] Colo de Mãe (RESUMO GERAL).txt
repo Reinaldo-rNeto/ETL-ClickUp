@@ -1,0 +1,31 @@
+📌 TAREFA: Colo de Mãe
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.3.2 (Meta 2025) - Alcançar no mínimo 99,0% de disponibilidade do SEI
+ - Acompanhado pela LIGA: LIGA
+ - Categoria do Projeto: Prioritário
+ - DashARPC: DTD
+ - Diretoria: DTD
+ - Diretoria ARP: DTD
+ - GerARPC: GSC
+ - Gerente do Projeto: Henrique Lins
+ - Gerëncia: GSC
+ - Iniciativas Estratégicas: 1.1.1 Aprimorar e ampliar a plataforma de Governo Digital
+ - Objetivo Estratégico: 1.1 Ampliar e simplificar o acesso a informações e serviços digitais do Governo
+ - Plano Operativo: Prioritário
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Colo de Mãe
+ - Status OKR: Não apurado
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

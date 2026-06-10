@@ -1,0 +1,19 @@
+📌 TAREFA: Validação do Instrumento de Coleta de Dados
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 08/01/2025
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 26/02/2025
+
+============================================================
+A realização do Piloto faz parte desta entrega.
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

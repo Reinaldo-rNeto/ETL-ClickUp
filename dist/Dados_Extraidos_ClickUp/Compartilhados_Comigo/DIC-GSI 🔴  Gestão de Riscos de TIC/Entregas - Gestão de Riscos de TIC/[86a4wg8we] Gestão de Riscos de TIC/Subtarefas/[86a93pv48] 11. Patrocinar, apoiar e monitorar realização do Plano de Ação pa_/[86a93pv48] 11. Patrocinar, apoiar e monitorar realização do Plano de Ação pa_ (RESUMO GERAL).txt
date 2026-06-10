@@ -1,0 +1,18 @@
+📌 TAREFA: 11. Patrocinar, apoiar e monitorar realização do Plano de Ação para a Rede Corporativa da ATI
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Matheus Aguiar
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Tratativas com os gestores dos ativos para a implementação do plano de ação
+ - Progresso: {'percent_complete': 0}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

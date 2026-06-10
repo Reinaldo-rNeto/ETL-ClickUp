@@ -1,0 +1,31 @@
+[
+    {
+        "id": "90130250119189",
+        "comment": [
+            {
+                "text": "Devido a necessidade da automação, foi realizado a criação da conta automacaopeintegrado como Membro associada a GTD.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-LGJMA3UAus"
+                }
+            }
+        ],
+        "comment_text": "Devido a necessidade da automação, foi realizado a criação da conta automacaopeintegrado como Membro associada a GTD.\n",
+        "user": {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "color": "#000",
+            "initials": "MA",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1776101937957",
+        "reply_count": 0
+    }
+]

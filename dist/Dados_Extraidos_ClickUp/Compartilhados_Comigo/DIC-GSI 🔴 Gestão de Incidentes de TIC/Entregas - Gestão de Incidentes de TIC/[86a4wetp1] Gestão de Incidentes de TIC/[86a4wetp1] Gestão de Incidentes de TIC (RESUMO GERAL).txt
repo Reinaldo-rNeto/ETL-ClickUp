@@ -1,0 +1,32 @@
+📌 TAREFA: Gestão de Incidentes de TIC
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 20
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.4.1 (Meta 2025) - Alcançar 60% de resultados-chaves em nível satisfatório
+ - Acompanhado pela LIGA: LIGA
+ - Categoria do Projeto: Estratégico
+ - DashARPC: DIC
+ - Diretoria: DIC
+ - Diretoria ARP: DIC
+ - GerARPC: GSI
+ - Gerente do Projeto: Germano Guimarães
+ - Gerëncia: GSI
+ - Iniciativas Estratégicas: 2.1.2 Definir e aperfeiçoar os processos de trabalho
+ - Inicio Real: 01/03/2024
+ - Objetivo Estratégico: 2.1 Aperfeiçoar o modelo de gestão e processos de trabalho
+ - Progresso: {'percent_complete': 55.00000000000001}
+ - Projeto: Gestão de Incidentes de TIC
+ - Projeto: Solução HubBI
+ - Status OKR: Não apurado
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

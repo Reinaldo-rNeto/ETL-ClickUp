@@ -1,0 +1,28 @@
+📌 TAREFA: ARPC - Sistema de Gestão Hospitalar
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 7
+
+📋 CAMPOS PERSONALIZADOS:
+ - ARP: GCC
+ - Categoria do Projeto: Prioritário
+ - DashARPC: ARPC
+ - Diretoria: DPG
+ - Diretoria ARP: DPG
+ - GerARPC: ARPC
+ - Gerente do Projeto: Liliane Medeiros
+ - Gerëncia: GCC
+ - Iniciativas Estratégicas: 1.2.2 Promover a economicidade e sustentabilidade das contratações de TIC
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Progresso: {'percent_complete': 0}
+ - Projeto: ARPC - Sistema de Gestão Hospitalar
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,31 @@
+📌 TAREFA: Disponibilizar Ferramenta Monitora PE (TARGET)
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Eduardo Salvador
+🌳 DEPENDENTES (Subtarefas atreladas): 6
+
+📋 CAMPOS PERSONALIZADOS:
+ - Acompanhado pela SAD: SAD
+ - Categoria do Projeto: Prioritário
+ - DashARPC: DPG
+ - Department:  Portfólio de Projetos
+ - Diretoria: DPG
+ - Gerente do Projeto: Eduardo Salvador
+ - Gerentes (Entregas): Eduardo Salvador
+ - Gerëncia: DPG
+ - Iniciativas Estratégicas: 1.2.2 Promover a economicidade e sustentabilidade das contratações de TIC
+ - Inicio Real: 21/01/2025
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Plano Operativo: PO LIGA
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Disponibilizar Ferramenta Monitora PE
+ - Termino Real: 27/05/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

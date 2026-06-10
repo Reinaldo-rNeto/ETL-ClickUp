@@ -1,0 +1,22 @@
+📌 TAREFA: Formalização do Grupo de Trabalho (SDS / ATI / SAD / CASA CIVIL)
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Início: 15/01/2024
+ - Inicio Real: 27/10/2023
+ - Progress: {'percent_complete': 100}
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Plataforma de transformação Digital - Governança de Contratações
+ - Término Real: 27/10/2023
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

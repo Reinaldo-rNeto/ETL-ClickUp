@@ -1,0 +1,31 @@
+📌 TAREFA: Form Submission - #2025-10-17T09:30:00-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Maria Eduarda Silva Lima
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 17/10/2025
+ - E-mail : caiobarbosa.ati@gmail.com
+ - Gerência Formulários : GGT
+ - Justificativa: DGP-GGT (todas as pastas DPG-GGT)
+Operação GGT
+GDA-GGT
+
+ - Nome: Cirus Caio Nóbrega Barbosa
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+caiobarbosa.ati@gmail.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[20/10/2025 11:19] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, sendo disponibilizado acesso aos diretórios DPG/GGT

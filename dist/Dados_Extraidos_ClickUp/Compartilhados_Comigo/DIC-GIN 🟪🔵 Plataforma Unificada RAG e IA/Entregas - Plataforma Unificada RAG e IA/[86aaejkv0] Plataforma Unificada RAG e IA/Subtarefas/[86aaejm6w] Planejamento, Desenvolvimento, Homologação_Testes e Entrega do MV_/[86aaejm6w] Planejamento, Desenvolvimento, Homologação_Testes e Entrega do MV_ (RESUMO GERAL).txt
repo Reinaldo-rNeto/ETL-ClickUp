@@ -1,0 +1,19 @@
+📌 TAREFA: Planejamento, Desenvolvimento, Homologação/Testes e Entrega do MVP (Versão 3)
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 4
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Consolidar a solução em ambiente de produção, com foco em estabilidade, usabilidade e aplicabilidade prática. Publicação da versão funcional em produção. Estabelecimento de rotinas de suporte e atualização. Documentação final e transferência de conhecimento.
+ - Progresso: {'percent_complete': 0}
+ - Projeto: Municipalização e Melhorias do Sistema SEI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,17 @@
+📌 TAREFA: Metodologia de Gestão de Projetos definida e divulgada.
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Monica Maria Costa Leal
+🌳 DEPENDENTES (Subtarefas atreladas): 3
+
+📋 CAMPOS PERSONALIZADOS:
+ - 📈 Baseline: 🪧LINHA DE BASE 1
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

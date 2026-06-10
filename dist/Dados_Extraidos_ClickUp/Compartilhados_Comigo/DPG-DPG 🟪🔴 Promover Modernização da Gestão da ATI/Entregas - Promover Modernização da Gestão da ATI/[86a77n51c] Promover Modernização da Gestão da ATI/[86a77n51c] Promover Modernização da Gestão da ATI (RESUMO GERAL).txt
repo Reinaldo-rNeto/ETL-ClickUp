@@ -1,0 +1,32 @@
+📌 TAREFA: Promover Modernização da Gestão da ATI
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Eduardo Salvador
+🌳 DEPENDENTES (Subtarefas atreladas): 11
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.4.1 (Meta 2025) - Alcançar 60% de resultados-chaves em nível satisfatório
+ - Acompanhado pela SAD: SAD
+ - Categoria do Projeto: Prioritário
+ - DashARPC: DPG
+ - Department:  Portfólio de Projetos
+ - Diretoria: DPG
+ - Gerente do Projeto: Eduardo Salvador
+ - Gerentes (Entregas): Eduardo Salvador
+ - Gerëncia: DPG
+ - Iniciativas Estratégicas: 3.3.1 Promover novos negócios e ampliar as fontes de recurso
+ - Inicio Real: 30/12/2024
+ - Objetivo Estratégico: 3.3 Promover a sustentabilidade financeira
+ - Plano Operativo: PO LIGA
+ - Progresso: {'percent_complete': 54.54545454545454}
+ - Projeto: Promover Modernização da Gestão da ATI
+ - Status OKR: Não apurado
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

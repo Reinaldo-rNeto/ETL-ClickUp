@@ -1,0 +1,17 @@
+📌 TAREFA: Portal (site / wiki) de Gestão de Projetos disponibilizado.
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Ana Baihe
+👥 RESPONSÁVEIS: Monica Maria Costa Leal
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - 📈 Baseline: 🪧LINHA DE BASE 3
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

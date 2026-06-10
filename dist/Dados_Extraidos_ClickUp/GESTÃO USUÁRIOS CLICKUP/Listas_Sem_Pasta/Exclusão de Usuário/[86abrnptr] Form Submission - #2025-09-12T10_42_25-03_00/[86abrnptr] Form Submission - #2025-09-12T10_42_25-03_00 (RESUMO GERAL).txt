@@ -1,0 +1,24 @@
+📌 TAREFA: Form Submission - #2025-09-12T10:42:25-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Joao Mendes Cunha Junior
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 12/09/2025
+ - E-mail : david.azevedo@qintess.com
+ - Justificativa: Colaborador não faz mais parte do time da ATI.
+
+ - Nome: David Pereira de Azevedo
+
+============================================================
+E-mail do usuário::
+david.azevedo@qintess.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[16/09/2025 16:49] Matheus Aguiar comentou:
+  David Azevedo não faz mais parte de ATI-PE CLICKUP.

@@ -1,0 +1,18 @@
+📌 TAREFA: Este projeto está em fase de elaboração do ETP/TR do novo portal único e a Interface do Portal está em desenvolvimento, com previsão de lançamento para o GovInPlay em 06.11.
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progresso: {'percent_complete': 100}
+ - 🗓️ Data do Registro: 08/10/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

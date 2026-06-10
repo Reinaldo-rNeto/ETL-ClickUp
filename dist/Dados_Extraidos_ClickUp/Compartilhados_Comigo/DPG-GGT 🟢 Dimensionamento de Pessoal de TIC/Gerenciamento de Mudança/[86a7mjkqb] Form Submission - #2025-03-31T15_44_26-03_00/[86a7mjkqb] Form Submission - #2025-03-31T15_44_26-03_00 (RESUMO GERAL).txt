@@ -1,0 +1,33 @@
+📌 TAREFA: Form Submission - #2025-03-31T15:44:26-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: ClickBot
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 31/03/2025
+ - Diretoria - Análise da SMP: DPG
+ - Gerente de Projetos: Ariadnes Nunes Dantas Rodrigues
+ - Justificativa: Repactuação do projeto aprovada por Eduardo Salvador em 26/03/2025, com novo prazo de encerramento em 15 de setembro de 2025 (acréscimo de 1 mês e 15 dias).
+
+Reajustar as entregas na execução respectivamente.
+
+- Coleta de dados, análise de dados, desenvolvimento do painel de controle: novo início 24 de abril de 2025
+
+- coleta de dados, novo fim, 11 de julho de 2025
+
+- análise de dados, desenvolvimento do painel de controle, novo fim, 14 de agosto de 2025, 
+
+- encerramento, novo início - 15 de agosto de 2025, novo fim 14 de setembro de 2025.
+ - Solicitante: Josias Barbosa de Lima Junior
+ - Tipo de Mudança: Prazo
+
+============================================================
+Data da submissão :
+2012-06-26T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

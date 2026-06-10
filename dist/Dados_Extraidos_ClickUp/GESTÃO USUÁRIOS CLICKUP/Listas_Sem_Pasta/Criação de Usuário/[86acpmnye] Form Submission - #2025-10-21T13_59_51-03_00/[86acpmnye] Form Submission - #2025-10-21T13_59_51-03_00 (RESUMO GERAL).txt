@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2025-10-21T13:59:51-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Maria Eduarda Silva Lima
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 21/10/2025
+ - E-mail : felipecaminhaati@gmail.com
+ - Gerência Formulários : GGT
+ - Justificativa: Pastas e Projetos DPG/GGT
+
+ - Nome: Felipe Cavalcanti Caminha
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+felipecaminhaati@gmail.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[21/10/2025 14:32] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, sendo disponibilizado acesso aos diretórios DPG/GGT

@@ -1,0 +1,18 @@
+📌 TAREFA: Devido ausência de Engenheiro na equipe interna da ATI, aguarda-se a entrada de profissionais via seleção simplificada da SAD.
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progresso: {'percent_complete': 100}
+ - 🗓️ Data do Registro: 09/10/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

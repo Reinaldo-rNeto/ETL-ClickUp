@@ -1,0 +1,20 @@
+📌 TAREFA: Encerramento do  do Projeto
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Márcia Bion
+🌳 DEPENDENTES (Subtarefas atreladas): 2
+
+📋 CAMPOS PERSONALIZADOS:
+ - Department:  Portfólio de Projetos
+ - Gerentes (Entregas): Márcia Bion
+ - Progresso: {'percent_complete': 0}
+ - 📈 Baseline: 🪧LINHA DE BASE 1
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

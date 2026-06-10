@@ -1,0 +1,26 @@
+📌 TAREFA: Form Submission - #2025-05-28T16:08:25-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: Liliane Almeida Oliveira
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 28/05/2025
+ - Diretoria - Análise da SMP: DPG
+ - Gerente de Projetos: Liliane Almeida Oliveira
+ - Justificativa: Segue cronograma com as atividades a serem realizadas no projeto, os respectivos entregáveis e as datas estimadas para sua realização.
+
+O cronograma proposto visa assegurar o cumprimento dos prazos acordados, garantindo a qualidade e eficiência na execução das etapas do projeto.
+
+ - Solicitante: Eduardo Salvador
+ - Tipo de Mudança: Entrega - Atividades
+
+============================================================
+Data da submissão :
+2025-04-28T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

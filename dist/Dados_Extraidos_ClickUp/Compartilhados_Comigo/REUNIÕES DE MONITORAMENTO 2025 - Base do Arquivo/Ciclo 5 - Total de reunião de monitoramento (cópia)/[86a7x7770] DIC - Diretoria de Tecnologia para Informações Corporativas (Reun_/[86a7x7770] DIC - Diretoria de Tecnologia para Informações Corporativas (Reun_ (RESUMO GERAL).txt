@@ -1,0 +1,24 @@
+📌 TAREFA: DIC - Diretoria de Tecnologia para Informações Corporativas (Reunião)
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 29/05/2025
+ - Data do Agendamento: 29/05/2025
+ - Diretoria: DIC
+ - Event Type: OKR
+ - Instância de Monitoramento: Diretorias
+ - Mês/Ano: Ciclo 05
+ - Qtd Encontros: ENCONTROSQTD_DASH
+ - Qtd de Encontros Diretorias:  DIC
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

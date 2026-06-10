@@ -1,0 +1,18 @@
+📌 TAREFA: Simplificação das interações entre a sociedade e os serviços governamentais, fazendo com que os cidadãos possam se comunicar de maneira mais rápida e eficiente com as instituições públicas, este projeto esta em fase de elaboração do ETP para fazer a contratação para contratação whatsapp e chatbot. Contratação do whatsapp vai ser com a SAD. Provavelmente não será cumprido o prazo para a contratação do chatbot em virtude da impossibilidade da contratação do SERPRO. Ficou decido na Reunião de Monitoramento da LIGA em  27.09.2024  a necessidade de reestruturar o projeto para promover a separação das atividades relativas a chatbot e whatsapp. A reestruturação ainda está pendente.
+📊 STATUS: COMPLETE
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ana Carolina Freitas Pereira
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progresso: {'percent_complete': 100}
+ - 🗓️ Data do Registro: 31/10/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

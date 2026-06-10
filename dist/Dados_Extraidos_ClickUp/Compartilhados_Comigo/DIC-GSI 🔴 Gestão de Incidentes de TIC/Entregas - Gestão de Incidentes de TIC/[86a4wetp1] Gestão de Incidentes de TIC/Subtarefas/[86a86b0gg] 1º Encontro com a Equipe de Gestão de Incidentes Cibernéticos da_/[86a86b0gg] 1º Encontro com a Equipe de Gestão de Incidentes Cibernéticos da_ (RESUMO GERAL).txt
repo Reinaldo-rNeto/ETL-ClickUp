@@ -1,0 +1,21 @@
+📌 TAREFA: 1º Encontro com a Equipe de Gestão de Incidentes Cibernéticos da ATI para apresentar o MISP
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Matheus Aguiar
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Dar ciência para a EGIC-ATI
+ - Inicio Real: 19/05/2025
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Gestão de Incidentes de TIC
+ - Termino Real: 19/05/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

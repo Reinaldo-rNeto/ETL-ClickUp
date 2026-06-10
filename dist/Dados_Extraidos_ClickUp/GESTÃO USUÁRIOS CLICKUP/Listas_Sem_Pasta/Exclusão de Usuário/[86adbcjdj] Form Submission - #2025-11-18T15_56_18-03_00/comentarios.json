@@ -1,0 +1,31 @@
+[
+    {
+        "id": "90130221647294",
+        "comment": [
+            {
+                "text": "Convite cancelado com êxito.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-ebe222c7-781d-4e8c-9b18-711a4131b930"
+                }
+            }
+        ],
+        "comment_text": "Convite cancelado com êxito. \n",
+        "user": {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "color": "#000",
+            "initials": "MA",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1770402326357",
+        "reply_count": 0
+    }
+]

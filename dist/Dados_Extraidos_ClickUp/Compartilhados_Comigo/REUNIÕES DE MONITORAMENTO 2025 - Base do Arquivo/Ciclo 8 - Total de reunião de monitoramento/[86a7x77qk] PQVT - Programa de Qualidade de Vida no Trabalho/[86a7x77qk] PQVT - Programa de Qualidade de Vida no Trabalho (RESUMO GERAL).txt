@@ -1,0 +1,25 @@
+📌 TAREFA: PQVT - Programa de Qualidade de Vida no Trabalho
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 03/09/2025
+ - Diretoria: DGI
+ - Event Type: DGI
+ - Gerëncia: GDQ
+ - Instância de Monitoramento: Gerências
+ - Mês/Ano: Ciclo 08
+ - Participantes Convidados: 
+ - Qtd de Projetos: PROJETOS_QTD
+ - ReuniaoDash: PRESIDI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,17 @@
+📌 TAREFA: Grade de Programação Técnica e Sócio-cultural Definida
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: José C. Pacheco Jr.
+🌳 DEPENDENTES (Subtarefas atreladas): 4
+
+📋 CAMPOS PERSONALIZADOS:
+ - 📈 Baseline: 🪧LINHA DE BASE 1
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

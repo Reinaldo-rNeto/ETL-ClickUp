@@ -1,0 +1,19 @@
+📌 TAREFA: Integração do misp.pe.gov.br à rede MISP da ReGIC
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Matheus Aguiar
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 13/03/2025
+ - Projeto: Gestão de Incidentes de TIC
+ - 📈 Baseline: 🪧LINHA DE BASE 2
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

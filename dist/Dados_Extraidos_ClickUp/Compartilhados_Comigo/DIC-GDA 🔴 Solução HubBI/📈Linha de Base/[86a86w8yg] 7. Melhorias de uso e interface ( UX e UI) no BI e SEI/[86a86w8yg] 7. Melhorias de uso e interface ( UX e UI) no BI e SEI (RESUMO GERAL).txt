@@ -1,0 +1,18 @@
+📌 TAREFA: 7. Melhorias de uso e interface ( UX e UI) no BI e SEI.
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Matheus Aguiar
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 10/04/2025
+ - 📈 Baseline: 🪧LINHA DE BASE 3
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

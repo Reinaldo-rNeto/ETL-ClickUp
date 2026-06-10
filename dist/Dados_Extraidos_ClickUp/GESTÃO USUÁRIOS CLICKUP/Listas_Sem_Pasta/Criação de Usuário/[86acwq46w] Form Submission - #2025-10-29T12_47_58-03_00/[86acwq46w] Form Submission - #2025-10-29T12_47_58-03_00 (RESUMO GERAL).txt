@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2025-10-29T12:47:58-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Daniele de Oliveira Feliciano
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 29/10/2025
+ - E-mail : reinaldo.rnetoati@gmail.com
+ - Gerência Formulários : GDA
+ - Justificativa: GDA
+
+ - Nome: Reinaldo Rodrigues Da Silva Neto
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+reinaldo.rnetoati@gmail.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[05/11/2025 15:16] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, sendo disponibilizado acesso aos diretórios DIC/GDA

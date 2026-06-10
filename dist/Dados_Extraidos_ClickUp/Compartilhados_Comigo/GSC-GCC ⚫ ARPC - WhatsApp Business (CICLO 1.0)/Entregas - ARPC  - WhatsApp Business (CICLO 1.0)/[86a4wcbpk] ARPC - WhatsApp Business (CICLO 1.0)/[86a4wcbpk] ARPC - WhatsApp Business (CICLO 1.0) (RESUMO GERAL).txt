@@ -1,0 +1,32 @@
+📌 TAREFA: ARPC - WhatsApp Business (CICLO 1.0)
+📊 STATUS: CANCELADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 8
+
+📋 CAMPOS PERSONALIZADOS:
+ - ARP: GSC
+ - Acompanhado pela LIGA: LIGA
+ - Categoria do Projeto: Prioritário
+ - DashARPC: ARPC
+ - Diretoria: DPG
+ - Diretoria ARP: DTD
+ - GerARPC: ARPC
+ - Gerente do Projeto: Liliane Medeiros
+ - Gerëncia: GCC
+ - Iniciativas Estratégicas: 1.2.2 Promover a economicidade e sustentabilidade das contratações de TIC
+ - Inicio Real: 19/03/2024
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Plano Operativo: Prioritário
+ - Progresso: {'percent_complete': 37.5}
+ - Projeto: ARPC WhatsApp Business (CICLO 1.0)
+ - Status Contratacao: Análise SAD
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,19 @@
+📌 TAREFA: planejamento orçamentário ( LDO )
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Ana Baihe
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 11/11/2024
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 31/01/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

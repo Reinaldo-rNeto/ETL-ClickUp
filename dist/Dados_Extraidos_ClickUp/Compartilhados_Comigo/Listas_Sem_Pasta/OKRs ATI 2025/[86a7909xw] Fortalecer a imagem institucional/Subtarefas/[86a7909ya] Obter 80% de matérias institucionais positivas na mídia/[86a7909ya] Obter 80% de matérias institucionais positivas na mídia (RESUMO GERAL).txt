@@ -1,0 +1,32 @@
+📌 TAREFA: Obter 80% de matérias institucionais positivas na mídia.
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição do Objetivo: Fortalecer a imagem institucional
+ - Diretoria: PRESI
+ - Fórmula: (Total de matérias institucionais positivas veiculadas na mídia sobre a ATI / Total de matérias veiculadas na mídia sobre a ATI ) x 100
+ - Gerência: ASCOM
+ - Indicador: Índice de matérias institucionais positivas
+ - KR: OKR 5
+ - Meta: 80%
+ - OKR Type: KEY RESULT
+ - Objetivo: Objective 5
+ - Perspectiva: 03. Processos Internos
+ - Resultados Alcançados: -
+ - Status OKR: Não iniciado
+ - Descrição: Mede o percentual de matérias positivas veiculadas de forma espontânea pelas diversas mídias em relação ao total de matérias veiculadas sobre o órgão.
+
+============================================================
+Purpose
+
+
+Action Steps
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,594 @@
+{
+    "id": "86a7909ya",
+    "custom_id": null,
+    "custom_item_id": 0,
+    "name": "Obter 80% de matérias institucionais positivas na mídia.",
+    "text_content": "Purpose\n\n\nAction Steps",
+    "description": "Purpose\n\n\nAction Steps",
+    "status": {
+        "status": "a iniciar",
+        "id": "sc901308468290_dThkFXRl",
+        "color": "#1090e0",
+        "type": "open",
+        "orderindex": 0
+    },
+    "orderindex": "237682305.00000000000000000000000000000000",
+    "date_created": "1741963893720",
+    "date_updated": "1742318479329",
+    "date_closed": null,
+    "date_done": null,
+    "archived": false,
+    "creator": {
+        "id": 87940483,
+        "username": "Helio Rocha",
+        "color": "#595d66",
+        "email": "helio.rocha@ati.pe.gov.br",
+        "profilePicture": null
+    },
+    "assignees": [],
+    "group_assignees": [],
+    "watchers": [],
+    "checklists": [],
+    "tags": [],
+    "parent": "86a7909xw",
+    "top_level_parent": "86a7909xw",
+    "priority": null,
+    "due_date": null,
+    "start_date": null,
+    "points": null,
+    "time_estimate": null,
+    "custom_fields": [
+        {
+            "id": "ad868bd0-5028-467d-aca4-b0615312ec36",
+            "name": "Contributors ",
+            "type": "users",
+            "type_config": {
+                "single_user": false,
+                "include_groups": true,
+                "include_guests": false,
+                "include_team_members": false
+            },
+            "date_created": "1733420954997",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "47199199-d3fc-49fc-81fa-d628e95b1219",
+            "name": "Descrição do Objetivo",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1736432398603",
+            "hide_from_guests": false,
+            "value": "Fortalecer a imagem institucional",
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "7765387d-dddf-4be5-aebb-f1808a1d3fa6",
+            "name": "Diretoria",
+            "type": "labels",
+            "type_config": {
+                "options": [
+                    {
+                        "id": "0887c80d-360e-4ace-a784-384bf40829ab",
+                        "label": "DGI",
+                        "color": "#d8a87e",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "e86d65c5-7c66-418b-a999-29410a45b09d",
+                        "label": "DCI",
+                        "color": "#ff7800",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "20b11d91-3c0c-40c5-b089-09b044fe26df",
+                        "label": "DTD",
+                        "color": "#834848",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "964f1a07-d65a-40f4-8876-8715dd17a4dd",
+                        "label": "DIC",
+                        "color": "#e48787",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "5c2dea16-e52a-47d1-ba70-0c967a1495c6",
+                        "label": "DPG",
+                        "color": "#e50000",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "29c944e4-7a1f-4667-ada4-350c8fafcfc9",
+                        "label": "PRESI",
+                        "color": "#b18989",
+                        "orderindex": 5
+                    }
+                ]
+            },
+            "date_created": "1733422464147",
+            "hide_from_guests": false,
+            "value": [
+                "29c944e4-7a1f-4667-ada4-350c8fafcfc9"
+            ],
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "e67fe8bb-0536-43e9-b479-a610db4bd59a",
+            "name": "Fórmula",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1733422959504",
+            "hide_from_guests": false,
+            "value": "(Total de matérias institucionais positivas veiculadas na mídia sobre a ATI / Total de matérias veiculadas na mídia sobre a ATI ) x 100",
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "da727945-4da6-4234-b6d4-0584419a8290",
+            "name": "Gerência",
+            "type": "labels",
+            "type_config": {
+                "options": [
+                    {
+                        "id": "05a49e69-e179-472d-86d8-d7c2f87e6351",
+                        "label": "DCI",
+                        "color": "#ff7800",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "df2ef618-0129-4ce7-a206-2b67a4495015",
+                        "label": "DTD",
+                        "color": "#834848",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "f8e67963-490b-4292-aba7-c7164a97c75b",
+                        "label": "GRGD",
+                        "color": "#9b59b6",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "3ee9dac6-7d0e-45ad-9a10-792327cd8e10",
+                        "label": "GPD",
+                        "color": "#FF4081",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "6628d162-0be5-4ff9-a260-a263a697eb29",
+                        "label": "ASCOM",
+                        "color": "#FF7FAB",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "e4219cb5-acd5-4a03-9cf5-bb4f8d1be9b0",
+                        "label": "GCC",
+                        "color": "#7C4DFF",
+                        "orderindex": 5
+                    }
+                ]
+            },
+            "date_created": "1736447974366",
+            "hide_from_guests": false,
+            "value": [
+                "6628d162-0be5-4ff9-a260-a263a697eb29"
+            ],
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "a6a1f5d2-7847-4581-9b8a-7ccc5ba00260",
+            "name": "Indicador",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1733422277463",
+            "hide_from_guests": false,
+            "value": "Índice de matérias institucionais positivas",
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "db894fc8-1ca6-4f5b-9e04-bbf4747208ef",
+            "name": "KR",
+            "type": "drop_down",
+            "type_config": {
+                "default": 0,
+                "sorting": "manual",
+                "placeholder": null,
+                "options": [
+                    {
+                        "id": "8e47f8bf-0714-4e0a-a2d0-f018c484abb6",
+                        "name": "OKR 1",
+                        "color": "#3397dd",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "00f55306-d557-4a8d-b15c-7fac37c19854",
+                        "name": "OKR 2",
+                        "color": "#5d7dff",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "c24370db-7413-442e-9f3c-bee13dc64663",
+                        "name": "OKR 3",
+                        "color": "#75b9ff",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "b82e4281-700c-4016-a0bd-d556d13005db",
+                        "name": "OKR 4",
+                        "color": "#04A9F4",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "1b85eba7-fc36-451d-bcef-7f45e5568822",
+                        "name": "OKR 5",
+                        "color": "#85bed8",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "555d7493-6367-4801-b130-d8e79195e138",
+                        "name": "OKR 6.1",
+                        "color": "#6fa8c2",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "68fd1b6e-89db-4dbd-a96c-d8290a175e08",
+                        "name": "OKR 6.2",
+                        "color": "#0880ce",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "10379a37-98fe-48ad-910c-cf693e084e4e",
+                        "name": "OKR 6.3",
+                        "color": "#2f6ed4",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "32c9b75a-fa78-43a0-bc9c-8113aef5a7f0",
+                        "name": "OKR 7",
+                        "color": "#6f85ab",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "fff5d6cb-8d01-4564-99d8-1e56b6487881",
+                        "name": "OKR 8",
+                        "color": "#82a1d4",
+                        "orderindex": 9
+                    },
+                    {
+                        "id": "292405f9-f440-4666-9c80-df7c9cdea0a2",
+                        "name": "Objective 1",
+                        "color": "#3397dd",
+                        "orderindex": 10
+                    },
+                    {
+                        "id": "1dd09e63-6057-4b28-9a1e-14efe0cc97f5",
+                        "name": "Objective 2",
+                        "color": "#5d7dff",
+                        "orderindex": 11
+                    },
+                    {
+                        "id": "6b4b0e19-26cd-4b22-907f-06b395b9f6d5",
+                        "name": "Objective 3",
+                        "color": "#75b9ff",
+                        "orderindex": 12
+                    },
+                    {
+                        "id": "27b6a2e2-3a6f-4250-8646-f3d4e27888d3",
+                        "name": "Objective 4",
+                        "color": "#04a9f4",
+                        "orderindex": 13
+                    },
+                    {
+                        "id": "c5c0a3fa-0c34-4338-8476-8a0759b77bbd",
+                        "name": "Objective 5",
+                        "color": "#85bed8",
+                        "orderindex": 14
+                    },
+                    {
+                        "id": "11225742-151a-4911-9cb8-11c26c173f9b",
+                        "name": "Objective 6",
+                        "color": "#0880ce",
+                        "orderindex": 15
+                    },
+                    {
+                        "id": "d3104b6c-3f1d-414f-82f4-9fc74ed34d45",
+                        "name": "Objective 7",
+                        "color": "#6f85ab",
+                        "orderindex": 16
+                    },
+                    {
+                        "id": "e6068d9b-e879-4d3b-9d1b-dc19752552dc",
+                        "name": "Objective 8",
+                        "color": "#82a1d4",
+                        "orderindex": 17
+                    }
+                ]
+            },
+            "date_created": "1736429260606",
+            "hide_from_guests": false,
+            "value": 4,
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "c4c3f20b-7a0d-464c-912b-6de2a10a4dbd",
+            "name": "Meta",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1742238608862",
+            "hide_from_guests": false,
+            "value": "80%",
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "bf8cd97e-854f-4cb8-89b6-09de1491b4e5",
+            "name": "OKR Type",
+            "type": "drop_down",
+            "type_config": {
+                "default": 0,
+                "placeholder": null,
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "4c79c03e-e990-4e23-82ae-1c79639f4594",
+                        "name": "OBJECTIVE",
+                        "color": "#7C4DFF",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "dad6863f-bf06-47f7-830c-34f951d0c96a",
+                        "name": "KEY RESULT",
+                        "color": "#EA80FC",
+                        "orderindex": 1
+                    }
+                ]
+            },
+            "date_created": "1739477179212",
+            "hide_from_guests": false,
+            "value": 1,
+            "value_richtext": null,
+            "required": null
+        },
+        {
+            "id": "c1114c52-f0d8-4d81-ac0f-a011ae19e5ba",
+            "name": "Objetivo",
+            "type": "drop_down",
+            "type_config": {
+                "default": 0,
+                "sorting": "manual",
+                "placeholder": null,
+                "options": [
+                    {
+                        "id": "19b83761-1ff4-42df-98ad-377f73277a1c",
+                        "name": "Objective 1",
+                        "color": "#3397dd",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "0d0c75ec-880f-4a39-8147-90b16f5afd3d",
+                        "name": "Objective 2",
+                        "color": "#5d7dff",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "b6def7d3-964f-45d6-a1a0-22c04f1778e8",
+                        "name": "Objective 3",
+                        "color": "#75b9ff",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "afc56f0a-4c23-4624-a175-11a60a10a2c5",
+                        "name": "Objective 4",
+                        "color": "#04a9f4",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "c490d643-95e4-4fb5-b0ce-1fc70ca5bb0a",
+                        "name": "Objective 5",
+                        "color": "#85bed8",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "7b7ec390-b3cf-4fa7-ba0c-0b2ae6301792",
+                        "name": "Objective 6",
+                        "color": "#0880ce",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "68b17bbe-dd10-42dd-a9ba-256d2aac9cf3",
+                        "name": "Objective 7",
+                        "color": "#6f85ab",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "4480e448-5608-4081-928c-e04f5663c8c7",
+                        "name": "Objective 8",
+                        "color": "#82a1d4",
+                        "orderindex": 7
+                    }
+                ]
+            },
+            "date_created": "1736431059407",
+            "hide_from_guests": false,
+            "value": 4,
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "eb216e55-64c0-470e-a63b-25582f764b83",
+            "name": "Perspectiva",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "f2fb8901-5b01-48dd-9637-3ee39de4734a",
+                        "name": "04. Pessoas e Recursos",
+                        "color": "#FF7FAB",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "9bf5b157-bb97-43a8-9839-d7e037801993",
+                        "name": "03. Processos Internos",
+                        "color": "#f900ea",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "4c37dc55-6a4c-4335-9c5e-b71725427fc1",
+                        "name": "02. Resultados",
+                        "color": "#EA80FC",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "9fe66226-ebe7-422a-bfce-e0e041c7b6a9",
+                        "name": "01. Visão Estratégica",
+                        "color": "#9b59b6",
+                        "orderindex": 3
+                    }
+                ]
+            },
+            "date_created": "1733427378404",
+            "hide_from_guests": false,
+            "value": 1,
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "f338c6a6-c113-49cd-8bfd-e66f12efec5e",
+            "name": "Resultados Alcançados",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1742238461142",
+            "hide_from_guests": false,
+            "value": "-",
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "ae1ff87a-5b98-4bc5-b056-1748416ff60e",
+            "name": "Status OKR",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "eb794307-44ad-4a9d-9cd8-d34fcb07b832",
+                        "name": "Alcançado integralmente",
+                        "color": "#438d41",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "b96472c8-e47f-4a50-ba70-ccf4dc34ff01",
+                        "name": "Alcançado satisfatoriamente",
+                        "color": "#0231E8",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "d228bd3e-23fe-442a-94db-03d774c319d5",
+                        "name": "Alcançado parcialmente",
+                        "color": "#f9d900",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "aa99d75c-b5d4-4df6-8ef9-c00ea9540025",
+                        "name": "Alcançado precariamente",
+                        "color": "#ff7800",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "908e27b6-a391-47e4-889b-b8fc5c9085b3",
+                        "name": "Não alcançado ",
+                        "color": "#e50000",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "c8a64d79-8785-434e-8488-aeadb4130cd7",
+                        "name": "Não apurado",
+                        "color": "#000000",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "090e7be9-349a-4ce2-9c64-2e03e4458b2a",
+                        "name": "Suspenso",
+                        "color": "#7C4DFF",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "ca220eea-2f8a-454d-87ff-41e79d907d50",
+                        "name": "Não iniciado",
+                        "color": "#aeb8c0",
+                        "orderindex": 7
+                    }
+                ]
+            },
+            "date_created": "1736434610429",
+            "hide_from_guests": false,
+            "value": 7,
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "0c679147-be76-428c-a1e7-003da4874c72",
+            "name": "Descrição",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1733422317113",
+            "hide_from_guests": false,
+            "value": "Mede o percentual de matérias positivas veiculadas de forma espontânea pelas diversas mídias em relação ao total de matérias veiculadas sobre o órgão.",
+            "value_richtext": null,
+            "required": false
+        }
+    ],
+    "dependencies": [],
+    "linked_tasks": [],
+    "locations": [],
+    "team_id": "9013340838",
+    "url": "https://app.clickup.com/t/86a7909ya",
+    "sharing": {
+        "public": false,
+        "public_share_expires_on": null,
+        "public_fields": [
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+        ],
+        "token": null,
+        "seo_optimized": false
+    },
+    "permission_level": "comment",
+    "list": {
+        "id": "901308468290",
+        "name": "OKRs ATI 2025",
+        "access": true
+    },
+    "project": {
+        "id": "901315971544",
+        "name": "Shared with me",
+        "hidden": true,
+        "access": false
+    },
+    "folder": {
+        "id": "901315971544",
+        "name": "Shared with me",
+        "hidden": true,
+        "access": false
+    },
+    "space": {
+        "id": "90131657704"
+    },
+    "_local_subtasks_count": 0
+}

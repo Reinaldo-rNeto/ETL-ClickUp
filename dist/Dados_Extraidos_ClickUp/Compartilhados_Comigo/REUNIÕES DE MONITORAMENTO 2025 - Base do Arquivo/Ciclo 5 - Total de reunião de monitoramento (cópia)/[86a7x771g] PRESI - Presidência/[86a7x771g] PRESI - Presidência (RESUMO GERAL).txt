@@ -1,0 +1,24 @@
+📌 TAREFA: PRESI - Presidência
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 13/06/2025
+ - Data do Agendamento: 11/06/2025
+ - Event Type: OKR
+ - Instância de Monitoramento: PRESI
+ - Mês/Ano: Ciclo 05
+ - Qtd Encontros: ENCONTROSQTD_DASH
+ - Qtd de Encontros Diretorias: PRESIDÊNCIA
+ - Qtd de Encontros PRESI: PRESIDÊNCIA
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

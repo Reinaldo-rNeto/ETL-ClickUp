@@ -1,0 +1,20 @@
+📌 TAREFA: Capacitação do encarregado e equipe de apoio no processo de gestão e governança realizada
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Disseminar o conhecimento para encarregado e equipe de apoio.
+ - Inicio Real: 27/03/2025
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 15/04/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

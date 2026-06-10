@@ -1,0 +1,35 @@
+📌 TAREFA: Solicitação de serviço público (SolicitaPE)
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: José Henrique Lins
+🌳 DEPENDENTES (Subtarefas atreladas): 24
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.1.1 (Meta 2025) - Incorporar 100 novos serviços à plataforma de Governo Digital.
+ - Acompanhado pela LIGA: LIGA
+ - Acompanhado pela SAD: SAD
+ - Categoria do Projeto: Prioritário
+ - DashARPC: DTD
+ - Diretoria: DTD
+ - Diretoria ARP: DTD
+ - GerARPC: GSC
+ - Gerente do Projeto: Henrique Lins
+ - Gerentes (Entregas): 
+ - Gerëncia: GSC
+ - Iniciativas Estratégicas: 1.1.1 Aprimorar e ampliar a plataforma de Governo Digital
+ - Inicio Real: 01/08/2024
+ - Objetivo Estratégico: 1.1 Ampliar e simplificar o acesso a informações e serviços digitais do Governo
+ - Plano Operativo: PO LIGA
+ - Progresso: {'percent_complete': 100}
+ - Projeto:  Solicitação de serviço público (SolicitaPE)
+ - Status OKR: Não apurado
+ - Termino Real: 05/02/2026
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,24 @@
+📌 TAREFA: Form Submission - #2025-05-14T09:51:47-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: ClickBot
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Agendamento de Serviço Público : DTD/GSC - Agendamento de Serviço Público 
+ - Data da submissão : 14/05/2025
+ - Diretoria - Análise da SMP: DGD
+ - Gerente de Projetos: José Henrique Lins
+ - Justificativa: Adequação de estrutura para entregáveis, solicitada pelo ATI-EGP
+ - Solicitante: Márcia Bion
+ - Tipo de Mudança: Entrega - Atividades
+
+============================================================
+Data da submissão :
+2025-05-14T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

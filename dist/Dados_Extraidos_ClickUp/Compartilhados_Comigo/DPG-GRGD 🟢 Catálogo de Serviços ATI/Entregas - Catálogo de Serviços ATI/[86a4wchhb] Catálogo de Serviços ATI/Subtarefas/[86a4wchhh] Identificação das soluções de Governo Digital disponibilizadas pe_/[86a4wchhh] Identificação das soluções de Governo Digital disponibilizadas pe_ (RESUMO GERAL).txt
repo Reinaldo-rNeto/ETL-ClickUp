@@ -1,0 +1,20 @@
+📌 TAREFA: Identificação das soluções de Governo Digital disponibilizadas pela ATI
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: José C. Pacheco Jr., Clarissa Cesar Borba
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Gerentes (Entregas): José C. Pacheco Jr., Clarissa Cesar Borba
+ - Inicio Real: 01/07/2024
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 01/08/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

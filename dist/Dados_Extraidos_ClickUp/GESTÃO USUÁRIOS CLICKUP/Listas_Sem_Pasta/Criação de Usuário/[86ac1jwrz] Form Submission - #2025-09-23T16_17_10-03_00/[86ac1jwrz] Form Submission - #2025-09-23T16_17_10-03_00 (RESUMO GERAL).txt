@@ -1,0 +1,39 @@
+📌 TAREFA: Form Submission - #2025-09-23T16:17:10-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Daniele de Oliveira Feliciano
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 23/09/2025
+ - E-mail : felipe.correia@qintess.com
+ - Gerência Formulários : GIN
+ - Justificativa: DIC/GIN
+Qintess CTO36 - ATI DADOS (GIN)
+
+ - Nome: Felipe Queiroz de Magalhaes Correia
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+felipe.correia@qintess.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (4)
+============================================================
+
+[30/09/2025 16:02] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para disponibilizar acesso ao diretório DIC/GIN
+
+[03/10/2025 16:26] Daniele de Oliveira Feliciano comentou:
+  Boa tarde, Matheus. Felipe não recebeu o convite. Tens como enviar novamente?
+
+[03/10/2025 16:31] Matheus Aguiar comentou:
+  Convite cancelado e reenviado.
+
+[03/10/2025 16:37] Matheus Aguiar comentou:
+  Acesso disponibilizado e validado.

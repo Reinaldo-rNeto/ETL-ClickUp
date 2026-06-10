@@ -1,0 +1,32 @@
+📌 TAREFA: Form Submission - #2025-09-11T09:48:21-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Daniele de Oliveira Feliciano
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 11/09/2025
+ - E-mail : michel.arruda@qintess.com
+ - Gerência Formulários : GIN
+ - Justificativa: Qintess CTO36 - ATI DADOS (GIN)
+
+
+
+
+ - Nome: Michel Dias de Arruda
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+michel.arruda@qintess.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[15/09/2025 12:09] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para disponibilizar acesso ao diretório DIC/GSI Qintess CTO36 - ATI DADOS (GIN)

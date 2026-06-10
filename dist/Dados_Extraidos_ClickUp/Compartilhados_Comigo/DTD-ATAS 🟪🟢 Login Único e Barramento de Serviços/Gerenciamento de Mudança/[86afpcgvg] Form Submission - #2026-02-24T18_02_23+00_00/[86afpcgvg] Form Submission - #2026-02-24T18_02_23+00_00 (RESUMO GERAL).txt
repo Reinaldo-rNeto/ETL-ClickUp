@@ -1,0 +1,25 @@
+📌 TAREFA: Form Submission - #2026-02-24T18:02:23+00:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: Bruno Queiroga
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 24/02/2026
+ - Diretoria - Análise da SMP: DGD
+ - Gerente de Projetos: Gustavo Oliveira dos Santos
+ - Justificativa: A mudança foi motivada por alterações de prioridades e incidentes de produção que ocuparam a equipe. Os novos prazos foram acordados na reunião de monitoramento de projetos de 10/02/2026 . Segue o link da planilha com os novos prazos: https://docs.google.com/spreadsheets/d/1YGfElhD6zuhrd0NXT0Ldk_eZJg2MZavEyPy9tRLwSAA/
+
+ - Projeto: Plataforma AcessoPE
+ - Solicitante: Bruno Queiroga
+ - Tipo de Mudança: Prazo
+
+============================================================
+Data da submissão :
+2026-02-24T07:00:00+00:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

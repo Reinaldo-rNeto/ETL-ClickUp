@@ -1,0 +1,18 @@
+📌 TAREFA: ARP publicada
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 3
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 29/12/2025
+ - Progresso: {'percent_complete': 33.33333333333333}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

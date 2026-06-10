@@ -1,0 +1,32 @@
+📌 TAREFA: ARPC - Certificados Digitais 
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 8
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.2.1. (Meta 2025) - Elaborar e realizar a pesquisa de satisfação de produtos e serviços (Baseline)
+ - ARP: GCC
+ - Acompanhado pela LIGA: LIGA
+ - Categoria do Projeto: Estratégico
+ - DashARPC: ARPC
+ - Diretoria: DPG
+ - Diretoria ARP: DPG
+ - Gerente do Projeto: Liliane Medeiros
+ - Gerëncia: GCC
+ - Iniciativas Estratégicas: 1.2.2 Promover a economicidade e sustentabilidade das contratações de TIC
+ - Inicio Real: 30/05/2025
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Progresso: {'percent_complete': 87.5}
+ - Projeto: ARPC - Certificados Digitais (CICLO 5)
+ - Status OKR: Não apurado
+ - Termino Real: 22/12/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

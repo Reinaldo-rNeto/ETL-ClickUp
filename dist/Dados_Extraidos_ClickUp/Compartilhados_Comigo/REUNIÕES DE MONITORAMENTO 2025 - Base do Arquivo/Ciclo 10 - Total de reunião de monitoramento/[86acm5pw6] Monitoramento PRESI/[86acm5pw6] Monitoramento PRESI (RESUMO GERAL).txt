@@ -1,0 +1,24 @@
+📌 TAREFA: Monitoramento PRESI
+📊 STATUS: NÃO AGENDADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Ciclos: Ciclo 1
+ - Event Type: PRESI
+ - Instância de Monitoramento: PRESI
+ - Mês/Ano: Ciclo 10
+ - Participantes Convidados: 
+ - Presidência: PRESI
+ - Qtd Encontros: ENCONTROSQTD_DASH
+ - ReuniaoDash: PRESIDI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

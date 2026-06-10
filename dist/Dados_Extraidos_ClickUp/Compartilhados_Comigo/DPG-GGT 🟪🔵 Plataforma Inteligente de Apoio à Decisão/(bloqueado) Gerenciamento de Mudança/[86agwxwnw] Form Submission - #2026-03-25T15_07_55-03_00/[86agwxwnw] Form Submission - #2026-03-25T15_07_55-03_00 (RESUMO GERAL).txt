@@ -1,0 +1,25 @@
+📌 TAREFA: Form Submission - #2026-03-25T15:07:55-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 15/04/2026
+ - Diretoria - Análise da SMP: DPG
+ - Gerente de Projetos: Ariadnes Nunes Dantas Rodrigues
+ - Justificativa: Em reunião no dia 25/03/26, GTD informou que a entrega foi cancelada devido a dificuldade de integração, não vai ser possível fazer a integração com a SGP. Além disso, a equipe que trabalha no projeto vai ser desalocada a partir de junho/26 pra outro projeto. 
+
+ - Projeto: DPG/GGT - Força de Trabalho de TIC
+ - Solicitante: Beatriz Couto
+ - Tipo de Mudança: Status
+
+============================================================
+Data da submissão :
+2026-03-25T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

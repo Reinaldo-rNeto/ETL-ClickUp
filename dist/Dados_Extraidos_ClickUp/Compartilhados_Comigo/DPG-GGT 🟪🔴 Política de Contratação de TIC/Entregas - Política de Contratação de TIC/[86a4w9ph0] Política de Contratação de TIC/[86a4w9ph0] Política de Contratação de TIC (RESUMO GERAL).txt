@@ -1,0 +1,32 @@
+📌 TAREFA: Política de Contratação de TIC
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 6
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.2.1. (Meta 2025) - Elaborar e realizar a pesquisa de satisfação de produtos e serviços (Baseline)
+ - Acompanhado pela SAD: SAD
+ - Categoria do Projeto: Prioritário
+ - DashARPC: DPG
+ - Diretoria: DPG
+ - Gerente do Projeto: Josias Lima
+ - Gerëncia: GGT
+ - Iniciativas Estratégicas: 1.2.2 Promover a economicidade e sustentabilidade das contratações de TIC
+ - Inicio Real: 20/06/2024
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Plano Operativo: PO LIGA
+ - Progresso: {'percent_complete': 16.666666666666664}
+ - Projeto: Política de Contratação de TIC
+ - Status OKR: Não apurado
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[04/10/2022 09:45] Christian Rommel Gracias comentou:
+  Insert project comments here.

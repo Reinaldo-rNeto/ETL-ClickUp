@@ -1,0 +1,19 @@
+📌 TAREFA: 3. Realizar ciclo de Gestão de Riscos dos Ativos de TI da Rede Local ATI
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Matheus Aguiar
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Inventariar os ativos. Realizar questionários com os responsáveis pelos ativos. Processar os resultados. Gerar planos de tratamento de Riscos
+ - Inicio Real: 16/06/2025
+ - Progresso: {'percent_complete': 0}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

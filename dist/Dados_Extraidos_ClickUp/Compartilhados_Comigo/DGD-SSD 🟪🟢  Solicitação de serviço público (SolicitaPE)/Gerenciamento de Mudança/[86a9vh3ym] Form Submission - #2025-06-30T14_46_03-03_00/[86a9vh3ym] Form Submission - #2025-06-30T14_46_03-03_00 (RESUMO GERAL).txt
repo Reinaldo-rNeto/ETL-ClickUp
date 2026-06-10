@@ -1,0 +1,24 @@
+📌 TAREFA: Form Submission - #2025-06-30T14:46:03-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: ClickBot
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 30/06/2025
+ - Diretoria - Análise da SMP: DGD
+ - Gerente de Projetos: José Henrique Lins
+ - Justificativa: Solicito mudança de escopo com adição de entregas e inclusão da atividade de Publicação dos Serviços no Portal do Cidadão, já englobando o período de homologação de SETD/Vanessa e respesctivos órgãos clientes, com publicação em produção dos formulários aprovados. As datas planejas são as mesmas da data real. Considere as datas reais até a atividade 29 - SASSEP - Adesão de titular em licença sem vencimento.
+ - Solicitante: Rafael Soares
+ - Solicitação de Serviço Público (SolicitaPE): DTD-GSC - Solicitação de Serviço Público (SolicitaPE)
+ - Tipo de Mudança: Entrega - Atividades
+
+============================================================
+Data da submissão :
+2025-04-28T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

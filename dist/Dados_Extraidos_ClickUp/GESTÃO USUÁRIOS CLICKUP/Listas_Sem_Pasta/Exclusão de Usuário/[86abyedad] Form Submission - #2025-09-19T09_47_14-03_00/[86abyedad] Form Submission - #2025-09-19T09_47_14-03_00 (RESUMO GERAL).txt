@@ -1,0 +1,24 @@
+📌 TAREFA: Form Submission - #2025-09-19T09:47:14-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Márcia Bion
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 19/09/2025
+ - E-mail : priscylla.spinelli@ati.pe.gov.br
+ - Justificativa: Saída do Contrato da Ibrowse
+
+ - Nome: Priscylla Spinelli
+
+============================================================
+E-mail do usuário::
+priscylla.spinelli@ati.pe.gov.br
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[19/09/2025 10:39] Matheus Aguiar comentou:
+  Os acessos de Priscylla Spinelli  foram removidos, uma vez que o usuário não faz mais parte de ATI-PE CLICKUP

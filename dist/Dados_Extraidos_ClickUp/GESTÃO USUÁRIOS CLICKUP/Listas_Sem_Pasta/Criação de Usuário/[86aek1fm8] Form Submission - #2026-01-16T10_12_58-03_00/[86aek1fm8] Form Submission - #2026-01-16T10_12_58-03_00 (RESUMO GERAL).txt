@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2026-01-16T10:12:58-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Evandra Cardoso de Melo Silva
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 16/01/2026
+ - E-mail : lorenaperazzo@gmail.com
+ - Gerência Formulários : GCC
+ - Justificativa: Acesso a toda a pasta da DPG/GCC
+
+ - Nome: Lorena Perazzo
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+lorenaperazzo@gmail.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[02/02/2026 13:50] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, sendo fornecido acesso as pastas do diretório DPG/GCC.

@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2026-04-16T10:09:03-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Samara Brych
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 16/04/2026
+ - E-mail : julio_olimpio@outlook.com
+ - Gerência Formulários : GIS
+ - Justificativa: Dar acesso a pasta DCI/GNG (Ex-GIS) Fabiano Leal.
+
+ - Nome: Julio Cesar da Silva Olimpio
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+julio_olimpio@outlook.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[20/04/2026 15:19] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, disponibilizado acesso apenas as listas solicitadas do diretório DCI/GNG.

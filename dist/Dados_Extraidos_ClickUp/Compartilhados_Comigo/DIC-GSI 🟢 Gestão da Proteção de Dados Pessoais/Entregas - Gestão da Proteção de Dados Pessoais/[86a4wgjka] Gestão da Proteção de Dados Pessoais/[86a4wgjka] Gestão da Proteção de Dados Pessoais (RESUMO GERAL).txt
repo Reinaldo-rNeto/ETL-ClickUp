@@ -1,0 +1,29 @@
+📌 TAREFA: Gestão da Proteção de Dados Pessoais
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 9
+
+📋 CAMPOS PERSONALIZADOS:
+ - Categoria do Projeto: Estratégico
+ - DashARPC: DIC
+ - Diretoria: DIC
+ - Diretoria ARP: DIC
+ - GerARPC: GSI
+ - Gerente do Projeto: Edson Vilela
+ - Gerëncia: GSI
+ - Iniciativas Estratégicas: 2.1.2 Definir e aperfeiçoar os processos de trabalho
+ - Inicio Real: 13/05/2024
+ - Objetivo Estratégico: 2.1 Aperfeiçoar o modelo de gestão e processos de trabalho
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Gestão da Proteção de Dados Pessoais
+ - Termino Real: 23/07/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

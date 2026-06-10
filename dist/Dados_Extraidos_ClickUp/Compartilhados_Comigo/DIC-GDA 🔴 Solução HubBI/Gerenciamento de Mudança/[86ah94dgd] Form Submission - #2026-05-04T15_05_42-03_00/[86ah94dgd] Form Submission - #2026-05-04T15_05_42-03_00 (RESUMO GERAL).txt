@@ -1,0 +1,24 @@
+📌 TAREFA: Form Submission - #2026-05-04T15:05:42-03:00
+📊 STATUS: SUBMETIDO
+👤 CRIADA POR: Cassiane Bueno
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 04/05/2026
+ - Diretoria - Análise da SMP: DIC
+ - Gerente de Projetos: Cassiane Bueno
+ - Justificativa: Está em andamento processo para continuidade do projeto, que pode ser uma de duas vias, inexigibilidade ou renovação contratual com morte súbita, caso a inexigibilidade não seja aprovada. Processo de inexigibilidade está em resposta de cota da PGE.
+
+ - Solicitante: Cassiane Bueno
+ - Tipo de Mudança: Status
+
+============================================================
+Data da submissão :
+2026-05-04T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

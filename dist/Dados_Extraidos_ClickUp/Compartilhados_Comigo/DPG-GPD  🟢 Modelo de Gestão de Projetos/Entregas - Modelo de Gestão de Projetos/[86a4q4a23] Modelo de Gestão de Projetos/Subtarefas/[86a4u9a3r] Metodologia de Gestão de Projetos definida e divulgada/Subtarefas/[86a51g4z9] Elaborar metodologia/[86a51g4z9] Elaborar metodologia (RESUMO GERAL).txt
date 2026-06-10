@@ -1,0 +1,18 @@
+📌 TAREFA: Elaborar metodologia
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Monica Maria Costa Leal
+👥 RESPONSÁVEIS: Monica Maria Costa Leal
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progress: {'percent_complete': 100}
+ - Progresso: {'percent_complete': 100}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

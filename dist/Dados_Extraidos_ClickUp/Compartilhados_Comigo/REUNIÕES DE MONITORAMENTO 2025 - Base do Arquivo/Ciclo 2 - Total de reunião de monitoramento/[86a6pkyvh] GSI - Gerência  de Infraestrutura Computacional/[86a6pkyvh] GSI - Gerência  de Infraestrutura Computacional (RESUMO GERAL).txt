@@ -1,0 +1,22 @@
+📌 TAREFA: GSI - Gerência  de Infraestrutura Computacional
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 20/02/2025
+ - Data do Agendamento: 20/02/2025
+ - Event Type: OKR
+ - Mês/Ano: Ciclo 02
+ - Qtd Encontros: ENCONTROSQTD_DASH
+ - Qtd de Encontros Gerências: GSI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

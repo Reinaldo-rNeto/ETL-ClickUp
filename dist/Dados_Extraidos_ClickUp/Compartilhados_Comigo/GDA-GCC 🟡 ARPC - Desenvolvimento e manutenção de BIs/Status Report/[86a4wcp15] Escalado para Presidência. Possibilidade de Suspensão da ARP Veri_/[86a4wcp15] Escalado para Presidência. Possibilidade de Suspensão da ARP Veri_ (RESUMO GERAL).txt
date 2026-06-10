@@ -1,0 +1,20 @@
+📌 TAREFA: Escalado para Presidência. Possibilidade de Suspensão da ARP Verificar com a Diretoria / Presidência se haverá continuidade desta ARPC 
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Entregas Relacionadas: 1.3. Definição dos métodos ágeis para elaboração de PDTI
+ - Progresso: {'percent_complete': 0}
+ - Status Report _ Oficial: 🚨Impedimentos
+ - 🗓️ Data do Registro: 25/09/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

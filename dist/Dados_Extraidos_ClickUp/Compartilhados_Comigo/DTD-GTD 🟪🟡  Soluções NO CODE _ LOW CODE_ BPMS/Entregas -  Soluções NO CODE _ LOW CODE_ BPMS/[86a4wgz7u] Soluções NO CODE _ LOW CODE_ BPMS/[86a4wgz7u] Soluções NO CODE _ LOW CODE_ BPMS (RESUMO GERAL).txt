@@ -1,0 +1,32 @@
+📌 TAREFA: Soluções NO CODE / LOW CODE/ BPMS
+📊 STATUS: SUSPENSO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 8
+
+📋 CAMPOS PERSONALIZADOS:
+ - Acompanhado pela LIGA: LIGA
+ - Acompanhado pela SAD: SAD
+ - Categoria do Projeto: Prioritário
+ - DashARPC: DTD
+ - Diretoria: DTD
+ - Diretoria ARP: DTD
+ - GerARPC: GTD
+ - Gerente do Projeto: Aristides Vicente
+ - Gerentes (Entregas): 
+ - Gerëncia: GTD
+ - Iniciativas Estratégicas: 1.2.2 Promover a economicidade e sustentabilidade das contratações de TIC
+ - Inicio Real: 01/05/2024
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Plano Operativo: PO LIGA
+ - Progresso: {'percent_complete': 37.5}
+ - Projeto: Soluções NO CODE / LOW CODE/ BPMS
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

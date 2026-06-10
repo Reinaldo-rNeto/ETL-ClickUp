@@ -1,0 +1,96 @@
+[
+    {
+        "id": "90130208316238",
+        "comment": [
+            {
+                "text": "Em contato com a solicitante foi fornecido o e-mail ",
+                "attributes": {}
+            },
+            {
+                "text": "igor.franca@qintess.com",
+                "attributes": {
+                    "link": "mailto:igor.franca@qintess.com"
+                }
+            },
+            {
+                "text": ".  ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-0442336e-02f7-4a76-9453-7ff399b0df00"
+                }
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-785232c5-da34-4ea2-8688-c76a15cb2b2c"
+                }
+            },
+            {
+                "text": "Convite disponibilizado para o usuário, aguardando aceite para disponibilizar acesso ao diretório  DIC/GIN.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-8a89aa55-83f3-49a6-bf95-aef56bb64a41"
+                }
+            }
+        ],
+        "comment_text": "Em contato com a solicitante foi fornecido o e-mail igor.franca@qintess.com.  \n\nConvite disponibilizado para o usuário, aguardando aceite para disponibilizar acesso ao diretório  DIC/GIN.\n",
+        "user": {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "color": "#000",
+            "initials": "MA",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1767814731504",
+        "reply_count": 0
+    },
+    {
+        "id": "90130204535290",
+        "comment": [
+            {
+                "text": "Realizado contato com a solicitante, a solicitação não foi atendida porque e-mail instrucional só é utilizado para membros, não permitindo a criação de contas convidado. ",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-e546b24e-d564-4a43-a1dc-3c6914f99139"
+                }
+            },
+            {
+                "text": "Aguardando e-mail.",
+                "attributes": {}
+            },
+            {
+                "text": "\n",
+                "attributes": {
+                    "block-id": "block-2075e7cf-291e-4cb5-93cd-a31f89ae2316"
+                }
+            }
+        ],
+        "comment_text": "Realizado contato com a solicitante, a solicitação não foi atendida porque e-mail instrucional só é utilizado para membros, não permitindo a criação de contas convidado. \nAguardando e-mail.\n",
+        "user": {
+            "id": 93917609,
+            "username": "Matheus Aguiar",
+            "email": "matheus.bello@ati.pe.gov.br",
+            "color": "#000",
+            "initials": "MA",
+            "profilePicture": null
+        },
+        "assignee": null,
+        "group_assignee": null,
+        "reactions": [],
+        "date": "1766495793811",
+        "reply_count": 0
+    }
+]

@@ -1,0 +1,19 @@
+📌 TAREFA: Análise de pedido de reequilibrio financeiro para itens de Notebook DATEN
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 29/12/2026
+ - Progresso: {'percent_complete': 0}
+ - TesteReport: https://app.clickup.com/9013340838/v/dc/8cktan6-29433/8cktan6-31433
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

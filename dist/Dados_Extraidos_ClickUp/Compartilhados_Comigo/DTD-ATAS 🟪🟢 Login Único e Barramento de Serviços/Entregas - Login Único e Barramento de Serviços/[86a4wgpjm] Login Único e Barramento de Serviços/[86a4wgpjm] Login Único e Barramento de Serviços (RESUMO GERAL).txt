@@ -1,0 +1,33 @@
+📌 TAREFA: Login Único e Barramento de Serviços
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 7
+
+📋 CAMPOS PERSONALIZADOS:
+ - Acompanhado pela LIGA: LIGA
+ - Acompanhado pela SAD: SAD
+ - Acompanhado pela SEPLAG: SEPLAG
+ - Categoria do Projeto: Prioritário
+ - DashARPC: DTD
+ - Diretoria: DTD
+ - Diretoria ARP: DTD
+ - GerARPC: ATAS
+ - Gerente do Projeto: Bruno Queiroga
+ - Gerëncia: ATAS
+ - Iniciativas Estratégicas: 1.1.1 Aprimorar e ampliar a plataforma de Governo Digital
+ - Inicio Real: 01/06/2024
+ - Objetivo Estratégico: 1.1 Ampliar e simplificar o acesso a informações e serviços digitais do Governo
+ - Plano Operativo: PO LIGA
+ - Progresso: {'percent_complete': 28.57142857142857}
+ - Projeto: Login Único e Barramento de Serviços
+ - Termino Real: 10/10/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2026-05-05T09:43:50-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Estevão 
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 05/05/2026
+ - E-mail : joao.bezerra.ati@gmail.com
+ - Gerência Formulários : GTD
+ - Justificativa: Squad Dev
+
+ - Nome: João Victor Bezerra
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+joao.bezerra.ati@gmail.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[08/05/2026 09:39] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para liberação dos acessos.

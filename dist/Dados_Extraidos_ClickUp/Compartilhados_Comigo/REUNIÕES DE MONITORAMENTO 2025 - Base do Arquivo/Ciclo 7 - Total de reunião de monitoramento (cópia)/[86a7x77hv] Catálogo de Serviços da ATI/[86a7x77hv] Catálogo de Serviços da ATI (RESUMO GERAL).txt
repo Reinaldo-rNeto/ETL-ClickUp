@@ -1,0 +1,24 @@
+📌 TAREFA: Catálogo de Serviços da ATI
+📊 STATUS: NÃO AGENDADO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Diretoria: DPG
+ - Event Type: DPG
+ - Gerëncia: GRGD
+ - Instância de Monitoramento: Gerências
+ - Mês/Ano: Ciclo 07
+ - Participantes Convidados: 
+ - Qtd de Projetos: PROJETOS_QTD
+ - ReuniaoDash: PRESIDI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

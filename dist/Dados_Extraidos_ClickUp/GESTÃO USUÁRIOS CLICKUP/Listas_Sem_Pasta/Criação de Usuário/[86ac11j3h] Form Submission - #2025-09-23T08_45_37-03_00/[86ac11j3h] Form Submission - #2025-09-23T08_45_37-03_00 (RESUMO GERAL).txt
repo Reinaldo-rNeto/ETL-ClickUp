@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2025-09-23T08:45:37-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Idylla Prohaska Lima Santos
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 23/09/2025
+ - E-mail : jeova.menezes@gd.ati.pe.gov.br
+ - Gerência Formulários : GRC
+ - Justificativa: Favor inserir o usuário na pasta DCI/GRC.
+
+ - Nome: Jeová Menezes de Barros
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+jeova.menezes@gd.ati.pe.gov.br
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[23/09/2025 11:18] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para disponibilizar acesso ao diretório DCI/GRC.

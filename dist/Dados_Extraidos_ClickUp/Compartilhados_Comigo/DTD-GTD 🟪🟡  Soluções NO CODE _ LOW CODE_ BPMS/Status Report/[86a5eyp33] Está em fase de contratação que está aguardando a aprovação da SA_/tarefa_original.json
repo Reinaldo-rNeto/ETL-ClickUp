@@ -1,0 +1,219 @@
+{
+    "id": "86a5eyp33",
+    "custom_id": null,
+    "custom_item_id": 1003,
+    "name": "Está em fase de contratação que está aguardando a aprovação da SAD, previsto para o dia 5.11.24. Posteriormente será minutado o contrato e encaminhado para prévia análise da PGE. Só após a análise da PGE, a entrega contração da ferramenta LOW CODE/BPMS - Serviços Internos, poderá ser dada como concluída.",
+    "text_content": "",
+    "description": "",
+    "status": {
+        "status": "a iniciar",
+        "id": "sc901305370282_a837FnhW",
+        "color": "#b0e7ff",
+        "type": "open",
+        "orderindex": 0
+    },
+    "orderindex": "120323347.00000000000000000000000000000000",
+    "date_created": "1730317685566",
+    "date_updated": "1730381776057",
+    "date_closed": null,
+    "date_done": null,
+    "archived": false,
+    "creator": {
+        "id": 96788365,
+        "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+        "color": "",
+        "email": "clickup.adm@ati.pe.gov.br",
+        "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+    },
+    "assignees": [
+        {
+            "id": 89174725,
+            "username": "Rafael Soares",
+            "color": "#ff897f",
+            "initials": "RS",
+            "email": "rafael.soares@ati.pe.gov.br",
+            "profilePicture": null
+        }
+    ],
+    "group_assignees": [],
+    "watchers": [
+        {
+            "id": 82067280,
+            "username": "Monica Maria Costa Leal",
+            "color": "#cddc39",
+            "initials": "ML",
+            "email": "monica.leal@ati.pe.gov.br",
+            "profilePicture": null
+        },
+        {
+            "id": 89174725,
+            "username": "Rafael Soares",
+            "color": "#ff897f",
+            "initials": "RS",
+            "email": "rafael.soares@ati.pe.gov.br",
+            "profilePicture": null
+        },
+        {
+            "id": 96788365,
+            "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+            "color": "",
+            "initials": "AP",
+            "email": "clickup.adm@ati.pe.gov.br",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+        }
+    ],
+    "checklists": [],
+    "tags": [],
+    "parent": null,
+    "top_level_parent": null,
+    "priority": null,
+    "due_date": null,
+    "start_date": null,
+    "points": null,
+    "time_estimate": null,
+    "custom_fields": [
+        {
+            "id": "400c5ef1-4593-4d02-a1df-5dbae983f7d2",
+            "name": "Entrega Relacionada",
+            "type": "drop_down",
+            "type_config": {
+                "options": [
+                    {
+                        "id": "f49be88e-b822-4ede-98f6-c82b95c0a30e",
+                        "name": "1. Prospecção de ferramentas",
+                        "color": null,
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "3d6281c3-b952-47f0-a6d6-cd7e85f949ab",
+                        "name": "2. Contratação da ferramenta ",
+                        "color": null,
+                        "orderindex": 1
+                    }
+                ]
+            },
+            "date_created": "1726148879440",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "c4c3f20b-7a0d-464c-912b-6de2a10a4dbd",
+            "name": "Meta",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1742238608862",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "1fbbda1c-33f1-42f2-a8ed-c7c6ddc8f72c",
+            "name": "Observações",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1725630511725",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "9b77ed58-c27d-4471-b696-330878c0af6b",
+            "name": "Progresso",
+            "type": "automatic_progress",
+            "type_config": {
+                "tracking": {
+                    "subtasks": true
+                },
+                "complete_on": 3,
+                "subtask_rollup": false
+            },
+            "date_created": "1725657938328",
+            "hide_from_guests": false,
+            "value": {
+                "percent_complete": 0
+            },
+            "required": false
+        },
+        {
+            "id": "6a4e4072-5e6f-4e9e-b298-b665b6e84206",
+            "name": "Project Lead",
+            "type": "users",
+            "type_config": {
+                "single_user": true,
+                "include_groups": null,
+                "include_guests": false,
+                "include_team_members": false
+            },
+            "date_created": "1725630104093",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "1c4da0d6-408f-4b8b-918a-0767b48ab324",
+            "name": "Project Rating",
+            "type": "emoji",
+            "type_config": {
+                "count": 5,
+                "code_point": "1f44f"
+            },
+            "date_created": "1725630104093",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "94f0516d-ff1c-47e5-b1ef-3aa6fa7a22be",
+            "name": "🗓️ Data do Registro",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1725630492345",
+            "hide_from_guests": false,
+            "value": "1730358000000",
+            "value_richtext": null,
+            "required": false
+        }
+    ],
+    "dependencies": [],
+    "linked_tasks": [],
+    "locations": [],
+    "team_id": "9013340838",
+    "url": "https://app.clickup.com/t/86a5eyp33",
+    "sharing": {
+        "public": false,
+        "public_share_expires_on": null,
+        "public_fields": [
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+        ],
+        "token": null,
+        "seo_optimized": false
+    },
+    "permission_level": "comment",
+    "list": {
+        "id": "901305370282",
+        "name": "Status Report",
+        "access": true
+    },
+    "project": {
+        "id": "90132878172",
+        "name": "DTD-GTD 🟪🟡  Soluções NO CODE / LOW CODE/ BPMS",
+        "hidden": false,
+        "access": true
+    },
+    "folder": {
+        "id": "90132878172",
+        "name": "DTD-GTD 🟪🟡  Soluções NO CODE / LOW CODE/ BPMS",
+        "hidden": false,
+        "access": true
+    },
+    "space": {
+        "id": "90131746526"
+    },
+    "_local_subtasks_count": 0
+}

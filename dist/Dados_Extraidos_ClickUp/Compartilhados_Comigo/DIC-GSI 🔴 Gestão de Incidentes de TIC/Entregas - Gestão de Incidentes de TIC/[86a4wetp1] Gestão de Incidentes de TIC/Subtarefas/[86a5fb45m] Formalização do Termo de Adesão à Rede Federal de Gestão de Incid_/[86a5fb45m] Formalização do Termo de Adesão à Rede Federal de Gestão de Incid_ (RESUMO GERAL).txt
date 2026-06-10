@@ -1,0 +1,19 @@
+📌 TAREFA: Formalização do Termo de Adesão à Rede Federal de Gestão de Incidentes Cibernéticos (ReGIC).
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Matifa Pricila Nunes de Sousa
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 13/12/2024
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 20/12/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

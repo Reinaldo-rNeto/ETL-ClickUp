@@ -1,0 +1,23 @@
+📌 TAREFA: Força de Trabalho de TIC
+📊 STATUS: NÃO AGENDADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Diretoria: DPG
+ - Event Type: DPG
+ - Gerëncia: GGT
+ - Instância de Monitoramento: Gerências
+ - Mês/Ano: Ciclo 08
+ - Qtd de Projetos: PROJETOS_QTD
+ - ReuniaoDash: PRESIDI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

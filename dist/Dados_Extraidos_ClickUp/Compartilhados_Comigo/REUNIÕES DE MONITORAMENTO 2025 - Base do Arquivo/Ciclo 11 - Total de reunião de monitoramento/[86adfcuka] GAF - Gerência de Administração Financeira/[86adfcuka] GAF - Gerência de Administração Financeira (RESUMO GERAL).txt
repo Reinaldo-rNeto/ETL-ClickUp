@@ -1,0 +1,20 @@
+📌 TAREFA: GAF - Gerência de Administração Financeira
+📊 STATUS: NÃO AGENDADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Event Type: PROJETO
+ - Mês/Ano: Ciclo 11
+ - Qtd Encontros: ENCONTROSQTD_DASH
+ - Qtd de Encontros Gerências: GAF
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

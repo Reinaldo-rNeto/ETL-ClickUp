@@ -1,0 +1,30 @@
+📌 TAREFA: Form Submission - #2025-10-21T13:46:43-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Mozart Almeida
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 21/10/2025
+ - E-mail : laiz.santos@qintess.com
+ - Gerência Formulários : GSC
+ - Justificativa: Testes Qintess (34/2024)
+Testes Qintess (37/2024)
+
+ - Nome: Laiz da Silva Santos
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+laiz.santos@qintess.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[28/10/2025 14:46] Matheus Aguiar comentou:
+  Convite disponibilizado para a usuária, sendo disponibilizado acesso aos diretórios DTD/GSC

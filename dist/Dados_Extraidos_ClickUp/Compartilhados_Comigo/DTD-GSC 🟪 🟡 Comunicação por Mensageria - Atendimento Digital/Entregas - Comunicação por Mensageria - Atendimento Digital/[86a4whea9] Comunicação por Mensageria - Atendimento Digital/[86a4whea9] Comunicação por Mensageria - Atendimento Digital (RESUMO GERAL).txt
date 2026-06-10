@@ -1,0 +1,32 @@
+📌 TAREFA: Comunicação por Mensageria - Atendimento Digital
+📊 STATUS: SUSPENSO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 7
+
+📋 CAMPOS PERSONALIZADOS:
+ - Acompanhado pela LIGA: LIGA
+ - Acompanhado pela SAD: SAD
+ - Acompanhado pela SEPLAG: SEPLAG
+ - Categoria do Projeto: Prioritário
+ - DashARPC: DTD
+ - Diretoria: DTD
+ - Diretoria ARP: DTD
+ - GerARPC: GSC
+ - Gerente do Projeto: Mozart Almeida
+ - Gerëncia: GSC
+ - Iniciativas Estratégicas: 1.1.1 Aprimorar e ampliar a plataforma de Governo Digital
+ - Inicio Real: 01/05/2024
+ - Objetivo Estratégico: 1.1 Ampliar e simplificar o acesso a informações e serviços digitais do Governo
+ - Plano Operativo: PO LIGA
+ - Progresso: {'percent_complete': 57.14285714285714}
+ - Projeto: Comunicação por Mensageria - Atendimento Digital
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

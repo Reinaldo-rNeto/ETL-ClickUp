@@ -1,0 +1,35 @@
+📌 TAREFA: Form Submission - #2026-03-25T10:09:20-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Idylla Prohaska Lima Santos
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 25/03/2026
+ - E-mail :  raimundo.ferreiraati@gmail.com
+ - Gerência Formulários : GIS
+ - Justificativa: Favor conceder acesso ao usuário raimundo.ferreiraati@gmail.com às listas “Contratos” e “Contratações”, localizadas na pasta DCI/GSGD.
+
+
+ - Nome: Raimundo Ferreira de Andrade Filho
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+ raimundo.ferreiraati@gmail.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (2)
+============================================================
+
+[25/03/2026 10:17] Matheus Aguiar comentou:
+  image.png
+
+Convite enviado para o usuário. Aguardando aceite para fornecer os acessos.
+
+[07/04/2026 11:00] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, disponibilizado acesso apenas as listas solicitadas do diretório DCI/GSGD.

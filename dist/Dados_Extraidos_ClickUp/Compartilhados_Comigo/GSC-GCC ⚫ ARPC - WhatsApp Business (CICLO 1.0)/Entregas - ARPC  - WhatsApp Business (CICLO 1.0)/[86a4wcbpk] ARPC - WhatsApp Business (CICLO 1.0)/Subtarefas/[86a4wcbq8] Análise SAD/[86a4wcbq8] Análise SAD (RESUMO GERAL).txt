@@ -1,0 +1,19 @@
+📌 TAREFA: Análise SAD
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 5
+
+📋 CAMPOS PERSONALIZADOS:
+ - Gerentes (Entregas): Liliane Almeida Oliveira
+ - Inicio Real: 19/02/2025
+ - Progresso: {'percent_complete': 0}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

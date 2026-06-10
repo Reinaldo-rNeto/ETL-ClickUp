@@ -1,0 +1,18 @@
+📌 TAREFA: Contratação do serviço de Inteligência de Ameaças (CTI).
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Matifa Pricila Nunes de Sousa
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 27/04/2026
+ - Progresso: {'percent_complete': 0}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

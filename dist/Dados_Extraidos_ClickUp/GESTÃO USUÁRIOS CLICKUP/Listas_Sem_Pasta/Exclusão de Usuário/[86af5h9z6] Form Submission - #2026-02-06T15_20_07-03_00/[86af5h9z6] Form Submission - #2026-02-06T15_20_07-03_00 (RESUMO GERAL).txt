@@ -1,0 +1,28 @@
+📌 TAREFA: Form Submission - #2026-02-06T15:20:07-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 06/02/2026
+ - E-mail : andre.alencar@ati.pe.gov.br | analuiza.seplag@gmail.com | jcdst80@gmail.com | phablo.patricio@jointecnologia.com.br | luigi.ati.pe@gmail.com |  ricardo.vieira@ati.pe.gov.br | renataarthur22@gmail.com | caiofarias2014@gmail.com | paulo.gomes@qintess.com | neudson.santana@qintess.com | antonio.paz@ati.pe.gov.br | cristina.beltrao@ati.pe.gov.br | frederico.pacheco@ati.pe.gov.br | srssilva1964@gmail.com | nilo.martins@ati.pe.gov.br | kleber.santos@qintess.com | valeria.torres@qintess.com | fernando.lopes@qintess.com | jeova.menezes@gd.ati.pe.gov.br | angelicacostaati@gmail.com | joseilson.franca@gmail.com | arthur.estilo@gmail.com | vancrilio.filho@qintess.com | maria.mysilva.ati@gmail.com | mitresouza.ati@gmail.com | gilberto.goncalves@ati.pe.gov.br | carolina.freitas@gd.ati.pe.gov.br | anderson.santana@jointecnologia.com.br | nilkelly.dornelas@sas.pe.gov.br | gsantos@qintess.com | matifa.sousa@jointecnologia.com.br
+ - Justificativa: Conforme levantamento de usuários com inatividade superior a 6 meses na ferramenta ClickUp, foi alinhado com a Gerente Márcia Bion a necessidade de exclusão dessas contas, como medida de racionalização de acessos e fortalecimento da segurança das informações. Esta ação visa reduzir possíveis riscos decorrentes de acessos desnecessários, garantindo que apenas usuários ativos e autorizados possuam "permissões" na plataforma assegurando a aderência aos princípios de controle, confidencialidade e integridade das informações institucionais.
+
+
+ - Nome: André Alencar | Ana Luiza Siqueira | Janaina Clemente da Silva Tenorio | Phablo Patricio Fernandes | Luigi Marcopolo Nogueira | José Ricardo Cabral Vieira de Mello | Renata Maria Amorim de Araújo | Caio Farias | Paulo Gomes | Neudson Ramos de Santana | Antonio da Paz | Cristina Beltrão | Frederico Pacheco | Sandra Regina Silva | Nilo Martins | Kleber Santos | Valéria Torres de Oliveira | Fernando Ferreira Lopes | Jeová Menezes de Barros | Angelica Costa | Joseilson Albuquerque de França | Arthur Santos | Vancrilio Marques Torres Filho | Maria Myllena Soledade Vera Cruz da Silva | Mitre Gomes de Souza | Gilberto Gonçalves de Lima Junior | Ana Carolina Freitas Pereira | Anderson Medeiros de Santana |  nilkelly.dornelas | Gabriel Rodrigues dos Santos | Matifa Sousa
+
+============================================================
+E-mail do usuário::
+andre.alencar@ati.pe.gov.br | analuiza.seplag@gmail.com | jcdst80@gmail.com | phablo.patricio@jointecnologia.com.br | luigi.ati.pe@gmail.com |  ricardo.vieira@ati.pe.gov.br | renataarthur22@gmail.com | caiofarias2014@gmail.com | paulo.gomes@qintess.com | neudson.santana@qintess.com | antonio.paz@ati.pe.gov.br | cristina.beltrao@ati.pe.gov.br | frederico.pacheco@ati.pe.gov.br | srssilva1964@gmail.com | nilo.martins@ati.pe.gov.br | kleber.santos@qintess.com | valeria.torres@qintess.com | fernando.lopes@qintess.com | jeova.menezes@gd.ati.pe.gov.br | angelicacostaati@gmail.com | joseilson.franca@gmail.com | arthur.estilo@gmail.com | vancrilio.filho@qintess.com | maria.mysilva.ati@gmail.com | mitresouza.ati@gmail.com | gilberto.goncalves@ati.pe.gov.br | carolina.freitas@gd.ati.pe.gov.br | anderson.santana@jointecnologia.com.br | nilkelly.dornelas@sas.pe.gov.br | gsantos@qintess.com | matifa.sousa@jointecnologia.com.br
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (2)
+============================================================
+
+[06/02/2026 15:30] Matheus Aguiar comentou:
+  Solicitação executada com êxito.
+
+[06/02/2026 15:46] Márcia Bion comentou:
+  Aprovado pela Gerência GPD

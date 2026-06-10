@@ -1,0 +1,20 @@
+📌 TAREFA: Mapa de Preço
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Gerentes (Entregas): Lianne Borges
+ - Inicio Real: 27/11/2023
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 27/12/2023
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

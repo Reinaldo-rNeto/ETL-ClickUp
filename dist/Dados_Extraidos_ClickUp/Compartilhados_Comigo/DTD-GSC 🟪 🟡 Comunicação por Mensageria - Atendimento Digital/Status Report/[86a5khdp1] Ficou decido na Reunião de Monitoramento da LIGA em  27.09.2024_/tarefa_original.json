@@ -1,0 +1,206 @@
+{
+    "id": "86a5khdp1",
+    "custom_id": null,
+    "custom_item_id": 1003,
+    "name": "Ficou decido na Reunião de Monitoramento da LIGA em  27.09.2024  a necessidade de reestruturar o projeto para promover a separação das atividades relativas a chatbot e whatsapp. A Gerente Carolina Freitas fez uma proposta de reestruturação em 13.11.24, a ser validada pelo Diretor e PRESI. Essa restruturação visa separar as atividades relativas ao whatsapp e as relativas ao chatbot. Em relação a (dispensa) contratação do whatsapp: a documentação foi enviada à SAD, aguardando para o processo seguir para a PGE.  A contratação da solução de chatbot está aguardando a decisão da diretoria sobre qual será a ferramenta escolhida pois decidiu-se fazer um complemento da prospecção por identificar outras soluções em potencial.",
+    "text_content": "",
+    "description": "",
+    "status": {
+        "status": "in progress",
+        "id": "sc901305370310_CilY9Mmf",
+        "color": "#4466ff",
+        "type": "custom",
+        "orderindex": 1
+    },
+    "orderindex": "120324846.00006560000000000000000000000000",
+    "date_created": "1731587232802",
+    "date_updated": "1731587775461",
+    "date_closed": null,
+    "date_done": null,
+    "archived": false,
+    "creator": {
+        "id": 82067280,
+        "username": "Monica Maria Costa Leal",
+        "color": "#cddc39",
+        "email": "monica.leal@ati.pe.gov.br",
+        "profilePicture": null
+    },
+    "assignees": [],
+    "group_assignees": [],
+    "watchers": [
+        {
+            "id": 82067280,
+            "username": "Monica Maria Costa Leal",
+            "color": "#cddc39",
+            "initials": "ML",
+            "email": "monica.leal@ati.pe.gov.br",
+            "profilePicture": null
+        }
+    ],
+    "checklists": [],
+    "tags": [],
+    "parent": null,
+    "top_level_parent": null,
+    "priority": null,
+    "due_date": null,
+    "start_date": null,
+    "points": null,
+    "time_estimate": null,
+    "custom_fields": [
+        {
+            "id": "b4320f2e-0d95-4d46-ac0e-6b4f988e2e90",
+            "name": "Entrega Relacionada",
+            "type": "drop_down",
+            "type_config": {
+                "options": [
+                    {
+                        "id": "25e9330d-eda1-4135-88d1-8e8b7381267b",
+                        "name": "1. Prospectar solução de Chatbot e Whatsapp para realização de projeto piloto",
+                        "color": null,
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "6d594e54-75e2-429d-950c-536714e41758",
+                        "name": "2. Contratar solução de Chatbot e Whatsapp para realização de projeto piloto",
+                        "color": null,
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "161aa37a-7644-4341-9020-db1e4cb80924",
+                        "name": "3. Criação ARP para serviços de API Whatsapp",
+                        "color": null,
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "8ce0b02e-a0f6-4679-82b3-77c43808b74c",
+                        "name": "4.Contratação da(s) solução(ões) definitiva(s) de Chatbot do Governo",
+                        "color": null,
+                        "orderindex": 3
+                    }
+                ]
+            },
+            "date_created": "1726150140289",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "c4c3f20b-7a0d-464c-912b-6de2a10a4dbd",
+            "name": "Meta",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1742238608862",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "1fbbda1c-33f1-42f2-a8ed-c7c6ddc8f72c",
+            "name": "Observações",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1725630511725",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "9b77ed58-c27d-4471-b696-330878c0af6b",
+            "name": "Progresso",
+            "type": "automatic_progress",
+            "type_config": {
+                "tracking": {
+                    "subtasks": true
+                },
+                "complete_on": 3,
+                "subtask_rollup": false
+            },
+            "date_created": "1725657938328",
+            "hide_from_guests": false,
+            "value": {
+                "percent_complete": 0
+            },
+            "required": false
+        },
+        {
+            "id": "6a4e4072-5e6f-4e9e-b298-b665b6e84206",
+            "name": "Project Lead",
+            "type": "users",
+            "type_config": {
+                "single_user": true,
+                "include_groups": null,
+                "include_guests": false,
+                "include_team_members": false
+            },
+            "date_created": "1725630104093",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "1c4da0d6-408f-4b8b-918a-0767b48ab324",
+            "name": "Project Rating",
+            "type": "emoji",
+            "type_config": {
+                "count": 5,
+                "code_point": "1f44f"
+            },
+            "date_created": "1725630104093",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "94f0516d-ff1c-47e5-b1ef-3aa6fa7a22be",
+            "name": "🗓️ Data do Registro",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1725630492345",
+            "hide_from_guests": false,
+            "value": "1731481200000",
+            "value_richtext": null,
+            "required": false
+        }
+    ],
+    "dependencies": [],
+    "linked_tasks": [],
+    "locations": [],
+    "team_id": "9013340838",
+    "url": "https://app.clickup.com/t/86a5khdp1",
+    "sharing": {
+        "public": false,
+        "public_share_expires_on": null,
+        "public_fields": [
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+        ],
+        "token": null,
+        "seo_optimized": false
+    },
+    "permission_level": "comment",
+    "list": {
+        "id": "901305370310",
+        "name": "Status Report",
+        "access": true
+    },
+    "project": {
+        "id": "90132878590",
+        "name": "DTD-GSC 🟪 🟡 Comunicação por Mensageria - Atendimento Digital",
+        "hidden": false,
+        "access": true
+    },
+    "folder": {
+        "id": "90132878590",
+        "name": "DTD-GSC 🟪 🟡 Comunicação por Mensageria - Atendimento Digital",
+        "hidden": false,
+        "access": true
+    },
+    "space": {
+        "id": "90131746526"
+    },
+    "_local_subtasks_count": 0
+}

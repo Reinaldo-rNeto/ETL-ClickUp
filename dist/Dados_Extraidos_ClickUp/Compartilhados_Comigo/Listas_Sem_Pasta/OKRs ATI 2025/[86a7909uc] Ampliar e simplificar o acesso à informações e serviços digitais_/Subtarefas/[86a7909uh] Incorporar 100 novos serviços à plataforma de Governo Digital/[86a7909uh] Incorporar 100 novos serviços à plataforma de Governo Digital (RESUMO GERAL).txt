@@ -1,0 +1,30 @@
+📌 TAREFA: Incorporar 100 novos serviços à plataforma de Governo Digital
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição do Objetivo: Ampliar e simplificar o acesso à informações e serviços digitais do Governo
+ - Diretoria: DTD
+ - Fórmula: Quantidade de serviços incorporados à Plataforma de Governo Digital.
+ - Indicador: Quantidade de serviços digitais disponibilizados pela ATI na plataforma de Governo Digital
+ - KR: OKR 1
+ - Meta: 100
+ - OKR Type: KEY RESULT
+ - Objetivo: Objective 1
+ - Perspectiva: 02. Resultados
+ - Status OKR: Não iniciado
+ - Descrição: Mede a quantidade de funcionalidades incorporadas à plataforma de governo digital no ano.
+
+============================================================
+Purpose
+
+
+Action Steps
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,19 @@
+📌 TAREFA: Relatório de Diagnóstico das Prods
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Matheus Aguiar
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 5
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Diagnóstico sobre  as estruturas de TIC das prods  e Elaboração do benchmarking  das prods
+ - Inicio Real: 04/08/2025
+ - Progresso: {'percent_complete': 20}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

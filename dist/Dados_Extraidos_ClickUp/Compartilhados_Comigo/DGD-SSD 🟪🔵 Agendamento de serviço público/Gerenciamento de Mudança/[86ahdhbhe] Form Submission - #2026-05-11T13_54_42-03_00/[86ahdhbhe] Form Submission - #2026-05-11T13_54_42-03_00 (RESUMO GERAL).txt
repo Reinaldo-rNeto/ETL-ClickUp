@@ -1,0 +1,25 @@
+📌 TAREFA: Form Submission - #2026-05-11T13:54:42-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Agendamento de Serviço Público : DTD/GSC - Agendamento de Serviço Público 
+ - Data da submissão : 11/05/2026
+ - Diretoria - Análise da SMP: DGD
+ - Gerente de Projetos: José Henrique Lins
+ - Justificativa: Após reuniao de atualização do PO ATI/SAD em 08/05/2026 com participação de: Eduardo Salvador, Marcia Bion, Monica Leal, Rafael Soares, Henrique Lins e Adelnei Felix, ficou acordada a mudança no escopo do projeto, como em anexo. Fazer De/Para no Clickup para que seja refletido oq foi enviado para a SAD.
+
+ - Solicitante: Beatriz Couto
+ - Tipo de Mudança: Entrega - Atividades
+
+============================================================
+Data da submissão :
+2026-05-11T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

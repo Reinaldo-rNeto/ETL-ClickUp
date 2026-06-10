@@ -1,0 +1,20 @@
+📌 TAREFA: Registros das Atividades de Tratamento de Dados Pessoais (ROPA) disponíveis
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Cumprir obrigação legal do Art. 37 da LGPD de ter um documento de  Registro das Operações de Tratamento de Dados Pessoais. O ROPA registra todos os fluxos, processamentos e atividades envolvendo dados pessoais.
+ - Inicio Real: 24/03/2025
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 15/04/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

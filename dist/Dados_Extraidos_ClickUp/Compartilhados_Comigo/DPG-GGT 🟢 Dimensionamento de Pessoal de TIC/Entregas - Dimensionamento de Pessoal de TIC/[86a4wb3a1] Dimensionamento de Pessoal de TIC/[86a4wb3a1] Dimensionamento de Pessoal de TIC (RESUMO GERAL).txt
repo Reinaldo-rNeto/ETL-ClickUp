@@ -1,0 +1,33 @@
+📌 TAREFA: Dimensionamento de Pessoal de TIC
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 5
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.2.1. (Meta 2025) - Elaborar e realizar a pesquisa de satisfação de produtos e serviços (Baseline)
+ - Acompanhado pela LIGA: LIGA
+ - Categoria do Projeto: Prioritário
+ - DashARPC: DPG
+ - Diretoria: DPG
+ - Gerente do Projeto: Ariadnes Nunes
+ - Gerëncia: GGT
+ - Iniciativas Estratégicas: 1.2.1 Estruturar e implementar a Política do Governo Digital
+ - Inicio Real: 03/06/2024
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Plano Operativo: Prioritário
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Dimensionamento de Pessoal de TIC
+ - Status OKR: Não apurado
+ - Termino Real: 11/05/2026
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[04/10/2022 09:45] Christian Rommel Gracias comentou:
+  Insert project comments here.

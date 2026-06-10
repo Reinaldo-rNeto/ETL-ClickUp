@@ -1,0 +1,26 @@
+📌 TAREFA: Solução HubBI
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 15/01/2025
+ - Diretoria: DIC
+ - Event Type: DIC
+ - Gerëncia: GDA
+ - Instância de Monitoramento: Gerências
+ - Location: {'location': {'lat': -8.064996899999999, 'lng': -34.880349}, 'place_id': 'ChIJaXZt0bsYqwcRaKP5bgqoa9s', 'formatted_address': 'Santo Antônio, Recife - PE, 50030-230'}
+ - Mês/Ano: Ciclo 01
+ - Participantes Convidados: Ana Baihe, Monica Maria Costa Leal, Geymison Salvador de Lima
+ - Qtd de Projetos: PROJETOS_QTD
+ - ReuniaoDash: PRESIDI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

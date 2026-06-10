@@ -1,0 +1,18 @@
+📌 TAREFA: Este projeto contempla a realização dos projetos de engenharia e arquitetura, orçamento e demais artefatos técnicos para a contratação. Os artefatos serão elaborados pela SAD. A SAD está recebendo engenheiros e arquitetos de seleção simplificada, para que se possa dar andamento às demais atividades do projeto.
+📊 STATUS: EM ANDAMENTO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progresso: {'percent_complete': 0}
+ - 🗓️ Data do Registro: 25/10/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

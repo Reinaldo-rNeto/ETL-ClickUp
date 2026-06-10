@@ -1,0 +1,28 @@
+📌 TAREFA: Implementar pelo menos 7 iniciativas de Qualidade de Vida para os funcionários ao ano.
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição do Objetivo: Promover a mudança cultural e desenvolver as competências e capacidades para o Governo Digital
+ - Diretoria: DGI
+ - Fórmula: Quantidade de Iniciativas implementadas realizadas por ano. 
+ - Indicador: Índice de Implementação do Programa de Qualidade de Vida - PQV
+ - KR: OKR 6.2
+ - Meta: 7
+ - OKR Type: KEY RESULT
+ - Objetivo: Objective 6
+ - Perspectiva: 04. Pessoas e Recursos
+ - Resultados Alcançados: -
+ - Status OKR: Não iniciado
+ - Descrição: Mede a quantidade de iniciativas implementadas para os funcionários (servidores e empregados) a cada ano.
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

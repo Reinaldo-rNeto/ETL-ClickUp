@@ -1,0 +1,1066 @@
+{
+    "id": "86adfcuev",
+    "custom_id": null,
+    "custom_item_id": 0,
+    "name": "GRC - Gerência de Redes e Conectividade",
+    "text_content": "",
+    "description": "",
+    "status": {
+        "status": "realizado",
+        "id": "sc901322796250_UYkz7DBM",
+        "color": "#008844",
+        "type": "done",
+        "orderindex": 6
+    },
+    "orderindex": "120582627.00016200000000000000000000000000",
+    "date_created": "1764023030589",
+    "date_updated": "1764875041218",
+    "date_closed": null,
+    "date_done": "1764875032088",
+    "archived": false,
+    "creator": {
+        "id": 100046727,
+        "username": "Beatriz Couto",
+        "color": "#e93d82",
+        "email": "beatriz.couto.ati@gmail.com",
+        "profilePicture": "https://attachments.clickup.com/profilePictures/100046727_1oY.jpg"
+    },
+    "assignees": [],
+    "group_assignees": [],
+    "watchers": [
+        {
+            "id": 96788365,
+            "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+            "color": "",
+            "initials": "AP",
+            "email": "clickup.adm@ati.pe.gov.br",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+        },
+        {
+            "id": 100046727,
+            "username": "Beatriz Couto",
+            "color": "#e93d82",
+            "initials": "BC",
+            "email": "beatriz.couto.ati@gmail.com",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/100046727_1oY.jpg"
+        }
+    ],
+    "checklists": [],
+    "tags": [],
+    "parent": null,
+    "top_level_parent": null,
+    "priority": null,
+    "due_date": null,
+    "start_date": null,
+    "points": null,
+    "time_estimate": null,
+    "custom_fields": [
+        {
+            "id": "73d6849b-dfbb-4f68-a208-c7cfe430e773",
+            "name": "Ciclos",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "0105c56d-010d-47a7-8ae7-fcad542687e2",
+                        "name": "Ciclo 1",
+                        "color": null,
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "35b1bb47-a29f-4726-b6b4-01ef788b6670",
+                        "name": "Ciclo 2",
+                        "color": null,
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "fe7ca15b-cde3-4cb7-a943-91e38e462626",
+                        "name": "Ciclo 3",
+                        "color": null,
+                        "orderindex": 2
+                    }
+                ]
+            },
+            "date_created": "1737481338528",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "5aed24ec-65c8-404d-90e8-68665156aacd",
+            "name": "Data Realização do Monitoramento",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1738675326715",
+            "hide_from_guests": false,
+            "value": "1764831600000",
+            "value_richtext": "",
+            "required": false
+        },
+        {
+            "id": "1e73a335-dda7-4935-a41d-1a40e025d72b",
+            "name": "Data do Agendamento",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1738675281654",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "9e1693ba-dcd0-47dc-bf80-ffaa01b88dbb",
+            "name": "Diretoria",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "5bd456da-1b33-4b23-9df6-89ccc91a116d",
+                        "name": "DPG",
+                        "color": "#1bbc9c",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "bd003570-058f-4151-8045-698586863be2",
+                        "name": "DTD",
+                        "color": "#f9d900",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "51512dda-e495-4936-a7a5-f3f9f1320609",
+                        "name": "DIC",
+                        "color": "#ff7800",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "2f6f445e-9688-4aca-b6e6-032b64668855",
+                        "name": "DGI",
+                        "color": "#AF7E2E",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "0ef805da-bed2-4b21-8ebe-d4f8c7baed88",
+                        "name": "DCI",
+                        "color": "#7C4DFF",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "63ac9a51-6967-43dc-a5b0-eb81c25b5488",
+                        "name": "DGD",
+                        "color": "#08CF4D",
+                        "orderindex": 5
+                    }
+                ]
+            },
+            "date_created": "1725631719967",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "623ad06d-3abc-468e-a51b-9f7a209ff8be",
+            "name": "Event Type",
+            "type": "drop_down",
+            "type_config": {
+                "default": 0,
+                "sorting": "manual",
+                "placeholder": null,
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "cbf404f5-8711-4120-8d9e-05af41dec3ef",
+                        "name": "DTD",
+                        "color": "#f9d900",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "358eb968-a833-49e6-a83e-8c82e48361f6",
+                        "name": "DGI",
+                        "color": "#AF7E2E",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "708ee885-7892-4780-804e-15967bf67f3e",
+                        "name": "DCI",
+                        "color": "#7C4DFF",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "a02ea5aa-7c62-4379-ae76-2f0e00348825",
+                        "name": "DIC",
+                        "color": "#ff7800",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "ae00fcf6-25c5-4c02-bbc6-bc6c747e29c4",
+                        "name": "DPG",
+                        "color": "#1bbc9c",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "6f76c072-cb08-4e87-8850-ae7d1771948c",
+                        "name": "PRESI",
+                        "color": "#141313",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "eb498241-24c5-49b2-80d7-3ebcfcd8bc67",
+                        "name": "OKR",
+                        "color": "#81B1FF",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "82e826f8-87c7-492a-89fc-8e6ac2b33fb3",
+                        "name": "PROJETO",
+                        "color": "#3db88b",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "813e18b1-3ea1-40c5-a1ac-b3c7129d4746",
+                        "name": "DGD",
+                        "color": "#ffc53d",
+                        "orderindex": 8
+                    }
+                ]
+            },
+            "date_created": "1736182528721",
+            "hide_from_guests": false,
+            "value": 7,
+            "value_richtext": "",
+            "required": false
+        },
+        {
+            "id": "1b14bd5c-eda2-4625-9af6-a5a9cb9a1f09",
+            "name": "Gerëncia",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "e2c27e80-ea97-45f7-ac97-ecefa938ca15",
+                        "name": "GPD",
+                        "color": "#f39f71",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "b79ce764-8e59-43e5-a394-701c1aebfe39",
+                        "name": "GGT",
+                        "color": "#fb9c9c",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "2a07ba6c-fc4e-4e17-b7ec-9b03a17335d3",
+                        "name": "GCC",
+                        "color": "#3082B7",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "efebe7f6-a0d8-4353-92ec-6f689783b8d9",
+                        "name": "GRGD",
+                        "color": "#0231E8",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "88a1ce66-471d-4e2a-b308-3cfd5c5c095d",
+                        "name": "GDA",
+                        "color": "#ff7171",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "80e8a4a8-84fc-4864-a0a0-201e4d3dd6d0",
+                        "name": "GSI",
+                        "color": "#f53030",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "7f98f7fd-57eb-4560-980f-69f7f486c905",
+                        "name": "ATAS",
+                        "color": "#f53030",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "8cd8ec5b-5958-43a2-a849-f92b033cf301",
+                        "name": "GTD",
+                        "color": "#ff7171",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "45659a35-c86e-4864-a952-31d46229c54a",
+                        "name": "GSC",
+                        "color": "#0231E8",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "e0ca865b-0be9-4fc6-b642-0e154be836b7",
+                        "name": "SCI",
+                        "color": "#f53030",
+                        "orderindex": 9
+                    },
+                    {
+                        "id": "a6fe8329-e359-49b9-bf59-68cb216b0df6",
+                        "name": "GRC",
+                        "color": "#ff7171",
+                        "orderindex": 10
+                    },
+                    {
+                        "id": "6dcfb6e3-c55b-42e2-817c-e6bec06bfe4b",
+                        "name": "GIS",
+                        "color": "#0231E8",
+                        "orderindex": 11
+                    },
+                    {
+                        "id": "987eea2f-043c-47cf-a223-0326b2749945",
+                        "name": "GAF",
+                        "color": "#f53030",
+                        "orderindex": 12
+                    },
+                    {
+                        "id": "91364475-de75-4d57-a5c0-641135200ebc",
+                        "name": "GDQ",
+                        "color": "#ff7171",
+                        "orderindex": 13
+                    },
+                    {
+                        "id": "340b029e-3f63-4814-a881-a95c13912073",
+                        "name": "GPL",
+                        "color": "#0231E8",
+                        "orderindex": 14
+                    },
+                    {
+                        "id": "0f334ab1-c3f1-4e2d-abb7-900a140e533d",
+                        "name": "GGP",
+                        "color": "#3082b7",
+                        "orderindex": 15
+                    },
+                    {
+                        "id": "d1828ede-9bd8-4d02-a375-8f5e6a5459a8",
+                        "name": "DPG",
+                        "color": "#bf55ec",
+                        "orderindex": 16
+                    },
+                    {
+                        "id": "e6e83bc5-162d-4cee-b8f2-ae97c3e398ec",
+                        "name": "GIN",
+                        "color": "#FF4081",
+                        "orderindex": 17
+                    },
+                    {
+                        "id": "322d9a1d-972e-45d9-8044-db37efc27d5d",
+                        "name": "GSE",
+                        "color": "#3BAA00",
+                        "orderindex": 18
+                    },
+                    {
+                        "id": "839c3b6b-2b3f-49cd-bec1-18590d4465a1",
+                        "name": "GAS",
+                        "color": "#5D16F2",
+                        "orderindex": 19
+                    },
+                    {
+                        "id": "37c104b1-2c03-4b8d-b62f-2c35af18536f",
+                        "name": "SSD",
+                        "color": "#BF9528",
+                        "orderindex": 20
+                    },
+                    {
+                        "id": "3cefecc8-1796-4e15-b1b6-b5a6718bd93b",
+                        "name": "GSA",
+                        "color": "#C93265",
+                        "orderindex": 21
+                    },
+                    {
+                        "id": "0ec4b879-8098-49a9-a6c2-7d2037257d68",
+                        "name": "DCI",
+                        "color": "#b6b6ff",
+                        "orderindex": 22
+                    },
+                    {
+                        "id": "dc83adde-2a4f-46bf-892f-2f5e40038b71",
+                        "name": "GSGD",
+                        "color": "#aec0f5",
+                        "orderindex": 23
+                    }
+                ]
+            },
+            "date_created": "1726062894800",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "0474ffac-3790-47aa-a84d-63656cd0cd90",
+            "name": "Instância de Monitoramento",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "095df259-fe39-442d-9859-623b5160e4da",
+                        "name": "Gerências",
+                        "color": null,
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "f74082ea-1c19-4a02-8afd-a1b4154d993e",
+                        "name": "Diretorias",
+                        "color": null,
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "ca22d4ce-93c7-489e-8fca-b4b4ac3c1baa",
+                        "name": "PRESI",
+                        "color": null,
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "38009483-34c4-4bf3-b9a7-e201fa85fd5d",
+                        "name": "SAD",
+                        "color": null,
+                        "orderindex": 3
+                    }
+                ]
+            },
+            "date_created": "1736533589109",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "b0aa8c4e-8161-4f77-98cc-f9d70cab3f02",
+            "name": "Location",
+            "type": "location",
+            "type_config": {},
+            "date_created": "1728580018312",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "c4c3f20b-7a0d-464c-912b-6de2a10a4dbd",
+            "name": "Meta",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1742238608862",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "9b8e2450-3387-45ed-b42b-631e050c9cbc",
+            "name": "Monitorados com a PRESI",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "805584bd-80f5-4eff-a499-69c43867c50b",
+                        "name": "PRESI_PROJETOSATI",
+                        "color": null,
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1737724991137",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "dcd7ad8e-f353-49f1-9a4f-ae2edc25f889",
+            "name": "Mês/Ano",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "62122c07-1e2d-4c4b-9863-17899b560489",
+                        "name": "Ciclo 01",
+                        "color": "#e2e2e2",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "3c458ea2-bfe8-4bc1-b736-e34b0f4284e0",
+                        "name": "Ciclo 02",
+                        "color": "#9b59b6",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "46e2bcf7-b39f-42a8-a718-ec8f2c5408a8",
+                        "name": "Ciclo 03",
+                        "color": "#0231E8",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "cc50c38f-0b5b-44cd-a687-5f6bc89ae925",
+                        "name": "Ciclo 04",
+                        "color": "#2ecd6f",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "524d3c19-4024-4b0f-a14e-e687a58892e7",
+                        "name": "Ciclo 05",
+                        "color": "#f9d900",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "614987a7-a56e-4001-860a-2c2b8a72e1ce",
+                        "name": "Ciclo 06",
+                        "color": "#e50000",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "be342672-c753-475a-ad88-2fd18f056d34",
+                        "name": "Ciclo 07",
+                        "color": "#f9d900",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "fbab962c-a74f-4eac-98a9-69f142c3c15f",
+                        "name": "Ciclo 08",
+                        "color": "#ff7800",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "6d37b5c6-de73-4f1b-9328-bbc4a1091c23",
+                        "name": "Ciclo 09",
+                        "color": "#ff7800",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "fe33f048-b767-4151-9d3b-88eb2d7f2742",
+                        "name": "Ciclo 10",
+                        "color": "#f900ea",
+                        "orderindex": 9
+                    },
+                    {
+                        "id": "3e9f4a44-200a-4b8c-92c0-bdd6a4bd4851",
+                        "name": "Ciclo 11",
+                        "color": "#0231E8",
+                        "orderindex": 10
+                    },
+                    {
+                        "id": "0124cb0a-ea9c-4578-8deb-efbb2b0731c7",
+                        "name": "2025",
+                        "color": null,
+                        "orderindex": 11
+                    }
+                ]
+            },
+            "date_created": "1737402132136",
+            "hide_from_guests": false,
+            "value": 10,
+            "value_richtext": "",
+            "required": false
+        },
+        {
+            "id": "5df28071-2cf8-48b8-94df-28b92b89f9ec",
+            "name": "Notificação de Agendamento",
+            "type": "email",
+            "type_config": {},
+            "date_created": "1737463838988",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "b2e9b69b-8f8b-4deb-8ca1-70301b50d98c",
+            "name": "Participantes Convidados",
+            "type": "users",
+            "type_config": {
+                "single_user": false,
+                "include_groups": false,
+                "include_guests": true,
+                "include_team_members": false
+            },
+            "date_created": "1737464296320",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "100092e7-78ee-458a-b344-e3c2fe53660c",
+            "name": "Presidência",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "44d577ed-7e7c-479b-9296-1f3b9ac8866a",
+                        "name": "PRESI",
+                        "color": "#000000",
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1736536695250",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "7ab727d3-9e03-4c09-8f26-7ca232279882",
+            "name": "Qtd Encontros",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "c955b841-f8f1-44d7-8196-64d4f3ee9234",
+                        "name": "ENCONTROSQTD_DASH",
+                        "color": null,
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1740660208130",
+            "hide_from_guests": false,
+            "value": 0,
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "53503396-e732-406b-b94a-b80ebae338a5",
+            "name": "Qtd de Encontros Diretorias",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "dc973bee-5dc2-407e-9b94-5f8012deb2f4",
+                        "name": "GERÊNCIA",
+                        "color": "#3082B7",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "e8788f61-bd17-459c-bcbf-2a712e595a6d",
+                        "name": "PRESIDÊNCIA",
+                        "color": "#3082B7",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "f1c39cfd-abfd-48b6-b064-01ab16eaa28d",
+                        "name": " DPG",
+                        "color": "#81B1FF",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "34f58747-dc7a-4611-a140-4b7939564235",
+                        "name": " DIC",
+                        "color": "#81B1FF",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "44b432a2-9a37-49ae-80ba-9ac3220738e6",
+                        "name": " DCI",
+                        "color": "#81B1FF",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "0b2c620c-af83-4764-9a98-1e2384253a07",
+                        "name": " DGI",
+                        "color": "#81B1FF",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "769cb665-3707-4f94-ae61-c881de9cfe2a",
+                        "name": " DTD",
+                        "color": "#81B1FF",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "53ca6880-a49b-4cc8-bd5b-78be16d5e66d",
+                        "name": "SAD",
+                        "color": "#FF4081",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "9d439a4f-e26a-4c22-b061-d26d9288c213",
+                        "name": "DGD",
+                        "color": "#3e63dd",
+                        "orderindex": 8
+                    }
+                ]
+            },
+            "date_created": "1738934491839",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "42c7f9b9-103b-4431-9cde-82197310c5a5",
+            "name": "Qtd de Encontros Gerências",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "new_drop_down": true,
+                "options": [
+                    {
+                        "id": "0e0e6a7b-a89a-464b-8a6e-0aba7db14a93",
+                        "name": "GDA",
+                        "color": "#02BCD4",
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "f8782f36-64e0-4599-9571-0a187093e9db",
+                        "name": "GSI",
+                        "color": "#02BCD4",
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "9d8c0c92-4fa6-48c1-b1c4-45ffcb692e99",
+                        "name": "DIC",
+                        "color": "#02BCD4",
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "98cceb33-9894-4ba7-bf0a-b26aee3c679c",
+                        "name": "DPG",
+                        "color": "#02BCD4",
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "07f26fdf-c283-4b99-bb19-cb9da8cd1f99",
+                        "name": "DTD",
+                        "color": "#02BCD4",
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "e7b7ec73-80cf-4987-b5b5-c932a02b82b1",
+                        "name": "DGI",
+                        "color": "#02BCD4",
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "06a88998-4d92-46d3-ba48-93cf43f7d9dd",
+                        "name": "DCI",
+                        "color": "#02BCD4",
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "12a83e3a-3702-456c-89d7-7041630d4062",
+                        "name": "GGT",
+                        "color": "#02BCD4",
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "858d1d70-f86c-43cc-9571-f2b225f523c7",
+                        "name": "GCC",
+                        "color": "#02BCD4",
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "c1c37197-b9e4-417e-b1b0-1bbdb050a647",
+                        "name": "GIN",
+                        "color": "#02BCD4",
+                        "orderindex": 9
+                    },
+                    {
+                        "id": "13d99e13-9bf4-4c14-9b37-23a6a72eca04",
+                        "name": "GRC",
+                        "color": "#02BCD4",
+                        "orderindex": 10
+                    },
+                    {
+                        "id": "5fa6fad4-0f6f-4289-8e98-9ac40774a74b",
+                        "name": "GTD",
+                        "color": "#02BCD4",
+                        "orderindex": 11
+                    },
+                    {
+                        "id": "cf57876d-4d21-4d39-8b93-78d2e497f74a",
+                        "name": "GAF",
+                        "color": "#02BCD4",
+                        "orderindex": 12
+                    },
+                    {
+                        "id": "6346169e-49e7-4b4b-9af5-e5e75d46c246",
+                        "name": "GPD",
+                        "color": "#02BCD4",
+                        "orderindex": 13
+                    },
+                    {
+                        "id": "dde4829d-3078-4c52-ab80-a73b329a0fc5",
+                        "name": "GRGD",
+                        "color": "#02BCD4",
+                        "orderindex": 14
+                    },
+                    {
+                        "id": "8d3150e4-5434-46a3-b388-a4097f14a0b4",
+                        "name": "GIS",
+                        "color": "#02BCD4",
+                        "orderindex": 15
+                    },
+                    {
+                        "id": "d40a575b-957d-412a-a9c5-1b505c2c5ead",
+                        "name": "SCI",
+                        "color": "#02BCD4",
+                        "orderindex": 16
+                    },
+                    {
+                        "id": "43ee9536-bcb1-43df-b86f-1a12b5d5bbab",
+                        "name": "GDQ",
+                        "color": "#02BCD4",
+                        "orderindex": 17
+                    },
+                    {
+                        "id": "053ff0e5-1e0c-4958-b9c9-7f9f9fba1a56",
+                        "name": "GPL",
+                        "color": "#02BCD4",
+                        "orderindex": 18
+                    },
+                    {
+                        "id": "cfdcfb49-0e22-4784-9cd1-c2dd0543d7ed",
+                        "name": "GGP",
+                        "color": "#02BCD4",
+                        "orderindex": 19
+                    },
+                    {
+                        "id": "047c233a-c064-4c99-a55c-79c18d3c77fa",
+                        "name": "GSC",
+                        "color": "#02BCD4",
+                        "orderindex": 20
+                    },
+                    {
+                        "id": "cbea2690-339f-4372-a447-dcd67dfca5d7",
+                        "name": "ATAS",
+                        "color": "#02BCD4",
+                        "orderindex": 21
+                    },
+                    {
+                        "id": "bb4da8dc-9960-4485-8cd4-943babbdb3e0",
+                        "name": "PRESI",
+                        "color": "#02BCD4",
+                        "orderindex": 22
+                    },
+                    {
+                        "id": "45ac60e7-133f-4d36-85d1-30816e7ef522",
+                        "name": "GSE",
+                        "color": "#02BCD4",
+                        "orderindex": 23
+                    },
+                    {
+                        "id": "d2b1ea06-cfdc-44a1-9ece-c089dfcfcc0a",
+                        "name": "SSD",
+                        "color": "#02BCD4",
+                        "orderindex": 24
+                    },
+                    {
+                        "id": "8db3daac-91c8-45da-be42-3140ccc94790",
+                        "name": "GAS",
+                        "color": "#0091ff",
+                        "orderindex": 25
+                    },
+                    {
+                        "id": "64b27a6f-b82a-4b3c-a6ca-16afce2f12d2",
+                        "name": "GSM",
+                        "color": "#3e63dd",
+                        "orderindex": 26
+                    },
+                    {
+                        "id": "f00f949b-61f0-4dd4-a8c1-7ccd681bd909",
+                        "name": "GOF",
+                        "color": "#0091ff",
+                        "orderindex": 27
+                    },
+                    {
+                        "id": "45334d93-642b-40cb-b504-1f5a2b3459df",
+                        "name": "GSA",
+                        "color": "#0091ff",
+                        "orderindex": 28
+                    }
+                ]
+            },
+            "date_created": "1738936764290",
+            "hide_from_guests": false,
+            "value": 10,
+            "value_richtext": null,
+            "required": false
+        },
+        {
+            "id": "f2d45cfd-fe60-4ad7-a794-538de2f462c7",
+            "name": "Qtd de Encontros PRESI",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "6a9d3836-c331-4ce7-a9d6-6a1873a9a606",
+                        "name": "PRESIDÊNCIA",
+                        "color": "#800000",
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1740679394901",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "0cfd3ecd-f213-4f4d-a0a9-b5ca5ed08238",
+            "name": "Qtd de Encontros SAD",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "82962065-7ee8-4554-8b48-9c822a5e6d4b",
+                        "name": "SAD",
+                        "color": "#FF4081",
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1750352647029",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "dd823a91-e987-4d7b-bd0b-e48db8884d35",
+            "name": "Qtd de Encontros SAD e SEPLAG",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "15a66127-c11a-4f6c-95e0-497969949d3f",
+                        "name": "SAD E SEPLAG",
+                        "color": "#FF4081",
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1747747253393",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "5540bfd6-761e-42f2-aa43-a53d61eb0e30",
+            "name": "Qtd de Encontros SAD e SEPLAG",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "548cf585-fd27-4861-addd-dbb554b80ac1",
+                        "name": "SAD E SEPLAG",
+                        "color": "#FF4081",
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1747746949248",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "924b9cc7-cad9-4924-a439-5145ef577c3d",
+            "name": "Qtd de Encontros SAD e SEPLAG",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "7881a7b6-87ea-4dd9-be41-6d3753fa972a",
+                        "name": "SAD",
+                        "color": "#FF4081",
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1747745312382",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "e319b403-dcd6-4b3e-bd7a-a832d1071f44",
+            "name": "Qtd de Projetos",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "2dcc76b3-9948-42de-a1ad-a124cf9aa93c",
+                        "name": "PROJETOS_QTD",
+                        "color": null,
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1737726593777",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "417aadd0-9010-4b80-9295-2c86aeffa05c",
+            "name": "ReuniaoDash",
+            "type": "drop_down",
+            "type_config": {
+                "sorting": "manual",
+                "options": [
+                    {
+                        "id": "2751a068-b855-4f86-8d9a-297622bc6584",
+                        "name": "PRESIDI",
+                        "color": null,
+                        "orderindex": 0
+                    }
+                ]
+            },
+            "date_created": "1736540043130",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "56b2c04e-d950-450d-9282-9a6035dd775f",
+            "name": "Team",
+            "type": "users",
+            "type_config": {
+                "single_user": false,
+                "include_groups": null,
+                "include_guests": false,
+                "include_team_members": false
+            },
+            "date_created": "1733420625244",
+            "hide_from_guests": false,
+            "required": null
+        }
+    ],
+    "dependencies": [],
+    "linked_tasks": [],
+    "locations": [],
+    "team_id": "9013340838",
+    "url": "https://app.clickup.com/t/86adfcuev",
+    "sharing": {
+        "public": false,
+        "public_share_expires_on": null,
+        "public_fields": [
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+        ],
+        "token": null,
+        "seo_optimized": false
+    },
+    "permission_level": "comment",
+    "list": {
+        "id": "901322796250",
+        "name": "Ciclo 11 - Total de reunião de monitoramento ",
+        "access": true
+    },
+    "project": {
+        "id": "90133399135",
+        "name": "REUNIÕES DE MONITORAMENTO 2025 - Base do Arquivo",
+        "hidden": false,
+        "access": true
+    },
+    "folder": {
+        "id": "90133399135",
+        "name": "REUNIÕES DE MONITORAMENTO 2025 - Base do Arquivo",
+        "hidden": false,
+        "access": true
+    },
+    "space": {
+        "id": "90131657704"
+    },
+    "_local_subtasks_count": 0
+}

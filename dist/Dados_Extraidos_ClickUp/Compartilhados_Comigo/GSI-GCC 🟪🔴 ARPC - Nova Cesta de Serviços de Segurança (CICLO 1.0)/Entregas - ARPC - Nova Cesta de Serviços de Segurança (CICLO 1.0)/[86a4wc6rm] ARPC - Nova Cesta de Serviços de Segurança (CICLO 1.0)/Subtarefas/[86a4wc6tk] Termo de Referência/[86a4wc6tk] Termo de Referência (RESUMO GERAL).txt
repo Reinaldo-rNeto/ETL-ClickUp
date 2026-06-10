@@ -1,0 +1,21 @@
+📌 TAREFA: Termo de Referência
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Gerentes (Entregas): Marcus Macedo - ATI
+ - Inicio Real: 09/04/2024
+ - Observações: Na construção do TR houve necessidade de ajuste no ETP.
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 29/11/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

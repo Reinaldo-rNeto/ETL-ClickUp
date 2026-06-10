@@ -1,0 +1,20 @@
+📌 TAREFA: CTM - Processo Administrativo de Defesa de Auto de infração - STPP/RMR
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 30/09/2025
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Municipalização e Melhorias do Sistema SEI
+ - Termino Real: 03/10/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

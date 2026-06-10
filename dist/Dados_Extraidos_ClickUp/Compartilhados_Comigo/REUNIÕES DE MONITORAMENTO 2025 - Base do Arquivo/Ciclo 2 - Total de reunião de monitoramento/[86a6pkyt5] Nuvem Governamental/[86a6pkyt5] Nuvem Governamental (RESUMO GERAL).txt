@@ -1,0 +1,26 @@
+📌 TAREFA: Nuvem Governamental
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 25/02/2025
+ - Data do Agendamento: 25/02/2025
+ - Diretoria: DCI
+ - Event Type: DCI
+ - Gerëncia: GIS
+ - Instância de Monitoramento: Gerências
+ - Mês/Ano: Ciclo 02
+ - Participantes Convidados: 
+ - Qtd de Projetos: PROJETOS_QTD
+ - ReuniaoDash: PRESIDI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

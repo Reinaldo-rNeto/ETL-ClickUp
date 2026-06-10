@@ -1,0 +1,31 @@
+📌 TAREFA: Form Submission - #2026-03-20T17:27:17-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Joao Mendes Cunha Junior
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 20/03/2026
+ - E-mail : neudson.santana@qintess.com
+ - Gerência Formulários : GSC
+ - Justificativa: Qintess - Projeto PE Sem Fome (SAS)
+Qintess - Projeto Recupera (PCPE)
+Qintess - Projeto Portal Conecta.PE (ATI)
+
+ - Nome: Neudson Santana
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+neudson.santana@qintess.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[25/03/2026 10:13] Matheus Aguiar comentou:
+  Convite enviado para o usuário. Aguardando aceite para fornecer os acessos.

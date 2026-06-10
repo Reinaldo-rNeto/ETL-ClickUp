@@ -1,0 +1,20 @@
+📌 TAREFA: Definição do projeto de captação
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Inicio Real: 18/08/2025
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Municipalização e Melhorias do Sistema SEI
+ - Termino Real: 20/08/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

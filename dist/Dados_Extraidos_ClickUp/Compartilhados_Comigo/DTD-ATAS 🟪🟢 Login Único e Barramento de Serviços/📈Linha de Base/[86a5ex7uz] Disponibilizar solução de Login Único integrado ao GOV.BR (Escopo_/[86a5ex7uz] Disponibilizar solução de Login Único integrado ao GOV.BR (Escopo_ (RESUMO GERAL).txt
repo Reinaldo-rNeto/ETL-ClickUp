@@ -1,0 +1,17 @@
+📌 TAREFA: Disponibilizar solução de Login Único integrado ao GOV.BR (Escopo: Integração com Cadastro de Servidores e novas formas de autenticação (google,etc).
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 2
+
+📋 CAMPOS PERSONALIZADOS:
+ - 📈 Baseline: 🪧LINHA DE BASE 1
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

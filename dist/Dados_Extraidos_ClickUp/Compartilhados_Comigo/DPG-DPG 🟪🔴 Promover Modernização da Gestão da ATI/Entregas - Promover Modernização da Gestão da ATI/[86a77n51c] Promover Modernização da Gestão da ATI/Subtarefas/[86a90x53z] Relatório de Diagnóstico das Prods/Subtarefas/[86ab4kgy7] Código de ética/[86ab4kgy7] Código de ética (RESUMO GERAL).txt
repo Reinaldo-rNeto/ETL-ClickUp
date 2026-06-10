@@ -1,0 +1,18 @@
+📌 TAREFA: Código de ética
+📊 STATUS: A INICIAR
+👤 CRIADA POR: Márcia Bion
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progresso: {'percent_complete': 0}
+ - Projeto: Municipalização e Melhorias do Sistema SEI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

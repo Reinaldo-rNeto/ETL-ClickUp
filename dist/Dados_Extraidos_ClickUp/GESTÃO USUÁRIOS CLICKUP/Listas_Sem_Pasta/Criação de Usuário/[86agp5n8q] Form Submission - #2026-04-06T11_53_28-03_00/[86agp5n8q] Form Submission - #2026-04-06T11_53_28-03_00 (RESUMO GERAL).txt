@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2026-04-06T11:53:28-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Daniele de Oliveira Feliciano
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 06/04/2026
+ - E-mail : felipe.gustavo@qintess.com
+ - Gerência Formulários : GIN
+ - Justificativa: DIC/GIN
+
+ - Nome: FELIPE GUSTAVO SEMBAY
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+felipe.gustavo@qintess.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[07/04/2026 11:01] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para disponibilizar acesso ao diretório DIC/GIN.

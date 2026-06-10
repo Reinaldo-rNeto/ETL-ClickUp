@@ -1,0 +1,18 @@
+📌 TAREFA: Necessidade de atualização da visão geral do projeto: itens atualizados-  estimativa de o investimento do projeto de 1.200.000 para 6.500.000,00 até 2026. Nome do projeto ajustado para refletir a prospecção de ferramentas tanto para serviços internos de governo quanto para o cidação. EAP reestruturada.
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Progresso: {'percent_complete': 100}
+ - 🗓️ Data do Registro: 19/09/2024
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

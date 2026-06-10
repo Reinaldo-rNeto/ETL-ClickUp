@@ -1,0 +1,29 @@
+📌 TAREFA: Form Submission - #2025-09-17T08:41:06-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Daniele de Oliveira Feliciano
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 17/09/2025
+ - E-mail : hugo.fgomes.ati@gmail.com
+ - Gerência Formulários : GDA
+ - Justificativa: DIC/GDA
+
+ - Nome: Jose Hugo Figueiredo Gomes
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+hugo.fgomes.ati@gmail.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[17/09/2025 16:33] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para disponibilizar acesso ao diretório DIC/GDA

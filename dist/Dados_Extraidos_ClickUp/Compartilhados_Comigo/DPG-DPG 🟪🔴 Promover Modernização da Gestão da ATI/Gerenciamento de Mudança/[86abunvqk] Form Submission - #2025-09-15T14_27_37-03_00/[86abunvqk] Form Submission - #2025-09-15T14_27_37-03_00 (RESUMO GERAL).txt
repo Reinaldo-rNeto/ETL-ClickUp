@@ -1,0 +1,31 @@
+📌 TAREFA: Form Submission - #2025-09-15T14:27:37-03:00
+📊 STATUS: PROJETO ATUALIZADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 15/09/2025
+ - Diretoria - Análise da SMP: DPG
+ - Gerente de Projetos: Eduardo Salvador
+ - Justificativa: Nome das entregas foi modificado e aprovado na reunião de Alinhamento do PO LIGA realizada em 04/07/2025.
+Atividade 1: Relatório de Diagnóstico > Relatório de Diagnóstico das Prods
+Atividade 2: Relatório de Diagnóstico e Plano de Ações > Plano de Ação - Relatório Entregue e Relatório Validado
+Atividade 3: Relatório de Diagnóstico e Plano de Ações > Relatório de estudos técnicos, atos normativos e mapeamento de modelagem de negócios de TI da ATI elaborado
+Atividade 4: Relatório de Diagnóstico e Plano de Ações > Assessoramento técnico realizado durante a execução do plano de ação
+Atividade 5: Relatório de Diagnóstico e Plano de Ações > Apoio à gestão para ações estratégicas realizado
+
+Alterar data final do projeto para o dia 11/02/2026
+
+ - Solicitante: Beatriz Couto
+ - Tipo de Mudança: Entrega - Atividades
+
+============================================================
+Data da submissão :
+2025-04-04T04:00:00-03:00
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

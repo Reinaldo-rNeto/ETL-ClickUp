@@ -1,0 +1,32 @@
+📌 TAREFA: Form Submission - #2026-04-07T10:14:38-03:00
+📊 STATUS: APROVADA
+👤 CRIADA POR: Joao Mendes Cunha Junior
+👥 RESPONSÁVEIS: Agência Estadual de Tecnologia da Informação - Pernambuco
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data da submissão : 07/04/2026
+ - E-mail : lsilva@qintess.com
+ - Gerência Formulários : GSC
+ - Justificativa: Qintess - Projeto PE Sem Fome (SAS)
+Qintess - Projeto Recupera (PCPE)
+Qintess - Novos Projetos
+Qintess - Projeto Portal Conecta.PE (ATI)
+
+ - Nome: Leonardo da Silva Souza
+ - Tipo de usuário: Convidado
+
+============================================================
+Tipo de usuário:
+Convidado
+
+E-mail do novo usuário::
+lsilva@qintess.com
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (1)
+============================================================
+
+[07/04/2026 11:02] Matheus Aguiar comentou:
+  Convite disponibilizado para o usuário, aguardando aceite para disponibilizar acesso as pastas solicitadas do diretório da GSC.

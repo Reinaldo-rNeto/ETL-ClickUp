@@ -1,0 +1,20 @@
+📌 TAREFA: Estudo Técnico Preliminar
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Gerentes (Entregas): Josias Barbosa de Lima Junior, José Henrique Valença de Barros
+ - Inicio Real: 21/01/2025
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 31/01/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

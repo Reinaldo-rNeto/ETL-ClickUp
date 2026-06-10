@@ -1,0 +1,22 @@
+📌 TAREFA: GCC - Gerência de Contratações Corporativas de TI
+📊 STATUS: REALIZADO
+👤 CRIADA POR: Helio Rocha
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Data Realização do Monitoramento: 26/05/2025
+ - Data do Agendamento: 26/05/2025
+ - Event Type: OKR
+ - Mês/Ano: Ciclo 05
+ - Qtd Encontros: ENCONTROSQTD_DASH
+ - Qtd de Encontros Gerências: GCC
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,31 @@
+📌 TAREFA: ARPC - Licenças de Uso de Suítes de Escritório
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 7
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.2.1. (Meta 2025) - Elaborar e realizar a pesquisa de satisfação de produtos e serviços (Baseline)
+ - ARP: GCC
+ - Categoria do Projeto: Estratégico
+ - DashARPC: ARPC
+ - Diretoria: DPG
+ - Diretoria ARP: DPG
+ - GerARPC: ARPC
+ - Gerente do Projeto: Liliane Medeiros
+ - Gerëncia: GCC
+ - Iniciativas Estratégicas: 1.2.2 Promover a economicidade e sustentabilidade das contratações de TIC
+ - Inicio Real: 04/02/2026
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Progresso: {'percent_complete': 0}
+ - Projeto: ARPC - Licenças de Suítes de Escritório
+ - Status OKR: Não apurado
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

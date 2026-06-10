@@ -1,0 +1,27 @@
+📌 TAREFA: Estabelecer o processo de captação de recursos
+📊 STATUS: CANCELADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 8
+
+📋 CAMPOS PERSONALIZADOS:
+ - Categoria do Projeto: Estratégico
+ - DashARPC: DGI
+ - Diretoria: DGI
+ - Diretoria: DGI
+ - Gerente do Projeto: Renata Pimentell
+ - Gerëncia: GAF
+ - Iniciativas Estratégicas: 3.3.1 Promover novos negócios e ampliar as fontes de recurso
+ - Inicio Real: 11/11/2024
+ - Objetivo Estratégico: 3.3 Promover a sustentabilidade financeira
+ - Progresso: {'percent_complete': 25}
+ - Projeto: Estabelecer o processo de captação de recursos
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

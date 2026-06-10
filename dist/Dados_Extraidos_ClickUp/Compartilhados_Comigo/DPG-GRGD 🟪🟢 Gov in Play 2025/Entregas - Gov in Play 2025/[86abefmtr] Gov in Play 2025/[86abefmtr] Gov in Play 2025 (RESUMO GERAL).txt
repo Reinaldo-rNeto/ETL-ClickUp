@@ -1,0 +1,31 @@
+📌 TAREFA: Gov in Play 2025
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 8
+
+📋 CAMPOS PERSONALIZADOS:
+ -  OKR: KR.2.1. (Meta 2025) - Elaborar e realizar a pesquisa de satisfação de produtos e serviços (Baseline)
+ - Acompanhado pela LIGA: LIGA
+ - Categoria do Projeto: Estratégico
+ - DashARPC: DPG
+ - Department: Gov in Play 2025
+ - Diretoria: DPG
+ - Gerente do Projeto: José Pacheco
+ - Gerëncia: GRGD
+ - Iniciativas Estratégicas: 1.2.3 Fortalecer o relacionamento estratégico e a coordenação técnica do Governo Digital
+ - Inicio Real: 18/08/2025
+ - Objetivo Estratégico: 1.2 Promover a Governança e Gestão de TIC
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Gov in Play 2025
+ - Status OKR: Não apurado
+ - Termino Real: 22/12/2025
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

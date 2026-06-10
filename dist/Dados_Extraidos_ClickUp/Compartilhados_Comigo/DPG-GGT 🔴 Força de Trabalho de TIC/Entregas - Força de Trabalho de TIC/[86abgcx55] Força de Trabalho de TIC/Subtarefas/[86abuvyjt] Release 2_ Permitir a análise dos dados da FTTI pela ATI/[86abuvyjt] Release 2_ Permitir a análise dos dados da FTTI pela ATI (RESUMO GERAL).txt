@@ -1,0 +1,20 @@
+📌 TAREFA: Release 2: Permitir a análise dos dados da FTTI pela ATI
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Beatriz Couto
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: Disponibilizar para a ATI a análise da força de trabalho de TIC por meio de visualização dos dados coletados em todos os órgãos e entidades, geração de dashboards analíticos e comparativos entre anos, e emissão de alertas de erros ou uso indevido.
+ - Inicio Real: 10/10/2025
+ - Progresso: {'percent_complete': 100}
+ - Termino Real: 23/02/2026
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

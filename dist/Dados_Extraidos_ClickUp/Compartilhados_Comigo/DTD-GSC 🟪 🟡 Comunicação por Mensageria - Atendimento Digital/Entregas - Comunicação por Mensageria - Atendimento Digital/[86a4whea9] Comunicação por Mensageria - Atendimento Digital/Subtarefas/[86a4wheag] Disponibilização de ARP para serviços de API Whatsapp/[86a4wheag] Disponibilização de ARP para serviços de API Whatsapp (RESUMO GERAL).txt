@@ -1,0 +1,20 @@
+📌 TAREFA: Disponibilização de ARP para serviços de API Whatsapp
+📊 STATUS: ATRASADO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ana Carolina Freitas Pereira
+🌳 DEPENDENTES (Subtarefas atreladas): 0
+
+📋 CAMPOS PERSONALIZADOS:
+ - Descrição da Entrega: MARCO - disponbilização - projeto  ARPC WhatsApp Business - CICLO 1.0
+ - Gerentes (Entregas): Ana Carolina Freitas Pereira
+ - Observações: MARCO - disponbilização - projeto  ARPC WhatsApp Business - CICLO 1.0
+ - Progresso: {'percent_complete': 0}
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

@@ -1,0 +1,26 @@
+📌 TAREFA: Catálogo de Serviços ATI
+📊 STATUS: CONCLUIDO
+👤 CRIADA POR: Agência Estadual de Tecnologia da Informação - Pernambuco
+👥 RESPONSÁVEIS: Ninguém
+🌳 DEPENDENTES (Subtarefas atreladas): 4
+
+📋 CAMPOS PERSONALIZADOS:
+ - Categoria do Projeto: Estratégico
+ - DashARPC: DPG
+ - Department: 📢 Catálogo de Serviços ATI
+ - Diretoria: DPG
+ - Gerente do Projeto: José Pacheco
+ - Gerëncia: GRGD
+ - Iniciativas Estratégicas: 2.2.1 Ampliar a comunicação das ações e resultados da ATI
+ - Objetivo Estratégico: 2.2 Fortalecer a imagem institucional
+ - Progresso: {'percent_complete': 100}
+ - Projeto: Catálogo de Serviços ATI
+
+============================================================
+[Sem descrição atrelada a esta tarefa]
+
+
+============================================================
+💬 HISTÓRICO DE COMENTÁRIOS E ANEXOS (0)
+============================================================
+Nenhum comentário registrado nesta tarefa.

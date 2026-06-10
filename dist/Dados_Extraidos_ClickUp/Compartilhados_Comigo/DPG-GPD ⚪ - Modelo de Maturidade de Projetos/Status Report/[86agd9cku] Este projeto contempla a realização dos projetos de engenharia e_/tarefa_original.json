@@ -1,0 +1,242 @@
+{
+    "id": "86agd9cku",
+    "custom_id": null,
+    "custom_item_id": 1003,
+    "name": "Este projeto contempla a realização dos projetos de engenharia e arquitetura, orçamento e demais artefatos técnicos para a contratação. Os artefatos serão elaborados pela SAD. A SAD está recebendo engenheiros e arquitetos de seleção simplificada, para que se possa dar andamento às demais atividades do projeto.",
+    "text_content": "",
+    "description": "",
+    "status": {
+        "status": "em andamento",
+        "id": "sc901326546136_CilY9Mmf",
+        "color": "#4466ff",
+        "type": "custom",
+        "orderindex": 1
+    },
+    "orderindex": "120730258.00000000000000000000000000000000",
+    "date_created": "1774356163933",
+    "date_updated": "1774356163933",
+    "date_closed": null,
+    "date_done": null,
+    "archived": false,
+    "creator": {
+        "id": 100046727,
+        "username": "Beatriz Couto",
+        "color": "#e93d82",
+        "email": "beatriz.couto.ati@gmail.com",
+        "profilePicture": "https://attachments.clickup.com/profilePictures/100046727_1oY.jpg"
+    },
+    "assignees": [],
+    "group_assignees": [],
+    "watchers": [
+        {
+            "id": 96788365,
+            "username": "Agência Estadual de Tecnologia da Informação - Pernambuco",
+            "color": "",
+            "initials": "AP",
+            "email": "clickup.adm@ati.pe.gov.br",
+            "profilePicture": "https://attachments.clickup.com/profilePictures/96788365_rvk.jpg"
+        }
+    ],
+    "checklists": [],
+    "tags": [],
+    "parent": null,
+    "top_level_parent": null,
+    "priority": null,
+    "due_date": null,
+    "start_date": null,
+    "points": null,
+    "time_estimate": null,
+    "custom_fields": [
+        {
+            "id": "31a5db92-b329-4e32-a35c-d5804c063195",
+            "name": "Entrega Relacionada",
+            "type": "drop_down",
+            "type_config": {
+                "options": [
+                    {
+                        "id": "5f1b79ff-b114-4199-b919-1b49f85e431c",
+                        "name": "Reforço solicitação de suporte técnico da SAD para elaboração do Projeto Arquitetônico.",
+                        "color": null,
+                        "orderindex": 0
+                    },
+                    {
+                        "id": "facb18cd-f443-4220-afd7-8c865e480a7c",
+                        "name": "Elaboração de Projetos Arquitetônico e Engenharia.",
+                        "color": null,
+                        "orderindex": 1
+                    },
+                    {
+                        "id": "37a5814e-68c2-44e3-a877-748e0ac0e37f",
+                        "name": "Revisão e validação do projetos propostos",
+                        "color": null,
+                        "orderindex": 2
+                    },
+                    {
+                        "id": "aa6f791a-1a6a-42b9-a087-585105fa7e39",
+                        "name": "Elaboração de Termos de Referência dos serviços de engenharia",
+                        "color": null,
+                        "orderindex": 3
+                    },
+                    {
+                        "id": "3aa71131-6d05-46df-a65c-f4397cc26299",
+                        "name": "Viabilizar recursos (orçamento e programação financeira)",
+                        "color": null,
+                        "orderindex": 4
+                    },
+                    {
+                        "id": "ed89fc77-5468-49d8-aa9c-b281b1e0e4e2",
+                        "name": "Contratação de serviços de Engenharia",
+                        "color": null,
+                        "orderindex": 5
+                    },
+                    {
+                        "id": "790fd341-05de-457c-b941-c328ac9d1837",
+                        "name": "Aquisição de mobiliário",
+                        "color": null,
+                        "orderindex": 6
+                    },
+                    {
+                        "id": "3c8867b9-fafe-481d-b4a5-11f7ce30d539",
+                        "name": "Aquisição de equipamentos",
+                        "color": null,
+                        "orderindex": 7
+                    },
+                    {
+                        "id": "fd6d663f-f3f6-41f5-93ac-8ab3bb51259b",
+                        "name": "Validação/Ajustes do novo layout",
+                        "color": null,
+                        "orderindex": 8
+                    },
+                    {
+                        "id": "f6ee1792-87c3-491e-92ed-ba797371cfda",
+                        "name": "Divulgação do novo layout",
+                        "color": null,
+                        "orderindex": 9
+                    }
+                ]
+            },
+            "date_created": "1726162860834",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "c4c3f20b-7a0d-464c-912b-6de2a10a4dbd",
+            "name": "Meta",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1742238608862",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "1fbbda1c-33f1-42f2-a8ed-c7c6ddc8f72c",
+            "name": "Observações",
+            "type": "short_text",
+            "type_config": {},
+            "date_created": "1725630511725",
+            "hide_from_guests": false,
+            "required": false
+        },
+        {
+            "id": "9b77ed58-c27d-4471-b696-330878c0af6b",
+            "name": "Progresso",
+            "type": "automatic_progress",
+            "type_config": {
+                "tracking": {
+                    "subtasks": true
+                },
+                "complete_on": 3,
+                "subtask_rollup": false
+            },
+            "date_created": "1725657938328",
+            "hide_from_guests": false,
+            "value": {
+                "percent_complete": 0
+            },
+            "required": false
+        },
+        {
+            "id": "6a4e4072-5e6f-4e9e-b298-b665b6e84206",
+            "name": "Project Lead",
+            "type": "users",
+            "type_config": {
+                "single_user": true,
+                "include_groups": null,
+                "include_guests": false,
+                "include_team_members": false
+            },
+            "date_created": "1725630104093",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "1c4da0d6-408f-4b8b-918a-0767b48ab324",
+            "name": "Project Rating",
+            "type": "emoji",
+            "type_config": {
+                "count": 5,
+                "code_point": "1f44f"
+            },
+            "date_created": "1725630104093",
+            "hide_from_guests": false,
+            "required": null
+        },
+        {
+            "id": "94f0516d-ff1c-47e5-b1ef-3aa6fa7a22be",
+            "name": "🗓️ Data do Registro",
+            "type": "date",
+            "type_config": {},
+            "date_created": "1725630492345",
+            "hide_from_guests": false,
+            "value": "1729839600000",
+            "value_richtext": null,
+            "required": false
+        }
+    ],
+    "dependencies": [],
+    "linked_tasks": [],
+    "locations": [],
+    "team_id": "9013340838",
+    "url": "https://app.clickup.com/t/86agd9cku",
+    "sharing": {
+        "public": false,
+        "public_share_expires_on": null,
+        "public_fields": [
+            "assignees",
+            "priority",
+            "due_date",
+            "content",
+            "comments",
+            "attachments",
+            "customFields",
+            "subtasks",
+            "tags",
+            "checklists",
+            "coverimage"
+        ],
+        "token": null,
+        "seo_optimized": false
+    },
+    "permission_level": "comment",
+    "list": {
+        "id": "901326546136",
+        "name": "Status Report",
+        "access": true
+    },
+    "project": {
+        "id": "901317870966",
+        "name": "DPG-GPD ⚪ - Modelo de Maturidade de Projetos",
+        "hidden": false,
+        "access": true
+    },
+    "folder": {
+        "id": "901317870966",
+        "name": "DPG-GPD ⚪ - Modelo de Maturidade de Projetos",
+        "hidden": false,
+        "access": true
+    },
+    "space": {
+        "id": "90131746526"
+    },
+    "_local_subtasks_count": 0
+}
