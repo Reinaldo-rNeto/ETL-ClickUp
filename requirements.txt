@@ -1,0 +1,15 @@
+# Extrator ClickUp — ATI Pernambuco
+# Instalar: pip install -r requirements.txt
+# Após instalar playwright: python -m playwright install chromium
+
+# Núcleo (necessário para todos os modos)
+requests>=2.32.0
+openpyxl>=3.1.0
+python-dotenv>=1.0.0
+pillow>=10.0.0
+
+# Exportação nativa via navegador (apenas_csv)
+playwright>=1.61.0
+
+# Interface gráfica (apenas para uso local com exe/GUI — não necessário em pipelines)
+customtkinter>=5.2.0

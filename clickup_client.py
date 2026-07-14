@@ -11,12 +11,13 @@ class ClickUpClient:
         self.headers = {"Authorization": token}
         self.base_url = "https://api.clickup.com/api/v2"
 
+
     def _get(self, endpoint, params=None):
         url = f"{self.base_url}/{endpoint}"
         retries = 3
         for attempt in range(retries):
             try:
-                response = requests.get(url, headers=self.headers, params=params)
+                response = requests.get(url, headers=self.headers, params=params, timeout=30)
                 if response.status_code == 429:
                     print("Rate limit atingido. Aguardando...")
                     time.sleep(2)
@@ -59,33 +60,40 @@ class ClickUpClient:
 
     def get_tasks(self, list_id, subtasks=True, date_updated_gt=None):
         """Extrai todas as tarefas de uma lista, incluindo fechadas, arquivadas e subtarefas."""
-        tasks = []
-        page_index = 0
-        while True:
-            params = {
-                "page": page_index,
-                "subtasks": "true" if subtasks else "false",
-                "include_closed": "true",
-                "archived": "true"
-            }
-            if date_updated_gt:
-                params["date_updated_gt"] = date_updated_gt
+        all_tasks = []
+        seen_ids = set()
 
-            data = self._get(f"list/{list_id}/task", params=params)
-            if not isinstance(data, dict):
-                break
+        for archived in ("false", "true"):
+            page_index = 0
+            while True:
+                params = {
+                    "page": page_index,
+                    "subtasks": "true" if subtasks else "false",
+                    "include_closed": "true",
+                    "archived": archived,
+                }
+                if date_updated_gt:
+                    params["date_updated_gt"] = date_updated_gt
 
-            page_tasks = data.get("tasks")
-            if not page_tasks or not isinstance(page_tasks, list):
-                break
+                data = self._get(f"list/{list_id}/task", params=params)
+                if not isinstance(data, dict):
+                    break
 
-            tasks.extend(page_tasks)
-            if len(page_tasks) < 100:
-                break
+                page_tasks = data.get("tasks")
+                if not page_tasks or not isinstance(page_tasks, list):
+                    break
 
-            page_index += 1
+                for task in page_tasks:
+                    tid = task.get("id")
+                    if tid and tid not in seen_ids:
+                        seen_ids.add(tid)
+                        all_tasks.append(task)
 
-        return tasks
+                if len(page_tasks) < 100:
+                    break
+                page_index += 1
+
+        return all_tasks
 
     def get_task_comments(self, task_id):
         data = self._get(f"task/{task_id}/comment")
@@ -99,3 +107,43 @@ class ClickUpClient:
 
     def get_task(self, task_id):
         return self._get(f"task/{task_id}")
+
+    def get_team_views(self, team_id):
+        data = self._get(f"team/{team_id}/view")
+        return (data or {}).get("views", [])
+
+    def get_space_views(self, space_id):
+        data = self._get(f"space/{space_id}/view")
+        return (data or {}).get("views", [])
+
+    def get_folder_views(self, folder_id):
+        data = self._get(f"folder/{folder_id}/view")
+        return (data or {}).get("views", [])
+
+    def get_list_views(self, list_id):
+        data = self._get(f"list/{list_id}/view")
+        return (data or {}).get("views", [])
+
+    def get_view_tasks(self, view_id):
+        """Retorna todas as tarefas visíveis em uma view específica."""
+        all_tasks = []
+        seen_ids = set()
+        page_index = 0
+        while True:
+            data = self._get(f"view/{view_id}/task", params={"page": page_index})
+            if not isinstance(data, dict):
+                break
+            page_tasks = data.get("tasks") or []
+            for task in page_tasks:
+                tid = task.get("id")
+                if tid and tid not in seen_ids:
+                    seen_ids.add(tid)
+                    all_tasks.append(task)
+            if len(page_tasks) < 100:
+                break
+            page_index += 1
+        return all_tasks
+
+    def get_time_in_status(self, task_id: str) -> dict:
+        """Retorna dados de tempo por status de uma tarefa."""
+        return self._get(f"task/{task_id}/time_in_status") or {}
