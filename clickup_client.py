@@ -139,7 +139,7 @@ class ClickUpClient:
                 if tid and tid not in seen_ids:
                     seen_ids.add(tid)
                     all_tasks.append(task)
-            if len(page_tasks) < 100:
+            if not page_tasks:
                 break
             page_index += 1
         return all_tasks
