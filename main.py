@@ -53,9 +53,9 @@ def _find_bi_view_in_views(views):
 
 def build_bi_plan(client, args):
     """
-    Descobre as views 'Resumo BI' em cada espaço selecionado.
-    Busca em ordem: nível espaço → pastas → listas.
-    Retorna lista de (space_name, view_name, view_id).
+    Descobre automaticamente todas as views 'Resumo BI' no workspace.
+    Busca em todos os níveis: espaço → pastas → listas.
+    Nenhuma configuração manual necessária — novas inclusões são detectadas automaticamente.
     """
     bi_plan = []
     seen_view_ids = set()
@@ -74,45 +74,62 @@ def build_bi_plan(client, args):
         for space in spaces:
             if selected_ids and space["id"] not in selected_ids:
                 continue
+            space_id   = space["id"]
             space_name = space["name"]
-            print(f"    [Space] {space_name} — procurando view 'Resumo BI'...")
+            print(f"    [Space] {space_name}")
 
-            def _add_view(v):
+            def _add_view(v, label=""):
                 if v["id"] not in seen_view_ids:
                     seen_view_ids.add(v["id"])
-                    bi_plan.append((space_name, v["name"], v["id"], space["id"]))
-                    print(f"      → View encontrada: '{v['name']}' (id: {v['id']})")
+                    bi_plan.append((space_name, v["name"], v["id"], space_id))
+                    where = f" ({label})" if label else ""
+                    print(f"      → '{v['name']}'{where} (id: {v['id']})")
 
-            # 0. Override manual (tem prioridade máxima — evita buscas desnecessárias)
-            override_vid = _MANUAL_VIEW_OVERRIDES.get(space["id"])
+            # 0. Override manual — para views não retornadas pela API
+            override_vid = _MANUAL_VIEW_OVERRIDES.get(space_id)
             if override_vid:
-                print(f"      → View override manual: id {override_vid}")
-                _add_view({"id": override_vid, "name": "Resumo BI"})
-                continue
+                _add_view({"id": override_vid, "name": "Resumo BI"}, "override manual")
 
             # 1. Nível espaço
-            found = False
-            sv = _find_bi_view_in_views(client.get_space_views(space["id"]))
+            sv = _find_bi_view_in_views(client.get_space_views(space_id))
             if sv:
-                _add_view(sv)
-                found = True
+                _add_view(sv, "espaço")
 
-            if not found:
-                print(f"      ⚠ View 'Resumo BI' não encontrada. Adicione o ID manual em _MANUAL_VIEW_OVERRIDES.")
+            # 2. Pastas do espaço
+            try:
+                folders = client.get_folders(space_id) or []
+            except Exception:
+                folders = []
+            for folder in folders:
+                fv = _find_bi_view_in_views(client.get_folder_views(folder["id"]))
+                if fv:
+                    _add_view(fv, f"pasta: {folder['name']}")
+
+                # 3. Listas dentro de cada pasta
+                try:
+                    lists_in_folder = client.get_lists_in_folder(folder["id"]) or []
+                except Exception:
+                    lists_in_folder = []
+                for lst in lists_in_folder:
+                    lv = _find_bi_view_in_views(client.get_list_views(lst["id"]))
+                    if lv:
+                        _add_view(lv, f"lista: {lst['name']}")
+
+            # 4. Listas soltas no espaço (fora de pastas)
+            try:
+                lists_in_space = client.get_lists_in_space(space_id) or []
+            except Exception:
+                lists_in_space = []
+            for lst in lists_in_space:
+                lv = _find_bi_view_in_views(client.get_list_views(lst["id"]))
+                if lv:
+                    _add_view(lv, f"lista: {lst['name']}")
 
     return bi_plan
 
 
-def _tem_campo_projetos(task: dict) -> bool:
-    """Retorna True se a tarefa tem o campo 'Projetos' preenchido."""
-    for cf in task.get("custom_fields", []):
-        if cf.get("name", "").strip() == "Projetos" and cf.get("value") not in (None, "", []):
-            return True
-    return False
-
-
 def process_resumo_bi(client, bi_writer, space_name, view_name, view_id):
-    """Extrai tarefas diretamente da view Resumo BI e grava no bi_writer."""
+    """Extrai todas as tarefas da view Resumo BI e grava no bi_writer."""
     print(f"    [View] {space_name} / {view_name}")
     tasks = client.get_view_tasks(view_id)
     if not tasks:
@@ -120,13 +137,8 @@ def process_resumo_bi(client, bi_writer, space_name, view_name, view_id):
         return 0
 
     count = 0
-    skipped = 0
     for task in tasks:
         if task.get("parent"):
-            skipped += 1
-            continue
-        if not _tem_campo_projetos(task):
-            skipped += 1
             continue
         tis_data = {}
         try:
@@ -142,7 +154,7 @@ def process_resumo_bi(client, bi_writer, space_name, view_name, view_id):
         )
         count += 1
 
-    print(f"      → {count} tarefas gravadas. ({skipped} ignoradas sem campo 'Projetos')")
+    print(f"      → {count} tarefas gravadas.")
     return count
 
 
