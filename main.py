@@ -89,23 +89,28 @@ def build_bi_plan(client, args):
             override_vid = _MANUAL_VIEW_OVERRIDES.get(space_id)
             if override_vid:
                 _add_view({"id": override_vid, "name": "Resumo BI"}, "override manual")
+                continue  # já encontrou, não precisa buscar mais fundo
 
-            # 1. Nível espaço
+            # 1. Nível espaço — se encontrar aqui, não precisa varrer pastas/listas
             sv = _find_bi_view_in_views(client.get_space_views(space_id))
             if sv:
                 _add_view(sv, "espaço")
+                continue
 
-            # 2. Pastas do espaço
+            # 2. Pastas do espaço (só chega aqui se não encontrou no nível espaço)
             try:
                 folders = client.get_folders(space_id) or []
             except Exception:
                 folders = []
+            found_in_folder = False
             for folder in folders:
                 fv = _find_bi_view_in_views(client.get_folder_views(folder["id"]))
                 if fv:
                     _add_view(fv, f"pasta: {folder['name']}")
+                    found_in_folder = True
+                    continue
 
-                # 3. Listas dentro de cada pasta
+                # 3. Listas dentro da pasta (só se não achou na pasta)
                 try:
                     lists_in_folder = client.get_lists_in_folder(folder["id"]) or []
                 except Exception:
@@ -115,15 +120,16 @@ def build_bi_plan(client, args):
                     if lv:
                         _add_view(lv, f"lista: {lst['name']}")
 
-            # 4. Listas soltas no espaço (fora de pastas)
-            try:
-                lists_in_space = client.get_lists_in_space(space_id) or []
-            except Exception:
-                lists_in_space = []
-            for lst in lists_in_space:
-                lv = _find_bi_view_in_views(client.get_list_views(lst["id"]))
-                if lv:
-                    _add_view(lv, f"lista: {lst['name']}")
+            if not found_in_folder:
+                # 4. Listas soltas no espaço (fora de pastas)
+                try:
+                    lists_in_space = client.get_lists_in_space(space_id) or []
+                except Exception:
+                    lists_in_space = []
+                for lst in lists_in_space:
+                    lv = _find_bi_view_in_views(client.get_list_views(lst["id"]))
+                    if lv:
+                        _add_view(lv, f"lista: {lst['name']}")
 
     return bi_plan
 
