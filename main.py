@@ -725,6 +725,14 @@ def main():
         print(f"  Duracao: {_total}")
         print(f"  Total de tarefas extraidas: {total_tarefas}")
         print(f"{'='*70}")
+
+        # Ingestão automática no BigData PE (só se a biblioteca estiver disponível)
+        try:
+            from bigdata_ingestor import ingerir
+            ingerir(bi_output_dir)
+        except Exception as e:
+            print(f"  [BigData] Ingestão ignorada: {e}")
+
         return
 
     # ── DEMAIS MODOS: extração completa por listas ─────────────────────────────
