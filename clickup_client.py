@@ -146,4 +146,11 @@ class ClickUpClient:
 
     def get_time_in_status(self, task_id: str) -> dict:
         """Retorna dados de tempo por status de uma tarefa."""
-        return self._get(f"task/{task_id}/time_in_status") or {}
+        url = f"{self.base_url}/task/{task_id}/time_in_status"
+        try:
+            r = requests.get(url, headers=self.headers, timeout=5)
+            if r.status_code == 200:
+                return r.json()
+        except Exception:
+            pass
+        return {}
