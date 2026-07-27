@@ -62,29 +62,27 @@ def _normalizar_mapeamento(nome: str) -> str:
 
 
 def _inferir_tipo(nome: str) -> str:
-    """Infere o tipo de dado a partir do nome da coluna."""
+    """Infere o tipo de dado a partir do nome da coluna. Valores: TEXTO, NUMERO, DATA."""
     nome_lower = nome.lower()
-
-    # Campos [TIS] — tempo em status
-    if nome_lower.startswith("[tis]"):
-        return "STRING"
 
     # Sufixo de tipo explícito entre parênteses
     match = re.search(r"\(([^)]+)\)$", nome_lower)
     if match:
         sufixo = f"({match.group(1).strip()})"
         if sufixo in _SUFFIXES_DATE:
-            return "DATE"
+            return "DATA"
         if sufixo in _SUFFIXES_INT:
-            return "INTEGER"
+            return "NUMERO"
 
-    # Palavras-chave no nome
+    # Palavras-chave de data no nome
     if any(k in nome_lower for k in ("date", "data", "inicio", "início", "término", "termino", "vencimento", "realização")):
-        return "DATE"
-    if any(k in nome_lower for k in ("count", "quantidade", "qtd", "points", "pontos")):
-        return "INTEGER"
+        return "DATA"
 
-    return "STRING"
+    # Palavras-chave numéricas no nome
+    if any(k in nome_lower for k in ("count", "quantidade", "qtd", "points", "pontos")):
+        return "NUMERO"
+
+    return "TEXTO"
 
 
 def _inferir_descricao(nome: str) -> str:
@@ -125,7 +123,7 @@ def gerar_metadados(colunas: list[str], output_path: str) -> str:
     with open(arquivo, "w", encoding="utf-8") as f:
         json.dump(metadados, f, ensure_ascii=False, indent=2)
 
-    print(f"  [Metadados] {len(metadados)} colunas → {arquivo}")
+    print(f"  [Metadados] {len(metadados)} colunas -> {arquivo}")
     return arquivo
 
 
