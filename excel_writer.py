@@ -4,10 +4,14 @@ import io
 import os
 import sys
 from datetime import datetime
-import openpyxl
-from openpyxl.drawing.image import Image as XLImage
-from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-from openpyxl.utils import get_column_letter
+try:
+    import openpyxl
+    from openpyxl.drawing.image import Image as XLImage
+    from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
+    from openpyxl.utils import get_column_letter
+    _OPENPYXL_OK = True
+except ImportError:
+    _OPENPYXL_OK = False
 
 csv.field_size_limit(min(sys.maxsize, 2147483647))
 
@@ -486,7 +490,11 @@ class ExcelBIWriter:
                 )
 
         # ── XLSX ─────────────────────────────────────────────────────────────
+        if not _OPENPYXL_OK:
+            print("  [XLSX] openpyxl nao instalado — gerando apenas CSV.")
         try:
+            if not _OPENPYXL_OK:
+                raise ImportError("openpyxl nao disponivel")
             wb = openpyxl.Workbook()
             ws = wb.active
             ws.title = "Tasks"
