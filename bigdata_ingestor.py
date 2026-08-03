@@ -44,7 +44,10 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA) -> bool:
         pype = Pypeline()
 
         print(f"  [BigData] Truncando tabela...")
-        pype.truncate(nome_tabela)
+        try:
+            pype.truncate(nome_tabela)
+        except Exception as e:
+            print(f"  [BigData] Truncate ignorado (conjunto vazio ou primeira carga): {e}")
 
         print(f"  [BigData] Enviando {len(df):,} registros...")
         pype.ingerir_dados(nome_tabela, df)
