@@ -49,7 +49,8 @@ _DESCRICOES_PADRAO = {
 
 
 def _normalizar_mapeamento(nome: str) -> str:
-    """Converte nome da coluna em nome de atributo normalizado (snake_case)."""
+    """Converte nome da coluna em nome de atributo normalizado (snake_case ASCII)."""
+    import unicodedata
     # Remove sufixo de tipo entre parênteses: "Nome (drop down)" → "Nome"
     nome = re.sub(r"\s*\([^)]*\)\s*$", "", nome).strip()
     # Remove emojis e caracteres especiais
@@ -57,15 +58,23 @@ def _normalizar_mapeamento(nome: str) -> str:
     # Converte para snake_case
     nome = nome.strip().lower()
     nome = re.sub(r"\s+", "_", nome)
-    nome = re.sub(r"_+", "_", nome)
+    # Normaliza acentos para ASCII
+    nome = unicodedata.normalize("NFKD", nome)
+    nome = "".join(c for c in nome if not unicodedata.combining(c))
+    nome = re.sub(r"[^\w]", "_", nome)
+    nome = re.sub(r"_+", "_", nome).strip("_")
     return nome or "campo"
 
+
+_FALSOS_POSITIVOS_DATA = {
+    "data center",
+}
 
 def _inferir_tipo(nome: str) -> str:
     """Infere o tipo de dado a partir do nome da coluna. Valores: TEXTO, NUMERO, DATA."""
     nome_lower = nome.lower()
 
-    # Sufixo de tipo explícito entre parênteses
+    # Sufixo de tipo explícito entre parênteses (mais confiável — usar primeiro)
     match = re.search(r"\(([^)]+)\)$", nome_lower)
     if match:
         sufixo = f"({match.group(1).strip()})"
@@ -74,7 +83,11 @@ def _inferir_tipo(nome: str) -> str:
         if sufixo in _SUFFIXES_INT:
             return "NUMERO"
 
-    # Palavras-chave de data no nome
+    # Ignora falsos positivos antes de checar palavras-chave de data
+    if any(fp in nome_lower for fp in _FALSOS_POSITIVOS_DATA):
+        return "TEXTO"
+
+    # Palavras-chave de data no nome (sem sufixo explícito)
     if any(k in nome_lower for k in ("date", "data", "inicio", "início", "término", "termino", "vencimento", "realização")):
         return "DATA"
 
@@ -100,28 +113,41 @@ def _inferir_descricao(nome: str) -> str:
 def gerar_metadados(colunas: list[str], output_path: str) -> str:
     """
     Gera o arquivo JSON de metadados para o BigData PE.
-
-    Args:
-        colunas: lista de nomes de colunas do CSV
-        output_path: pasta onde salvar o arquivo
-
-    Returns:
-        Caminho do arquivo gerado
+    Formato: {"metadata": [{chave, data, campo, descricao, mapeamentoCampo, tipo, mascara, categoria}]}
     """
     metadados = []
+    mapeamentos_vistos: dict[str, int] = {}
     for col in colunas:
+        base_map = _normalizar_mapeamento(col)
+        if base_map in mapeamentos_vistos:
+            mapeamentos_vistos[base_map] += 1
+            mapeamento = f"{base_map}_{mapeamentos_vistos[base_map]}"
+        else:
+            mapeamentos_vistos[base_map] = 1
+            mapeamento = base_map
+
+        tipo_interno = _inferir_tipo(col)
+        # BigData PE usa "NÚMERO" (com acento) e o tipo DATA controla o campo "data"
+        tipo_bd = "NÚMERO" if tipo_interno == "NUMERO" else tipo_interno
+        mascara = "Inteiro" if tipo_interno == "NUMERO" else ""
+        is_chave = mapeamento == "task_id"
+        is_data  = tipo_interno == "DATA"
+
         metadados.append({
-            "campo":      col,
-            "descricao":  _inferir_descricao(col),
-            "mapeamento": _normalizar_mapeamento(col),
-            "tipo":       _inferir_tipo(col),
-            "categoria":  "DADO COMUM",
+            "chave":          is_chave,
+            "data":           is_data,
+            "campo":          mapeamento,
+            "descricao":      _inferir_descricao(col),
+            "mapeamentoCampo": "",
+            "tipo":           tipo_bd,
+            "mascara":        mascara,
+            "categoria":      "DADO COMUM",
         })
 
     os.makedirs(output_path, exist_ok=True)
     arquivo = os.path.join(output_path, "metadados_ProjetosGPD.json")
     with open(arquivo, "w", encoding="utf-8") as f:
-        json.dump(metadados, f, ensure_ascii=False, indent=2)
+        json.dump({"metadata": metadados}, f, ensure_ascii=False, indent=2)
 
     print(f"  [Metadados] {len(metadados)} colunas -> {arquivo}")
     return arquivo

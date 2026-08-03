@@ -1,0 +1,1314 @@
+{
+  "metadata": [
+    {
+      "chave": false,
+      "data": false,
+      "campo": "task_type",
+      "descricao": "Tipo da tarefa no ClickUp",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": true,
+      "data": false,
+      "campo": "task_id",
+      "descricao": "Identificador único da tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "task_name",
+      "descricao": "Nome da tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "status",
+      "descricao": "Status atual da tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "task_content",
+      "descricao": "Descrição/conteúdo da tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "assignee",
+      "descricao": "Responsável(is) pela tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "priority",
+      "descricao": "Prioridade da tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "latest_comment",
+      "descricao": "Último comentário registrado",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "comment_count",
+      "descricao": "Quantidade total de comentários",
+      "mapeamentoCampo": "",
+      "tipo": "NÚMERO",
+      "mascara": "Inteiro",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "assigned_comment_count",
+      "descricao": "Quantidade de comentários atribuídos",
+      "mapeamentoCampo": "",
+      "tipo": "NÚMERO",
+      "mascara": "Inteiro",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "due_date",
+      "descricao": "Data de vencimento",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "start_date",
+      "descricao": "Data de início",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "date_created",
+      "descricao": "Data de criação da tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "date_updated",
+      "descricao": "Data da última atualização",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "date_closed",
+      "descricao": "Data de encerramento",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "date_done",
+      "descricao": "Data de conclusão",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "created_by",
+      "descricao": "Usuário que criou a tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "space",
+      "descricao": "Espaço do ClickUp onde a tarefa está",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "folder",
+      "descricao": "Pasta dentro do espaço",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "list",
+      "descricao": "Lista/View de origem da tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "subtask_ids",
+      "descricao": "IDs das subtarefas vinculadas",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "subtask_urls",
+      "descricao": "URLs das subtarefas vinculadas",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tags",
+      "descricao": "Etiquetas associadas à tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "lists",
+      "descricao": "Listas adicionais onde a tarefa aparece",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "sprints",
+      "descricao": "Sprints associados",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "linked_tasks",
+      "descricao": "Tarefas vinculadas",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "linked_docs",
+      "descricao": "Documentos vinculados",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "time_logged",
+      "descricao": "Tempo registrado na tarefa",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "time_logged_rolled_up",
+      "descricao": "Tempo registrado acumulado (subtarefas)",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "time_estimate",
+      "descricao": "Estimativa de tempo",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "time_estimate_rolled_up",
+      "descricao": "Estimativa de tempo acumulada (subtarefas)",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "points_estimate",
+      "descricao": "Pontos estimados",
+      "mapeamentoCampo": "",
+      "tipo": "NÚMERO",
+      "mascara": "Inteiro",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "points_estimate_rolled_up",
+      "descricao": "Pontos estimados acumulados (subtarefas)",
+      "mapeamentoCampo": "",
+      "tipo": "NÚMERO",
+      "mascara": "Inteiro",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "okr",
+      "descricao": "Campo customizado: OKR",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "arpc_impressao_departamental_ciclo_30",
+      "descricao": "Campo customizado: ARPC - Impressão Departamental (CICLO 3.0)",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "arpc_sustentacao_de_data_center_ciclo_10",
+      "descricao": "Campo customizado: ARPC - Sustentação de Data Center (Ciclo 1.0)",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "acompanhado_pela_liga",
+      "descricao": "Campo customizado: Acompanhado pela LIGA",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "acompanhado_pela_sad",
+      "descricao": "Campo customizado: Acompanhado pela SAD",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "acompanhado_pela_seplag",
+      "descricao": "Campo customizado: Acompanhado pela SEPLAG",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "aprovacao_diretoria",
+      "descricao": "Campo customizado: Aprovação Diretoria",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "ciclo_estrategico",
+      "descricao": "Campo customizado: Ciclo Estratégico",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "dasharpc",
+      "descricao": "Campo customizado: DashARPC",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "data_inicial_repactuada",
+      "descricao": "Campo customizado: Data Inicial Repactuada",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "data_inicio",
+      "descricao": "Campo customizado: Data Início",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "data_realizacao_do_monitoramento",
+      "descricao": "Campo customizado: Data Realização do Monitoramento",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "data_da_submissao",
+      "descricao": "Campo customizado: Data da submissão",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "data_de_entrega",
+      "descricao": "Campo customizado: Data de Entrega",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "data_de_vencimento_repactuada",
+      "descricao": "Campo customizado: Data de Vencimento Repactuada",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "data_do_agendamento",
+      "descricao": "Campo customizado: Data do Agendamento",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "departamento",
+      "descricao": "Campo customizado: Departamento",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "department",
+      "descricao": "Campo customizado: Department",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "descricao_da_entrega",
+      "descricao": "Campo customizado: Descrição da Entrega",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "diretoria",
+      "descricao": "Campo customizado: Diretoria",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "diretoria_2",
+      "descricao": "Campo customizado: Diretoria",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "diretoria_analise_da_smp",
+      "descricao": "Campo customizado: Diretoria - Análise da SMP",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "diretoria_arp",
+      "descricao": "Campo customizado: Diretoria ARP",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "etiquetas",
+      "descricao": "Campo customizado: ETIQUETAS",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "gerarpc",
+      "descricao": "Campo customizado: GerARPC",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "gerente_de_projetos",
+      "descricao": "Campo customizado: Gerente de Projetos",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "gerente_do_projeto",
+      "descricao": "Campo customizado: Gerente do Projeto",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "gerentes_entregas",
+      "descricao": "Campo customizado: Gerentes (Entregas)",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "gerencia",
+      "descricao": "Campo customizado: Gerência",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "gerencia_formularios",
+      "descricao": "Campo customizado: Gerência Formulários",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "iniciativas_estrategicas",
+      "descricao": "Campo customizado: Iniciativas Estratégicas",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "inicio_real",
+      "descricao": "Campo customizado: Inicio Real",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "instancia_de_monitoramento",
+      "descricao": "Campo customizado: Instância de Monitoramento",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "macro_atividade",
+      "descricao": "Campo customizado: Macro Atividade",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "meta",
+      "descricao": "Campo customizado: Meta",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "modelo_de_gestao_de_projetos",
+      "descricao": "Campo customizado: Modelo de Gestão de Projetos",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "nome_da_diretoria",
+      "descricao": "Campo customizado: Nome da Diretoria",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "nome_da_area_responsavel_pelo_projeto",
+      "descricao": "Campo customizado: Nome da Área Responsável pelo Projeto",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "nome_do_projeto_oficial",
+      "descricao": "Campo customizado: Nome do Projeto - Oficial",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "nomo_do_projeto_oficial",
+      "descricao": "Campo customizado: Nomo do Projeto Oficial",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "objetivo_estrategico",
+      "descricao": "Campo customizado: Objetivo Estratégico",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "observacoes",
+      "descricao": "Campo customizado: Observações",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "perspectiva",
+      "descricao": "Campo customizado: Perspectiva",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "plano_operativo",
+      "descricao": "Campo customizado: Plano Operativo",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "progresso",
+      "descricao": "Campo customizado: Progresso",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "project_lead",
+      "descricao": "Campo customizado: Project Lead",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "project_rating",
+      "descricao": "Campo customizado: Project Rating",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "projeto",
+      "descricao": "Campo customizado: Projeto",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "projeto_2",
+      "descricao": "Campo customizado: Projeto",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "projeto_da_mudanca",
+      "descricao": "Campo customizado: Projeto da mudança",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "projetos",
+      "descricao": "Campo customizado: Projetos",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "qtd_de_encontros_diretorias",
+      "descricao": "Campo customizado: Qtd de Encontros Diretorias",
+      "mapeamentoCampo": "",
+      "tipo": "NÚMERO",
+      "mascara": "Inteiro",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "qtd_de_projetos",
+      "descricao": "Campo customizado: Qtd de Projetos",
+      "mapeamentoCampo": "",
+      "tipo": "NÚMERO",
+      "mascara": "Inteiro",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "relevancia_do_projeto",
+      "descricao": "Campo customizado: Relevância do Projeto",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "resumo",
+      "descricao": "Campo customizado: Resumo",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "sad",
+      "descricao": "Campo customizado: SAD",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "status_2",
+      "descricao": "Campo customizado: Status",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "status_contratacao",
+      "descricao": "Campo customizado: Status Contratacao",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "status_okr",
+      "descricao": "Campo customizado: Status OKR",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "status_report_oficial",
+      "descricao": "Campo customizado: Status Report _ Oficial",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "status_apurado",
+      "descricao": "Campo customizado: Status apurado",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "statusreport",
+      "descricao": "Campo customizado: StatusReport",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "termino_real",
+      "descricao": "Campo customizado: Termino Real",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tipo_de_mudanca",
+      "descricao": "Campo customizado: Tipo de Mudança",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tipo_de_projeto",
+      "descricao": "Campo customizado: Tipo de Projeto",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "termino_real_2",
+      "descricao": "Campo customizado: Término Real",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "videomonitoramento",
+      "descricao": "Campo customizado: Videomonitoramento",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "projeto_oficiallll",
+      "descricao": "Campo customizado: projeto oficiallll",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "area_responsavel_pelo_projeto",
+      "descricao": "Campo customizado: Área Responsável pelo Projeto",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "orgao_de_acompanhamento",
+      "descricao": "Campo customizado: Órgão de Acompanhamento",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": true,
+      "campo": "data_do_registro",
+      "descricao": "Campo customizado: 🗓️ Data do Registro",
+      "mapeamentoCampo": "",
+      "tipo": "DATA",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "baseline",
+      "descricao": "Campo customizado: 📈 Baseline",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "item",
+      "descricao": "Campo customizado: 🖊️ Item",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "arp",
+      "descricao": "Campo customizado: ARP",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "resultados_alcancados",
+      "descricao": "Campo customizado: Resultados Alcançados",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "reuniaodash",
+      "descricao": "Campo customizado: ReuniaoDash",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "descricao_do_objetivo",
+      "descricao": "Campo customizado: Descrição do Objetivo",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "entregas_relacionadas",
+      "descricao": "Campo customizado: Entregas Relacionadas",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "testereport",
+      "descricao": "Campo customizado: TesteReport",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "descricao",
+      "descricao": "Campo customizado: Descrição",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "event_type",
+      "descricao": "Campo customizado: Event Type",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tipo_de_mudanca_2",
+      "descricao": "Campo customizado: Tipo de Mudança",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "planejamento_estrategico_da_ati",
+      "descricao": "Campo customizado: Planejamento Estratégico da ATI",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "progress",
+      "descricao": "Campo customizado: Progress",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "arquivos",
+      "descricao": "Campo customizado: Arquivos",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "entrega_relacionada",
+      "descricao": "Campo customizado: Entrega Relacionada",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_atrasado",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'atrasado'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_a_iniciar",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'a iniciar'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_em_andamento",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'em andamento'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_open",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'Open'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_in_progress",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'in progress'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_upcoming",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'upcoming'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_concluido",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'concluido'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_suspenso",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'suspenso'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_backlog",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'backlog'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_cancelado",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'cancelado'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_concluido_2",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'concluído'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    },
+    {
+      "chave": false,
+      "data": false,
+      "campo": "tis_paralisado",
+      "descricao": "Tempo total que a tarefa permaneceu no status 'paralisado'",
+      "mapeamentoCampo": "",
+      "tipo": "TEXTO",
+      "mascara": "",
+      "categoria": "DADO COMUM"
+    }
+  ]
+}
