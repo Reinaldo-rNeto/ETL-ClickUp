@@ -7,7 +7,7 @@ import glob
 import pandas as pd
 
 
-NOME_TABELA = "ProjetosGPD"
+NOME_TABELA = "projetosgpd"
 
 
 def _encontrar_csv(output_dir: str) -> str | None:
