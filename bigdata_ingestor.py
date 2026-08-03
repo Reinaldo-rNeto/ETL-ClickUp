@@ -19,11 +19,11 @@ def _encontrar_csv(output_dir: str) -> str | None:
 
 def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA) -> bool:
     """
-    Lê o CSV gerado, prepara e ingere no BigData PE.
+    Lê o CSV gerado e ingere no BigData PE via Pypeline.
     Retorna True em caso de sucesso, False em caso de erro.
     """
     try:
-        from bigdata import Pypeline, prepare_dataframe_for_ingestion
+        from bigdata import Pypeline
     except ImportError:
         print("  [BigData] Biblioteca 'bigdata' não encontrada — ingestão ignorada.")
         return False
@@ -42,15 +42,12 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA) -> bool:
         print(f"  [BigData] Registros: {len(df):,}")
 
         pype = Pypeline()
-        pype._login
-
-        df_final = prepare_dataframe_for_ingestion(df, nome_tabela)
 
         print(f"  [BigData] Truncando tabela...")
         pype.truncate(nome_tabela)
 
-        print(f"  [BigData] Enviando {len(df_final):,} registros...")
-        pype.ingerir_dados(nome_tabela, df_final)
+        print(f"  [BigData] Enviando {len(df):,} registros...")
+        pype.ingerir_dados(nome_tabela, df)
 
         print(f"  [BigData] Ingestão concluída com sucesso!")
         return True
@@ -58,3 +55,9 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA) -> bool:
     except Exception as e:
         print(f"  [BigData] Erro na ingestão: {e}")
         return False
+
+
+if __name__ == "__main__":
+    import sys
+    pasta = sys.argv[1] if len(sys.argv) > 1 else "Dados_BI_ClickUp/API"
+    ingerir(pasta)
