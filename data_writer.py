@@ -2,10 +2,14 @@ import os
 import json
 import sys
 import datetime
-from reportlab.lib.pagesizes import letter
-from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
-from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, HRFlowable
-from reportlab.lib import colors
+try:
+    from reportlab.lib.pagesizes import letter
+    from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+    from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, HRFlowable
+    from reportlab.lib import colors
+    _REPORTLAB_OK = True
+except ImportError:
+    _REPORTLAB_OK = False
 
 
 class DataWriter:
@@ -197,6 +201,9 @@ class DataWriter:
         if os.path.exists(old_file):
             try: os.remove(old_file)
             except: pass
+
+        if not _REPORTLAB_OK:
+            return
 
         try:
             doc = SimpleDocTemplate(filepath, pagesize=letter,
