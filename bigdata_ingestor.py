@@ -79,14 +79,17 @@ _ORDINAL_RE = re.compile(r'(\d+)(st|nd|rd|th)\b')
 
 
 def _parse_date_series(series: pd.Series) -> pd.Series:
-    """Converte strings de data (vários formatos ClickUp) para datetime64[ms] tz-naive."""
+    """Converte strings de data (vários formatos ClickUp) para Python datetime.date.
+
+    PyArrow serializa datetime.date como DATE32 (INT32) no Parquet.
+    Isso evita TIMESTAMP(NANOS) que versões antigas do Spark rejeitam.
+    """
     cleaned = series.replace("", None)
     # Remove sufixos ordinais: "11th" → "11", "30th" → "30"
     cleaned = cleaned.str.replace(_ORDINAL_RE, r'\1', regex=True)
-    # utc=True converte strings tz-aware para UTC; errors='coerce' torna inválidos NaT
     parsed = pd.to_datetime(cleaned, errors="coerce", utc=True)
-    # Remove timezone → datetime64[ms] tz-naive (exigido pelo Iceberg via PyArrow)
-    return parsed.dt.tz_convert(None).astype("datetime64[ms]")
+    tz_naive = parsed.dt.tz_convert(None)
+    return tz_naive.apply(lambda x: x.date() if pd.notna(x) else None)
 
 
 def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
@@ -103,7 +106,7 @@ def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
     return df
 
 
-def _normalize_dtype(dtype: str) -> str:
+def _normalize_dtype(dtype: str, sample=None) -> str:
     d = dtype.lower()
     if "int" in d:
         return "INTEGER"
@@ -111,6 +114,10 @@ def _normalize_dtype(dtype: str) -> str:
         return "FLOAT"
     if "datetime" in d or "timestamp" in d:
         return "DATA"
+    if d == "object" and sample is not None:
+        import datetime
+        if isinstance(sample, datetime.date):
+            return "DATA"
     return "TEXT"
 
 
@@ -125,7 +132,8 @@ def run_detective_report(df: pd.DataFrame, metadados: OrderedDict, table_name: s
 
     for col in df.columns:
         atual = str(df[col].dtype)
-        norm = _normalize_dtype(atual)
+        sample = df[col].dropna().iloc[0] if df[col].notna().any() else None
+        norm = _normalize_dtype(atual, sample)
         esperado = metadados.get(col, "???")
         nulos = int(df[col].isnull().sum())
 
