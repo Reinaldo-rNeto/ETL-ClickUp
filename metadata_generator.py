@@ -6,6 +6,7 @@ Usado para cadastro no conjunto de dados do BigData PE.
 import re
 import json
 import os
+import unicodedata
 
 # Tipos inferidos por padrão de nome de coluna
 _SUFFIXES_DATE = {"(date)", "(data)"}
@@ -48,9 +49,22 @@ _DESCRICOES_PADRAO = {
 }
 
 
+def _sanitizar_latin1(texto: str) -> str:
+    """Garante que todos os caracteres estejam no range latin-1 (ordinal <= 255)."""
+    resultado = []
+    for c in texto:
+        if ord(c) <= 255:
+            resultado.append(c)
+        else:
+            # Tenta decompor em base ASCII (ex: em-dash → "-", aspas curvas → '"')
+            norm = unicodedata.normalize("NFKD", c)
+            ascii_equiv = "".join(ch for ch in norm if not unicodedata.combining(ch))
+            resultado.append(ascii_equiv if ascii_equiv else "-")
+    return "".join(resultado)
+
+
 def _normalizar_mapeamento(nome: str) -> str:
     """Converte nome da coluna em nome de atributo normalizado (snake_case ASCII)."""
-    import unicodedata
     # Remove sufixo de tipo entre parênteses: "Nome (drop down)" → "Nome"
     nome = re.sub(r"\s*\([^)]*\)\s*$", "", nome).strip()
     # Remove emojis e caracteres especiais
@@ -137,7 +151,7 @@ def gerar_metadados(colunas: list[str], output_path: str) -> str:
             "chave":          is_chave,
             "data":           is_data,
             "campo":          mapeamento,
-            "descricao":      _inferir_descricao(col),
+            "descricao":      _sanitizar_latin1(_inferir_descricao(col)),
             "mapeamentoCampo": "",
             "tipo":           tipo_bd,
             "mascara":        mascara,
