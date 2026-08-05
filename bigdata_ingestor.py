@@ -79,17 +79,25 @@ _ORDINAL_RE = re.compile(r'(\d+)(st|nd|rd|th)\b')
 
 
 def _parse_date_series(series: pd.Series) -> pd.Series:
-    """Converte strings de data (vários formatos ClickUp) para Python datetime.date.
+    """Converte strings de data para pa.date32(), compatível com Spark.
 
-    PyArrow serializa datetime.date como DATE32 (INT32) no Parquet.
-    Isso evita TIMESTAMP(NANOS) que versões antigas do Spark rejeitam.
+    - Colunas com dados: datetime.date → PyArrow date32 → Spark date ✓
+    - Colunas all-null: sem forçar o tipo, PyArrow infere null→int, Spark rejeita.
+      Solução: pa.array(..., type=pa.date32()) força date32 mesmo para all-null.
     """
+    import pyarrow as pa
     cleaned = series.replace("", None)
-    # Remove sufixos ordinais: "11th" → "11", "30th" → "30"
     cleaned = cleaned.str.replace(_ORDINAL_RE, r'\1', regex=True)
     parsed = pd.to_datetime(cleaned, errors="coerce", utc=True)
     tz_naive = parsed.dt.tz_convert(None)
-    return tz_naive.apply(lambda x: x.date() if pd.notna(x) else None)
+    dates = tz_naive.apply(lambda x: x.date() if pd.notna(x) else None)
+    arr = pa.array(dates.tolist(), type=pa.date32())
+    try:
+        # pandas 1.5+: ArrowDtype preserva date32 ao serializar via to_parquet
+        return pd.Series(arr, dtype=pd.ArrowDtype(pa.date32()))
+    except (AttributeError, TypeError):
+        # fallback para pandas antigo: funciona quando há pelo menos 1 valor não-nulo
+        return dates
 
 
 def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
@@ -108,12 +116,12 @@ def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
 
 def _normalize_dtype(dtype: str, sample=None) -> str:
     d = dtype.lower()
+    if "date" in d or "datetime" in d or "timestamp" in d:
+        return "DATA"
     if "int" in d:
         return "INTEGER"
     if "float" in d:
         return "FLOAT"
-    if "datetime" in d or "timestamp" in d:
-        return "DATA"
     if d == "object" and sample is not None:
         import datetime
         if isinstance(sample, datetime.date):
