@@ -75,6 +75,20 @@ def _build_metadados_dict(campos_meta: list) -> OrderedDict:
     return m
 
 
+_ORDINAL_RE = re.compile(r'(\d+)(st|nd|rd|th)\b')
+
+
+def _parse_date_series(series: pd.Series) -> pd.Series:
+    """Converte strings de data (vários formatos ClickUp) para datetime64[ms] tz-naive."""
+    cleaned = series.replace("", None)
+    # Remove sufixos ordinais: "11th" → "11", "30th" → "30"
+    cleaned = cleaned.str.replace(_ORDINAL_RE, r'\1', regex=True)
+    # utc=True converte strings tz-aware para UTC; errors='coerce' torna inválidos NaT
+    parsed = pd.to_datetime(cleaned, errors="coerce", utc=True)
+    # Remove timezone → datetime64[ms] tz-naive (exigido pelo Iceberg via PyArrow)
+    return parsed.dt.tz_convert(None).astype("datetime64[ms]")
+
+
 def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
     """Converte colunas do DataFrame para os tipos do metadados dict."""
     for col, tipo in metadados.items():
@@ -84,7 +98,8 @@ def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
             df[col] = pd.to_numeric(df[col].replace("", None), errors="coerce").astype("Int64")
         elif tipo == "FLOAT":
             df[col] = pd.to_numeric(df[col].replace("", None), errors="coerce").astype("float64")
-        # DATA e TEXT permanecem como object (string)
+        elif tipo == "DATA":
+            df[col] = _parse_date_series(df[col])
     return df
 
 
@@ -94,7 +109,7 @@ def _normalize_dtype(dtype: str) -> str:
         return "INTEGER"
     if "float" in d:
         return "FLOAT"
-    if "datetime" in d:
+    if "datetime" in d or "timestamp" in d:
         return "DATA"
     return "TEXT"
 
