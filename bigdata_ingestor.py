@@ -179,7 +179,21 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA) -> bool:
         return {"tipo_conjunto_datamart": True}
 
     _pm._consultar_metadados = _mock_consultar_metadados
-    print(f"  [BigData] Patch aplicado: {_pm._consultar_metadados.__name__}")
+    print(f"  [BigData] Patch _consultar_metadados: OK")
+
+    # Patch PyArrow: força TIMESTAMP(MICROS) em vez de TIMESTAMP(NANOS)
+    # pandas < 2.0 ignora datetime64[ms] e sempre gera ns; NANOS é rejeitado pelo Spark.
+    # coerce_timestamps='us' trunca para microsegundos antes de escrever o Parquet.
+    import pyarrow.parquet as _pq
+    _orig_pq_write = _pq.write_table
+
+    def _patched_pq_write(table, where, **kwargs):
+        kwargs.setdefault('coerce_timestamps', 'us')
+        kwargs.setdefault('allow_truncated_timestamps', True)
+        return _orig_pq_write(table, where, **kwargs)
+
+    _pq.write_table = _patched_pq_write
+    print(f"  [BigData] Patch pyarrow.parquet.write_table: OK (coerce_timestamps=us)")
 
     # Metadados no formato simples {campo: TIPO} exigido por ingerir_dados_datamart
     metadados = _build_metadados_dict(campos_meta)
