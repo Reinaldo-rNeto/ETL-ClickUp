@@ -250,32 +250,23 @@ def _ordinal_suffix(n: int) -> str:
 
 
 def _format_date(ts_ms) -> str:
-    """Formata timestamp ms → 'Wednesday, February 11th 2026' (sem hora)."""
+    """Formata timestamp ms → 'yyyy-MM-dd' (compatível com BigData PE)."""
     if not ts_ms:
         return ""
     try:
         dt = datetime.fromtimestamp(int(ts_ms) / 1000)
-        suf = _ordinal_suffix(dt.day)
-        return f"{dt.strftime('%A, %B')} {dt.day}{suf} {dt.year}"
+        return dt.strftime("%Y-%m-%d")
     except Exception:
         return ""
 
 
 def _format_datetime(ts_ms) -> str:
-    """Formata timestamp ms → 'Wednesday, March 12th 2025, 3:54:28 pm -03:00'."""
+    """Formata timestamp ms → 'yyyy-MM-dd' (compatível com BigData PE)."""
     if not ts_ms:
         return ""
     try:
-        dt = datetime.fromtimestamp(int(ts_ms) / 1000).astimezone()
-        suf = _ordinal_suffix(dt.day)
-        hour = dt.hour % 12 or 12
-        ampm = "am" if dt.hour < 12 else "pm"
-        tz = dt.strftime("%z")
-        tz_str = f"{tz[:-2]}:{tz[-2:]}"
-        return (
-            f"{dt.strftime('%A, %B')} {dt.day}{suf} {dt.year}, "
-            f"{hour}:{dt.minute:02d}:{dt.second:02d} {ampm} {tz_str}"
-        )
+        dt = datetime.fromtimestamp(int(ts_ms) / 1000)
+        return dt.strftime("%Y-%m-%d")
     except Exception:
         return ""
 
