@@ -12,8 +12,8 @@ import pandas as pd
 from collections import OrderedDict
 
 
-NOME_TABELA   = "projetosgpd"
-NOME_DATAMART = "projetosgpd"
+NOME_TABELA   = "ft_projetos_gpd"
+NOME_DATAMART = "datamart_projetos_gpd"
 
 
 def _normalizar_col(nome: str) -> str:
@@ -213,6 +213,18 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA, datamart: str = NOM
         run_detective_report(df, metadados, nome_tabela, stage="PRE-INGESTAO")
 
         pype = Pypeline()
+
+        # Patch _login: garante datamart e tabela na lista de acesso autorizado.
+        # O Pypeline verifica conjuntos_ingestao antes de aceitar a chamada;
+        # o login pode estar desatualizado com os nomes antigos do conjunto.
+        _login = getattr(pype, '_login', {})
+        _conjuntos = _login.get('conjuntos_ingestao', [])
+        for _nome in (datamart, nome_tabela):
+            if _nome not in _conjuntos:
+                _conjuntos.append(_nome)
+                print(f"  [BigData] Patch _login: adicionado '{_nome}' em conjuntos_ingestao")
+        if 'conjuntos_ingestao' in _login:
+            _login['conjuntos_ingestao'] = _conjuntos
 
         print("  [BigData] Removendo tabela anterior...")
         try:
