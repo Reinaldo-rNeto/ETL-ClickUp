@@ -88,6 +88,50 @@ def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
     return df
 
 
+def _normalize_dtype(dtype: str) -> str:
+    d = dtype.lower()
+    if "int" in d:
+        return "INTEGER"
+    if "float" in d:
+        return "FLOAT"
+    if "datetime" in d:
+        return "DATA"
+    return "TEXT"
+
+
+def run_detective_report(df: pd.DataFrame, metadados: OrderedDict, table_name: str, stage: str = "") -> None:
+    """Super Detetive: valida tipos e colunas do DataFrame vs metadados esperados."""
+    SEP = "=" * 90
+    print(f"\n{SEP}")
+    print(f"SUPER DETETIVE [{stage}]: {table_name} | Lote: {len(df):,} linhas")
+    print(SEP)
+    print(f"{'Coluna':<38} | {'Tipo Atual':<15} | {'Esperado':<10} | {'Nulos':<7} | Status")
+    print("-" * 90)
+
+    for col in df.columns:
+        atual = str(df[col].dtype)
+        norm = _normalize_dtype(atual)
+        esperado = metadados.get(col, "???")
+        nulos = int(df[col].isnull().sum())
+
+        if col not in metadados:
+            status = "COLUNA EXTRA"
+        elif norm != esperado:
+            status = f"TIPO ERRADO (norm={norm})"
+        else:
+            status = "OK"
+
+        print(f"{col:<38} | {atual:<15} | {esperado:<10} | {nulos:<7} | {status}")
+
+    faltando = set(metadados.keys()) - set(df.columns)
+    if faltando:
+        print(f"\nColunas faltando ({len(faltando)}):")
+        for col in sorted(faltando):
+            print(f"  - {col}  [esperado: {metadados[col]}]")
+
+    print(SEP + "\n")
+
+
 def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA) -> bool:
     """
     Lê o CSV gerado e ingere no BigData PE via ingerir_dados_datamart com metadados inline.
@@ -132,6 +176,8 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA) -> bool:
         df = _renomear_colunas(df)
         df = _aplicar_tipos(df, metadados)
         print(f"  [BigData] Registros : {len(df):,}")
+
+        run_detective_report(df, metadados, nome_tabela, stage="PRE-INGESTAO")
 
         pype = Pypeline()
 
