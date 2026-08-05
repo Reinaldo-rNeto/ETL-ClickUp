@@ -214,11 +214,12 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA, datamart: str = NOM
 
         pype = Pypeline()
 
-        print("  [BigData] Truncando...")
+        print("  [BigData] Removendo tabela anterior...")
         try:
-            pype.truncate(nome_tabela)
+            pype.drop_table_datamart(datamart, nome_tabela)
+            print("  [BigData] Tabela removida com sucesso.")
         except Exception as e:
-            print(f"  [BigData] Truncate ignorado: {e}")
+            print(f"  [BigData] Drop ignorado (primeira ingestao?): {e}")
 
         print(f"  [BigData] Enviando {len(df):,} registros via ingerir_dados_datamart...")
         pype.ingerir_dados_datamart(
