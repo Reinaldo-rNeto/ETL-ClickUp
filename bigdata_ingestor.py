@@ -78,28 +78,6 @@ def _build_metadados_dict(campos_meta: list) -> OrderedDict:
 _ORDINAL_RE = re.compile(r'(\d+)(st|nd|rd|th)\b')
 
 
-def _parse_date_series(series: pd.Series) -> pd.Series:
-    """Converte strings de data para pa.date32(), compatível com Spark.
-
-    - Colunas com dados: datetime.date → PyArrow date32 → Spark date ✓
-    - Colunas all-null: sem forçar o tipo, PyArrow infere null→int, Spark rejeita.
-      Solução: pa.array(..., type=pa.date32()) força date32 mesmo para all-null.
-    """
-    import pyarrow as pa
-    cleaned = series.replace("", None)
-    cleaned = cleaned.str.replace(_ORDINAL_RE, r'\1', regex=True)
-    parsed = pd.to_datetime(cleaned, errors="coerce", utc=True)
-    tz_naive = parsed.dt.tz_convert(None)
-    dates = tz_naive.apply(lambda x: x.date() if pd.notna(x) else None)
-    arr = pa.array(dates.tolist(), type=pa.date32())
-    try:
-        # pandas 1.5+: ArrowDtype preserva date32 ao serializar via to_parquet
-        return pd.Series(arr, dtype=pd.ArrowDtype(pa.date32()))
-    except (AttributeError, TypeError):
-        # fallback para pandas antigo: funciona quando há pelo menos 1 valor não-nulo
-        return dates
-
-
 def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
     """Converte colunas do DataFrame para os tipos do metadados dict."""
     for col, tipo in metadados.items():
@@ -110,7 +88,16 @@ def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
         elif tipo == "FLOAT":
             df[col] = pd.to_numeric(df[col].replace("", None), errors="coerce").astype("float64")
         elif tipo == "DATA":
-            df[col] = _parse_date_series(df[col])
+            if pd.api.types.is_datetime64_any_dtype(df[col]):
+                dt_series = df[col].copy()
+            else:
+                cleaned = df[col].replace("", None)
+                cleaned = cleaned.str.replace(_ORDINAL_RE, r'\1', regex=True)
+                dt_series = pd.to_datetime(cleaned, errors='coerce', utc=True)
+                if dt_series.dt.tz is not None:
+                    dt_series = dt_series.dt.tz_convert(None)
+            # Força para datetime64[ms] — compatível com Spark/Iceberg
+            df[col] = dt_series.astype("datetime64[ms]")
     return df
 
 
