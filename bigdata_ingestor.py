@@ -12,7 +12,8 @@ import pandas as pd
 from collections import OrderedDict
 
 
-NOME_TABELA = "projetosgpd"
+NOME_TABELA   = "projetosgpd"
+NOME_DATAMART = "projetosgpd"
 
 
 def _normalizar_col(nome: str) -> str:
@@ -150,7 +151,7 @@ def run_detective_report(df: pd.DataFrame, metadados: OrderedDict, table_name: s
     print(SEP + "\n")
 
 
-def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA) -> bool:
+def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA, datamart: str = NOME_DATAMART) -> bool:
     """
     Lê o CSV gerado e ingere no BigData PE via ingerir_dados_datamart com metadados inline.
     O monkeypatch em _consultar_metadados é necessário porque o backend retorna 500
@@ -221,7 +222,7 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA) -> bool:
 
         print(f"  [BigData] Enviando {len(df):,} registros via ingerir_dados_datamart...")
         pype.ingerir_dados_datamart(
-            nome_tabela,
+            datamart,
             metadados=metadados,
             dados=df,
             nome_fato=nome_tabela,
