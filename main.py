@@ -729,7 +729,7 @@ def main():
         # Ingestão automática no BigData PE (só se a biblioteca estiver disponível)
         try:
             from bigdata_ingestor import ingerir
-            ingerir(bi_output_dir)
+            ingerir(api_output_dir)
         except Exception as e:
             print(f"  [BigData] Ingestão ignorada: {e}")
 
