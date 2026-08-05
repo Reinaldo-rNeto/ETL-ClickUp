@@ -222,9 +222,9 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA) -> bool:
         print(f"  [BigData] Enviando {len(df):,} registros via ingerir_dados_datamart...")
         pype.ingerir_dados_datamart(
             nome_tabela,
-            dados=df,
             metadados=metadados,
-            nome_dimensao=nome_tabela,
+            dados=df,
+            nome_fato=nome_tabela,
         )
 
         print("  [BigData] Ingestao concluida com sucesso!")
