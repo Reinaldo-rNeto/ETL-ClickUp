@@ -1,0 +1,912 @@
+[
+  {
+    "campo": "Task Type",
+    "descricao": "Tipo da tarefa no ClickUp",
+    "mapeamento": "task_type",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Task ID",
+    "descricao": "Identificador único da tarefa",
+    "mapeamento": "task_id",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Task Name",
+    "descricao": "Nome da tarefa",
+    "mapeamento": "task_name",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Status",
+    "descricao": "Status atual da tarefa",
+    "mapeamento": "status",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Task Content",
+    "descricao": "Descrição/conteúdo da tarefa",
+    "mapeamento": "task_content",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Assignee",
+    "descricao": "Responsável(is) pela tarefa",
+    "mapeamento": "assignee",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Priority",
+    "descricao": "Prioridade da tarefa",
+    "mapeamento": "priority",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Latest Comment",
+    "descricao": "Último comentário registrado",
+    "mapeamento": "latest_comment",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Comment Count",
+    "descricao": "Quantidade total de comentários",
+    "mapeamento": "comment_count",
+    "tipo": "NUMERO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Assigned Comment Count",
+    "descricao": "Quantidade de comentários atribuídos",
+    "mapeamento": "assigned_comment_count",
+    "tipo": "NUMERO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Due Date",
+    "descricao": "Data de vencimento",
+    "mapeamento": "due_date",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Start Date",
+    "descricao": "Data de início",
+    "mapeamento": "start_date",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Date Created",
+    "descricao": "Data de criação da tarefa",
+    "mapeamento": "date_created",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Date Updated",
+    "descricao": "Data da última atualização",
+    "mapeamento": "date_updated",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Date Closed",
+    "descricao": "Data de encerramento",
+    "mapeamento": "date_closed",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Date Done",
+    "descricao": "Data de conclusão",
+    "mapeamento": "date_done",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Created By",
+    "descricao": "Usuário que criou a tarefa",
+    "mapeamento": "created_by",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Space",
+    "descricao": "Espaço do ClickUp onde a tarefa está",
+    "mapeamento": "space",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Folder",
+    "descricao": "Pasta dentro do espaço",
+    "mapeamento": "folder",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "List",
+    "descricao": "Lista/View de origem da tarefa",
+    "mapeamento": "list",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Subtask ID's",
+    "descricao": "IDs das subtarefas vinculadas",
+    "mapeamento": "subtask_ids",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Subtask URL's",
+    "descricao": "URLs das subtarefas vinculadas",
+    "mapeamento": "subtask_urls",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "tags",
+    "descricao": "Etiquetas associadas à tarefa",
+    "mapeamento": "tags",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Lists",
+    "descricao": "Listas adicionais onde a tarefa aparece",
+    "mapeamento": "lists",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Sprints",
+    "descricao": "Sprints associados",
+    "mapeamento": "sprints",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Linked Tasks",
+    "descricao": "Tarefas vinculadas",
+    "mapeamento": "linked_tasks",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Linked Docs",
+    "descricao": "Documentos vinculados",
+    "mapeamento": "linked_docs",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Time Logged",
+    "descricao": "Tempo registrado na tarefa",
+    "mapeamento": "time_logged",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Time Logged Rolled Up",
+    "descricao": "Tempo registrado acumulado (subtarefas)",
+    "mapeamento": "time_logged_rolled_up",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Time Estimate",
+    "descricao": "Estimativa de tempo",
+    "mapeamento": "time_estimate",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Time Estimate Rolled Up",
+    "descricao": "Estimativa de tempo acumulada (subtarefas)",
+    "mapeamento": "time_estimate_rolled_up",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Points Estimate",
+    "descricao": "Pontos estimados",
+    "mapeamento": "points_estimate",
+    "tipo": "NUMERO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Points Estimate Rolled Up",
+    "descricao": "Pontos estimados acumulados (subtarefas)",
+    "mapeamento": "points_estimate_rolled_up",
+    "tipo": "NUMERO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "OKR (drop down)",
+    "descricao": "Campo customizado: OKR",
+    "mapeamento": "okr",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "ARPC - Impressão Departamental (CICLO 3.0) (drop down)",
+    "descricao": "Campo customizado: ARPC - Impressão Departamental (CICLO 3.0)",
+    "mapeamento": "arpc_impressão_departamental_ciclo_30",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "ARPC - Sustentação de Data Center (Ciclo 1.0) (drop down)",
+    "descricao": "Campo customizado: ARPC - Sustentação de Data Center (Ciclo 1.0)",
+    "mapeamento": "arpc_sustentação_de_data_center_ciclo_10",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Acompanhado pela LIGA (drop down)",
+    "descricao": "Campo customizado: Acompanhado pela LIGA",
+    "mapeamento": "acompanhado_pela_liga",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Acompanhado pela SAD (drop down)",
+    "descricao": "Campo customizado: Acompanhado pela SAD",
+    "mapeamento": "acompanhado_pela_sad",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Acompanhado pela SEPLAG (drop down)",
+    "descricao": "Campo customizado: Acompanhado pela SEPLAG",
+    "mapeamento": "acompanhado_pela_seplag",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Aprovação Diretoria (drop down)",
+    "descricao": "Campo customizado: Aprovação Diretoria",
+    "mapeamento": "aprovação_diretoria",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Ciclo Estratégico (drop down)",
+    "descricao": "Campo customizado: Ciclo Estratégico",
+    "mapeamento": "ciclo_estratégico",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "DashARPC (drop down)",
+    "descricao": "Campo customizado: DashARPC",
+    "mapeamento": "dasharpc",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Data Inicial Repactuada (date)",
+    "descricao": "Campo customizado: Data Inicial Repactuada",
+    "mapeamento": "data_inicial_repactuada",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Data Início (date)",
+    "descricao": "Campo customizado: Data Início",
+    "mapeamento": "data_início",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Data Realização do Monitoramento (date)",
+    "descricao": "Campo customizado: Data Realização do Monitoramento",
+    "mapeamento": "data_realização_do_monitoramento",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Data da submissão (date)",
+    "descricao": "Campo customizado: Data da submissão",
+    "mapeamento": "data_da_submissão",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Data de Entrega (date)",
+    "descricao": "Campo customizado: Data de Entrega",
+    "mapeamento": "data_de_entrega",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Data de Vencimento Repactuada (date)",
+    "descricao": "Campo customizado: Data de Vencimento Repactuada",
+    "mapeamento": "data_de_vencimento_repactuada",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Data do Agendamento (date)",
+    "descricao": "Campo customizado: Data do Agendamento",
+    "mapeamento": "data_do_agendamento",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Departamento (drop down)",
+    "descricao": "Campo customizado: Departamento",
+    "mapeamento": "departamento",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Department (drop down)",
+    "descricao": "Campo customizado: Department",
+    "mapeamento": "department",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Descrição da Entrega (short text)",
+    "descricao": "Campo customizado: Descrição da Entrega",
+    "mapeamento": "descrição_da_entrega",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Diretoria (labels)",
+    "descricao": "Campo customizado: Diretoria",
+    "mapeamento": "diretoria",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Diretoria (drop down)",
+    "descricao": "Campo customizado: Diretoria",
+    "mapeamento": "diretoria",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Diretoria - Análise da SMP (drop down)",
+    "descricao": "Campo customizado: Diretoria - Análise da SMP",
+    "mapeamento": "diretoria_análise_da_smp",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Diretoria ARP (drop down)",
+    "descricao": "Campo customizado: Diretoria ARP",
+    "mapeamento": "diretoria_arp",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "ETIQUETAS (labels)",
+    "descricao": "Campo customizado: ETIQUETAS",
+    "mapeamento": "etiquetas",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "GerARPC (drop down)",
+    "descricao": "Campo customizado: GerARPC",
+    "mapeamento": "gerarpc",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Gerente de Projetos (users)",
+    "descricao": "Campo customizado: Gerente de Projetos",
+    "mapeamento": "gerente_de_projetos",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Gerente do Projeto (drop down)",
+    "descricao": "Campo customizado: Gerente do Projeto",
+    "mapeamento": "gerente_do_projeto",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Gerentes (Entregas) (users)",
+    "descricao": "Campo customizado: Gerentes (Entregas)",
+    "mapeamento": "gerentes_entregas",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Gerência (labels)",
+    "descricao": "Campo customizado: Gerência",
+    "mapeamento": "gerência",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Gerência Formulários (drop down)",
+    "descricao": "Campo customizado: Gerência Formulários",
+    "mapeamento": "gerência_formulários",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Iniciativas Estratégicas (drop down)",
+    "descricao": "Campo customizado: Iniciativas Estratégicas",
+    "mapeamento": "iniciativas_estratégicas",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Inicio Real (date)",
+    "descricao": "Campo customizado: Inicio Real",
+    "mapeamento": "inicio_real",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Instância de Monitoramento (drop down)",
+    "descricao": "Campo customizado: Instância de Monitoramento",
+    "mapeamento": "instância_de_monitoramento",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Macro Atividade (short text)",
+    "descricao": "Campo customizado: Macro Atividade",
+    "mapeamento": "macro_atividade",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Meta (short text)",
+    "descricao": "Campo customizado: Meta",
+    "mapeamento": "meta",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Modelo de Gestão de Projetos (drop down)",
+    "descricao": "Campo customizado: Modelo de Gestão de Projetos",
+    "mapeamento": "modelo_de_gestão_de_projetos",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Nome da Diretoria (drop down)",
+    "descricao": "Campo customizado: Nome da Diretoria",
+    "mapeamento": "nome_da_diretoria",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Nome da Área Responsável pelo Projeto (drop down)",
+    "descricao": "Campo customizado: Nome da Área Responsável pelo Projeto",
+    "mapeamento": "nome_da_área_responsável_pelo_projeto",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Nome do Projeto - Oficial (tasks)",
+    "descricao": "Campo customizado: Nome do Projeto - Oficial",
+    "mapeamento": "nome_do_projeto_oficial",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Nomo do Projeto Oficial (tasks)",
+    "descricao": "Campo customizado: Nomo do Projeto Oficial",
+    "mapeamento": "nomo_do_projeto_oficial",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Objetivo Estratégico (drop down)",
+    "descricao": "Campo customizado: Objetivo Estratégico",
+    "mapeamento": "objetivo_estratégico",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Observações (short text)",
+    "descricao": "Campo customizado: Observações",
+    "mapeamento": "observações",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Perspectiva (drop down)",
+    "descricao": "Campo customizado: Perspectiva",
+    "mapeamento": "perspectiva",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Plano Operativo (drop down)",
+    "descricao": "Campo customizado: Plano Operativo",
+    "mapeamento": "plano_operativo",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Progresso (automatic progress)",
+    "descricao": "Campo customizado: Progresso",
+    "mapeamento": "progresso",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Project Lead (users)",
+    "descricao": "Campo customizado: Project Lead",
+    "mapeamento": "project_lead",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Project Rating (emoji)",
+    "descricao": "Campo customizado: Project Rating",
+    "mapeamento": "project_rating",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Projeto (drop down)",
+    "descricao": "Campo customizado: Projeto",
+    "mapeamento": "projeto",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Projeto (short text)",
+    "descricao": "Campo customizado: Projeto",
+    "mapeamento": "projeto",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Projeto da mudança (short text)",
+    "descricao": "Campo customizado: Projeto da mudança",
+    "mapeamento": "projeto_da_mudança",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Projetos (drop down)",
+    "descricao": "Campo customizado: Projetos",
+    "mapeamento": "projetos",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Qtd de Encontros Diretorias (drop down)",
+    "descricao": "Campo customizado: Qtd de Encontros Diretorias",
+    "mapeamento": "qtd_de_encontros_diretorias",
+    "tipo": "NUMERO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Qtd de Projetos (drop down)",
+    "descricao": "Campo customizado: Qtd de Projetos",
+    "mapeamento": "qtd_de_projetos",
+    "tipo": "NUMERO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Relevância do Projeto (drop down)",
+    "descricao": "Campo customizado: Relevância do Projeto",
+    "mapeamento": "relevância_do_projeto",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Resumo (text)",
+    "descricao": "Campo customizado: Resumo",
+    "mapeamento": "resumo",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "SAD (drop down)",
+    "descricao": "Campo customizado: SAD",
+    "mapeamento": "sad",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Status (list relationship)",
+    "descricao": "Campo customizado: Status",
+    "mapeamento": "status",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Status Contratacao (drop down)",
+    "descricao": "Campo customizado: Status Contratacao",
+    "mapeamento": "status_contratacao",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Status OKR (drop down)",
+    "descricao": "Campo customizado: Status OKR",
+    "mapeamento": "status_okr",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Status Report _ Oficial (drop down)",
+    "descricao": "Campo customizado: Status Report _ Oficial",
+    "mapeamento": "status_report_oficial",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Status apurado (drop down)",
+    "descricao": "Campo customizado: Status apurado",
+    "mapeamento": "status_apurado",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "StatusReport (short text)",
+    "descricao": "Campo customizado: StatusReport",
+    "mapeamento": "statusreport",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Termino Real (date)",
+    "descricao": "Campo customizado: Termino Real",
+    "mapeamento": "termino_real",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Tipo de Mudança (short text)",
+    "descricao": "Campo customizado: Tipo de Mudança",
+    "mapeamento": "tipo_de_mudança",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Tipo de Projeto (drop down)",
+    "descricao": "Campo customizado: Tipo de Projeto",
+    "mapeamento": "tipo_de_projeto",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Término Real (date)",
+    "descricao": "Campo customizado: Término Real",
+    "mapeamento": "término_real",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Videomonitoramento (drop down)",
+    "descricao": "Campo customizado: Videomonitoramento",
+    "mapeamento": "videomonitoramento",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "projeto oficiallll (tasks)",
+    "descricao": "Campo customizado: projeto oficiallll",
+    "mapeamento": "projeto_oficiallll",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Área Responsável pelo Projeto (drop down)",
+    "descricao": "Campo customizado: Área Responsável pelo Projeto",
+    "mapeamento": "área_responsável_pelo_projeto",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Órgão de Acompanhamento (drop down)",
+    "descricao": "Campo customizado: Órgão de Acompanhamento",
+    "mapeamento": "órgão_de_acompanhamento",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "🗓️ Data do Registro (date)",
+    "descricao": "Campo customizado: 🗓️ Data do Registro",
+    "mapeamento": "data_do_registro",
+    "tipo": "DATA",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "📈 Baseline (drop down)",
+    "descricao": "Campo customizado: 📈 Baseline",
+    "mapeamento": "baseline",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "🖊️ Item (drop down)",
+    "descricao": "Campo customizado: 🖊️ Item",
+    "mapeamento": "item",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "ARP (drop down)",
+    "descricao": "Campo customizado: ARP",
+    "mapeamento": "arp",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Resultados Alcançados (short text)",
+    "descricao": "Campo customizado: Resultados Alcançados",
+    "mapeamento": "resultados_alcançados",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "ReuniaoDash (drop down)",
+    "descricao": "Campo customizado: ReuniaoDash",
+    "mapeamento": "reuniaodash",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Descrição do Objetivo (short text)",
+    "descricao": "Campo customizado: Descrição do Objetivo",
+    "mapeamento": "descrição_do_objetivo",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Entregas Relacionadas (drop down)",
+    "descricao": "Campo customizado: Entregas Relacionadas",
+    "mapeamento": "entregas_relacionadas",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "TesteReport (url)",
+    "descricao": "Campo customizado: TesteReport",
+    "mapeamento": "testereport",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Descrição (short text)",
+    "descricao": "Campo customizado: Descrição",
+    "mapeamento": "descrição",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Event Type (drop down)",
+    "descricao": "Campo customizado: Event Type",
+    "mapeamento": "event_type",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Tipo de Mudança (drop down)",
+    "descricao": "Campo customizado: Tipo de Mudança",
+    "mapeamento": "tipo_de_mudança",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Planejamento Estratégico da ATI (drop down)",
+    "descricao": "Campo customizado: Planejamento Estratégico da ATI",
+    "mapeamento": "planejamento_estratégico_da_ati",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Progress (automatic progress)",
+    "descricao": "Campo customizado: Progress",
+    "mapeamento": "progress",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Arquivos (attachment)",
+    "descricao": "Campo customizado: Arquivos",
+    "mapeamento": "arquivos",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] atrasado",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'atrasado'",
+    "mapeamento": "tis_atrasado",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] a iniciar",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'a iniciar'",
+    "mapeamento": "tis_a_iniciar",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] em andamento",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'em andamento'",
+    "mapeamento": "tis_em_andamento",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] Open",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'Open'",
+    "mapeamento": "tis_open",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] in progress",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'in progress'",
+    "mapeamento": "tis_in_progress",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] upcoming",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'upcoming'",
+    "mapeamento": "tis_upcoming",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] concluido",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'concluido'",
+    "mapeamento": "tis_concluido",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] suspenso",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'suspenso'",
+    "mapeamento": "tis_suspenso",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] backlog",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'backlog'",
+    "mapeamento": "tis_backlog",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] cancelado",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'cancelado'",
+    "mapeamento": "tis_cancelado",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] concluído",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'concluído'",
+    "mapeamento": "tis_concluído",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "[TIS] paralisado",
+    "descricao": "Tempo total que a tarefa permaneceu no status 'paralisado'",
+    "mapeamento": "tis_paralisado",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  }
+]

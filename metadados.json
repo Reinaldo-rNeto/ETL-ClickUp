@@ -1,0 +1,54 @@
+{
+    "metadata": [
+  {
+    "chave": true,
+    "data": false,
+    "campo": "nome_cientifico",
+    "descricao": "Nome científico do dinossauro herbívoro",
+    "mapeamentoCampo": "",
+    "tipo": "TEXTO",
+    "mascara": "",
+    "categoria": "CADASTRAL LGPD"
+  },
+  {
+    "chave": false,
+    "data": false,
+    "campo": "nome_comum",
+    "descricao": "Nome popular do dinossauro herbívoro",
+    "mapeamentoCampo": "",
+    "tipo": "TEXTO",
+    "mascara": "",
+    "categoria": "SENSÍVEL LGPD"
+  },
+  {
+    "chave": false,
+    "data": false,
+    "campo": "altura",
+    "descricao": "Altura aproximada do dinossauro em metros",
+    "mapeamentoCampo": "",
+    "tipo": "NÚMERO",
+    "mascara": "Inteiro",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "chave": false,
+    "data": false,
+    "campo": "comprimento",
+    "descricao": "Comprimento aproximado do dinossauro em metros",
+    "mapeamentoCampo": "",
+    "tipo": "NÚMERO",
+    "mascara": "Decimal",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "chave": false,
+    "data": false,
+    "campo": "regiao",
+    "descricao": "Região geográfica onde o dinossauro viveu",
+    "mapeamentoCampo": "",
+    "tipo": "TEXTO",
+    "mascara": "",
+    "categoria": "DADO COMUM"
+  }
+]
+}

@@ -1,4 +1,0 @@
---- V9.28 INICIOU COM SUCESSO AQUI ---
-Data: 
-Sprint: 
-Status: Todas

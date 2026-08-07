@@ -1,0 +1,23 @@
+# Credenciais e ambiente
+.env
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Dados extraídos (gerados pelo app)
+Dados_Extraidos_ClickUp/
+Dados_BI_ClickUp/
+
+# Agendamento local
+agendamento.json
+
+# IDE
+.vscode/
