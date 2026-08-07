@@ -95,7 +95,7 @@ _PADRAO = {
     "iv_horas": 1,
     "iv_minutos": 0,
     "ultima_execucao": "",
-    "output_mode": "apenas_csv",
+    "output_mode": "apenas_csv_api",
     "enviar_email": False,
     "remetente": "",
     "remetente_verificado": False,

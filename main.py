@@ -313,9 +313,7 @@ def process_single_task(client, writer, downloader, bi_writer, space_name, folde
                     s_atts = t_obj.get("attachments", [])
                     sub_attachments_count += len(s_atts) if isinstance(s_atts, list) else 0
 
-        if output_mode == "apenas_csv":
-            bi_writer.append_task(task, space_name=space_name, folder_name=folder_name, list_name=list_name)
-            return
+
 
         task_folder_path = writer.create_hierarchy(
             space_name=space_name,
@@ -507,7 +505,7 @@ def run_agendado():
             pass
 
     space_ids = cfg.get("space_ids", "")
-    output_mode = cfg.get("output_mode", "apenas_csv")
+    output_mode = cfg.get("output_mode", "apenas_csv_api")
     output_dir = os.path.join(exe_dir, "Dados_BI_ClickUp")
 
     class _Args:
@@ -528,29 +526,22 @@ def run_agendado():
 
     client = ClickUpClient()
 
-    if output_mode in ("apenas_csv", "apenas_csv_api"):
-        bi_plan = build_bi_plan(client, args)
-        if not bi_plan:
-            print("[Agendado] Nenhuma view 'Resumo BI' encontrada.")
-            sys.exit(1)
-        os.makedirs(output_dir, exist_ok=True)
+    bi_plan = build_bi_plan(client, args)
+    if not bi_plan:
+        print("[Agendado] Nenhuma view 'Resumo BI' encontrada.")
+        sys.exit(1)
+    os.makedirs(output_dir, exist_ok=True)
 
-        if output_mode == "apenas_csv":
-            _pw_email = os.environ.get("CLICKUP_EMAIL", "").strip("\"'")
-            _pw_pass = os.environ.get("CLICKUP_PASSWORD", "").strip("\"'")
-            if _pw_email and _pw_pass:
-                try:
-                    from clickup_playwright_exporter import export_resumo_bi as _pw_export
-                    _pw_export(bi_plan, output_dir, log_fn=print, headless=True)
-                except Exception as e:
-                    print(f"[Agendado] Playwright falhou: {e}")
-            else:
-                print("[Agendado] ERRO: CLICKUP_EMAIL/CLICKUP_PASSWORD nao configurados.")
-        else:
-            bi_writer = ExcelBIWriter(output_dir, suffix="Geral")
-            for (space_name, view_name, view_id, *_) in bi_plan:
-                process_resumo_bi(client, bi_writer, space_name, view_name, view_id)
-            bi_writer.finalize_xlsx()
+    bi_writer = ExcelBIWriter(output_dir, suffix="Geral")
+    for (space_name, view_name, view_id, *_) in bi_plan:
+        process_resumo_bi(client, bi_writer, space_name, view_name, view_id)
+    bi_writer.finalize_xlsx()
+
+    try:
+        from bigdata_ingestor import ingerir
+        ingerir(output_dir)
+    except Exception as e:
+        print(f"  [BigData] Ingestao ignorada: {e}")
 
     print(f"[Agendado] Extracao concluida — {datetime.datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
     print("[Agendado] Processo finalizado.")
@@ -563,20 +554,15 @@ def main():
             "\n"
             "Variaveis de ambiente necessarias:\n"
             "  CLICKUP_API_TOKEN   Token da API do ClickUp (obrigatorio)\n"
-            "  CLICKUP_EMAIL       Email para login via Playwright (apenas_csv)\n"
-            "  CLICKUP_PASSWORD    Senha para login via Playwright (apenas_csv)\n"
             "\n"
             "Modos de extracao:\n"
             "  apenas_csv_api  Extrai tarefas das views 'Resumo BI' via API e gera CSV + XLSX\n"
-            "  apenas_csv      Baixa XLSX+CSV nativos do ClickUp via Playwright (requer email/senha)\n"
             "  csv_json        Extrai todas as tarefas via API e gera JSON + XLSX\n"
             "  completo        PDF por tarefa + JSON + anexos + XLSX\n"
             "\n"
             "Exemplos:\n"
             "  python main.py --output_mode apenas_csv_api "
             "--space_ids 90131657451,90131683703 --output_dir /data/clickup/\n"
-            "  python main.py --output_mode apenas_csv "
-            "--space_ids 90131657451 --output_dir /data/clickup/playwright/\n"
         ),
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
@@ -593,7 +579,7 @@ def main():
     parser.add_argument("--status_filter", type=str, default="Todas",
                         help="Filtra por status das tarefas (padrao: Todas)")
     parser.add_argument("--output_mode", type=str, default="completo",
-                        choices=["completo", "csv_json", "apenas_csv", "apenas_csv_api"],
+                        choices=["completo", "csv_json", "apenas_csv_api"],
                         help="Modo de extracao (ver descricao acima)")
     parser.add_argument("--preview_only", action="store_true",
                         help="Lista os alvos encontrados sem extrair nada")
@@ -635,56 +621,6 @@ def main():
         if getattr(sys, "frozen", False):
             return os.path.join(os.path.dirname(sys.executable), "Dados_BI_ClickUp", subdir)
         return os.path.join(os.path.dirname(os.path.abspath(__file__)), "Dados_BI_ClickUp", subdir)
-
-    # ── MODO PLAYWRIGHT: exportação nativa via navegador ──────────────────────
-    if output_mode == "apenas_csv":
-        print("\n>>> Modo Playwright — buscando views por espaço...")
-        bi_plan = build_bi_plan(client, args)
-
-        if not bi_plan:
-            print("Nenhuma view 'Resumo BI' encontrada. Verifique os espaços selecionados.")
-            return
-
-        if args.preview_only:
-            print(f"\n  TOTAL: {len(bi_plan)} view(s) encontrada(s).")
-            return
-
-        pw_output_dir = _bi_base_dir("Playwright")
-        os.makedirs(pw_output_dir, exist_ok=True)
-
-        _pw_email = os.environ.get("CLICKUP_EMAIL", "").strip("\"'")
-        _pw_pass = os.environ.get("CLICKUP_PASSWORD", "").strip("\"'")
-
-        if not _pw_email or not _pw_pass:
-            print("  ERRO: CLICKUP_EMAIL e CLICKUP_PASSWORD precisam estar no .env para o modo Playwright.")
-            return
-
-        _inicio = time.time()
-        _inicio_str = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-        print(f"\n{'='*70}")
-        print(f"  INICIO — Exportacao Nativa ClickUp (Playwright): {_inicio_str}")
-        print(f"  Views a processar: {len(bi_plan)}")
-        print(f"  Pasta de saida: {pw_output_dir}")
-        print(f"{'='*70}\n")
-        try:
-            from clickup_playwright_exporter import export_resumo_bi as _pw_export
-            _saved = _pw_export(bi_plan, pw_output_dir, log_fn=print, headless=True)
-            if _saved:
-                _fim_str = datetime.datetime.now().strftime("%d/%m/%Y %H:%M:%S")
-                _total = _fmt_elapsed(time.time() - _inicio)
-                print(f"\n{'='*70}")
-                print(f"  EXPORTACAO NATIVA CONCLUIDA!")
-                print(f"  Inicio : {_inicio_str}")
-                print(f"  Fim    : {_fim_str}")
-                print(f"  Duracao: {_total}")
-                for f in _saved:
-                    print(f"    → {os.path.basename(f)}")
-                print(f"{'='*70}")
-            else:
-                print("[ERRO] Playwright nao baixou nenhum arquivo.")
-        except Exception as _pw_err:
-            print(f"[ERRO] Exportacao Playwright falhou: {_pw_err}")
-        return
 
     # ── MODO API: extração consolidada via API ─────────────────────────────────
     if output_mode == "apenas_csv_api":

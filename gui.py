@@ -43,24 +43,10 @@ class StdoutRedirector:
     def _write(self, text):
         self.widget.insert("end", text)
         self.widget.see("end")
-        # Atualiza o card de status com progresso do Playwright em tempo real
         t = text.strip()
         try:
-            if "[PW] -- Exportando:" in t:
-                parte = t.split("Exportando:")[1].strip(" -")
-                self.app._lbl_desc.configure(text=f"Exportando: {parte}")
-            elif "[PW] XLSX salvo:" in t or "[PW] CSV salvo:" in t:
-                tipo = "XLSX" if "XLSX" in t else "CSV"
-                self.app._lbl_desc.configure(text=f"Arquivo {tipo} salvo.")
-            elif "[PW] OK —" in t or "[PW] OK -" in t or "OK — 2 arquivo" in t:
-                self.app._lbl_desc.configure(text="Espaco concluido. Aguardando proximo...")
-            elif "[PW] ERRO:" in t:
-                resumo = t.replace("[PW] ERRO:", "").strip()[:90]
-                self.app._lbl_desc.configure(text=f"Aviso: {resumo}")
-            elif "EXPORTACAO NATIVA CONCLUIDA" in t:
-                self.app._lbl_desc.configure(text="Exportacao nativa concluida com sucesso!")
-            elif "Playwright nao baixou" in t or "Exportacao nativa falhou" in t:
-                self.app._lbl_desc.configure(text="Playwright indisponivel — usando extracao via API...")
+            if "[BigData] Ingest" in t:
+                self.app._lbl_desc.configure(text=t[:90])
         except Exception:
             pass
 
@@ -80,11 +66,6 @@ class ExtratorApp(ctk.CTk):
             "Dados e planilha",
             "JSON de todas as tarefas  +  Planilha Excel   sem baixar arquivos",
             "csv_json",
-        ),
-        (
-            "Exportacao nativa  (Playwright)",
-            "Baixa XLSX + CSV direto do ClickUp via navegador   salvo em Dados_BI_ClickUp/Playwright/   requer email/senha no .env",
-            "apenas_csv",
         ),
         (
             "Consolidado via API",
@@ -636,12 +617,7 @@ class ExtratorApp(ctk.CTk):
         rotulo = "Teste  —  1 lista" if piloto else "Extracao completa"
         modo = self._mode_var.get()
         self._set_badge("Em andamento", "#1D4ED8", "#FFFFFF")
-        if modo == "apenas_csv":
-            self._atualizar_status(
-                "Exportando via navegador",
-                "Abrindo ClickUp e baixando XLSX+CSV nativos → Dados_BI_ClickUp/Playwright/", BLUE,
-            )
-        elif modo == "apenas_csv_api":
+        if modo == "apenas_csv_api":
             self._atualizar_status(
                 "Extraindo via API",
                 "Buscando tarefas dos espacos selecionados → Dados_BI_ClickUp/API/", BLUE,
@@ -708,12 +684,7 @@ class ExtratorApp(ctk.CTk):
             self.after(0, self._stop_timer)
             self.after(0, self._set_buttons, "normal")
             self.after(0, self._set_badge, "Concluido", GREEN, "#FFFFFF")
-            if output_mode == "apenas_csv":
-                self.after(0, self._atualizar_status,
-                           "Exportacao nativa concluida",
-                           f"Tempo total: {elapsed}   Arquivos salvos em Dados_BI_ClickUp/Playwright/",
-                           GREEN)
-            elif output_mode == "apenas_csv_api":
+            if output_mode == "apenas_csv_api":
                 self.after(0, self._atualizar_status,
                            "Extracao API concluida",
                            f"Tempo total: {elapsed}   Arquivo salvo em Dados_BI_ClickUp/API/",
@@ -953,7 +924,7 @@ class ExtratorApp(ctk.CTk):
 
         # ── Modo de exportação ──────────────────────────────────────────────
         titulo("Modo de exportacao automatica")
-        modo_var = ctk.StringVar(value=cfg.get("output_mode", "apenas_csv"))
+        modo_var = ctk.StringVar(value=cfg.get("output_mode", "apenas_csv_api"))
         for lbl, desc, val in self._MODOS:
             bloco = ctk.CTkFrame(scroll, fg_color=BG)
             bloco.pack(fill="x", padx=24, pady=(10, 0))
