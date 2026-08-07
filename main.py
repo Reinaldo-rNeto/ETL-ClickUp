@@ -30,13 +30,14 @@ def _pilot_done(is_pilot, success, client, writer, output_mode):
     return False
 
 
-_RESUMO_BI_NAMES = {"resumo bi", "resumo_bi", "resumo-bi", "bi", "resumo"}
-
-# View IDs manuais para espaços onde a API não retorna a view "Resumo BI"
-# Chave: space_id | Valor: view_id (retirado da URL do ClickUp)
-_MANUAL_VIEW_OVERRIDES: dict[str, str] = {
-    "90131678068": "4-90131678068-23",  # PROJETOS CONCLUÍDOS/CANCELADOS
-}
+# Views fixas do Resumo BI — IDs retirados diretamente das URLs do ClickUp
+# Formato: (space_name, view_name, view_id)
+_BI_VIEWS = [
+    ("PORTFÓLIO DE PROJ ESTRATÉGICOS", "Resumo BI", "8cktan6-259693"),
+    ("PORTFÓLIO DE ARP",               "Resumo BI", "4-90131683703-23"),
+    ("PROJETOS CONCLUÍDOS/CANCELADOS", "Resumo BI", "4-90131678068-23"),
+    ("PROJETOS SUSPENSOS/BACKLOG",     "Resumo BI", "8cktan6-259233"),
+]
 
 
 def _is_resumo_bi_view(view_name: str) -> bool:
@@ -526,10 +527,7 @@ def run_agendado():
 
     client = ClickUpClient()
 
-    bi_plan = build_bi_plan(client, args)
-    if not bi_plan:
-        print("[Agendado] Nenhuma view 'Resumo BI' encontrada.")
-        sys.exit(1)
+    bi_plan = _BI_VIEWS
     os.makedirs(output_dir, exist_ok=True)
 
     bi_writer = ExcelBIWriter(output_dir, suffix="Geral")
@@ -624,15 +622,11 @@ def main():
 
     # ── MODO API: extração consolidada via API ─────────────────────────────────
     if output_mode == "apenas_csv_api":
-        print("\n>>> Modo API — buscando views por espaço...")
-        bi_plan = build_bi_plan(client, args)
-
-        if not bi_plan:
-            print("Nenhuma view 'Resumo BI' encontrada. Verifique os espaços selecionados.")
-            return
+        bi_plan = _BI_VIEWS
 
         if args.preview_only:
-            print(f"\n  TOTAL: {len(bi_plan)} view(s) encontrada(s).")
+            for space_name, view_name, view_id in bi_plan:
+                print(f"  → {space_name} / {view_name}  (id: {view_id})")
             return
 
         api_output_dir = _bi_base_dir("API")
