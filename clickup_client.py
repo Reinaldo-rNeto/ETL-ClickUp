@@ -14,13 +14,14 @@ class ClickUpClient:
 
     def _get(self, endpoint, params=None):
         url = f"{self.base_url}/{endpoint}"
-        retries = 3
+        retries = 15
         for attempt in range(retries):
             try:
                 response = requests.get(url, headers=self.headers, params=params, timeout=30)
                 if response.status_code == 429:
-                    print("Rate limit atingido. Aguardando...")
-                    time.sleep(2)
+                    wait = min(5 * (attempt + 1), 60)
+                    print(f"Rate limit atingido. Aguardando {wait}s...")
+                    time.sleep(wait)
                     continue
                 response.raise_for_status()
                 return response.json()
@@ -28,7 +29,7 @@ class ClickUpClient:
                 print(f"Erro HTTP {response.status_code} na requisição ({endpoint}): {response.text}")
                 if attempt == retries - 1:
                     return None
-                time.sleep(2)
+                time.sleep(5)
             except requests.exceptions.RequestException as e:
                 print(f"Erro de Conexão ({endpoint}): {e}")
                 if attempt == retries - 1:
