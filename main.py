@@ -505,7 +505,7 @@ def run_agendado():
             pass
 
     space_ids = cfg.get("space_ids", "")
-    output_mode = cfg.get("output_mode", "apenas_csv_api")
+    output_mode = "apenas_csv_api"  # agendamento sempre usa modo API
     output_dir = os.path.join(exe_dir, "Dados_BI_ClickUp")
 
     class _Args:
