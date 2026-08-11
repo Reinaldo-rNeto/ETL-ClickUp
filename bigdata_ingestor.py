@@ -65,7 +65,7 @@ def _build_metadados_dict(campos_meta: list) -> OrderedDict:
     """
     m = OrderedDict()
     for campo in campos_meta:
-        nome = campo.get("mapeamento") or _normalizar_col(campo["campo"])
+        nome = _normalizar_col(campo.get("mapeamento") or campo["campo"])
         tipo = campo.get("tipo", "TEXTO")
         mascara = campo.get("mascara", "")
         if tipo in ("NÚMERO", "NUMERO"):
@@ -208,8 +208,11 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA, datamart: str = NOM
     try:
         df = pd.read_csv(csv_path, dtype=str).fillna("")
         df = _renomear_colunas(df)
+        # Manter apenas colunas definidas no metadados (elimina duplicatas _2 e extras)
+        cols_validas = [c for c in metadados.keys() if c in df.columns]
+        df = df[cols_validas]
         df = _aplicar_tipos(df, metadados)
-        print(f"  [BigData] Registros : {len(df):,}")
+        print(f"  [BigData] Registros : {len(df):,} | Colunas filtradas: {len(cols_validas)}/{len(metadados)}")
 
         run_detective_report(df, metadados, nome_tabela, stage="PRE-INGESTAO")
 
