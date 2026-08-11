@@ -65,7 +65,7 @@ def _build_metadados_dict(campos_meta: list) -> OrderedDict:
     """
     m = OrderedDict()
     for campo in campos_meta:
-        nome = campo["campo"]
+        nome = campo.get("mapeamento") or _normalizar_col(campo["campo"])
         tipo = campo.get("tipo", "TEXTO")
         mascara = campo.get("mascara", "")
         if tipo in ("NÚMERO", "NUMERO"):
