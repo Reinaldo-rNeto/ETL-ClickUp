@@ -30,6 +30,10 @@ def _pilot_done(is_pilot, success, client, writer, output_mode):
     return False
 
 
+_RESUMO_BI_NAMES = {"resumo bi"}
+
+_MANUAL_VIEW_OVERRIDES: dict[str, str] = {}
+
 # Views fixas do Resumo BI — IDs retirados diretamente das URLs do ClickUp
 # Formato: (space_name, view_name, view_id)
 _BI_VIEWS = [
@@ -576,7 +580,7 @@ def main():
                         help="Filtra por nome de sprint/lista")
     parser.add_argument("--status_filter", type=str, default="Todas",
                         help="Filtra por status das tarefas (padrao: Todas)")
-    parser.add_argument("--output_mode", type=str, default="completo",
+    parser.add_argument("--output_mode", type=str, default="apenas_csv_api",
                         choices=["completo", "csv_json", "apenas_csv_api"],
                         help="Modo de extracao (ver descricao acima)")
     parser.add_argument("--preview_only", action="store_true",
