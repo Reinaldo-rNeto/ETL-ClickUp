@@ -13,7 +13,7 @@ from collections import OrderedDict
 
 
 NOME_TABELA   = "ft_projetos_gpd"
-NOME_DATAMART = "datamart_projetos_gpd"
+NOME_DATAMART = "datamart_projeto_gpd_v2"
 
 
 def _normalizar_col(nome: str) -> str:
