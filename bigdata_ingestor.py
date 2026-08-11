@@ -53,7 +53,8 @@ def _carregar_campos_meta() -> list | None:
         print(f"  [BigData] metadados_ProjetosGPD.json nao encontrado em: {meta_path}")
         return None
     with open(meta_path, encoding="utf-8") as f:
-        return json.load(f).get("metadata", [])
+        data = json.load(f)
+        return data if isinstance(data, list) else data.get("metadata", [])
 
 
 def _build_metadados_dict(campos_meta: list) -> OrderedDict:
