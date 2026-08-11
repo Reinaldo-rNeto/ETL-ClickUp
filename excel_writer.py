@@ -559,9 +559,3 @@ class ExcelBIWriter:
         except Exception as e:
             print(f"\n  [Aviso Excel] Nao foi possivel gerar XLSX: {e}")
 
-        # Gera JSON de metadados automaticamente
-        try:
-            from metadata_generator import gerar_metadados
-            gerar_metadados(all_cols, os.path.dirname(self.filepath))
-        except Exception:
-            pass

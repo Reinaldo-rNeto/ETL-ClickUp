@@ -47,9 +47,10 @@ def _encontrar_csv(output_dir: str) -> str | None:
     return arquivos[0] if arquivos else None
 
 
-def _carregar_campos_meta(output_dir: str) -> list | None:
-    meta_path = os.path.join(output_dir, "metadados_ProjetosGPD.json")
+def _carregar_campos_meta() -> list | None:
+    meta_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "metadados_ProjetosGPD.json")
     if not os.path.exists(meta_path):
+        print(f"  [BigData] metadados_ProjetosGPD.json nao encontrado em: {meta_path}")
         return None
     with open(meta_path, encoding="utf-8") as f:
         return json.load(f).get("metadata", [])
@@ -169,9 +170,8 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA, datamart: str = NOM
         print(f"  [BigData] Nenhum CSV encontrado em: {output_dir}")
         return False
 
-    campos_meta = _carregar_campos_meta(output_dir)
+    campos_meta = _carregar_campos_meta()
     if not campos_meta:
-        print(f"  [BigData] Metadata nao encontrado em: {output_dir}/metadados_ProjetosGPD.json")
         return False
 
     # Monkeypatch: retorna apenas o que ingerir_dados_datamart precisa verificar
