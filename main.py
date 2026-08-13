@@ -88,7 +88,7 @@ def build_bi_plan(client, args):
                     seen_view_ids.add(v["id"])
                     bi_plan.append((space_name, v["name"], v["id"], space_id))
                     where = f" ({label})" if label else ""
-                    print(f"      → '{v['name']}'{where} (id: {v['id']})")
+                    print(f"      ->'{v['name']}'{where} (id: {v['id']})")
 
             # 0. Override manual — para views não retornadas pela API
             override_vid = _MANUAL_VIEW_OVERRIDES.get(space_id)
@@ -144,7 +144,7 @@ def process_resumo_bi(client, bi_writer, space_name, view_name, view_id):
     print(f"    [View] {space_name} / {view_name}")
     tasks = client.get_view_tasks(view_id)
     if not tasks:
-        print("      → Sem tarefas.")
+        print("      ->Sem tarefas.")
         return 0
 
     count = 0
@@ -165,7 +165,7 @@ def process_resumo_bi(client, bi_writer, space_name, view_name, view_id):
         )
         count += 1
 
-    print(f"      → {count} tarefas gravadas.")
+    print(f"      ->{count} tarefas gravadas.")
     return count
 
 
