@@ -60,12 +60,18 @@ def _carregar_campos_meta() -> list | None:
 def _build_metadados_dict(campos_meta: list) -> OrderedDict:
     """
     Constrói o dict simples {campo: TIPO} para ingerir_dados_datamart.
-    Formato: {"task_id": "TEXT", "comment_count": "INTEGER", ...}
-    A ordem das colunas deve ser idêntica à do CSV — respeitada via OrderedDict.
+    Duplicatas (mesmo nome normalizado) recebem sufixo _2, _3... igual ao _renomear_colunas.
     """
     m = OrderedDict()
+    vistos: dict[str, int] = {}
     for campo in campos_meta:
-        nome = _normalizar_col(campo.get("mapeamento") or campo["campo"])
+        base = _normalizar_col(campo.get("mapeamento") or campo["campo"])
+        if base in vistos:
+            vistos[base] += 1
+            nome = f"{base}_{vistos[base]}"
+        else:
+            vistos[base] = 1
+            nome = base
         tipo = campo.get("tipo", "TEXTO")
         mascara = campo.get("mascara", "")
         if tipo in ("NÚMERO", "NUMERO"):

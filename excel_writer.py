@@ -2,8 +2,28 @@ import base64
 import csv
 import io
 import os
+import re
 import sys
 from datetime import datetime
+
+_EMOJI_RE = re.compile(
+    "["
+    "\U0001F300-\U0001F9FF"
+    "\U0001FA00-\U0001FAFF"
+    "\U00002702-\U000027B0"
+    "\U000024C2-\U0001F251"
+    "\U0001F1E0-\U0001F1FF"
+    "☀-⛿"
+    "✀-➿"
+    "︀-️"
+    "‍"
+    "]+",
+    flags=re.UNICODE,
+)
+
+
+def _strip_emoji(text: str) -> str:
+    return _EMOJI_RE.sub("", text).strip()
 try:
     import openpyxl
     from openpyxl.drawing.image import Image as XLImage
@@ -314,10 +334,10 @@ def _resolve_cf(cf: dict) -> str:
             idx = int(val)
             for opt in options:
                 if opt.get("orderindex") == idx:
-                    return opt.get("name", "")
+                    return _strip_emoji(opt.get("name", ""))
         except (ValueError, TypeError):
             pass
-        return str(val)
+        return _strip_emoji(str(val))
     if cf_type == "date":
         return _format_date(val)
     if cf_type == "users":
@@ -326,8 +346,8 @@ def _resolve_cf(cf: dict) -> str:
             return "[" + ", ".join(names) + "]" if names else "[]"
         return str(val)
     if isinstance(val, list):
-        return ", ".join(str(v) for v in val if v is not None)
-    return str(val)
+        return _strip_emoji(", ".join(str(v) for v in val if v is not None))
+    return _strip_emoji(str(val))
 
 
 def _build_cf_index(task: dict) -> dict:
@@ -363,9 +383,9 @@ def _extract_standard_fields(task: dict, space_name: str, folder_name: str, list
     return {
         "Task Type": "Task",
         "Task ID": task.get("id", ""),
-        "Task Name": task.get("name", ""),
+        "Task Name": _strip_emoji(task.get("name", "") or ""),
         "Status": status,
-        "Task Content": task.get("description", "") or "",
+        "Task Content": _strip_emoji(task.get("description", "") or ""),
         "Assignee": assignees_str,
         "Priority": priority,
         "Latest Comment": "",
