@@ -220,7 +220,7 @@ _CLICKUP_LOGO_B64_LEGACY = (
 )
 
 _STANDARD_COLS = [
-    "Task Type", "Task ID", "Task Name", "Status", "Task Content",
+    "Task Type", "Task ID", "ClickUp URL", "Task Name", "Status", "Task Content",
     "Assignee", "Priority", "Latest Comment", "Comment Count", "Assigned Comment Count",
     "Due Date", "Start Date", "Date Created", "Date Updated", "Date Closed", "Date Done",
     "Created By", "Space", "Folder", "List",
@@ -383,6 +383,7 @@ def _extract_standard_fields(task: dict, space_name: str, folder_name: str, list
     return {
         "Task Type": "Task",
         "Task ID": task.get("id", ""),
+        "ClickUp URL": task.get("url", "") or f"https://app.clickup.com/t/{task.get('id', '')}",
         "Task Name": _strip_emoji(task.get("name", "") or ""),
         "Status": status,
         "Task Content": _strip_emoji(task.get("description", "") or ""),
