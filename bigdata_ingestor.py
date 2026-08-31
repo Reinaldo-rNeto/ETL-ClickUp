@@ -12,8 +12,9 @@ import pandas as pd
 from collections import OrderedDict
 
 
-NOME_TABELA   = "ft_projetos_gpd"
-NOME_DATAMART = "datamart_projeto_gpd_v2"
+NOME_TABELA          = "ft_projetos_gpd"
+NOME_TABELA_CONTROLE = "ft_atualizacao_gpd"
+NOME_DATAMART        = "datamart_projeto_gpd_v2"
 
 
 def _normalizar_col(nome: str) -> str:
@@ -159,6 +160,36 @@ def run_detective_report(df: pd.DataFrame, metadados: OrderedDict, table_name: s
     print(SEP + "\n")
 
 
+def _ingerir_controle(pype, datamart: str, total_registros: int) -> None:
+    """Ingere tabela de controle com data/hora da última atualização."""
+    import datetime
+    nome = NOME_TABELA_CONTROLE
+    metadados_ctrl = OrderedDict([
+        ("data_atualizacao", "DATA"),
+        ("total_registros",  "INTEGER"),
+    ])
+    agora = pd.Timestamp(datetime.datetime.now()).floor("s").to_pydatetime()
+    df_ctrl = pd.DataFrame([{
+        "data_atualizacao": pd.Timestamp(agora).to_datetime64().astype("datetime64[ms]"),
+        "total_registros":  total_registros,
+    }])
+    df_ctrl["data_atualizacao"] = df_ctrl["data_atualizacao"].astype("datetime64[ms]")
+    df_ctrl["total_registros"]  = df_ctrl["total_registros"].astype("Int64")
+
+    try:
+        pype.drop_table_datamart(datamart, nome)
+    except Exception:
+        pass
+
+    pype.ingerir_dados_datamart(
+        datamart,
+        metadados=metadados_ctrl,
+        dados=df_ctrl,
+        nome_fato=nome,
+    )
+    print(f"  [BigData] Controle de atualização ingerido: {agora.strftime('%d/%m/%Y %H:%M:%S')}")
+
+
 def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA, datamart: str = NOME_DATAMART) -> bool:
     """
     Lê o CSV gerado e ingere no BigData PE via ingerir_dados_datamart com metadados inline.
@@ -252,6 +283,10 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA, datamart: str = NOM
         )
 
         print("  [BigData] Ingestao concluida com sucesso!")
+
+        print("  [BigData] Ingerindo tabela de controle de atualização...")
+        _ingerir_controle(pype, datamart, len(df))
+
         return True
 
     except Exception as e:
