@@ -721,13 +721,6 @@
     "categoria": "DADO COMUM"
   },
   {
-    "campo": "Órgão de Acompanhamento (drop down)",
-    "descricao": "Campo customizado: Órgão de Acompanhamento",
-    "mapeamento": "órgão_de_acompanhamento",
-    "tipo": "TEXTO",
-    "categoria": "DADO COMUM"
-  },
-  {
     "campo": "🗓️ Data do Registro (date)",
     "descricao": "Campo customizado: 🗓️ Data do Registro",
     "mapeamento": "data_do_registro",

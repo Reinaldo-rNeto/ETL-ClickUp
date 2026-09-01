@@ -165,15 +165,15 @@ def _ingerir_controle(pype, datamart: str, total_registros: int) -> None:
     import datetime
     nome = NOME_TABELA_CONTROLE
     metadados_ctrl = OrderedDict([
-        ("data_atualizacao", "DATA"),
-        ("total_registros",  "INTEGER"),
+        ("data_hora_atualizacao", "DATA"),
+        ("total_registros",       "INTEGER"),
     ])
     agora = pd.Timestamp(datetime.datetime.now()).floor("s").to_pydatetime()
     df_ctrl = pd.DataFrame([{
-        "data_atualizacao": pd.Timestamp(agora).to_datetime64().astype("datetime64[ms]"),
-        "total_registros":  total_registros,
+        "data_hora_atualizacao": pd.Timestamp(agora).to_datetime64().astype("datetime64[ms]"),
+        "total_registros":       total_registros,
     }])
-    df_ctrl["data_atualizacao"] = df_ctrl["data_atualizacao"].astype("datetime64[ms]")
+    df_ctrl["data_hora_atualizacao"] = df_ctrl["data_hora_atualizacao"].astype("datetime64[ms]")
     df_ctrl["total_registros"]  = df_ctrl["total_registros"].astype("Int64")
 
     try:
