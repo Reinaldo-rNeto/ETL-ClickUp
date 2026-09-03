@@ -21,6 +21,13 @@
     "categoria": "DADO COMUM"
   },
   {
+    "campo": "ClickUp (url)",
+    "descricao": "Campo customizado: URL do projeto no ClickUp",
+    "mapeamento": "clickup",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
     "campo": "Task Name",
     "descricao": "Nome da tarefa",
     "mapeamento": "task_name",

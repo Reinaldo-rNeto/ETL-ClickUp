@@ -10,6 +10,7 @@ import json
 import unicodedata
 import pandas as pd
 from collections import OrderedDict
+from datetime import datetime, timedelta
 
 
 NOME_TABELA          = "ft_projetos_gpd"
@@ -168,7 +169,7 @@ def _ingerir_controle(pype, datamart: str, total_registros: int) -> None:
         ("data_hora_atualizacao", "DATA"),
         ("total_registros",       "INTEGER"),
     ])
-    agora = pd.Timestamp(datetime.datetime.now()).floor("s").to_pydatetime()
+    agora = datetime.datetime.now()
     df_ctrl = pd.DataFrame([{
         "data_hora_atualizacao": pd.Timestamp(agora).to_datetime64().astype("datetime64[ms]"),
         "total_registros":       total_registros,
