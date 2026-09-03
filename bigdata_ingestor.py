@@ -101,14 +101,15 @@ def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
         elif tipo == "DATA":
             if pd.api.types.is_datetime64_any_dtype(df[col]):
                 dt_series = df[col].copy()
+                if getattr(dt_series.dt, 'tz', None) is None:
+                    dt_series = dt_series.dt.tz_localize('UTC')
             else:
                 cleaned = df[col].replace("", None)
                 cleaned = cleaned.str.replace(_ORDINAL_RE, r'\1', regex=True)
                 dt_series = pd.to_datetime(cleaned, errors='coerce', utc=True)
-                if dt_series.dt.tz is not None:
-                    dt_series = dt_series.dt.tz_convert(None)
-            # Força para datetime64[ms] — compatível com Spark/Iceberg
-            df[col] = dt_series.astype("datetime64[ms]")
+            # Mantém timezone UTC: PyArrow grava como TIMESTAMP(isAdjustedToUTC=true)
+            # Sem isso o Spark aplica UTC-3 e desloca um dia.
+            df[col] = dt_series
     return df
 
 
