@@ -101,14 +101,15 @@ def _aplicar_tipos(df: pd.DataFrame, metadados: OrderedDict) -> pd.DataFrame:
         elif tipo == "DATA":
             if pd.api.types.is_datetime64_any_dtype(df[col]):
                 dt_series = df[col].copy()
-                if getattr(dt_series.dt, 'tz', None) is None:
-                    dt_series = dt_series.dt.tz_localize('UTC')
+                if getattr(dt_series.dt, 'tz', None) is not None:
+                    dt_series = dt_series.dt.tz_convert('UTC').dt.tz_localize(None)
             else:
                 cleaned = df[col].replace("", None)
                 cleaned = cleaned.str.replace(_ORDINAL_RE, r'\1', regex=True)
-                dt_series = pd.to_datetime(cleaned, errors='coerce', utc=True)
-            # Mantém timezone UTC: PyArrow grava como TIMESTAMP(isAdjustedToUTC=true)
-            # Sem isso o Spark aplica UTC-3 e desloca um dia.
+                dt_series = pd.to_datetime(cleaned, errors='coerce')
+            # Timestamps naive (sem timezone) → PyArrow grava TIMESTAMP(isAdjustedToUTC=false)
+            # Spark trata como horário local: sem deslocamento UTC-3 na exibição.
+            # _format_date já usa utcfromtimestamp → string de data correta no CSV.
             df[col] = dt_series
     return df
 
