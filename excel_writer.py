@@ -270,22 +270,22 @@ def _ordinal_suffix(n: int) -> str:
 
 
 def _format_date(ts_ms) -> str:
-    """Formata timestamp ms → 'yyyy-MM-dd' (compatível com BigData PE)."""
+    """Formata timestamp ms → 'yyyy-MM-dd' em UTC (evita desvio de fuso horário)."""
     if not ts_ms:
         return ""
     try:
-        dt = datetime.fromtimestamp(int(ts_ms) / 1000)
+        dt = datetime.utcfromtimestamp(int(ts_ms) / 1000)
         return dt.strftime("%Y-%m-%d")
     except Exception:
         return ""
 
 
 def _format_datetime(ts_ms) -> str:
-    """Formata timestamp ms → 'yyyy-MM-dd' (compatível com BigData PE)."""
+    """Formata timestamp ms → 'yyyy-MM-dd' em UTC (evita desvio de fuso horário)."""
     if not ts_ms:
         return ""
     try:
-        dt = datetime.fromtimestamp(int(ts_ms) / 1000)
+        dt = datetime.utcfromtimestamp(int(ts_ms) / 1000)
         return dt.strftime("%Y-%m-%d")
     except Exception:
         return ""
