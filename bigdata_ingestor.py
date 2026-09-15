@@ -180,7 +180,7 @@ def _ingerir_controle(pype, datamart: str, total_registros: int) -> None:
     df_ctrl["total_registros"]  = df_ctrl["total_registros"].astype("Int64")
 
     try:
-        pype.drop_table_datamart(datamart, nome)
+        pype.truncate_table_datamart(datamart, nome)
     except Exception:
         pass
 
@@ -274,12 +274,12 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA, datamart: str = NOM
         if 'conjuntos_ingestao' in _login:
             _login['conjuntos_ingestao'] = _conjuntos
 
-        print("  [BigData] Removendo tabela anterior...")
+        print("  [BigData] Truncando tabela anterior...")
         try:
-            pype.drop_table_datamart(datamart, nome_tabela)
-            print("  [BigData] Tabela removida com sucesso.")
+            pype.truncate_table_datamart(datamart, nome_tabela)
+            print("  [BigData] Tabela truncada com sucesso.")
         except Exception as e:
-            print(f"  [BigData] Drop ignorado (primeira ingestao?): {e}")
+            print(f"  [BigData] Truncate ignorado (primeira ingestao?): {e}")
 
         print(f"  [BigData] Enviando {len(df):,} registros via ingerir_dados_datamart...")
         pype.ingerir_dados_datamart(
