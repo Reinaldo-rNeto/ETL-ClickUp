@@ -483,13 +483,6 @@
     "categoria": "DADO COMUM"
   },
   {
-    "campo": "Meta (short text)",
-    "descricao": "Campo customizado: Meta",
-    "mapeamento": "meta",
-    "tipo": "TEXTO",
-    "categoria": "DADO COMUM"
-  },
-  {
     "campo": "Modelo de Gestão de Projetos (drop down)",
     "descricao": "Campo customizado: Modelo de Gestão de Projetos",
     "mapeamento": "modelo_de_gestão_de_projetos",
