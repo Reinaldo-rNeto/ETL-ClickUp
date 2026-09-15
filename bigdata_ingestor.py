@@ -248,6 +248,10 @@ def ingerir(output_dir: str, nome_tabela: str = NOME_TABELA, datamart: str = NOM
     try:
         df = pd.read_csv(csv_path, dtype=str).fillna("")
         df = _renomear_colunas(df)
+        # Adiciona colunas do metadados que não vieram no CSV (campo sem dados no ClickUp)
+        for col in metadados:
+            if col not in df.columns:
+                df[col] = ""
         # Manter apenas colunas definidas no metadados (elimina duplicatas _2 e extras)
         cols_validas = [c for c in metadados.keys() if c in df.columns]
         df = df[cols_validas]
