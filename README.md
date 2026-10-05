@@ -37,6 +37,7 @@ ClickUp API
 | `data_writer.py` | Geração de arquivos locais (JSON, PDF, hierarquia de pastas) |
 | `attachment_downloader.py` | Download de anexos das tarefas |
 | `metadados_ProjetosGPD.json` | Mapeamento campo ClickUp → coluna BigData PE |
+| `mapeamento_pastas.json` | Associação de pastas do ClickUp com pessoas e projetos na planilha local |
 
 ---
 
@@ -85,7 +86,7 @@ Saída gerada em: `Dados_BI_ClickUp/API/Relatorio_BI_Geral.xlsx`
 ### BigData PE (JupyterLab)
 
 ```bash
-cd ~/shared/ati/automacao_v3/automacao-clickup
+cd ~/shared/ati/etl_temporaria
 git pull origin main
 PYTHONUNBUFFERED=1 /opt/conda/bin/python -u main.py --output_mode apenas_csv_api 2>&1 | tee /tmp/extrator_log.txt
 ```
@@ -117,6 +118,26 @@ As views são fixas e apontam para os espaços GPD no ClickUp:
 ---
 
 ## Metadados e Mapeamento de Colunas
+
+O relatório inclui a coluna `area_consumidora`, preenchida por padrão com `GPD`. Para uma pasta específica do ClickUp, é possível configurar outra área, pessoa responsável e projeto associado em `mapeamento_pastas.json`. Exemplo:
+
+```json
+{
+  "area_padrao": "GPD",
+  "pastas": [
+    { "pasta_clickup": "Pasta Ironita A", "area_consumidora": "GRGD",
+      "pessoa": "Nome da pessoa", "projeto": "Nome do projeto" }
+  ],
+  "espacos": [
+    { "espaco_clickup": "Projeto Ironita B", "area_consumidora": "GRGD",
+      "pessoa": "Nome da pessoa", "projeto": "Nome do projeto" }
+  ]
+}
+```
+
+As chaves `pasta_clickup` e `espaco_clickup` são comparadas sem diferenciar maiúsculas/minúsculas. A regra de pasta tem prioridade sobre a regra de espaço. Os modos `csv_json` e `completo` também preenchem `Pasta de Arquivos` com o caminho local de cada tarefa. No modo `apenas_csv_api`, esse caminho fica vazio porque não são criadas pastas locais por tarefa. As associações de pessoa/projeto saem nos CSV/XLSX locais. `area_consumidora` também está em `metadados_ProjetosGPD.json` para seguir na carga ao BigData; a tabela de destino precisa aceitar essa coluna. Projetos sem view podem ser anotados em `projetos_pendentes`; eles não entram na extração até que a view esteja disponível.
+
+### Metadados do BigData PE
 
 O arquivo `metadados_ProjetosGPD.json` define o mapeamento entre campos do ClickUp e colunas do BigData PE:
 
