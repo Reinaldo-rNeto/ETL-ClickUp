@@ -41,6 +41,7 @@ _BI_VIEWS = [
     ("PORTFÓLIO DE ARP",               "Resumo BI", "4-90131683703-23"),
     ("PROJETOS CONCLUÍDOS/CANCELADOS", "Resumo BI", "4-90131678068-23"),
     ("PROJETOS SUSPENSOS/BACKLOG",     "Resumo BI", "8cktan6-259233"),
+    ("GRGD",                           "Resumo BI", "8cktan6-274333"),
 ]
 
 
@@ -381,7 +382,13 @@ def process_single_task(client, writer, downloader, bi_writer, space_name, folde
         else:
             total_anexos = len(task.get('attachments', []))
 
-        bi_writer.append_task(task, space_name=space_name, folder_name=folder_name, list_name=list_name)
+        bi_writer.append_task(
+            task,
+            space_name=space_name,
+            folder_name=folder_name,
+            list_name=list_name,
+            files_folder_path=task_folder_path,
+        )
 
     except Exception as e:
         print(f"        [ERRO] Falha ao processar a tarefa {task.get('id', '?')}: {e}")

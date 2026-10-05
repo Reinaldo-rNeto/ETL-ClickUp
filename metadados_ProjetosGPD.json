@@ -14,6 +14,20 @@
     "categoria": "DADO COMUM"
   },
   {
+    "campo": "Área Consumidora",
+    "descricao": "Área consumidora responsável pelo projeto (GPD ou GRGD)",
+    "mapeamento": "area_consumidora",
+    "tipo": "TEXTO",
+    "categoria": "DADO COMUM"
+  },
+  {
+    "campo": "Setor",
+    "mapeamento": "setor",
+    "tipo": "TEXTO",
+    "mascara": "",
+    "categoria": "DADO COMUM"
+  },
+  {
     "campo": "ClickUp URL",
     "descricao": "URL da tarefa no ClickUp",
     "mapeamento": "clickup_url",

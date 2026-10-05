@@ -1,6 +1,7 @@
 import base64
 import csv
 import io
+import json
 import os
 import re
 import sys
@@ -220,10 +221,11 @@ _CLICKUP_LOGO_B64_LEGACY = (
 )
 
 _STANDARD_COLS = [
-    "Task Type", "Task ID", "ClickUp URL", "Task Name", "Status", "Task Content",
+    "Task Type", "Task ID", "ClickUp URL", "Setor", "Task Name", "Status", "Task Content",
     "Assignee", "Priority", "Latest Comment", "Comment Count", "Assigned Comment Count",
     "Due Date", "Start Date", "Date Created", "Date Updated", "Date Closed", "Date Done",
-    "Created By", "Space", "Folder", "List",
+    "Created By", "Space", "Folder", "Pasta de Arquivos", "area_consumidora",
+    "Pessoa Associada", "Projeto Associado", "List",
     "Subtask ID's", "Subtask URL's", "tags", "Lists", "Sprints",
     "Linked Tasks", "Linked Docs",
     "Time Logged", "Time Logged Rolled Up", "Time Estimate", "Time Estimate Rolled Up",
@@ -399,6 +401,7 @@ def _extract_standard_fields(task: dict, space_name: str, folder_name: str, list
         "Date Closed": _format_datetime(task.get("date_closed")),
         "Date Done": _format_datetime(task.get("date_done")),
         "Created By": creator,
+        "Setor": task.get("folder", {}).get("name", "") or folder_name or "",
         "Space": space_name,
         "Folder": folder_name or "",
         "List": list_name,
@@ -450,10 +453,51 @@ class ExcelBIWriter:
         self._cf_seen = set()
         self._tis_order = []
         self._tis_seen = set()
+        self._folder_assignments = self._load_folder_assignments()
+
+    @staticmethod
+    def _load_folder_assignments() -> dict:
+        """Carrega associações editáveis de pasta do ClickUp para pessoa/projeto."""
+        base_dirs = []
+        if getattr(sys, "frozen", False):
+            base_dirs.append(os.path.dirname(sys.executable))
+            meipass = getattr(sys, "_MEIPASS", None)
+            if meipass:
+                base_dirs.append(meipass)
+        base_dirs.append(os.path.dirname(os.path.abspath(__file__)))
+        config_path = next(
+            (os.path.join(base, "mapeamento_pastas.json") for base in base_dirs
+             if os.path.exists(os.path.join(base, "mapeamento_pastas.json"))),
+            os.path.join(base_dirs[0], "mapeamento_pastas.json"),
+        )
+        try:
+            with open(config_path, encoding="utf-8") as f:
+                config = json.load(f)
+        except FileNotFoundError:
+            return {}
+        except (OSError, json.JSONDecodeError) as e:
+            print(f"  [Aviso] Nao foi possivel ler mapeamento_pastas.json: {e}")
+            return {}
+
+        assignments = {"default_area": config.get("area_padrao", "GPD"), "pastas": {}, "espacos": {}}
+        for item in config.get("pastas", []):
+            if not isinstance(item, dict) or not item.get("pasta_clickup"):
+                continue
+            assignments["pastas"][str(item["pasta_clickup"]).strip().casefold()] = item
+        for item in config.get("espacos", []):
+            if not isinstance(item, dict) or not item.get("espaco_clickup"):
+                continue
+            assignments["espacos"][str(item["espaco_clickup"]).strip().casefold()] = item
+        return assignments
 
     def append_task(self, task: dict, tis_data: dict = None,
-                    space_name: str = "", folder_name: str = "", list_name: str = ""):
-        self._rows.append((task, tis_data or {}, space_name, folder_name, list_name))
+                    space_name: str = "", folder_name: str = "", list_name: str = "",
+                    files_folder_path: str = ""):
+        # DataWriter usa o prefixo estendido do Windows para suportar caminhos longos;
+        # a planilha recebe o caminho convencional, mais legível para o usuário.
+        if files_folder_path.startswith("\\\\?\\"):
+            files_folder_path = files_folder_path[4:]
+        self._rows.append((task, tis_data or {}, space_name, folder_name, list_name, files_folder_path))
         for cf in (task.get("custom_fields") or []):
             col_name = _cf_column_name(cf)
             if col_name and col_name not in self._cf_seen:
@@ -474,8 +518,22 @@ class ExcelBIWriter:
                         self._tis_seen.add(tis_col)
                         self._tis_order.append(tis_col)
 
-    def _build_row(self, task, tis_data, space_name, folder_name, list_name, all_cols):
+    def _build_row(self, task, tis_data, space_name, folder_name, list_name, all_cols,
+                   files_folder_path=""):
         std = _extract_standard_fields(task, space_name, folder_name, list_name)
+        assignment = self._folder_assignments.get("pastas", {}).get(
+            (folder_name or "").strip().casefold(), {}
+        )
+        if not assignment:
+            assignment = self._folder_assignments.get("espacos", {}).get(
+                (space_name or "").strip().casefold(), {}
+            )
+        std["Pasta de Arquivos"] = files_folder_path
+        std["area_consumidora"] = assignment.get(
+            "area_consumidora", self._folder_assignments.get("default_area", "GPD")
+        )
+        std["Pessoa Associada"] = assignment.get("pessoa", "")
+        std["Projeto Associado"] = assignment.get("projeto", "")
         cf_idx = _build_cf_index(task)
         tis_idx = {f"[TIS] {k}": v for k, v in _extract_tis(tis_data).items()}
         row = []
@@ -496,9 +554,10 @@ class ExcelBIWriter:
         with open(self.filepath, "w", encoding="utf-8-sig", newline="") as f:
             writer = csv.writer(f)
             writer.writerow(all_cols)
-            for (task, tis_data, space_name, folder_name, list_name) in self._rows:
+            for (task, tis_data, space_name, folder_name, list_name, files_folder_path) in self._rows:
                 writer.writerow(
-                    self._build_row(task, tis_data, space_name, folder_name, list_name, all_cols)
+                    self._build_row(task, tis_data, space_name, folder_name, list_name, all_cols,
+                                    files_folder_path)
                 )
 
         # ── XLSX ─────────────────────────────────────────────────────────────
@@ -546,9 +605,10 @@ class ExcelBIWriter:
             ws.row_dimensions[3].height = 35
 
             # Dados a partir da linha 4
-            for row_idx, (task, tis_data, space_name, folder_name, list_name) in enumerate(self._rows, 4):
+            for row_idx, (task, tis_data, space_name, folder_name, list_name, files_folder_path) in enumerate(self._rows, 4):
                 for col_idx, val in enumerate(
-                    self._build_row(task, tis_data, space_name, folder_name, list_name, all_cols), 1
+                    self._build_row(task, tis_data, space_name, folder_name, list_name, all_cols,
+                                    files_folder_path), 1
                 ):
                     if isinstance(val, str) and len(val) > 32767:
                         val = val[:32764] + "..."
@@ -561,7 +621,7 @@ class ExcelBIWriter:
                 col_letter = get_column_letter(col_idx)
                 if col_name == "Task ID":
                     ws.column_dimensions[col_letter].width = 18
-                elif col_name in ("Task Name", "Task Content", "Folder"):
+                elif col_name in ("Task Name", "Task Content", "Folder", "Pasta de Arquivos"):
                     ws.column_dimensions[col_letter].width = 45
                 elif col_name.startswith("[TIS]"):
                     ws.column_dimensions[col_letter].width = 16
@@ -579,4 +639,3 @@ class ExcelBIWriter:
             print(f"\n  [Excel] Arquivo gerado: {self.xlsx_path}")
         except Exception as e:
             print(f"\n  [Aviso Excel] Nao foi possivel gerar XLSX: {e}")
-
