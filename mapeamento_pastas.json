@@ -1,12 +1,11 @@
 {
   "area_padrao": "GPD",
   "pastas": [],
-  "espacos": [],
-  "projetos_pendentes": [
+  "espacos": [
     {
-      "url": "https://app.clickup.com/9013340838/v/l/4-90137787270-1",
-      "area_consumidora": "GRGD",
-      "motivo": "A view de extração ainda não foi criada"
+      "espaco_clickup": "GRGD",
+      "area_consumidora": "GRGD"
     }
-  ]
+  ],
+  "projetos_pendentes": []
 }
